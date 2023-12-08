@@ -1,11 +1,10 @@
 ---
 switcher-label: CSC 200 EE
-switcher-label: CSC 200 ME
 ---
 
 <show-structure for="chapter,procedure" depth="0"/>
 
-# CSC 200 EE : Problem Solving for Science & Engineering
+# CSC 200 EE : Problem-Solving for Science & Engineering
 
 <table>
     <tr>
