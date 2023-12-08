@@ -2,13 +2,17 @@
 switcher-label: Language
 ---
 
+<show-structure for="chapter,procedure" depth="1"/>
+
 [//]: # (<show-structure for="chapter,procedure" depth="2"/>)
 
 # Conditionals
 
 <img src="https://files.realpython.com/media/t.78f3bacaa261.png" alt="hero image"/>
 
-## Definition
+## Overview
+
+### Definition
 
 <note>
 
@@ -16,7 +20,7 @@ Conditional statements are essential programming constructs that allow us to mak
 
 </note>
 
-## Use Cases
+### Use Cases
 
 <table style="none">
 <tr>
@@ -63,7 +67,7 @@ Menu Selection
 
 
 
-## Pros & Cons
+### Pros & Cons
 
 <table>
 <tr>

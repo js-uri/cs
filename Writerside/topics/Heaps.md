@@ -18,7 +18,7 @@
     <def title="Heap-Order Property">
     <procedure>
     <p>for every node <code>x</code></p>
-    <step>key parent <code-block lang="tex">x &ge; key\ x</code-block></step>
+    <step>key parent <code-block lang="tex"> x &ge; key\ x</code-block></step>
     <step>except the root, which has no parent</step>
     </procedure>
     </def>
@@ -52,24 +52,20 @@ h</code-block><br/>
 </tr>
 <tr>
 <td>
-<procedure title="node (i)">
-<step><code>i</code></step>
-</procedure>
+<b>node (i)</b><br/>
+<code-block lang="tex"> \bullet \ \ \ \ \ i</code-block>
 </td>
 <td>
-<procedure title="parent (i)">
-<step><code>floor( i/2 )</code></step>
-</procedure>
+<b>parent (i)</b><br/>
+<code-block lang="tex"> \bullet \ \ \ \ \ \lfloor \frac{i}{2} \rfloor</code-block>
 </td>
 <td>
-<procedure title="left child (i)">
-<step><code>i * 2</code></step>
-</procedure>
+<b>left child (i)</b><br/>
+<code-block lang="tex"> \bullet \ \ \ \ \ i * 2</code-block>
 </td>
 <td>
-<procedure title="right child (i)">
-<step><code>i * 2 + 1</code></step>
-</procedure>
+<b>right child (i)</b><br/>
+<code-block lang="tex"> \bullet \ \ \ \ \ i * 2 + 1</code-block>
 </td>
 </tr>
 </table>
@@ -106,16 +102,12 @@ h</code-block><br/>
 </tr>
 <tr>
 <td>
-<procedure>
-<p>Complexity</p>
-<step><code>O(log n)</code></step>
-</procedure>
+<b>Complexity</b><br/>
+<code-block lang="tex">  \bullet \ \ \ \ \ O(log\ n)</code-block>
 </td>
 <td>
-<procedure>
-<p>Complexity</p>
-<step><code>O(log n)</code></step>
-</procedure>
+<b>Complexity</b><br/>
+<code-block lang="tex"> \bullet \ \ \ \ \ O(log\ n)</code-block>
 </td>
 </tr>
 </table>
@@ -127,16 +119,16 @@ h</code-block><br/>
 <td></td><td>Sorted Collection</td><td>Unsorted Collection</td><td>Heap</td>
 </tr>
 <tr>
-<td><code>insert</code></td><td><code>O(n)</code></td><td><code>O(1)</code></td><td><code>O(log n)</code></td>
+<td><code>insert</code></td><td><code-block lang="tex"> O(n)</code-block></td><td><code-block lang="tex"> O(1)</code-block></td><td><code-block lang="tex"> O(log\ n)</code-block></td>
 </tr>
 <tr>
-<td><code>removeMax</code></td><td><code>O(1)</code></td><td><code>O(n)</code></td><td><code>O(log n)</code></td>
+<td><code>removeMax</code></td><td><code-block lang="tex"> O(1)</code-block></td><td><code-block lang="tex"> O(n)</code-block></td><td><code-block lang="tex"> O(log\ n)</code-block></td>
 </tr>
 <tr>
-<td><code>max</code></td><td><code>O(1)</code></td><td><code>O(n)</code></td><td><code>O(1)</code></td>
+<td><code>max</code></td><td><code-block lang="tex"> O(1)</code-block></td><td><code-block lang="tex"> O(n)</code-block></td><td><code-block lang="tex"> O(1)</code-block></td>
 </tr>
 <tr>
-<td><code>insert N</code></td><td><code>O(n^2)</code></td><td><code>O(n)</code></td><td><code>O(n)**</code></td>
+<td><code>insert N</code></td><td><code-block lang="tex"> O(n^2)</code-block></td><td><code-block lang="tex"> O(n)</code-block></td><td><code-block lang="tex"> O(n)</code-block>**</td>
 </tr>
 </table>
 <p><i>(**) assuming we know the sequence in advance (buildHeap)</i></p>

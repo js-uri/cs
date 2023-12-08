@@ -1,5 +1,6 @@
 ---
 switcher-label: CSC 200 EE
+switcher-label: CSC 200 ME
 ---
 
 <show-structure for="chapter,procedure" depth="0"/>
