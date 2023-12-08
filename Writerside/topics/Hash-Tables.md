@@ -546,7 +546,7 @@ h_0(50) &amp;= 50\ \ \ \ \% \ 7 = 1 \\ \\
 h_0(700) &amp;= 700\ \  \% \ 7 = 0 \\ \\
 h_0(76) &amp;= 76\ \ \  \% \ 7 \ = 6 \\ \\
 h_0(85) &amp;= 85\ \ \ \% \ 7 \  = 1 \\
-& \Rightarrow h_1(85) = (85+1)\ \ \%\ 7 = 2 \\
+&amp;\Rightarrow h_1(85) = (85+1)\ \ \%\ 7 = 2 \\
 \end{align}
 </code-block>
 </td>
@@ -554,15 +554,15 @@ h_0(85) &amp;= 85\ \ \ \% \ 7 \  = 1 \\
 <code-block lang="tex"> 
 \begin{align}
 h_0(92) &amp;= 92\ \ \%\ 7 = 1 \\
-& \Rightarrow h_1(92) = (92+1)\ \ \%\ 7  = 1 \\
-& \Rightarrow h_2(92) = (92+2)\ \ \%\ 7  = 3 \\
+&amp;\Rightarrow h_1(92) = (92+1)\ \ \%\ 7  = 1 \\
+&amp;\Rightarrow h_2(92) = (92+2)\ \ \%\ 7  = 3 \\
 \\
 h_0(73) &amp;= 73\ \  \%\ 7  = 3 \\
-& \Rightarrow h_1(73) = (73+1)\ \  \%\ 7  = 4 \\
+&amp;\Rightarrow h_1(73) = (73+1)\ \  \%\ 7  = 4 \\
 \\
 h_0(101) &amp;= 101\ \  \%\ 7  = 3 \\
-& \Rightarrow h_1(101) = (101+1)\ \ \%\ 7  = 4 \\
-& \Rightarrow h_2(101) = (101+2)\ \ \%\ 7  = 5 \\
+&amp;\Rightarrow h_1(101) = (101+1)\ \ \%\ 7  = 4 \\
+&amp;\Rightarrow h_2(101) = (101+2)\ \ \%\ 7  = 5 \\
 \end{align}
 </code-block>
 </td>
@@ -579,12 +579,12 @@ h_0(101) &amp;= 101\ \  \%\ 7  = 3 \\
 <br/>
 <code-block lang="tex">
 \begin{align}
-h_i(x) & = (Hash(x) + i^2)\ \%\ \ HashTableSize \\
-& \Rightarrow (Hash(x) + i*i)\ \%\ \ HashTableSize \\ \\
-If\ h_0(x) & = (Hash(x) + 0^0)\ \%\ \ HashTableSize \\
-If\ h_1(x) & = (Hash(x) + 1^1)\ \%\ \ HashTableSize \\
-If\ h_2(x) & = (Hash(x) + 2^2)\ \%\ \ HashTableSize \\
-& ... and\ so\ on\ if\ h_i\ is\ already\ full...
+h_i(x) &amp;= (Hash(x) + i^2)\ \%\ \ HashTableSize \\
+&amp;\Rightarrow (Hash(x) + i*i)\ \%\ \ HashTableSize \\ \\
+If\ h_0(x) &amp;= (Hash(x) + 0^0)\ \%\ \ HashTableSize \\
+If\ h_1(x) &amp;= (Hash(x) + 1^1)\ \%\ \ HashTableSize \\
+If\ h_2(x) &amp;= (Hash(x) + 2^2)\ \%\ \ HashTableSize \\
+&amp;... and\ so\ on\ if\ h_i\ is\ already\ full...
 \end{align}
 </code-block>
 </td>
@@ -593,20 +593,20 @@ If\ h_2(x) & = (Hash(x) + 2^2)\ \%\ \ HashTableSize \\
 <br/>
 <code-block lang="tex">
 \begin{align}
-& h : \{50, 700, 76, 85, 92, 73, 101\} & \\
+&amp;h : \{50, 700, 76, 85, 92, 73, 101\} &amp;\\
 \\
 \\
 h_0(50) &amp;= 50\ \ \ \ \% \ 7 &amp;= 1 \\
-h_0(700) & = 700\ \  \%\ 7  &amp;= 0 \\
+h_0(700) &amp;= 700\ \  \%\ 7  &amp;= 0 \\
 h_0(76) &amp;= 76\ \  \%\ 7  &amp;= 6 \\
 h_0(85) &amp;= 85\ \ \%\ 7  &amp;= 1 \\
-& \Rightarrow h_1(85) = 85+(1*1)\ \ \%\ 7  &amp;= 2 \\
-h_0(92) & f= 92\ \ \%\ 7  = 1 \\
-& \Rightarrow h_1(92) = 92+(1*1)\ \ \%\ 7  &amp;= 2 \\
-& \Rightarrow h_2(92) = 92+(2*2)\ \ \%\ 7  &amp;= 5 \\
+&amp;\Rightarrow h_1(85) = 85+(1*1)\ \ \%\ 7  &amp;= 2 \\
+h_0(92) &amp;f= 92\ \ \%\ 7  = 1 \\
+&amp;\Rightarrow h_1(92) = 92+(1*1)\ \ \%\ 7  &amp;= 2 \\
+&amp;\Rightarrow h_2(92) = 92+(2*2)\ \ \%\ 7  &amp;= 5 \\
 h_0(73) &amp;= 73\ \  \%\ 7  &amp;= 3 \\
 h_0(101) &amp;= 101\ \  \%\ 7  &amp;= 3 \\
-& \Rightarrow h_1(101) = 101+(1*1)\ \  \%\ 7  &amp;= 4 \\
+&amp;\Rightarrow h_1(101) = 101+(1*1)\ \  \%\ 7  &amp;= 4 \\
 \end{align}
 </code-block>
 </td>
@@ -624,10 +624,10 @@ h_0(101) &amp;= 101\ \  \%\ 7  &amp;= 3 \\
 <br/>
 <code-block lang="tex">
     \begin{align}
-    H_a(x) &= Hash_1(x)\ \%\ Table\ Size \\
-    H_b(x) &= Hash_2(x)\ \%\ Table\ Size \\
+    H_a(x) &amp;= Hash_1(x)\ \%\ Table\ Size \\
+    H_b(x) &amp;= Hash_2(x)\ \%\ Table\ Size \\
     \\
-    h(k, i) &= \bigg[h_{a}(k) + i * h_{b}(k) \bigg] \ \% \ n \\
+    h(k, i) &amp;= \bigg[h_{a}(k) + i * h_{b}(k) \bigg] \ \% \ n \\
     \end{align}
 </code-block>
 <br/>
@@ -649,8 +649,8 @@ h_0(101) &amp;= 101\ \  \%\ 7  &amp;= 3 \\
 <td>
 <code-block lang="tex">
 \begin{align}
-h_0(50) &= 50\ \% \ 7 \\
-& = 1 \\
+h_0(50) &amp;= 50\ \% \ 7 \\
+&amp; = 1 \\
 \end{align}
 </code-block>
 </td>
@@ -741,8 +741,8 @@ h_0(50) &= 50\ \% \ 7 \\
 <td>
 <code-block lang="tex">
 \begin{align}
-h_0(700) & = 700\ \%\ 7 \\
-& = 0 \\ \\
+h_0(700) &amp;= 700\ \%\ 7 \\
+&amp;= 0 \\ \\
 \end{align}
 </code-block>
 </td>
@@ -833,8 +833,8 @@ h_0(700) & = 700\ \%\ 7 \\
 <td>
 <code-block lang="tex">
 \begin{align}
-h_0(76) &= 76\ \%\ 7 \\
-& = 6 \\
+h_0(76) &amp;= 76\ \%\ 7 \\
+&amp; = 6 \\
 \end{align}
 </code-block>
 </td>
@@ -925,11 +925,11 @@ h_0(76) &= 76\ \%\ 7 \\
 <td>
 <code-block lang="tex">
 \begin{align}
-h_0(85) &= 85\ \ \%\ 7  = 1 \\
-h_1(85) &= \bigg[ h_{a}(85) + i * h_{b}(85) \bigg] \ \% \ 7 \\
-&= \bigg[1 + 1 * (85\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[1 + 1 * 1 \bigg] \ \% \ 7 \\ 
-&= 2 \\
+h_0(85) &amp;= 85\ \ \%\ 7  = 1 \\
+h_1(85) &amp;= \bigg[ h_{a}(85) + i * h_{b}(85) \bigg] \ \% \ 7 \\
+&amp;= \bigg[1 + 1 * (85\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[1 + 1 * 1 \bigg] \ \% \ 7 \\ 
+&amp;= 2 \\
 \end{align}
 </code-block>
 </td>
@@ -1020,15 +1020,15 @@ h_1(85) &= \bigg[ h_{a}(85) + i * h_{b}(85) \bigg] \ \% \ 7 \\
 <td>
 <code-block lang="tex">
 \begin{align}
-h_0(92) &= 92\ \ \%\ 7  = 1 \\
-h_1(92) &= \bigg[ h_{a}(92) + i * h_{b}(92) \bigg] \ \% \ 7 \\
-&= \bigg[1 + 1 * (92\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[1 + 1 * 1 \bigg] \ \% \ 7 \\ 
-&= 2 \\
-h_2(92) &= \bigg[ h_{a}(92) + i * h_{b}(92) \bigg] \ \% \ 7 \\
-&= \bigg[1 + 2 * (92\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[1 + 2 * 1 \bigg] \ \% \ 7 \\ 
-&= 3 \\
+h_0(92) &amp;= 92\ \ \%\ 7  = 1 \\
+h_1(92) &amp;= \bigg[ h_{a}(92) + i * h_{b}(92) \bigg] \ \% \ 7 \\
+&amp;= \bigg[1 + 1 * (92\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[1 + 1 * 1 \bigg] \ \% \ 7 \\ 
+&amp;= 2 \\
+h_2(92) &amp;= \bigg[ h_{a}(92) + i * h_{b}(92) \bigg] \ \% \ 7 \\
+&amp;= \bigg[1 + 2 * (92\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[1 + 2 * 1 \bigg] \ \% \ 7 \\ 
+&amp;= 3 \\
 \end{align}
 </code-block>
 </td>
@@ -1119,19 +1119,19 @@ h_2(92) &= \bigg[ h_{a}(92) + i * h_{b}(92) \bigg] \ \% \ 7 \\
 <td>
 <code-block lang="tex">
 \begin{align}
-h_0(73) &= 73\ \ \% \ 7  = 3 \\
-h_1(73) &= \bigg[ h_{a}(73) + i * h_{b}(73) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 1 * (73\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 1 * 3 \bigg] \ \% \ 7 \\ 
-&= 6 \\
-h_2(73) &= \bigg[ h_{a}(73) + i * h_{b}(73) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 2 * (73\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 2 * 3 \bigg] \ \% \ 7 \\ 
-&= 2 \\
-h_3(73) &= \bigg[ h_{a}(73) + i * h_{b}(73) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 3 * (73\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 3 * 3 \bigg] \ \% \ 7 \\ 
-&= 5 \\
+h_0(73) &amp;= 73\ \ \% \ 7  = 3 \\
+h_1(73) &amp;= \bigg[ h_{a}(73) + i * h_{b}(73) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 1 * (73\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 1 * 3 \bigg] \ \% \ 7 \\ 
+&amp;= 6 \\
+h_2(73) &amp;= \bigg[ h_{a}(73) + i * h_{b}(73) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 2 * (73\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 2 * 3 \bigg] \ \% \ 7 \\ 
+&amp;= 2 \\
+h_3(73) &amp;= \bigg[ h_{a}(73) + i * h_{b}(73) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 3 * (73\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 3 * 3 \bigg] \ \% \ 7 \\ 
+&amp;= 5 \\
 \end{align}
 </code-block>
 </td>
@@ -1222,27 +1222,27 @@ h_3(73) &= \bigg[ h_{a}(73) + i * h_{b}(73) \bigg] \ \% \ 7 \\
 <td>
 <code-block lang="tex">
 \begin{align}
-h_0(101) &= 101\ \  \%\ 7  = 3 \\
-h_1(101) &= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 1 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 1 * 3 \bigg] \ \% \ 7 \\ 
-&= 6 \\
-h_2(101) &= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 2 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 2 * 3 \bigg] \ \% \ 7 \\ 
-&= 2 \\
-h_3(101) &= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 3 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 3 * 3 \bigg] \ \% \ 7 \\ 
-&= 5 \\
-h_4(101) &= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 4 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 4 * 3 \bigg] \ \% \ 7 \\ 
-&= 1 \\
-h_5(101) &= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 5 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
-&= \bigg[3 + 5 * 3 \bigg] \ \% \ 7 \\ 
-&= 4 \\
+h_0(101) &amp;= 101\ \  \%\ 7  = 3 \\
+h_1(101) &amp;= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 1 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 1 * 3 \bigg] \ \% \ 7 \\ 
+&amp;= 6 \\
+h_2(101) &amp;= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 2 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 2 * 3 \bigg] \ \% \ 7 \\ 
+&amp;= 2 \\
+h_3(101) &amp;= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 3 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 3 * 3 \bigg] \ \% \ 7 \\ 
+&amp;= 5 \\
+h_4(101) &amp;= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 4 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 4 * 3 \bigg] \ \% \ 7 \\ 
+&amp;= 1 \\
+h_5(101) &amp;= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 5 * (101\ \% \ 7) \bigg] \ \% \ 7 \\
+&amp;= \bigg[3 + 5 * 3 \bigg] \ \% \ 7 \\ 
+&amp;= 4 \\
 \end{align}
 </code-block>
 </td>
