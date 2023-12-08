@@ -103,7 +103,7 @@ Menu Selection
 
 ## If-else Statement
 
-### Pseudocode {switcher-key="Pseudocode"}
+### Pseudocode If-else  {switcher-key="Pseudocode"}
 
 <video src="https://youtu.be/osuzDDlBmRI?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
 
@@ -114,7 +114,7 @@ if some condition is met, do something
 if not met, do something else
 ```
 
-### C++ {switcher-key="C++"}
+### C++ If-else  {switcher-key="C++"}
 
 <video src="https://youtu.be/TOx3tPJircc?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
 
@@ -141,7 +141,7 @@ int main() {
 }
 ```
 
-### Python {switcher-key="Python"}
+### Python If-else  {switcher-key="Python"}
 
 <video src="https://youtu.be/NkVSSMt-h3Y?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
 
@@ -158,7 +158,7 @@ else:
     print("Unfortunately, you did not pass the exam. Please try again.")
 ```
 
-### Java {switcher-key="Java"}
+### Java If-else  {switcher-key="Java"}
 
 <video src="https://youtu.be/P6ivQ3QRq0I?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
 
@@ -184,32 +184,7 @@ public class Main {
 }
 ```
 
-### Rust {switcher-key="Rust"}
-
-<video src="https://youtu.be/MOa7ulhNYc0?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
-
-Sample code
-
-``` rust
-use std::io;
-
-fn main() {
-    let passing_threshold = 60;
-
-    println!("Enter your exam score: ");
-    let mut input = String::new();
-    io::stdin().read_line(&mut input).expect("Failed to read line");
-    let exam_score: i32 = input.trim().parse().expect("Please enter a valid number");
-
-    if exam_score >= passing_threshold {
-        println!("Congratulations! You passed the exam.");
-    } else {
-        println!("Unfortunately, you did not pass the exam. Please try again.");
-    }
-}
-```
-
-### Golang {switcher-key="Golang"}
+### Golang If-else  {switcher-key="Golang"}
 
 <video src="https://youtu.be/Hjqjff490B8?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
 
@@ -237,6 +212,48 @@ func main() {
 }
 ```
 
+[//]: # (### Rust If-else  {switcher-key="Rust"})
+
+[//]: # ()
+[//]: # (<video src="https://youtu.be/MOa7ulhNYc0?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>)
+
+[//]: # ()
+[//]: # (Sample code)
+
+[//]: # ()
+[//]: # (``` rust)
+
+[//]: # (use std::io;)
+
+[//]: # ()
+[//]: # (fn main&#40;&#41; {)
+
+[//]: # (    let passing_threshold = 60;)
+
+[//]: # ()
+[//]: # (    println!&#40;"Enter your exam score: "&#41;;)
+
+[//]: # (    let mut input = String::new&#40;&#41;;)
+
+[//]: # (    io::stdin&#40;&#41;.read_line&#40;&mut input&#41;.expect&#40;"Failed to read line"&#41;;)
+
+[//]: # (    let exam_score: i32 = input.trim&#40;&#41;.parse&#40;&#41;.expect&#40;"Please enter a valid number"&#41;;)
+
+[//]: # ()
+[//]: # (    if exam_score >= passing_threshold {)
+
+[//]: # (        println!&#40;"Congratulations! You passed the exam."&#41;;)
+
+[//]: # (    } else {)
+
+[//]: # (        println!&#40;"Unfortunately, you did not pass the exam. Please try again."&#41;;)
+
+[//]: # (    })
+
+[//]: # (})
+
+[//]: # (```)
+
 ### Output : Sample Output
 
 <deflist collapsible="true" default-state="collapsed">
@@ -261,7 +278,7 @@ Congratulations! You passed the exam.
 
 ## Switch / Match Statement
 
-### Pseudocode {switcher-key="Pseudocode"}
+### Pseudocode Switch / Match {switcher-key="Pseudocode"}
 
 <video src="https://youtu.be/osuzDDlBmRI?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -277,7 +294,7 @@ condition to be met
         // do this when no other conditions are met
 ```
 
-### C++ {switcher-key="C++"}
+### C++ Switch {switcher-key="C++"}
 
 <video src="https://youtu.be/TOx3tPJircc?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -322,7 +339,7 @@ int main() {
 }
 ```
 
-### Python {switcher-key="Python"}
+### Python Match {switcher-key="Python"}
 
 <video src="https://youtu.be/NkVSSMt-h3Y?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -331,7 +348,7 @@ int main() {
 [//]: # ()
 [//]: # (```)
 
-### Java {switcher-key="Java"}
+### Java Switch {switcher-key="Java"}
 
 <video src="https://youtu.be/P6ivQ3QRq0I?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -376,34 +393,7 @@ public class Main {
 }
 ```
 
-### Rust {switcher-key="Rust"}
-
-<video src="https://youtu.be/MOa7ulhNYc0?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
-
-``` rust
-use std::io;
-
-fn main() {
-    let mut day_number = String::new();
-
-    println!("Enter a day number (1 to 7): ");
-    io::stdin().read_line(&mut day_number).expect("Failed to read line");
-    let day_number: i32 = day_number.trim().parse().expect("Please enter a valid number");
-
-    match day_number {
-        1 => println!("Sunday"),
-        2 => println!("Monday"),
-        3 => println!("Tuesday"),
-        4 => println!("Wednesday"),
-        5 => println!("Thursday"),
-        6 => println!("Friday"),
-        7 => println!("Saturday"),
-        _ => println!("Invalid day number. Please enter a number between 1 and 7."),
-    }
-}
-```
-
-### Golang {switcher-key="Golang"}
+### Golang Switch {switcher-key="Golang"}
 
 <video src="https://youtu.be/Hjqjff490B8?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -441,6 +431,53 @@ func main() {
 }
 ```
 
+//]: # (### Rust Match {switcher-key="Rust"})
+
+[//]: # ()
+[//]: # (<video src="https://youtu.be/MOa7ulhNYc0?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>)
+
+[//]: # ()
+[//]: # (``` rust)
+
+[//]: # (use std::io;)
+
+[//]: # ()
+[//]: # (fn main&#40;&#41; {)
+
+[//]: # (    let mut day_number = String::new&#40;&#41;;)
+
+[//]: # ()
+[//]: # (    println!&#40;"Enter a day number &#40;1 to 7&#41;: "&#41;;)
+
+[//]: # (    io::stdin&#40;&#41;.read_line&#40;&mut day_number&#41;.expect&#40;"Failed to read line"&#41;;)
+
+[//]: # (    let day_number: i32 = day_number.trim&#40;&#41;.parse&#40;&#41;.expect&#40;"Please enter a valid number"&#41;;)
+
+[//]: # ()
+[//]: # (    match day_number {)
+
+[//]: # (        1 => println!&#40;"Sunday"&#41;,)
+
+[//]: # (        2 => println!&#40;"Monday"&#41;,)
+
+[//]: # (        3 => println!&#40;"Tuesday"&#41;,)
+
+[//]: # (        4 => println!&#40;"Wednesday"&#41;,)
+
+[//]: # (        5 => println!&#40;"Thursday"&#41;,)
+
+[//]: # (        6 => println!&#40;"Friday"&#41;,)
+
+[//]: # (        7 => println!&#40;"Saturday"&#41;,)
+
+[//]: # (        _ => println!&#40;"Invalid day number. Please enter a number between 1 and 7."&#41;,)
+
+[//]: # (    })
+
+[//]: # (})
+
+[//]: # (```)
+
 ### Switch / Match : Sample Output
 
 <deflist collapsible="true" default-state="collapsed">
@@ -456,8 +493,3 @@ Tuesday
 ```
 </def>
 </deflist>
-
-
-
-
-
