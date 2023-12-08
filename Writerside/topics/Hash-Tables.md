@@ -486,16 +486,16 @@ O(1 + α)
 <code-block lang="tex"> h : \{0,81,64,25,36,49,1,4,16,9 \}</code-block><br/>
 <code-block lang="tex">
 \begin{align}
-h(k_1) &amp;= 0\ \%\ 10 &amp;= 0\ &\Rightarrow\ \ \ \ \ HT[0] \leftarrow 0 \\
-h(k_2) &amp;= 81\ \%\ 10  &amp;= 1\ &\Rightarrow\ \ \ \ \ HT[1] \leftarrow 81 \\
-h(k_3) &amp;= 64\ \%\ 10  &amp;= 4\ &\Rightarrow\ \ \ \ \ HT[4] \leftarrow 64 \\ 
-h(k_4) &amp;= 25\ \%\ 10 &amp;= 5\ &\Rightarrow\ \ \ \ \ HT[5] \leftarrow 25 \\
-h(k_5) &amp;= 36\ \%\ 10 &amp;= 6\ &\Rightarrow\ \ \ \ \ HT[6] \leftarrow 36 \\
-h(k_6) &amp;= 49\ \%\ 10 &amp;= 9\ &\Rightarrow\ \ \ \ \ HT[9] \leftarrow 49 \\ 
-h(k_7) &amp;= 1\ \%\ 10 &amp;= 1\ &\Rightarrow\ \ \ \ \ HT[1] \leftarrow 1 \\
-h(k_8) &amp;= 4\ \%\ 10 &amp;= 4\ &\Rightarrow\ \ \ \ \ HT[4] \leftarrow 4 \\
-h(k_9) &amp;= 16\ \%\ 10 &amp;= 6\ &\Rightarrow\ \ \ \ \ HT[6] \leftarrow 16 \\
-h(k_{10}) &amp;= 9\ \ \%\ 10 &amp;= 9\ &\Rightarrow\ \ \ \ \ HT[9] \leftarrow 9 \\
+h(k_1) &amp;= 0\ \%\ 10 &amp;= 0\ &amp;\Rightarrow\ \ \ \ \ HT[0] \leftarrow 0 \\
+h(k_2) &amp;= 81\ \%\ 10  &amp;= 1\ &amp;\Rightarrow\ \ \ \ \ HT[1] \leftarrow 81 \\
+h(k_3) &amp;= 64\ \%\ 10  &amp;= 4\ &amp;\Rightarrow\ \ \ \ \ HT[4] \leftarrow 64 \\ 
+h(k_4) &amp;= 25\ \%\ 10 &amp;= 5\ &amp;\Rightarrow\ \ \ \ \ HT[5] \leftarrow 25 \\
+h(k_5) &amp;= 36\ \%\ 10 &amp;= 6\ &amp;\Rightarrow\ \ \ \ \ HT[6] \leftarrow 36 \\
+h(k_6) &amp;= 49\ \%\ 10 &amp;= 9\ &amp;\Rightarrow\ \ \ \ \ HT[9] \leftarrow 49 \\ 
+h(k_7) &amp;= 1\ \%\ 10 &amp;= 1\ &amp;\Rightarrow\ \ \ \ \ HT[1] \leftarrow 1 \\
+h(k_8) &amp;= 4\ \%\ 10 &amp;= 4\ &amp;\Rightarrow\ \ \ \ \ HT[4] \leftarrow 4 \\
+h(k_9) &amp;= 16\ \%\ 10 &amp;= 6\ &amp;\Rightarrow\ \ \ \ \ HT[6] \leftarrow 16 \\
+h(k_{10}) &amp;= 9\ \ \%\ 10 &amp;= 9\ &amp;\Rightarrow\ \ \ \ \ HT[9] \leftarrow 9 \\
 \end{align}
 </code-block>
 </td>
