@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="7b4baa9d">
+        <description>Created after removal of "ProgChild" from URICSC Core Modules</description>
+        <accepts>ProgChild.html</accepts>
+    </rule>
+    <rule id="4edb9544">
+        <description>Created after removal of "Labs" from URI CSC Core Modules</description>
+        <accepts>Labs.html</accepts>
+    </rule>
+    <rule id="3042fb48">
+        <description>Created after removal of "JE Class 1" from URI CSC Core Modules</description>
+        <accepts>JE-Class-1.html</accepts>
+    </rule>
+    <rule id="4657bae3">
+        <description>Created after removal of "Starting Page" from URI CSC Course Modules</description>
+        <accepts>Starting-Page.html</accepts>
+    </rule>
+    <rule id="39c91fd5">
+        <description>Created after removal of "World" from URI CSC Course Modules</description>
+        <accepts>world.html</accepts>
+    </rule>
+</rules>
