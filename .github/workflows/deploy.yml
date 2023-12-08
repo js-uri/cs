@@ -19,7 +19,7 @@ env:
   # Replace HI with the ID of the instance in capital letters
   ARTIFACT: webHelpHI2-all.zip
   # Writerside docker image version
-  DOCKER_VERSION: registry.jetbrains.team/p/writerside/builder/writerside-builder:232.10275
+  DOCKER_VERSION: 2.1.1479-p3869
 
 jobs:
   build:
@@ -43,14 +43,6 @@ jobs:
           path: |
             artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
-          retention-days: 7
-
-      # Add the step below to upload Algolia indexes
-      - name: Upload algolia-indexes
-        uses: actions/upload-artifact@v3
-        with:
-          name: algolia-indexes
-          path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
           retention-days: 7
 
   # Add the job below and artifacts/report.json on Upload documentation step above if you want to fail the build when documentation contains errors
@@ -85,7 +77,9 @@ jobs:
           name: docs
 
       - name: Unzip artifact
-          run: unzip -O UTF-8 -qq ${{ env.ARTIFACT }} -d dir
+        uses: montudor/action-zip@v1
+        with:
+          args: unzip -qq ${{ env.ARTIFACT }} -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
