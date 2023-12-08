@@ -29,12 +29,12 @@ alt="image"/>
 
 <table>
 <tr>
-<td>
+<td width="50%">
 <img src="https://user-images.githubusercontent.com/38887077/76482821-4ec64780-6450-11ea-862e-da506f5cdae2.png" 
 alt="image"/>
 </td>
 <td>
-<img src="https://www.karanpratapsingh.com/_next/image?url=%2Fstatic%2Fcourses%2Fsystem-design%2Fchapter-I%2Fcaching%2Fdistributed-cache.png&w=3840&q=75" alt="image"/>
+<img src="ht.jpeg" alt="image"/>
 </td>
 </tr>
 <tr>
@@ -89,7 +89,7 @@ alt="image"/>
 
 
 
-### Advantages & Disadvantages
+### Advantages &amp; Disadvantages
 
 <table>
 <tr>
@@ -139,10 +139,10 @@ alt="image"/>
 <tr>
 <td>
 <deflist collapsible="true" default-state="collapsed">
-<def title="Arrays & Linked-Lists">
+<def title="Arrays &amp; Linked-Lists">
 <procedure title="" type="choices">
-<p><li>Search <code-block lang="tex"> O(log\ n)</code-block></li></p>
-<p><li>Insert/Delete, much more costly</li></p>
+<p>Search</p> <code-block lang="tex"> O(log\ n)</code-block>
+<p>Insert/Delete</p> <code-block lang="tex"> much\ more\ costly</code-block>
 </procedure>
 </def>
 </deflist>
@@ -151,7 +151,7 @@ alt="image"/>
 <deflist collapsible="true" default-state="collapsed">
 <def title="Binary Search Trees">
 <procedure title="" type="choices">
-<p><li>Guaranteed <code-block lang="tex"> O(log\ n)</code-block></li></p>
+<p>Guaranteed</p> <code-block lang="tex"> O(log\ n)</code-block>
 </procedure>
 </def>
 </deflist>
@@ -230,46 +230,36 @@ table
 <table>
 <tr>
 <td>
-<procedure title="" type="choices">
-<p>Legend</p>
-<p>
-<code-block lang="tex"> h</code-block> = hash function <br/>
-<code-block lang="tex"> k</code-block> = key <br/>
-<code-block lang="tex"> HT</code-block> = hash table <br/>
-<code-block lang="tex"> m</code-block> = table size <br/>
-<code-block lang="tex"> b</code-block> = bucket <br/>
-<code-block lang="tex"> r</code-block> = items per bucket
-</p>
-</procedure>
+    <p>Legend</p><br/>
+    <table>
+    <tr><td><code-block lang="tex"> h</code-block></td>    <td>hash function</td></tr>
+    <tr><td><code-block lang="tex"> k</code-block></td>    <td>key</td></tr>
+    <tr><td><code-block lang="tex"> HT</code-block></td>    <td>hash table</td></tr>
+    <tr><td><code-block lang="tex"> m</code-block></td>    <td>table size</td></tr>
+    <tr><td><code-block lang="tex"> b</code-block></td>    <td>bucket</td></tr>
+    <tr><td><code-block lang="tex"> r</code-block></td>    <td>items per bucket</td></tr>
+    </table>
 </td>
 <td>
-<procedure type="choices">
-<p>Rules</p>
-<p>
-<code-block lang="tex">
-\begin{align}
-0 \le h(k_x) \lt m\ , or \\ 
-0 \le h(k_x) \lt b-1 \\
-\\
-\\
-Entry\ lookup \Rightarrow HT[h(x)]
-\end{align}
-</code-block>
-</p>
-</procedure>
+    <p>Rules</p><br/>   
+    <code-block lang="tex">
+    \begin{align}
+    0 \le h(k_x) \lt m\ , or \\ 
+    0 \le h(k_x) \lt b-1 \\
+    \\
+    \\
+    Entry\ lookup \Rightarrow HT[h(x)]
+    \end{align}
+    </code-block>
 </td>
 <td>
-<procedure title="" type="choices">
 <p>Syntax</p>
-<p>
 <code-block lang="tex">
 \begin{align}
-h(k_x) & = k_x\ mod\ m \\
-& = k_x\ \%\ m
+h(k_x) &amp; = k_x\ mod\ m \\
+&amp; = k_x\ \%\ m
 \end{align}
 </code-block>
-</p>
-</procedure>
 </td>
 </tr>
 </table>
@@ -277,97 +267,79 @@ h(k_x) & = k_x\ mod\ m \\
 <table>
 <tr>
 <td>
-<procedure title="" type="choices">
-<p>Example</p>
-<p>Suppose there are six students:<code-block lang="tex">
+<p>Example</p><br/>
+<p>Suppose there are six students:</p>
+<code-block lang="tex">
 \begin{align}
-a1, a2, a3, a4, a5, a6
-\end{align}</code-block> in the Data Structures class and their IDs
-are: </p>
-<step>
-    <code-block lang="tex">
+a1, a2, a3, a4, a5, a6 \\\\
+\end{align}</code-block>
+<br/>
+<p>in a Data Structures class and their IDs are:</p>
+
+<code-block lang="tex">
     \begin{align}
-    a1:   & 197354863; \\
+    \\
+    \bullet \ \ a1:   &amp; 197354863; \\
     \end{align}
-    </code-block>
-</step>
-<step>
-    <code-block lang="tex">
+    </code-block><br/>
+<code-block lang="tex">
     \begin{align}
-    a2:   & 933185952; \\
+    \bullet \ \ a2:   &amp; 933185952; \\
     \end{align}
-    </code-block>
-</step>
-<step>
-    <code-block lang="tex">
+    </code-block><br/>
+<code-block lang="tex">
     \begin{align}
-    a3:   & 132489973; \\
+    \bullet \ \ a3:   &amp; 132489973; \\
     \end{align}
-    </code-block>
-</step>
-<step>
-    <code-block lang="tex">
+    </code-block><br/>
+<code-block lang="tex">
     \begin{align}
-    a4:   & 134152056; \\
+    \bullet \ \ a4:   &amp; 134152056; \\
     \end{align}
-    </code-block>
-</step>
-<step>
-    <code-block lang="tex">
+    </code-block><br/>
+<code-block lang="tex">
     \begin{align}
-    a5:   & 216500306; \\
+    \bullet \ \ a5:   &amp; 216500306; \\
     \end{align}
-    </code-block>
-</step>
-<step>
-    <code-block lang="tex">
+    </code-block><br/>
+<code-block lang="tex">
     \begin{align}
-    a6:   & 106500306; \\
+    \bullet \ \ a6:   &amp; 106500306; \\
     \end{align}
-    </code-block>
-</step>
-</procedure>
+    </code-block><br/>
 </td>
 <td>
-<procedure title="" type="choices">
-<p>Syntax</p>
-<p>
+<p>Syntax</p><br/>
 <code-block lang="tex">
 \begin{align}
 h: \{k_1,k_2,k_3,k_4,k_5,k_6 \} \rightarrow \\
 \end{align}
 </code-block>
-</p>
-<p>
+<br/>
 <code-block lang="tex">
 \begin{align}
 \{0,1,2,...12\}\ by\ h(k_1) = k_1 \%\ 13 \\
 \end{align}
 </code-block>
-</p>
-<p>
+<br/><br/>
 <code-block lang="tex">
 \begin{align} 
-h(k_1) & = 197354863\ \%\ 13 & = 4 \\ 
-h(k_2) & = 933185952\ \%\ 13 & = 10 \\
-h(k_3) & = 132489973\ \%\ 13 & = 5 \\
-h(k_4) & = 134152056\ \%\ 13 & = 12 \\
-h(k_5) & = 216500306\ \%\ 13 & = 9 \\
-h(k_6) & = 106500306\ \%\ 13 & = 3 \\
+h(k_1) &amp; = 197354863\ \%\ 13 &amp; = 4 \\ 
+h(k_2) &amp; = 933185952\ \%\ 13 &amp; = 10 \\
+h(k_3) &amp; = 132489973\ \%\ 13 &amp; = 5 \\
+h(k_4) &amp; = 134152056\ \%\ 13 &amp; = 12 \\
+h(k_5) &amp; = 216500306\ \%\ 13 &amp; = 9 \\
+h(k_6) &amp; = 106500306\ \%\ 13 &amp; = 3 \\
 \end{align}
 </code-block>
-</p>
-</procedure>
 </td>
 <td>
-<procedure title="" type="choices">
-<p>Outcome</p>
-<p>Suppose <code-block lang="tex">
+<p>Outcome</p><br/>
+<code-block lang="tex">
 \begin{align}
-HT[b] \leftarrow a
+Suppose\ HT[b] \leftarrow a
 \end{align}
-</code-block></p>
-<p>
+</code-block><br/><br/><br/>
 <code-block lang="tex">
 \begin{align}
 HT[3] \leftarrow 106500306 \\
@@ -378,8 +350,6 @@ HT[10] \leftarrow 933185952 \\
 HT[12] \leftarrow 134152056 \\
 \end{align}
 </code-block>
-</p>
-</procedure>
 </td>
 </tr>
 </table>
@@ -474,40 +444,37 @@ alt="image"/>
 <table>
 <tr>
 <td>
-<p><code-block lang="tex">
+<code-block lang="tex">
 \begin{align}
 m = 
 \end{align}
-</code-block> Number of slots in hash table</p>
-<p><code-block lang="tex">
+</code-block> Number of slots in hash table
+<br/>
+<code-block lang="tex">
 \begin{align}
 n = 
 \end{align}
-</code-block> Number of keys to be inserted in hash table </p>
+</code-block> Number of keys to be inserted in hash table
 </td>
 <td>
-<p>Load factor
+<p>Load factor</p>
 <code-block lang="tex">
 \begin{align}
 \alpha = \frac{n}{m} \\
 \end{align}
-</code-block></p>
-<p>Expected time to search or delete 
+</code-block><br/><br/>
+<p>Expected time to search or delete</p>
 <code-block lang="tex">
 \begin{align}
 O(1 + α)
 \end{align}
-</code-block></p>
+</code-block>
 </td>
 <td>
-<p>Time to insert <code-block lang="tex">
-O(1)
-</code-block>
-</p>
-<p>Time complexity of search, insert, and delete is <code-block lang="tex">
-O(1)\ if\  α\ is\ O(1)
-</code-block>
-</p>
+<p>Time to insert</p> 
+<code-block lang="tex">O(1)</code-block><br/><br/>
+<p>Time complexity of search, insert, and delete is</p>
+<code-block lang="tex">O(1)\ if\  α\ is\ O(1)</code-block>
 </td>
 </tr>
 </table>
@@ -515,27 +482,26 @@ O(1)\ if\  α\ is\ O(1)
 <table>
 <tr>
 <td>
-<procedure title="">
-<p>Example</p>
-<p><code-block lang="tex"> h : \{0,81,64,25,36,49,1,4,16,9 \}</code-block></p>
-<p><code-block lang="tex">
+<p>Example</p><br/>
+<code-block lang="tex"> h : \{0,81,64,25,36,49,1,4,16,9 \}</code-block><br/>
+<code-block lang="tex">
 \begin{align}
-h(k_1) &= 0\ \%\ 10 &= 0\ &\Rightarrow\ \ \ \ \ HT[0] \leftarrow 0 \\
-h(k_2) &= 81\ \%\ 10  &= 1\ &\Rightarrow\ \ \ \ \ HT[1] \leftarrow 81 \\
-h(k_3) &= 64\ \%\ 10  &= 4\ &\Rightarrow\ \ \ \ \ HT[4] \leftarrow 64 \\ 
-h(k_4) &= 25\ \%\ 10 &= 5\ &\Rightarrow\ \ \ \ \ HT[5] \leftarrow 25 \\
-h(k_5) &= 36\ \%\ 10 &= 6\ &\Rightarrow\ \ \ \ \ HT[6] \leftarrow 36 \\
-h(k_6) &= 49\ \%\ 10 &= 9\ &\Rightarrow\ \ \ \ \ HT[9] \leftarrow 49 \\ 
-h(k_7) &= 1\ \%\ 10 &= 1\ &\Rightarrow\ \ \ \ \ HT[1] \leftarrow 1 \\
-h(k_8) &= 4\ \%\ 10 &= 4\ &\Rightarrow\ \ \ \ \ HT[4] \leftarrow 4 \\
-h(k_9) &= 16\ \%\ 10 &= 6\ &\Rightarrow\ \ \ \ \ HT[6] \leftarrow 16 \\
-h(k_{10}) &= 9\ \ \%\ 10 &= 9\ &\Rightarrow\ \ \ \ \ HT[9] \leftarrow 9 \\
+h(k_1) &amp;= 0\ \%\ 10 &amp;= 0\ &\Rightarrow\ \ \ \ \ HT[0] \leftarrow 0 \\
+h(k_2) &amp;= 81\ \%\ 10  &amp;= 1\ &\Rightarrow\ \ \ \ \ HT[1] \leftarrow 81 \\
+h(k_3) &amp;= 64\ \%\ 10  &amp;= 4\ &\Rightarrow\ \ \ \ \ HT[4] \leftarrow 64 \\ 
+h(k_4) &amp;= 25\ \%\ 10 &amp;= 5\ &\Rightarrow\ \ \ \ \ HT[5] \leftarrow 25 \\
+h(k_5) &amp;= 36\ \%\ 10 &amp;= 6\ &\Rightarrow\ \ \ \ \ HT[6] \leftarrow 36 \\
+h(k_6) &amp;= 49\ \%\ 10 &amp;= 9\ &\Rightarrow\ \ \ \ \ HT[9] \leftarrow 49 \\ 
+h(k_7) &amp;= 1\ \%\ 10 &amp;= 1\ &\Rightarrow\ \ \ \ \ HT[1] \leftarrow 1 \\
+h(k_8) &amp;= 4\ \%\ 10 &amp;= 4\ &\Rightarrow\ \ \ \ \ HT[4] \leftarrow 4 \\
+h(k_9) &amp;= 16\ \%\ 10 &amp;= 6\ &\Rightarrow\ \ \ \ \ HT[6] \leftarrow 16 \\
+h(k_{10}) &amp;= 9\ \ \%\ 10 &amp;= 9\ &\Rightarrow\ \ \ \ \ HT[9] \leftarrow 9 \\
 \end{align}
-</code-block></p>
-</procedure>
+</code-block>
 </td>
 <td>
-<img src="https://www.researchgate.net/profile/Tribikram-Pradhan/publication/283760058/figure/fig2/AS:318584157949953@1452967790509/Example-of-Separate-Chaining-Method.png" alt="">
+<img src="https://www.researchgate.net/profile/Tribikram-Pradhan/publication/283760058/figure/fig2/AS:318584157949953
+@1452967790509/Example-of-Separate-Chaining-Method.png" alt=""/>
 </td>
 </tr>
 </table>
@@ -548,17 +514,18 @@ h(k_{10}) &= 9\ \ \%\ 10 &= 9\ &\Rightarrow\ \ \ \ \ HT[9] \leftarrow 9 \\
 <step>If a collision occurs, search for the next available slot in a linear manner.</step>
 </procedure>
 
+
 ### Linear Probing
 
 <table>
 <tr>
-<td colspan="2"><li>keeps a list of all elements that hash to the same value</li></td>
+<td colspan="2">keeps a list of all elements that hash to the same value</td>
 </tr>
 <tr>
 <td>
 <procedure type="choices">
 <p>Rule</p>
-<p><code-block lang="tex"> h_i(x) = (Hash(x) + i) \ \% \ HashTableSize</code-block></p>
+<code-block lang="tex"> h_i(x) = (Hash(x) + i) \ \% \ HashTableSize</code-block>
 <p>If:</p>
 <step><code-block lang="tex"> h_0(x) = (Hash(x) + 0) \ \% \ HashTableSize</code-block></step>
 <step><code-block lang="tex"> h_1(x) = (Hash(x) + 1) \ \% \ HashTableSize</code-block></step>
@@ -571,39 +538,37 @@ h(k_{10}) &= 9\ \ \%\ 10 &= 9\ &\Rightarrow\ \ \ \ \ HT[9] \leftarrow 9 \\
 </tr>
 <tr>
 <td>
-<procedure type="choices">
 <p>Example</p>
-<step><code-block lang="tex"> h : \{50, 700, 76, 85, 92, 73, 101\}</code-block></step>
-</procedure>
-<p><code-block lang="tex"> 
+<code-block lang="tex"> h : \{50, 700, 76, 85, 92, 73, 101\}</code-block>
+<code-block lang="tex"> 
 \begin{align}
-h_0(50) &= 50\ \ \ \ \% \ 7 = 1 \\
-h_0(700) &= 700\ \  \% \ 7 = 0 \\
-h_0(76) &= 76\ \ \  \% \ 7 \ = 6 \\ 
+h_0(50) &amp;= 50\ \ \ \ \% \ 7 = 1 \\ \\
+h_0(700) &amp;= 700\ \  \% \ 7 = 0 \\ \\
+h_0(76) &amp;= 76\ \ \  \% \ 7 \ = 6 \\ \\
+h_0(85) &amp;= 85\ \ \ \% \ 7 \  = 1 \\
+& \Rightarrow h_1(85) = (85+1)\ \ \%\ 7 = 2 \\
 \end{align}
-</code-block></p>
+</code-block>
 </td>
 <td>
-<p><code-block lang="tex"> 
+<code-block lang="tex"> 
 \begin{align}
-h_0(85) &= 85\ \ \ \% \ 7 \  = 1 \\
-& \Rightarrow h_1(85) = (85+1)\ \ \%\ 7 = 2 \\
-\\
-h_0(92) &= 92\ \ \%\ 7 = 1 \\
+h_0(92) &amp;= 92\ \ \%\ 7 = 1 \\
 & \Rightarrow h_1(92) = (92+1)\ \ \%\ 7  = 1 \\
 & \Rightarrow h_2(92) = (92+2)\ \ \%\ 7  = 3 \\
 \\
-h_0(73) &= 73\ \  \%\ 7  = 3 \\
+h_0(73) &amp;= 73\ \  \%\ 7  = 3 \\
 & \Rightarrow h_1(73) = (73+1)\ \  \%\ 7  = 4 \\
 \\
-h_0(101) &= 101\ \  \%\ 7  = 3 \\
+h_0(101) &amp;= 101\ \  \%\ 7  = 3 \\
 & \Rightarrow h_1(101) = (101+1)\ \ \%\ 7  = 4 \\
 & \Rightarrow h_2(101) = (101+2)\ \ \%\ 7  = 5 \\
 \end{align}
-</code-block></p>
+</code-block>
 </td>
 </tr>
 </table>
+
 
 ### Quadratic Probing
 
@@ -631,17 +596,17 @@ If\ h_2(x) & = (Hash(x) + 2^2)\ \%\ \ HashTableSize \\
 & h : \{50, 700, 76, 85, 92, 73, 101\} & \\
 \\
 \\
-h_0(50) &= 50\ \ \ \ \% \ 7 &= 1 \\
-h_0(700) & = 700\ \  \%\ 7  &= 0 \\
-h_0(76) &= 76\ \  \%\ 7  &= 6 \\
-h_0(85) &= 85\ \ \%\ 7  &= 1 \\
-& \Rightarrow h_1(85) = 85+(1*1)\ \ \%\ 7  &= 2 \\
+h_0(50) &amp;= 50\ \ \ \ \% \ 7 &amp;= 1 \\
+h_0(700) & = 700\ \  \%\ 7  &amp;= 0 \\
+h_0(76) &amp;= 76\ \  \%\ 7  &amp;= 6 \\
+h_0(85) &amp;= 85\ \ \%\ 7  &amp;= 1 \\
+& \Rightarrow h_1(85) = 85+(1*1)\ \ \%\ 7  &amp;= 2 \\
 h_0(92) & f= 92\ \ \%\ 7  = 1 \\
-& \Rightarrow h_1(92) = 92+(1*1)\ \ \%\ 7  &= 2 \\
-& \Rightarrow h_2(92) = 92+(2*2)\ \ \%\ 7  &= 5 \\
-h_0(73) &= 73\ \  \%\ 7  &= 3 \\
-h_0(101) &= 101\ \  \%\ 7  &= 3 \\
-& \Rightarrow h_1(101) = 101+(1*1)\ \  \%\ 7  &= 4 \\
+& \Rightarrow h_1(92) = 92+(1*1)\ \ \%\ 7  &amp;= 2 \\
+& \Rightarrow h_2(92) = 92+(2*2)\ \ \%\ 7  &amp;= 5 \\
+h_0(73) &amp;= 73\ \  \%\ 7  &amp;= 3 \\
+h_0(101) &amp;= 101\ \  \%\ 7  &amp;= 3 \\
+& \Rightarrow h_1(101) = 101+(1*1)\ \  \%\ 7  &amp;= 4 \\
 \end{align}
 </code-block>
 </td>
@@ -1372,4 +1337,3 @@ h_5(101) &= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
 ## Comparison
 
 <img src="complexity.png" alt=""/>
-
