@@ -3,14 +3,67 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Help Instance"
+                 name="URI CSC Course Modules"
                  start-page="Default-topic.md">
 
+    <toc-element topic="Sandbox.md"/>
     <toc-element topic="Default-topic.md"/>
-    <toc-element topic="Play-with-semantic-attributes.md"/>
-    <toc-element topic="Add-semantic-elements-to-Markdown.md"/>
-    <toc-element topic="Convert-Markdown-to-XML.md"/>
-    <toc-element topic="Quickly-add-images-links-and-tables.md"/>
-    <toc-element topic="Add-Mermaid-diagrams.md"/>
-    <toc-element topic="Add-math-formulas.md"/>
+
+    <toc-element toc-title="Course Schedules &amp; Syllabi">
+        <toc-element topic="csc_200_ee_schedule_syllabi.md">
+            <toc-element topic="lab-02.md"/>
+            <toc-element topic="lab-01.md"/>
+        </toc-element>
+        <toc-element topic="csc_200_me_schedule_syllabi.md"/>
+        <!--        <toc-element topic="CSC-212-|-FALL-23.md"/>-->
+        <toc-element topic="csc_212_schedule_syllabi.md"/>
+    </toc-element>
+
+    <toc-element topic="Introductions.md"/>
+
+    <toc-element toc-title="Problem Solving">
+        <toc-element topic="Basics.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Problem Solving &amp; Programming">
+        <toc-element topic="Conditionals.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Data Structures">
+        <toc-element topic="Overview.md"/>
+        <toc-element topic="Linear.md">
+            <toc-element topic="Linked-List.md"/>
+        </toc-element>
+        <toc-element topic="Non-linear.md">
+            <toc-element topic="Heaps.md"/>
+            <toc-element topic="bst.md"/>
+            <toc-element topic="Set.md"/>
+            <toc-element topic="Left-Leaning-Red-Black-Trees.md"/>
+            <toc-element topic="Map.md"/>
+            <toc-element topic="Hash-Tables.md"/>
+        </toc-element>
+    </toc-element>
+
+    <toc-element toc-title="Algorithms">
+        <toc-element topic="Analysis.md"/>
+        <toc-element topic="Search-Sort.md">
+            <toc-element topic="mergesort.md"/>
+            <toc-element topic="quicksort.md"/>
+        </toc-element>
+        <toc-element topic="Greedy-Algortihms.md">
+        </toc-element>
+        <toc-element topic="Dynamic-Programming.md"/>
+    </toc-element>
+    <toc-element topic="Discrete-Maths-Concepts.md">
+        <toc-element topic="Sequence.md"/>
+        <toc-element topic="Series.md"/>
+        <toc-element topic="Summations.md"/>
+        <toc-element topic="Recurrence-Relations.md"/>
+    </toc-element>
+    <toc-element topic="Miscellaneous.md">
+        <toc-element topic="Learning-A-New-Language.md"/>
+        <toc-element topic="Additional-Resources.md"/>
+    </toc-element>
+
 </instance-profile>
+

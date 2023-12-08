@@ -1,9 +1,18 @@
-# Welcome to Writerside!
+# Welcome
 
 <!--Writerside adds this topic when you create a new documentation project.
 You can use it as a sandbox to play with Writerside features, and remove it from the TOC when you don't need it anymore.
 If you want to re-add it for your experiments, click + to create a new topic, choose Topic from Template, and select the 
 "Starter" template.-->
+
+<tabs>
+    <tab title="Markdown">
+        <video src="https://youtu.be/Hoixgm4-P4M?feature=shared" width="705" mini-player="true"/>
+    </tab>
+    <tab title="Semantic markup">
+        <video src="https://youtu.be/m19F4IHTVGc?feature=shared" width="705" mini-player="true"/>
+    </tab>
+</tabs>
 
 ## Add new topics
 You can create empty topics, or choose a template for different types of content that contains some boilerplate structure to help you get started:
@@ -78,3 +87,4 @@ You can also always send an email to [writerside@jetbrains.com](mailto:writersid
         <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/configure-search.html">Configure Search</a>
     </category>
 </seealso>
+
