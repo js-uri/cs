@@ -20,7 +20,7 @@ switcher-label: CSC 200 ME
         <td>Week 1</td>
         <td></td>
         <td></td>
-        <td><a href="l1_setup.md">Setup</a></td>
+        <td><!--a href="l1_setup.md">Setup</a--></td>
         <td></td>
     </tr>
     <tr>
