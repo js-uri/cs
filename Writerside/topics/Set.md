@@ -46,37 +46,37 @@
 ### Advantages & Disadvantages
 
 <table>
-<tr>
-<td>✅</td><td>❌</td>
-</tr>
-<tr>
-<td>
-<deflist collapsible="true">
-<def title="Uniqueness" collapsible="true" default-state="collapsed">
-Sets enforce uniqueness, ensuring no duplicate elements.
-</def>
-<def title="Fast Lookup" collapsible="true" default-state="collapsed">
-Efficient for searching and checking if an element exists.
-</def>
-<def title="Simple Interface" collapsible="true" default-state="collapsed">
-Typically provides simple and intuitive methods like `insert`, `contains`, and `remove`.
-</def>
-</deflist>
-</td>
-<td>
-<deflist collapsible="true">
-<def title="No Ordering" collapsible="true" default-state="collapsed">
-Elements are not stored in a specific order, which may be a disadvantage in some use cases.
-</def>
-<def title="Overhead" collapsible="true" default-state="collapsed">
-May require more memory and have some overhead for maintaining uniqueness.
-</def>
-<def title="Slower Insertions" collapsible="true" default-state="collapsed">
-Inserting elements can be slower compared to data structures optimized for insertion.
-</def>
-</deflist>
-</td>
-</tr>
+    <tr>
+    <td>✅</td><td>❌</td>
+    </tr>
+    <tr>
+    <td>
+    <deflist collapsible="true">
+    <def title="Uniqueness" collapsible="true" default-state="collapsed">
+    Sets enforce uniqueness, ensuring no duplicate elements.
+    </def>
+    <def title="Fast Lookup" collapsible="true" default-state="collapsed">
+    Efficient for searching and checking if an element exists.
+    </def>
+    <def title="Simple Interface" collapsible="true" default-state="collapsed">
+    Typically provides simple and intuitive methods like `insert`, `contains`, and `remove`.
+    </def>
+    </deflist>
+    </td>
+    <td>
+    <deflist collapsible="true">
+    <def title="No Ordering" collapsible="true" default-state="collapsed">
+    Elements are not stored in a specific order, which may be a disadvantage in some use cases.
+    </def>
+    <def title="Overhead" collapsible="true" default-state="collapsed">
+    May require more memory and have some overhead for maintaining uniqueness.
+    </def>
+    <def title="Slower Insertions" collapsible="true" default-state="collapsed">
+    Inserting elements can be slower compared to data structures optimized for insertion.
+    </def>
+    </deflist>
+    </td>
+    </tr>
 </table>
 
 
