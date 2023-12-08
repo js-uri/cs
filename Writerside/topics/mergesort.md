@@ -16,44 +16,30 @@ mini-player="true" preview-src="Merge-Sort-Algorithm.png"/></tab>
 
 Mergesort is a widely used and efficient sorting algorithm in computer science. It falls under the category of divide-and-conquer algorithms, which means it breaks down the sorting task into smaller subproblems, solves them, and then combines the results to produce a sorted output.
 
-<img src="https://codeyz.com/wp-content/uploads/2020/07/image-1-792x512.png" alt="divde & conquer technique"/>
+<img src="https://codeyz.com/wp-content/uploads/2020/07/image-1-792x512.png" alt="divide and conquer technique"/>
 
 <deflist style="full" collapsible="true">
-    <def title="Divide">
-        The unsorted array is divided into two equal halves until each subarray contains only one element. This process continues recursively until the base case is reached, where each subarray has a single element, which is trivially sorted.
-    </def>
-    <def title="Conquer">
-        After dividing the array, Mergesort sorts the individual elements in each subarray. This is achieved by comparing the elements in the two subarrays and merging them into a new, sorted subarray. The merge operation ensures that the elements are arranged in the correct order.
-    </def>
-    <def title="Combine">
-        The merging process continues until the entire array is sorted. The merging is done in a way that it combines the sorted subarrays to create a larger, sorted subarray. This step is repeated until the entire array is sorted.
-    </def>
+    <def title="Divide">The unsorted array is divided into two equal halves until each subarray contains only one element. This process continues recursively until the base case is reached, where each subarray has a single element, which is trivially sorted.</def>
+    <def title="Conquer">After dividing the array, Mergesort sorts the individual elements in each subarray. This is achieved by comparing the elements in the two subarrays and merging them into a new, sorted subarray. The merge operation ensures that the elements are arranged in the correct order.</def>
+    <def title="Combine">The merging process continues until the entire array is sorted. The merging is done in a way that it combines the sorted subarrays to create a larger, sorted subarray. This step is repeated until the entire array is sorted.</def>
 </deflist>
 
 
 
 ### Example
 
-<list>
-    <li><p>sorting with insertion sort is <code-block lang="tex"> n^2 </code-block></p></li>
-    <li>we can divide the array into two halves and sort them separately</li>
-</list>
+- sorting with insertion sort is <code-block lang="tex"> n^2 </code-block>
+- we can divide the array into two halves and sort them separately
 
 ![image](https://www.kirupa.com/sorts/images/mergesort_1st_div_300.png)
 
-<list style="bullet">
-    <li><p>each sub-problem could be sorted in <code-block lang="tex"> \approx \frac{n^2}{4} </code-block></p></li>
-</list>
-
-<list style="bullet">
-    <li><p>sorting both halves will require <code-block lang="tex"> \approx 2 ( \frac{n^2}{4}) </code-block></p></li>
-    <li>we need an additional operation to combine both solutions</li>
-</list>
+- each sub-problem could be sorted in <code-block lang="tex"> \approx \frac{n^2}{4} </code-block>
+- sorting both halves will require <code-block lang="tex"> \approx 2 ( \frac{n^2}{4}) </code-block>
+- we need an additional operation to combine both solutions
 
 
-<p><i>Time “reduced” from <code-block lang="tex"> \approx n^2</code-block> to <code-block lang="tex"> \approx \bigg
-(\frac
-{n^2}{2} \bigg) + n</code-block> </i></p>
+_Time reduction :_
+<code-block lang="tex"> \ \approx n^2 \ \ \ \Rightarrow \ \ \ \approx \bigg(\frac{n^2}{2} \bigg) + n</code-block>
 
 
 
@@ -62,23 +48,16 @@ Mergesort is a widely used and efficient sorting algorithm in computer science. 
 Consider how this breaks out…
 
 <tabs>
-    <tab title="unsorted">
-        <img src="https://www.kirupa.com/sorts/images/mergesort_numbers_300.png" alt=""/>
-    </tab>
-    <tab title="divide">
-        <img src="https://www.kirupa.com/sorts/images/mergesort_3rd_div_300.png" alt="Division"/>
-    </tab>
-    <tab title="combine">
-        <img src="https://www.kirupa.com/sorts/images/merge_step_3rd_row_2.png" alt="Step 2"/>
-    </tab>
-    <tab title="sorted">
-        <img src="https://www.kirupa.com/sorts/images/everything_sorted_merge_300.png" alt="Sort Complete"/>
-    </tab>
+    <tab title="unsorted"><img src="https://www.kirupa.com/sorts/images/mergesort_numbers_300.png" alt=""/></tab>
+    <tab title="divide"><img src="https://www.kirupa.com/sorts/images/mergesort_3rd_div_300.png" alt="Division"/></tab>
+    <tab title="combine"><img src="https://www.kirupa.com/sorts/images/merge_step_3rd_row_2.png" alt="Step 2"/></tab>
+    <tab title="sorted"><img src="https://www.kirupa.com/sorts/images/everything_sorted_merge_300.png" alt="Sort Complete"/></tab>
     <tab title="try it">
         <a href="https://opendsa-server.cs.vt.edu/embed/mergesortAV">mergesortAV</a>
         <br/>
         <ul>
-            <li>Add the collection values to <i>Your Values</i><br><code-block lang="tex"> Collection\ values = [5,12, 4,1, 2,8, 2, 6,10]</code-block></li>
+            <li>Add the collection values to <i>Your Values</i><br/><code-block lang="tex"> Collection\ values = [5,
+12, 4,1, 2,8, 2, 6,10]</code-block></li>
             <li>Change the <i>List Size</i> to <i>9</i></li>
             <li>Press <kbd>run</kbd> and click through the steps...</li>
         </ul>
@@ -93,7 +72,7 @@ Consider how this breaks out…
 
 [Merging two sorted arrays](https://www.geeksforgeeks.org/merge-two-sorted-arrays/)
 
-![](https://www.baeldung.com/wp-content/uploads/2019/12/Merge-Sorted-Arrays.png){width="800px"}
+![](https://www.baeldung.com/wp-content/uploads/2019/12/Merge-Sorted-Arrays.png){width="800"}
 
 *_to guarantee a_* **[lineartime](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/linear-time-merging)** *_operation_*
 
@@ -104,20 +83,20 @@ Consider how this breaks out…
 <tabs>
     <tab title="overall">
         <code-block lang="c++">
-            MergeSort(arr[], lo,  hi) {
-                if (hi ≤ lo) return;
-                // Find the middle point to divide the array into two halves:
-                int mid = lo + (hi - lo) / 2;
-                // Call mergeSort for first half:
-                mergesort(A, lo, mid);
-                // Call mergeSort for second half:
-                mergesort(A, mid + 1, hi);
-                // Merge the two halves sorted in steps 2 and 3:
-                merge(A, lo, mid, hi);
-            }
-        </code-block><br/>
-        <img src="https://algs4.cs.princeton.edu/22mergesort/images/mergesort-overview.png" alt="sort two halves" 
-width="800px"/>
+        MergeSort(arr[], lo,  hi) {
+            if (hi ≤ lo) return;
+            // Find the middle point to divide the array into two halves:
+            int mid = lo + (hi - lo) / 2;
+            // Call mergeSort for first half:
+            mergesort(A, lo, mid);
+            // Call mergeSort for second half:
+            mergesort(A, mid + 1, hi);
+            // Merge the two halves sorted in steps 2 and 3:
+            merge(A, lo, mid, hi);
+        }
+        </code-block>
+        <br/>
+        <img src="https://algs4.cs.princeton.edu/22mergesort/images/mergesort-overview.png" alt="sort two halves"/>
     </tab>
     <tab title="mergesort">
         <code-block lang="c++">
@@ -145,28 +124,24 @@ width="800px"/>
     </tab>
     <tab title="merge">
         <code-block lang="c++">
-            void merge (int *A, int *aux, int lo, int mid,int hi) {
+            void merge (int *A, int *aux, int lo, int mid, int hi) {
                 // copy array
                 std::memcpy(aux + lo, A + lo, (hi - lo + 1 * sizeof(A)));
                 // merge 
                 int i = lo, j = mid + 1;
-                for (int k = lo; k ≤ hi; k++) {
-                    if (i > mid) A[k] = aux[j++];
-                    else if (j > hi) A[k] = aux[i++];
-                    else if(aux[j] < aux[i]) A[k] = aux[j++];
+                for (int k = lo; k &le; hi; k++) {
+                    if (i &gt; mid) A[k] = aux[j++];
+                    else if (j &gt; hi) A[k] = aux[i++];
+                    else if(aux[j] &lt; aux[i]) A[k] = aux[j++];
                     else A[k] = aux[i++];
                 }
             }
         </code-block>
     </tab>
-    <tab title="a[] & aux[]">
-        <img src="https://algs4.cs.princeton.edu/22mergesort/images/merge.png" alt="algs4.cs.princeton.edu | 
-mergesort"/>
-    </tab>
-    <tab title="top-down trace">
-        <img src="https://algs4.cs.princeton.edu/22mergesort/images/mergesortTD-bars.png" alt="algs4.cs.princeton.
-edu | mergesortTD-bars"/>
-    </tab>
+    <tab title="a[] and aux[]"><img src="https://algs4.cs.princeton.edu/22mergesort/images/merge.png" alt="algs4.cs.princeton.edu | 
+mergesort"/></tab>
+    <tab title="top-down trace"><img src="https://algs4.cs.princeton.edu/22mergesort/images/mergesortTD-bars.png" alt="algs4.cs.princeton.
+edu | mergesortTD-bars"/></tab>
 </tabs>
 
 
@@ -190,29 +165,32 @@ edu | mergesortTD-bars"/>
     </tr>
 </table>
 
+
 #### Breakdown (generalization)
 
 A merge sort consists of several passes over the input.
 
 <deflist style="medium">
     <def title="1st Pass">
-        <p>merges segments of size : <code-block lang="tex"> 1</code-block></p>
+        merges segments of size : <code-block lang="tex"> 1</code-block>
     </def>
     <def title="2nd Pass">
-        <p>merges segments of size : <code-block lang="tex"> 2</code-block></p>
+        merges segments of size : <code-block lang="tex"> 2</code-block>
     </def>
     <def title="i-th Pass">
-        <p>merges segments of size : <code-block lang="tex"> 2^{i-1}</code-block></p>
+        merges segments of size : <code-block lang="tex"> 2^{i-1}</code-block>
     </def>
     <def title="Total number of passes">
-        <p><code-block lang="tex"> log\ n</code-block></p>
+        <code-block lang="tex"> log\ n</code-block>
     </def>
 </deflist>
 
-<p>As merge showed, we can merge two sorted segments in linear time, which means that each pass takes <code-block 
-lang="tex">O(n)</code-block> time. Since there are <code-block lang="tex"> log n</code-block> passes, the 
-total computing time is <code-block lang="tex"> 𝛩(n\ log\ n)</code-block>, or expressed as: <code-block lang="tex"> T
-(n) = 2T ( n/2 ) + \Theta(n)</code-block></p>
+As merge showed, we can merge two sorted segments in linear time, which means that each pass takes
+<code-block lang="tex">O(n)\ time</code-block> 
+Since there are <code-block lang="tex"> log\ n\ passes</code-block>
+ total computing time is 
+<code-block lang="tex"> 𝛩(n\ log\ n)</code-block>
+or expressed as: <code-block lang="tex"> T(n) = 2T ( n/2 ) + \Theta(n)</code-block>
 
 
 
@@ -298,9 +276,9 @@ log\ n)
 ## In-place Sorting
 
 <note>
-    <p>An algorithm does not use extra space for manipulating the input but may require a small though non-constant 
-extra space for its operation. Usually, this space is <code-block lang="tex"> O(log\ n)</code-block>, though sometimes 
-anything in <code-block lang="tex"> O(n)</code-block> (Smaller than linear) is allowed.</p>
+    An algorithm does not use extra space for manipulating the input but may require a small though non-constant 
+extra space for its operation. Usually, this space is <code-block lang="tex"> O(log\ n)</code-block>
+Though sometimes anything in <code-block lang="tex"> O(n)</code-block> (Smaller than linear) is allowed.
     <a href="https://www.geeksforgeeks.org/in-place-algorithm/">GFG | In-place Algorithms</a>
 </note>
 
@@ -309,7 +287,8 @@ anything in <code-block lang="tex"> O(n)</code-block> (Smaller than linear) is a
 <td width="700">Selection Sort</td>
 </tr>
 <tr>
-<td><code-block lang="c++">
+<td>
+<code-block lang="c++">
 void selectionSort(int arr[], int n)
 {
     int i, j, min_idx;
@@ -319,14 +298,15 @@ void selectionSort(int arr[], int n)
         // array
         min_idx = i;
         for (j = i + 1; j &lt; n; j++)
-            if (arr[j] < arr[min_idx]) min_idx = j;
+            if (arr[j] &lt;[min_idx]) min_idx = j;
         // Swap the found minimum element with 
         // the first element
         if(min_idx != i)
-            swap(&arr[min_idx], &arr[i]);
+            swap(&amp;arr[min_idx], &amp;arr[i]);
     }
 }
-</code-block></td>
+</code-block>
+</td>
 </tr>
 <tr>
 <td><deflist collapsible="true">
@@ -353,7 +333,7 @@ void insertionSort(int arr[], int n)
         // Move elements of arr[0..i-1], 
         // greater than key, to one position 
         // ahead of their current position
-        while (j >= 0 &amp;&amp; arr[j] > key)
+        while (j >= 0 &amp;&amp; arr[j] &gt; key)
         { 
             arr[j + 1] = arr[j]; 
             j = j - 1; 

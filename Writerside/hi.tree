@@ -8,6 +8,7 @@
 
     <toc-element topic="Sandbox.md"/>
     <toc-element topic="Default-topic.md"/>
+    <toc-element topic="Lecture_test.md"/>
 
     <toc-element toc-title="Course Schedules &amp; Syllabi">
         <toc-element topic="csc_200_ee_schedule_syllabi.md">
