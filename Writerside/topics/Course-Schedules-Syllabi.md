@@ -1,3 +1,0 @@
-# Course Schedules &amp; Syllabi
-
-Start typing here...

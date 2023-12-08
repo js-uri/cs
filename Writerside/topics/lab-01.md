@@ -1,3 +1,0 @@
-# lab_01
-
-Start typing here...

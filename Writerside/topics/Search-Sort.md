@@ -1,3 +1,0 @@
-# Search &amp; Sort
-
-Start typing here...

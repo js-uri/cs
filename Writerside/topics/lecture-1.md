@@ -1,3 +1,0 @@
-# lecture 1
-
-Start typing here...
