@@ -4,7 +4,7 @@ switcher-label: Language
 
 # Greedy Algorithms
 
-![greedy algorithms](https://i.ytimg.com/vi/bC7o8P_Ste4/maxresdefault.jpg){width="100%"}
+![greedy algorithms](https://i.ytimg.com/vi/bC7o8P_Ste4/maxresdefault.jpg)
 
 ## Python {switcher-key="Python"}
 

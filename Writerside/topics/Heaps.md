@@ -18,14 +18,15 @@
     <def title="Heap-Order Property">
     <procedure>
     <p>for every node <code>x</code></p>
-    <step>key parent <code>x</code> &ge; key <code>x</code></step>
+    <step>key parent <code-block lang="tex">x &ge; key\ x</code-block></step>
     <step>except the root, which has no parent</step>
     </procedure>
     </def>
     </deflist>
     <deflist>
     <def title="Height of a Heap">
-    <p><code>n ≥ 2<sup>h</sup> ⇒ log n ≥ log 2<sup>h</sup> ⇒ log n ≥ h</code></p><br/>
+    <code-block lang="tex"> n &ge; 2^h \Rightarrow log\ n &ge; log\ 2^h \Rightarrow log\ n &ge; 
+h</code-block><br/>
     </def>
     </deflist>
 </td>
