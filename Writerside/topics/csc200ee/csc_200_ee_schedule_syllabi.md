@@ -383,22 +383,6 @@ select occasional or weekly tutoring sessions through the TracCloud system or vi
 
 
 
-## Fall 2023 Schedule   {switcher-key="Fall 23"}
-
-
-## Fall 2023 Syllabus   {switcher-key="Fall 23"}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
