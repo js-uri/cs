@@ -4,7 +4,7 @@ switcher-label: CSC 200 ME
 
 <show-structure for="chapter,procedure" depth="0"/>
 
-# CSC 200 MM : Problem-Solving for Science &amp; Engineering
+# CSC 200 ME : Problem-Solving for Science &amp; Engineering
 
 ## Spring 2024 Schedule   {switcher-key="Spring 24"}
 
