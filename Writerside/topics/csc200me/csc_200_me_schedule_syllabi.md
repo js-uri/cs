@@ -204,12 +204,12 @@ Please forward anything personal in nature to my email address above. This will 
 
 - Understand the core aspects of reading/writing code
 - Primitive data types
-- Variable assignments & operations
+- Variable assignments &amp;operations
 - Program control flow
-- Control structures & loops
+- Control structures &amp;loops
 - Simple data structures
 - Functions
-- Classes & Objects
+- Classes &amp;Objects
 - Understand the basic principles of programming in C++
 - Implement simple algorithms to solve a variety of problems
 
@@ -359,8 +359,8 @@ multiple-response, interactive code.</step>
 
 <procedure style="choices">
 <b>Academic Enhancement Center</b>
-<p>The Academic Enhancement Center (AEC) offers face-to-face and online services to undergraduate students seeking academic support. Services are based out of Roosevelt Hall, the Carothers Library room LL004, and online. Peer tutoring is available for STEM & BUS-related courses through the Drop-In Center and small-group tutoring. The Writing Center peer consultants offer feedback focused on supporting undergraduate writers at any stage of a writing assignment. The UCS 160 course and one-to-one Academic Skills Consultations offer strategies for improving studying and test-taking skills. Complete details about each of these programs, up-to-date schedules, contact information, and self-service study resources are all available on the AEC website, uri.edu/aec.</p>
-<step>STEM &amp; BUS Tutoring helps undergraduate students navigate a variety of 100 and 200 level STEM & BUS courses through free peer tutoring in-person and online. Students can 
+<p>The Academic Enhancement Center (AEC) offers face-to-face and online services to undergraduate students seeking academic support. Services are based out of Roosevelt Hall, the Carothers Library room LL004, and online. Peer tutoring is available for STEM &amp;BUS-related courses through the Drop-In Center and small-group tutoring. The Writing Center peer consultants offer feedback focused on supporting undergraduate writers at any stage of a writing assignment. The UCS 160 course and one-to-one Academic Skills Consultations offer strategies for improving studying and test-taking skills. Complete details about each of these programs, up-to-date schedules, contact information, and self-service study resources are all available on the AEC website, uri.edu/aec.</p>
+<step>STEM &amp; BUS Tutoring helps undergraduate students navigate a variety of 100 and 200 level STEM &amp;BUS courses through free peer tutoring in-person and online. Students can 
 select occasional or weekly tutoring sessions through the TracCloud system or visit the Drop-In Center, located in the Carothers Library lower level room LL004. The TracCloud application is available through URI Microsoft 365 single sign-on and more detailed information and instructions can be found at uri.edu/aec/tutoring.</step>
 <step>Academic Skills Development courses and programs teach students how to plan and apply time management and study strategies. UCS 160: Success in Higher Education is a one-credit course on strategic approaches to planning and studying. UCS 161x: Becoming a Self Directed Student teaches strategies for taking greater control over their academic work and lives.  Academic Consultations are 1 to 1 meetings that help individual students to address their academic challenges. Students can schedule in-person or online consultations with David Hayes on Starfish. Study Your Way to Success is a self-guided web portal connecting students to tips and strategies on studying and time management related topics. For information or help with scheduling, contact Dr. Hayes directly at davidhayes@uri.edu. </step>
 <step>The Undergraduate Writing Center provides peer writing support to students in any class, at any stage of the writing process: from understanding an assignment and brainstorming ideas, to developing, organizing, and revising a draft. Writing consultations are available through: 1) 25- or 50-minute in-person appointments, 2) synchronous online appointments, and 3) asynchronous written feedback. Synchronous appointments hosted by WCOnline are video-based, with audio, chat, document-sharing, and live captioning capabilities, to meet a range of accessibility needs. View availability and book online at uri.mywconline.com. For more information, visit uri.edu/aec/writing.</step>
