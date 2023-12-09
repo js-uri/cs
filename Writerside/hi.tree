@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="URI CSC Course Modules"
+                 name="Think Big We Do"
                  start-page="Default-topic.md">
 
     <toc-element topic="Sandbox.md"/>

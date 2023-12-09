@@ -14,11 +14,29 @@ switcher-label: Language
 
 ### Definition
 
-<note>
+<table>
+<tr>
+<td>
+<note>Conditional statements are essential programming constructs that allow us to make decisions based on certain conditions. These statements evaluate an expression and execute specific code blocks based on whether the condition is true or false. The most common conditional statements are `if`, `else if`, `else`, nested `if`, and `switch`.</note>
+</td>
+<td>
 
-Conditional statements are essential programming constructs that allow us to make decisions based on certain conditions. These statements evaluate an expression and execute specific code blocks based on whether the condition is true or false. The most common conditional statements are `if`, `else if`, `else`, nested `if`, and `switch`.
+```mermaid
+graph TB
+    Start[Start] --> A
+    A[Condition]
+    A -- True --> B[Do Something]
+    A -- False --> C[Do Something Else]
+    B --> End[End]
+    C --> End[End]
+    
+```
 
-</note>
+</td>
+</tr>
+</table>
+
+
 
 ### Use Cases
 

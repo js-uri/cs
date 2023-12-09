@@ -4,7 +4,7 @@
 
 <tabs>
     <tab title="Intro">
-        <video src="https://youtu.be/qvZGUFHWChY?feature=shared" preview-src="intro_yt.jpeg" width="705" 
+        <video src="https://youtu.be/qvZGUFHWChY?feature=shared" preview-src="intro_yt.jpeg" width="900" 
 mini-player="true"/>
     </tab>
     <tab title="Rotations">

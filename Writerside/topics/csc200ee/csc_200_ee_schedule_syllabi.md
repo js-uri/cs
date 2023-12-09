@@ -1,10 +1,10 @@
 ---
-switcher-label: CSC 200 ME
+switcher-label: CSC 200 EE
 ---
 
 <show-structure for="chapter,procedure" depth="0"/>
 
-# CSC 200 MM : Problem-Solving for Science &amp; Engineering
+# CSC 200 EM : Problem-Solving for Science &amp; Engineering
 
 ## Spring 2024 Schedule   {switcher-key="Spring 24"}
 
@@ -18,52 +18,49 @@ switcher-label: CSC 200 ME
     </tr>
     <tr>
         <td>Week 1</td>
-        <td><a href="">&nbsp;</a></td>
-        <td><format style="bold" color="LightCoral">Admin</format><br/><a href="">Overview &amp; Expectations</a></td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">1. Introduction</a><br/><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">2. Fundamentals</a></td>
+        <td><format style="bold" color="LightCoral">Admin</format><br/><a href="">Overview, Expectations, Planning & Pseudocode</a></td>
         <td><a href="">IDE Setup</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 2</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter01.02-Python-as-A-Calculator.html">Chapter 1. Python Basics</a></td>   
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">Data Types</a><br/>Review : <a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">2. Fundamentals</a></td>
         <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Planning</a> &amp; <a href="">Flowcharts</a></td>
         <td><a href="">Flowcharts, and Pseudocode</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 3</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter02.00-Variables-and-Basic-Data-Structures.html">Chapter 2. Variables and Basic Data Structures</a></td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">6. Arrays</a></td>
         <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Data Types</a>, <a href="">Operators</a>, <a href="">Expressions</a>, <a href="">Collections</a></td>
         <td><a href="">Storing Data</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 4</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter03.00-Functions.html">Chapter 3. Functions</a></td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">7. Functions</a></td>
         <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Functions</a></td>
         <td><a href="">Taskmasters</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 5</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter04.00-Branching-Statements.html">Chapter 4. Branching Statements</a></td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">4. Decision-Making Control Statements</a></td>
         <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Condition Statements</a></td>
         <td><a href="">Decisions, Decisions</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 6</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter05.00-Iteration.html">Chapter 5. Iteration</a></td>
-        <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Iteration Statements</a></td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">5. Iterative Control Statements: Loops</a></td>
+        <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Iteration Statements</a>, <a href="">Jump Statements</a></td>
         <td><a href="">Flow Control</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 7</td>
-        <td>Chapter 7. Object-Oriented Programming (OOP): <br/>
-            <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter07.01-Introduction-to-OOP.html#">Introduction</a> <br/>
-            <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter07.02-Class-and-Object.html">Class and Object</a>
-        </td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">11. Classes and Objects</a></td>
         <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Structure</a></td>
         <td><a href="">Object-Oriented Programming</a></td>
         <td><a href="">&nbsp;</a></td>
@@ -77,32 +74,30 @@ switcher-label: CSC 200 ME
     </tr>
     <tr>
         <td>Week 9</td>
-        <td>Chapter 7. Object-Oriented Programming (OOP): <br/>
-            <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter07.03-Inheritance-Encapsulation-and-Polymorphism.html">Inheritance, Encapsulation and Polymorphism</a>
-        </td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">12. Constructors and Destructors</a></td>
         <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Inheritance</a> &amp; <a href="">Polymorphism</a></td>
         <td><a href="">Working with Objects</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 10</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter10.00-Errors-Practices-Debugging.html">Chapter 10. Errors, Good Programming Practices, and Debugging</a></td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">14. Inheritance</a></td>
+        <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Inheritance</a> &amp; <a href="">Polymorphism</a></td>
+        <td><a href="">Working with Objects</a></td>
+        <td><a href="">&nbsp;</a></td>
+    </tr>
+    <tr>
+        <td>Week 11</td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">17. Exception Handling in C++</a></td>
         <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Exception Handling</a></td>
         <td><a href="">Working with Errors</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
-        <td>Week 11</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter11.00-Reading-and-Writing-Data.html">Chapter 11. Reading and Writing Data</a></td>
-        <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">File Handling</a></td>
-        <td><a href="">External Data </a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
         <td>Week 12</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter12.00-Visualization-and-Plotting.html#">Chapter 12. Visualization and Plotting</a></td>
-        <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Visualize</a></td>
-        <td><a href="">Plotting</a></td>
+        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">15. Input and Output Streams in C++</a></td>
+        <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">File Handling</a></td>
+        <td><a href="">External Data</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
@@ -164,7 +159,7 @@ or 211.</i>
     <td colspan="5">Office Hours by Appointment Only</td>
 </tr>
 <tr>
-    <td></td>
+    <td>David Perone, MS Candidate</td>
     <td>Graduate Teaching Assistant</td>
     <td>@uri.edu</td>
     <td></td>
@@ -191,29 +186,36 @@ or 211.</i>
 
 #### Course Communication
 
-##### For General Communication
+<procedure>
+<p>General Communication</p>
+<step>You have all been/will be invited to <b>edStem</b> which we will use as our communication hub for the course. This is to ensure that all students have access to the same
+information. As well as all staff can be aware of any questions or concerns that may arise.</step>
+</procedure>
 
-You have all been/will be invited to **edStem** which we will use as our communication hub for the course. This is to ensure that all students have access to the same 
-information. As well as all staff can be aware of any questions or concerns that may arise. 
-
-##### For Personal Communication
-
-Please forward anything personal in nature to my email address above. This will keep things between you and I. And we can address them as needed.
+<procedure>
+<p>Personal Communication</p>
+<step>Please forward anything personal in nature to my email address above. This will keep things between you and I. And we can address them as needed.</step>
+</procedure>
 
 ### Course Objectives
 
-- Understand the core aspects of reading/writing code
-- Primitive data types
-- Variable assignments & operations
-- Program control flow
-- Control structures & loops
-- Simple data structures
-- Functions
-- Classes & Objects
-- Understand the basic principles of programming in C++
-- Implement simple algorithms to solve a variety of problems
+<procedure style="choices">
+<step>Understand the core aspects of reading/writing code</step>
+<step>Primitive data types</step>
+<step>Variable assignments & operations</step>
+<step>Program control flow</step>
+<step>Control structures & loops</step>
+<step>Simple data structures</step>
+<step>Functions</step>
+<step>Classes &amp; Objects</step>
+<step>Understand the basic principles of programming in C++</step>
+<step>Implement simple algorithms to solve a variety of problems</step>
+</procedure>
+
 
 ### Recommended Reading
+
+<tip>
 
 - <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html">Python Programming And Numerical Methods: A Guide For Engineers And Scientists</a>
 
@@ -223,6 +225,8 @@ Other materials you may find useful:
 
 - <a href="https://www.geeksforgeeks.org/python-programming-language/">Geeks For Geeks : Python Programming Language</a>
 - <a href="https://www.tutorialspoint.com/python/index.htm">tutorialspoint : Python Programming Language</a>
+
+</tip>
 
 ### Action Items
 
@@ -234,20 +238,23 @@ multiple-response, interactive code.</step>
 
 <procedure>
 <p>Labs</p>
-<step>Each week you will have a brief, 10 minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
-multiple-response, interactive code.</step>
+<step>Labs are a practical application of the material learned each week. Labs are somewhat scaffolded throughout the term in the respect they will grow and incorporate prior weekly materials. Labs are to be completed the lab session and submitted before leaving. Credit will not be granted to submissions outside of this window.</step>
 </procedure>
 
 <procedure>
 <p>Assignment</p>
-<step>Each week you will have a brief, 10 minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
-multiple-response, interactive code.</step>
+<step>A practical attempt at code spanning multiple weeks of the course. This is not meant to be difficult but merely to give some practical experience with prior concepts as the term moves forward.</step>
 </procedure>
 
 <procedure>
 <p>Term Project</p>
-<step>Each week you will have a brief, 10 minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
-multiple-response, interactive code.</step>
+<step>Term project incorporates the combination of all subject-matter from the course. This is used as the ultimate practical for understanding, comprehension, and overall 
+ability for implementation. The project will be completed in groups of 3-4 members to be presented to the class in Week 14. </step>
+</procedure>
+
+<procedure>
+<p>Final Exam</p>
+<step>A cumulative exam across all topics covered throughout the term.</step>
 </procedure>
 
 ### Grading
@@ -376,10 +383,10 @@ select occasional or weekly tutoring sessions through the TracCloud system or vi
 
 
 
-## FALL 2023 Schedule   {switcher-key="Fall 23"}
+## Fall 2023 Schedule   {switcher-key="Fall 23"}
 
 
-
+## Fall 2023 Syllabus   {switcher-key="Fall 23"}
 
 
 
