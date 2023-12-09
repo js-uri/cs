@@ -4,7 +4,7 @@ switcher-label: CSC 212
 
 <show-structure for="chapter,procedure" depth="0"/>
 
-# CSC 212 : Data Structures &amp;Algorithms
+# CSC 212 : Data Structures &amp; Algorithms
 
 ## Spring 2024 Schedule  {switcher-key="Spring 24"}
 
