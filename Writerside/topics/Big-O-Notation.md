@@ -134,11 +134,11 @@
 
 ## Asymptotic Analysis
 
-<note>refers to the study of an algorithm as the input size <i>gets big</i> or reaches a limit (in the calculus sense)</note>
+<note><p>refers to the study of an algorithm as the input size <i>gets big</i> or reaches a limit (in the calculus sense)</p></note>
 
 ### Growth Rate
 
-<note>rate at which the cost of an algorithm grows as the size of its input grows</note>
+<note><p>rate at which the cost of an algorithm grows as the size of its input grows</p></note>
 
 ### Common Sets of Functions
 
@@ -275,18 +275,18 @@ for (int i = 0; i < n; i++) {
     <step><code-block lang="tex"> \text{if an algorithm has a time complexity of } O(n^2) \text{ means that the running}</code-block></step>
     <step><code-block lang="tex"> \text{time of the algorithm grows no faster than } n^2 </code-block></step>
     </procedure>
-<procedure>
-<b>Big-Omega notation</b>
-<p>is a lower bound on the growth rate of an algorithm. It describes the best-case scenario of an algorithm’s time complexity.</p>
-<step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Omega(n^2) \text{ means that the running}</code-block></step>
-<step><code-block lang="tex"> \text{time of the algorithm grows at least as fast as } n^2 </code-block></step>
-</procedure>
-<procedure>
-<b>Theta notation</b>
-<p>provides both an upper and lower bound on the growth rate of an algorithm. It describes the tight bound on the growth rate of an algorithm.</p>
-<step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Theta(n^2) \text{ means that the running}</code-block></step>
-<step><code-block lang="tex"> \text{time of the algorithm grows exactly as fast as } n^2 </code-block></step>
-</procedure>
+    <procedure>
+    <b>Big-Omega notation</b>
+    <p>is a lower bound on the growth rate of an algorithm. It describes the best-case scenario of an algorithm’s time complexity.</p>
+    <step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Omega(n^2) \text{ means that the running}</code-block></step>
+    <step><code-block lang="tex"> \text{time of the algorithm grows at least as fast as } n^2 </code-block></step>
+    </procedure>
+    <procedure>
+    <b>Theta notation</b>
+    <p>provides both an upper and lower bound on the growth rate of an algorithm. It describes the tight bound on the growth rate of an algorithm.</p>
+    <step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Theta(n^2) \text{ means that the running}</code-block></step>
+    <step><code-block lang="tex"> \text{time of the algorithm grows exactly as fast as } n^2 </code-block></step>
+    </procedure>
 <br/>
 <p>Asymptotic bounds are useful because they allow us to compare the efficiency of different algorithms and to choose the most appropriate one for a given task.</p>
 </tab>
@@ -298,20 +298,15 @@ for (int i = 0; i < n; i++) {
 <br/><br/>
 <procedure>
 <p>Translation</p>
-<code-block lang="tex">
-T(n) \text{ is upper bounded by } f(n) \text{ if and only if } T(n) \text{ is less than or} \\
-</code-block>
-<code-block lang="tex"> 
-\text{ equal to some constant } C \times f(n) \text{ the function we chose to bound with} \\</code-block>
-<code-block lang="tex">
-\text{for all } N \text{ greater than the initial } n \text{ or not}
-</code-block>
+<code-block lang="tex"> T(n) \text{ is upper bounded by } f(n) \text{ if and only if } T(n) \text{ is less than or} \\ </code-block>
+<code-block lang="tex"> \text{ equal to some constant } C \times f(n) \text{ the function we chose to bound with} \\ </code-block>
+<code-block lang="tex"> \text{for all } N \text{ greater than the initial } n \text{ or not} </code-block>
 </procedure>
 <procedure>
 <p>Examples</p>
 <code-block lang="tex">
 \begin{align*}
-c.g : f(n) &= 2n + 3 \\
+c.g : f(n) &amp; = 2n + 3 \\
 2n + 3 &amp; \le \ ?? \\
 2n + 3 &amp; \le 10n \Rightarrow O(n) \\
 &amp; \text{alternatively} \\
@@ -342,7 +337,7 @@ T(n) \text{ is lower bounded by } f(n) \text{ if and only if } T(n) \text{ is gr
 <p>Examples</p>
 <code-block lang="tex">
 \begin{align*}
-c.g : f(n) &= 2n + 3 \\
+c.g : f(n) &amp; = 2n + 3 \\
 2n + 3 &amp; \le 1 * n\ \forall n \le 1 \\
 2n + 3 &amp; \le n \Rightarrow \Omega(n) \\
 &amp; \text{alternatively} \\
