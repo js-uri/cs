@@ -350,10 +350,10 @@ T(n) \text{ is upper bounded by } f(n) \text{ if and only if } T(n) \text{ is le
 <code-block lang="tex">
 \begin{align*}
 c.g : f(n) &= 2n + 3 \\
-2n + 3 & \le \ ?? \\
-2n + 3 & \le 10n \Rightarrow O(n) \\
-& \text{alternatively} \\
-2n + 3 & \le 5n^2 \Rightarrow O(n^2) \\
+2n + 3 &amp; \le \ ?? \\
+2n + 3 &amp; \le 10n \Rightarrow O(n) \\
+&amp; \text{alternatively} \\
+2n + 3 &amp; \le 5n^2 \Rightarrow O(n^2) \\
 \end{align*}
 </code-block>
 </procedure>
@@ -381,11 +381,11 @@ T(n) \text{ is lower bounded by } f(n) \text{ if and only if } T(n) \text{ is gr
 <code-block lang="tex">
 \begin{align*}
 c.g : f(n) &= 2n + 3 \\
-2n + 3 & \le 1 * n\ \forall n \le 1 \\
-2n + 3 & \le n \Rightarrow \Omega(n) \\
-& \text{alternatively} \\
-2n + 3 & \le 1 * log\ n\ \forall n \le 1 \\
-2n + 3 & \le 1 * log\ n\ \Rightarrow \Omega(log\ n) \\
+2n + 3 &amp;\le 1 * n\ \forall n \le 1 \\
+2n + 3 &amp;\le n \Rightarrow \Omega(n) \\
+&amp;\text{alternatively} \\
+2n + 3 &amp;\le 1 * log\ n\ \forall n \le 1 \\
+2n + 3 &amp;\le 1 * log\ n\ \Rightarrow \Omega(log\ n) \\
 \end{align*}
 </code-block>
 </procedure>
@@ -413,9 +413,9 @@ T(n) \text{ is lower bounded by } f(n) \text{ if and only if } T(n) \text{ is eq
 <p>Examples</p>
 <code-block lang="tex">
 \begin{align*}
-c.g : f(n) & = 2n + 3 \\
-Big-\Omega & \le 2n + 3 & \le Big-O \\
-1 * n\ & \le 2n + 3 & \le 5 * n \Rightarrow \Theta(n) \\
+c.g : f(n) &amp;= 2n + 3 \\
+Big-\Omega &amp;\le 2n + 3 &amp;\le Big-O \\
+1 * n\ &amp;\le 2n + 3 &amp;\le 5 * n \Rightarrow \Theta(n) \\
 \end{align*}
 </code-block>
 </procedure>

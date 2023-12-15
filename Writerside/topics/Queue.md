@@ -38,24 +38,25 @@ Use cases for a queue include:
 <tr>
 <td>
 
-```plantuml
-@startuml
-class Queue {
-  - data: DataType[]
-  - front: int
-  - rear: int
-  - capacity: int
+<code-block lang="plantuml">
+    @startuml
+    class Queue {
+      - data: DataType[]
+      - front: int
+      - rear: int
+      - capacity: int
+    ..
+      + Queue(capacity: int)
+        + isEmpty(): boolean
+        + isFull(): boolean
+        + enqueue(item: DataType): void
+        + dequeue(): DataType
+        + peek(): DataType
+        + size(): int
+    }
+    @enduml
+</code-block>
 
-  + Queue(capacity: int)
-  + isEmpty(): boolean
-  + isFull(): boolean
-  + enqueue(item: DataType): void
-  + dequeue(): DataType
-  + peek(): DataType
-  + size(): int
-}
-@enduml
-```
 </td>
 <td>
 

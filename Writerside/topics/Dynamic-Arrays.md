@@ -174,12 +174,12 @@ class DynamicArray {
 ..
 + DynmaicArray()
 + DynamicArray(size_t initialSize)
-+ DynamicArray(const DynamicArray& other)
++ DynamicArray(const DynamicArray&amp;other)
 + ~DynamicArray()
-+ operator=(const DynamicArray& other)
-+ void pushBack(const T& element)
++ operator=(const DynamicArray&amp;other)
++ void pushBack(const T&amp;element)
 + void popBack()
-+ T& operator[](size_t index) const
++ T&amp;operator[](size_t index) const
 + size_t getSize() const
 + size_t getCapacity() const
 + void resize(size_t newSize)
@@ -429,9 +429,9 @@ class DynamicArray {
 <br/><br/>
 <code-block lang="tex">
 \begin{align*}
-n + \sum_{i = 0}^{n - 1} i^2 & = n + n^2 - n \\
+n + \sum_{i = 0}^{n - 1} i^2 &amp;= n + n^2 - n \\
 \\
-& \Theta(n^2) \\
+&amp;\Theta(n^2) \\
 \end{align*}
 </code-block>
 <br/><br/>
@@ -461,11 +461,11 @@ Think ,<a href="https://youtu.be/L3PMWMKI0YU">arithmetic sequences</a> and <a hr
 <br/><br/>
 <code-block lang="tex">
 \begin{align*}
-n + \sum_{i = 1}^{log\ n} 2^i & = n + 2^{log\ n + 1} - 1 \\
+n + \sum_{i = 1}^{log\ n} 2^i &amp;= n + 2^{log\ n + 1} - 1 \\
 \\
-& \Theta(n) \\
+&amp;\Theta(n) \\
 \\
-\sum^{n}_{i = 0} c^i & = \frac{c^{n^2 + 1} - 1}{c - 1} \\
+\sum^{n}_{i = 0} c^i &amp;= \frac{c^{n^2 + 1} - 1}{c - 1} \\
 \end{align*}
 </code-block>
 <br/><br/>
