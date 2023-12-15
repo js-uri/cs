@@ -30,10 +30,8 @@ Can count instructions to compare algorithms
 <note>also known as a progression, is a successive arrangement of numbers in an order according to some specific rules</note>
 <p>Depending upon the number of terms in a sequence, it is classified into two types, namely a finite sequence and an infinite sequence.</p>
 <code-block lang="tex"> \text{ Examples}</code-block>
-<step><code-block lang="tex"> \text{ finite arithmetic sequence : 
-} 3, 5, 7, 9, 11</code-block></step>
-<step><code-block lang="tex"> \text{ infinite arithmetic sequence : 
-} 3, 5, 7, 9, 11, \dots </code-block></step>
+<step><code-block lang="tex"> \text{ finite arithmetic sequence : } 3, 5, 7, 9, 11</code-block></step>
+<step><code-block lang="tex"> \text{ infinite arithmetic sequence : } 3, 5, 7, 9, 11, \dots </code-block></step>
 </procedure>
 
 <procedure style="choices">
@@ -41,10 +39,8 @@ Can count instructions to compare algorithms
 <note>formed by <i>adding</i> the elements of a sequence</note>
 <p>Depending on whether the sequence is finite or infinite, the series can be either finite or infinite.</p>
 <code-block lang="tex"> \text{ Examples}</code-block>
-<step><code-block lang="tex"> \text{ finite arithmetic sequence : 
-} 3 + 5 + 7 + 9 + 11</code-block></step>
-<step><code-block lang="tex"> \text{ infinite arithmetic sequence : 
-} 3 + 5 + 7 + 9 + 11 + \dots </code-block></step>
+<step><code-block lang="tex"> \text{ finite arithmetic sequence : } 3 + 5 + 7 + 9 + 11</code-block></step>
+<step><code-block lang="tex"> \text{ infinite arithmetic sequence : } 3 + 5 + 7 + 9 + 11 + \dots </code-block></step>
 </procedure>
 
 
@@ -152,7 +148,7 @@ Can count instructions to compare algorithms
 </td>
 <td>
 <procedure style="choices">
-<code-block lang="tex"> \text{Algorithm } A \text{ is better than Algorithm } B \text{ if…}</code-block>
+<code-block lang="tex"> \text{Algorithm } A \text{ is better than Algorithm } B \text{ if \dots}</code-block>
 <step><code-block lang="tex"> \text{for large values of } n, T_A(n) \text{ grows slower than } T_B(n)</code-block></step>
 <step><code-block lang="tex"> \text{Note: Faster growth rate…slower algorithm…}</code-block></step>
 </procedure>
@@ -161,20 +157,6 @@ Can count instructions to compare algorithms
 </table>
 
 ### Examples
-
-[//]: # (<table>)
-
-
-
-
-
-
-
-
-
-
-
-[//]: # (</table>)
 
 <table>
 <tr>
@@ -294,9 +276,11 @@ for (int i = 0; i < n; i++) {
 ```tex
 \text{if an algorithm has a time complexity of } O(n^2) \text{ means that the running}
 ```
+
 ```tex
 \text{time of the algorithm grows no faster than } n^2 
 ```
+
 </step>
 </procedure>
 <procedure>
