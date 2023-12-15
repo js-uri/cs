@@ -369,7 +369,11 @@ select occasional or weekly tutoring sessions through the TracCloud system or vi
 
 ## Fall 2024 Schedule   {switcher-key="Fall 24"}
 
+<b>Placeholder</b>
+
 ## Fall 2024 Syllabus {switcher-key="Fall 24"}
+
+<b>Placeholder</b>
 
 
 

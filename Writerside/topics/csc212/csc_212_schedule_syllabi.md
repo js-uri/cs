@@ -9,146 +9,160 @@ switcher-label: CSC 212
 ## Spring 2024 Schedule  {switcher-key="Spring 24"}
 
 <table class="table">
-<thead>
 <tr><th class="head"></th>
 <th class="head"><p>Suggested Reading</p></th>
 <th class="head"><p>Tuesday</p></th>
 <th class="head"><p>Thursday</p></th>
-<th class="head"><p>Lab</p></th>
+<th class="head"><p>Lab / Recitation</p></th>
+<th class="head"><p>Practical</p></th>
 <th class="head"><p>Assignment</p></th>
 </tr>
-</thead>
-<tbody>
+
+[//]: # (WEEK 1 )
 <tr><td><p>Week 01</p></td>
-<td>
-<a href="https://www.geeksforgeeks.org/asymptotic-notation-and-analysis-based-on-input-size-of-algorithms/">Asymptotic Notation and Analysis (Based on input size) in Complexity Analysis of Algorithms</a><br/>
-<a href="https://www.geeksforgeeks.org/guidelines-for-asymptotic-analysis/">Guidelines for asymptotic analysis</a>
+<td rowspan="2">
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">1 Data Structures and Algorithms [Glance]</a><br/>
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">2 Mathematical Preliminaries</a><br/>
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">3 Algorithmic Analysis</a><br/>
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">14 Analysis Techniques</a>
 </td>
 <td><p><format style="bold" color="LightCoral">Admin</format><br/><a href="">Introduction</a></p></td>
 <td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Analysis of Algorithms</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%201%20C++%20Crash%20Course">C++ Crash Course</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Assignments/a2">A2 : Practical I</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze Visualizer</a></p></td>
+<td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%201%20C++%20Crash%20Course">C++ Crash Course</a></p></td>
+<td><p><a href="https://ijchen.github.io/uri-csc212-mazeviz/">A1 : Binarization</a></p></td>
 </tr>
+
+[//]: # (WEEK 2 )
 <tr><td><p>Week 02</p></td>
-<td>
-<a href="https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/">Analysis of Algorithms | Big-O 
-analysis</a><br/>
-<a href="https://www.geeksforgeeks.org/analysis-of-algorithms-big-omega-notation/">Analysis of Algorithms | Big – Ω 
-(Big- Omega) Notation</a><br/>
-<a href="https://www.geeksforgeeks.org/analysis-of-algorithms-big-theta-notation/">Analysis of Algorithms | Big – Θ 
-(Big Theta) Notation</a><br/>
-<a href="https://www.geeksforgeeks.org/difference-between-big-oh-big-omega-and-big-theta/">Difference between Big O 
-vs Big Theta Θ vs Big Omega Ω Notations</a><br/>
-<a href="https://www.geeksforgeeks.org/asymptotic-notations-and-how-to-calculate-them/">Asymptotic Notations and how to calculate them</a>
-</td>
 <td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Computational Cost</a></p></td>
 <td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Big-O</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%202%20Runtime%20Clocking">Runtime Clocking</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Assignments/a2">A2 : Practical I</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze Visualizer</a></p></td>
+<td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%202%20Runtime%20Clocking">Runtime Clocking</a></p></td>
+<td><p><a href="https://ijchen.github.io/uri-csc212-mazeviz/">A1 : Binarization</a></p></td>
 </tr>
+
+[//]: # (WEEK 3 )
 <tr><td><p>Week 03</p></td>
-<td>
-<a href="https://www.geeksforgeeks.org/static-data-structure-vs-dynamic-data-structure/">Static Data Structure vs 
-Dynamic Data Structure</a><br/>
-<a href="https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/">How do Dynamic arrays work?</a><br/>
-<a href="https://www.geeksforgeeks.org/difference-between-static-arrays-and-dynamic-arrays/">Difference between Static Arrays and Dynamic Arrays</a>
+<td rowspan="2">
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">4 Lists, Stacks, and Queues</a><br/>
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">7 Internal Sorting</a><br/>
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">9 Searching [9.1 -9.3]</a><br/>
 </td>
 <td><p><format style="bold" color="LightSeaGreen">Linear</format><br/><a href="">Dynamic Arrays</a></p></td>
-<td><p><format style="bold" color="LightCoral">Admin</format><br/>Term Project Discussion</p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%203%20Dynamic%20Arrays">Dynamic Arrays</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Assignments/a2">A2 : Practical I</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze Visualizer</a></p></td>
-</tr>
-<tr><td><p>Week 04</p></td>
-<td>
-<a href="https://www.geeksforgeeks.org/introduction-to-linked-list-data-structure-and-algorithm-tutorial
-/">Introduction to Linked List – Data Structure and Algorithm Tutorials</a><br/>
-<a href="https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-linked-list/">Applications, Advantages and Disadvantages of Linked List</a>
-</td>
 <td><p><format style="bold" color="LightSeaGreen">Linear</format><br/><a href="Linked-List.md">Linked Lists</a></p></td>
-<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/><a href="">Admin Day</a><br/><a href="https://github.
-com/uricsc/212-Deliverables/blob/main/Term%20Project.md">Term Project</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%204%20Linked%20Lists">Linked Lists</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Assignments/a3/assignment_3.pdf">A3 : Conceptual I</a></p></td>
+
+[//]: # (<td><p><format style="bold" color="LightCoral">Admin</format><br/>Term Project Discussion</p></td>)
+<td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%203%20Dynamic%20Arrays">Dynamic Arrays</a></p></td>
+<td><p><a href="https://ijchen.github.io/uri-csc212-mazeviz/">A1 : Binarization</a></p></td>
 </tr>
-<tr><td><p>Week 05</p></td>
-<td></td>
+
+[//]: # (WEEK 4 )
+<tr><td><p>Week 04</p></td>
 <td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="">Stacks</a> <br/> <a href="">Queues</a></p></td>
-<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="">Priority Queues</a> <br/> <a href="">Recursive Algorithms</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%205%20Priority%20Queues">Priority Queues</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Assignments/a3/assignment_3.pdf">A3 : Conceptual I</a></p></td>
-</tr>
-<tr><td><p>Week 06</p></td>
-<td></td>
-<td><p>Holiday Observed / <br/> No Lecture</p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Search Algorithms</a><br/><a href="">Basic Sorts</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2006%20Recursion">Recursion</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Assignments/a3/assignment_3.pdf">A3 : Conceptual I</a></p></td>
+<td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%204%20Linked%20Lists">Linked Lists</a></p></td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Assignments/a2">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
+Visualizer</a></p></td>
 </tr>
-<tr><td><p>Week 07</p></td>
-<td></td>
+
+[//]: # (WEEK 5 )
+<tr><td><p>Week 05</p></td>
+<td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">2 Mathematical Preliminaries [Review 2.5]</a></td>
+<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/><a href="">Recursive Algorithms</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Recurrences</a></p></td>
-<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Quicksort</a> <br/> <a href="">Mergesort</a></p></td>
+<td>Sorting Algorithm Day 1</td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2006%20Recursion">Recursion</a></p></td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Assignments/a2">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
+Visualizer</a></p></td>
+</tr>
+
+[//]: # (WEEK 6 )
+<tr><td><p>Week 06</p></td> 
+<td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">5 Binary Trees</a></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Binary Search Trees</a> <br/> <a href="">Heaps</a></p></td>
+<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="">Priority Queues</a> <br/> <a href="">Heaps</a></p></td>
+<td>Sorting Algorithm Day 2</td>
 <td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2007%20Backtracking">Backtracking</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Assignments/a3/assignment_3.pdf">A3 : Conceptual I</a></p></td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Assignments/a3/assignment_3.pdf">A3 : Analysis I</a></p></td>
 </tr>
-<tr><td><p>Week 08</p></td>
-<td></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Binary Search Trees</a> <br/> <a 
-href="">Heaps</a></p></td>
+
+[//]: # (WEEK 7 )
+<tr><td><p>Week 07</p></td>
+<td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">7 Internal Sorting [Review 7.4 - 7.5]</a><br/></td>
+<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Quicksort</a> <br/> <a href="">Mergesort</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Heapsort</a> <br/> <a href="">Introsort</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2008%20Binary%20Search%20Trees">Binary Search Trees</a></p></td>
-<td><p>A4 : Practical II</p></td>
+<td>Mathematically-sounding Tree Day</td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%205%20Priority%20Queues">Priority Queues</a></p></td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Assignments/a3/assignment_3.pdf">A3 : Analysis I</a></p></td>
 </tr>
+
+[//]: # (WEEK 8 )
+<tr><td><p>Week 08</p></td>
+<td colspan="6"><p>Happy Spring Break!!</p><br/>Have fun, be safe!!</td>
+</tr>
+
+[//]: # (WEEK 9 )
 <tr><td><p>Week 09</p></td>
-<td></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Sets</a> <br/> <a href="">Maps</a></p></td>
+<td rowspan="2">
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">6 Non-Binary Trees</a><br/>
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">9 Searching [9.4]</a><br/>
+</td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">2-3 Trees</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2009%20Sets%20%26%20Maps">Sets &amp; Maps</a></p></td>
-<td><p>A4 : Practical II</p></td>
-</tr>
-<tr><td><p>Week 10</p></td>
-<td></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Left-leaning Red Black Trees</a></p></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Greedy Algorithms</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2011%20Balancing%20Act">Balancing Act</a></p></td>
-<td><p>A4 : Practical II</p></td>
+<td>Alphabet Tree Day</td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2008%20Binary%20Search%20Trees">Binary Search Trees</a></p></td>
+<td><p>A4 : Grids &amp; Expressions</p></td>
 </tr>
-<tr><td><p>Week 11</p></td>
-<td></td>
+
+[//]: # (WEEK 10 )
+<tr><td><p>Week 10</p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Hash Tables</a></p></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Graphs</a><br/><a href="">DFS</a> &amp; <a href="">BFS</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Sets</a> <br/> <a href="">Maps</a></p></td>
+<td>Advanced Tree Day</td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2011%20Balancing%20Act">Balancing Act</a></p></td>
+<td><p>A4 : Grids &amp; Expressions</p></td>
+</tr>
+
+[//]: # (WEEK 11 )
+<tr><td><p>Week 11</p></td>
+<td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">11 Graphs</a><br/></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Graphs</a><br/><a href="">DFS</a> &amp;amp; <a href="">BFS</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Greedy Algorithms</a></p></td>
+<td>Hash Bucket Day</td>
 <td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2010%20Hash%20Tables">Hash Tables</a></p></td>
 <td><p>A5 : Conceptual II</p></td>
 </tr>
+
+[//]: # (WEEK 12 )
 <tr><td><p>Week 12</p></td>
-<td></td>
-<td><p>Happy</p></td>
-<td><p>Thanksgiving</p></td>
-<td><p>Break</p></td>
-<td><p>A5 : Conceptual II</p></td>
+<td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">16 Patterns of Algorithms [16.1 - 16.2]</a><br/></td>
+<td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="">Dynamic Programming</a></p></td>
+<td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="">Randomized Algorithms</a></p></td>
+<td>Greedy Algorithms Day</td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2009%20Sets%20%26%20Maps">Sets &amp;amp; Maps</a></p></td>
+<td><p>A5 : Analysis II</p></td>
 </tr>
+
+[//]: # (WEEK 13 )
 <tr><td><p>Week 13</p></td>
 <td></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Term%20Project.md">Term Project</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Term%20Project.md">Term Project</a></p></td>
+<td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Term%20Project.md">Research Project</a> Wrap-up</p></td>
+<td><format color="Orange">NEED ANOTHER DAY HERE</format></td>
 <td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2012%20Graphs">Graphs</a></p></td>
-<td><p>A5 : Conceptual II</p></td>
+<td><p>A5 : Analysis II</p></td>
 </tr>
+
+[//]: # (WEEK 14 )
 <tr><td><p>Week 14</p></td>
 <td></td>
-<td><p>212 Project Presentations</p><br/><p>Final Exam</p></td>
-<td><p>212 Project Presentations</p><br/><p>Final Exam</p></td>
-<td><p>212 Project Presentations</p><br/><p>Final Exam</p></td>
-<td><p>Final Exam</p></td>
+<td colspan="4"><p>Research Project Presentations</p><br/><p>Final Exam</p></td>
+<td></td>
 </tr>
+
+[//]: # (WEEK 15 )
 <tr><td><p>Week 15</p></td>
 <td></td>
-<td><p>Final Exam</p></td>
-<td><p>Final Exam</p></td>
-<td><p>Final Exam</p></td>
-<td><p>Final Exam</p></td>
+<td colspan="4"><p>Final Exam</p></td>
 </tr>
-</tbody>
 </table>
 
 
@@ -201,7 +215,7 @@ href="">Heaps</a></p></td>
     <td></td>
 </tr>
 <tr>
-    <td>Jessica Tingley,<br/>Mechanical Engineering &amp; Computer Science</td>
+    <td>Jessica Tingley,<br/>Mechanical Engineering &amp;amp; Computer Science</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
@@ -212,7 +226,7 @@ href="">Heaps</a></p></td>
     <td></td>
 </tr>
 <tr>
-    <td></td>
+    <td>Brandt Ogden,<br/>Computer Science &amp; CyberSecurity</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
@@ -223,7 +237,7 @@ href="">Heaps</a></p></td>
     <td></td>
 </tr>
 <tr>
-    <td></td>
+    <td>Meghan Andrews,<br/>Computer Science &amp; CyberSecurity</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
@@ -234,7 +248,7 @@ href="">Heaps</a></p></td>
     <td></td>
 </tr>
 <tr>
-    <td></td>
+    <td>Addie Murphy,<br/>Computer Science</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
@@ -245,7 +259,7 @@ href="">Heaps</a></p></td>
     <td></td>
 </tr>
 <tr>
-    <td></td>
+    <td>Cassidy Cooper,<br/>Computer Science &amp; Mathematics</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
@@ -304,29 +318,24 @@ information. As well as all staff can be aware of any questions or concerns that
 ### Recommended Reading
 
 <tip>
+<p>Data Structures and Algorithm Analysis Edition 3.2 (C++ Version)</p>
+<a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">pdf</a> | <a href="https://a.co/d/3TGfYRN">amazon</a>
 
-- <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html">Python Programming And Numerical Methods: A Guide For Engineers And Scientists</a>
-
-<i>This is the same text linked throughout the schedule.</i>
-
-Other materials you may find useful:
-
-- <a href="https://www.geeksforgeeks.org/python-programming-language/">Geeks For Geeks : Python Programming Language</a>
-- <a href="https://www.tutorialspoint.com/python/index.htm">tutorialspoint : Python Programming Language</a>
+<i>This is the same text linked throughout the Suggested Reading in the schedule.</i>
 
 </tip>
 
 ### Action Items
 
 <procedure>
-<p>Quizzes</p>
-<step>Each week you will have a brief, 10 minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
-multiple-response, interactive code.</step>
+<p>Labs / Recitations</p>
+<step>For the first four (4) weeks of the term, you will work on practicals during your lab section. This will provide you the opportunity to acclimate to Gradescope. After week four (4), we will begin recitations. These will be presentations of subtopics relative to an overarching theme for the week.
+</step>
 </procedure>
 
 <procedure>
-<p>Labs</p>
-<step>Labs are a practical application of the material learned each week. Labs are somewhat scaffolded throughout the term in the respect they will grow and incorporate prior weekly materials. Labs are to be completed the lab session and submitted before leaving. Credit will not be granted to submissions outside of this window.</step>
+<p>Practicals</p>
+<step>Practicals are a chance for you to show what you understand and to use what you know in a practical, hands-on way.</step>
 </procedure>
 
 <procedure>
@@ -354,18 +363,18 @@ ability for implementation. The project will be completed in groups of 3-4 membe
         <td>Course Points</td>
     </tr>
     <tr>
-        <td>Quizzes</td>
-        <td>10</td>
+        <td>Recitations</td>
+        <td>4</td>
         <td>100</td>
     </tr>
     <tr>
-        <td>Labs</td>
+        <td>Practicals</td>
         <td>10</td>
         <td>400</td>
     </tr>
     <tr>
         <td>Assignments</td>
-        <td>2</td>
+        <td>5</td>
         <td>200</td>
     </tr>
     <tr>
@@ -434,9 +443,25 @@ ability for implementation. The project will be completed in groups of 3-4 membe
 </procedure>
 
 <procedure style="choices">
+<b>Extension Requests</b>
+<p>The following requests will not be honored under any circumstance</p>
+<step>"The laptop/device I use for class has broken..."</step>
+<step>"I missed the deadline..."</step>
+<step>"I have work for other courses..."</step>
+<step>"My work schedule is very busy this week..."</step>
+</procedure>
+
+<procedure style="choices">
+<b>Late Policy</b>
+<step>There are no late submission of any deliverables for the course. Ample time is provided for each deliverable and as such a late window will not be offered.</step>
+</procedure>
+
+<procedure style="choices">
 <b>Attendance</b>
-<step>While there is no formal, in-person lecture, you should be interacting with the asynchronous lecture material in the schedule</step>
-<step>The weekly quiz will be used as a method of recording attendance for the week.</step>
+<step>Lectures are not mandated and as such you may come and go as you please. If you want/can learn the material on your own, feel free. However, you will still be held accountable for any and all information relayed during lecture. It is your responsibility to acquire said information.</step>
+<step>Lab / Recitation is mandatory. There will be no make-ups available for this.</step>
+
+[//]: # (<step>The weekly quiz will be used as a method of recording attendance for the week.</step>)
 </procedure>
 
 <procedure>

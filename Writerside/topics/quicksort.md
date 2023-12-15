@@ -8,7 +8,12 @@
 
 ## Definition
 
-Quicksort, also known as partition-exchange sort, is a widely used comparison-based sorting algorithm in computer science. It was developed by Tony Hoare in 1960. Quicksort is known for its efficiency and is often used as the basis for sorting large datasets due to its average and best-case time complexity of `O(n log n)`. The algorithm works by employing a divide-and-conquer strategy and follows these main steps:
+Quicksort, also known as partition-exchange sort, is a widely used comparison-based sorting algorithm in computer science. It was developed by Tony Hoare in 1960. Quicksort is 
+known for its efficiency and is often used as the basis for sorting large datasets due to its average and best-case time complexity of 
+```tex 
+O(n\ log\ n)
+```
+The algorithm works by employing a divide-and-conquer strategy and follows these main steps:
 
 <deflist style="full" collapsible="true">
     <def title="Partitioning">
@@ -31,8 +36,7 @@ Quicksort, also known as partition-exchange sort, is a widely used comparison-ba
 
 <tabs width="800">
     <tab title="Visual 1">
-        <img src="https://blogger.googleusercontent.
-com/img/a/AVvXsEj_5g_ulJTm7AnqNrfjUt3zYDUi0qf6eepoRqnDvvUhBKIf_vdqP-982F2zX_xV3k1148k8oozojzlBGhKUPrbUshDZs9VMCT0F-iQC8NmV68gDceOu1AIEkl520KEmXgaPXb_R3PdtHNAHhfXHfHDWjQSIpFoKPqC2MIz1Mv50u1XVXI8Gpe2AXu9_3g=s16000" alt="partitioning"/>
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj_5g_ulJTm7AnqNrfjUt3zYDUi0qf6eepoRqnDvvUhBKIf_vdqP-982F2zX_xV3k1148k8oozojzlBGhKUPrbUshDZs9VMCT0F-iQC8NmV68gDceOu1AIEkl520KEmXgaPXb_R3PdtHNAHhfXHfHDWjQSIpFoKPqC2MIz1Mv50u1XVXI8Gpe2AXu9_3g=s16000" alt="partitioning"/>
     </tab>
     <tab title="Visual 2">
         <img src="https://www.baeldung.com/wp-content/uploads/sites/4/2021/06/Quicksort-891x1024-1.png" 
@@ -42,7 +46,7 @@ alt="Partitioning"/>
 
 The efficiency of quicksort is highly dependent on the choice of the pivot element. In the best-case scenario, where the pivot consistently divides the array into nearly equal halves, it achieves its optimal time complexity of
 ```tex
-O(n log n)
+O(n\ log\ n)
 ```
 However, in the worst-case scenario, where the pivot choice is poor and consistently results in
 unbalanced partitions, the time complexity can degrade to
@@ -126,22 +130,25 @@ elements, can be employed to improve its performance.
     <tab title="Worst-case">
         <table>
             <tr>
-                <td><b>Visualize</b><br/><img src="https://cdn.kastatic.
-org/ka-perseus-images/7da2ac32779bef669a6f05decb62f219a9132158.png" alt="quicksort recursion tree | worst-case" width="400"/><br/>
-                <code-block collapsible="true" collapsed-title="Complexity">
-                    c { n + (n-1) + (n-2) + (n-3) + ... 1 }
-                        = c * ( {n(n+1)} / {2} ) 
-                        = 𝛩(n^2)
+                <td><b>Visualize</b><br/><img src="https://cdn.kastatic.org/ka-perseus-images/7da2ac32779bef669a6f05decb62f219a9132158.png" alt="quicksort recursion tree | worst-case" width="400"/><br/>
+                <code-block lang="tex" collapsible="true" collapsed-title="Complexity">
+                \begin{align}                
+                &amp; c { n + (n-1) + (n-2) + (n-3) + \dots 1 } \\
+                    &amp; = c * ( \frac{n(n+1)}{2} ) \\
+                    &amp; = \Theta(n^2) \\ \\
+                \end{align}
                 </code-block>
                 </td>
                 <td>
                     <b>Input sorted, reverse order, equal elements</b><br/>
-                    <code-block>
-                        T(n) = T(n - 1) + T(0) + 𝛩(n)
-                            = T(n - 1) + 𝛩(1) + 𝛩(n)
-                            = T(n - 1) + 𝛩(n)
-                            = ⋅⋅⋅
-                            = 𝛩(n^2)
+                    <code-block lang="tex">
+                    \begin{align}
+                        T(n) &amp; = T(n - 1) + T(0) + \Theta(n) \\
+                            &amp; = T(n - 1) + 𝛩(1) + \Theta(n) \\
+                            &amp; = T(n - 1) + 𝛩(n) \\
+                            &amp; = \dots \\
+                            &amp; = \Theta(n^2) \\ \\
+                    \end{align}
                     </code-block><br/>
                     can shuffle or <a href="https://youtu.be/HY64dw_Af94">randomize</a> the array (to avoid the 
 worst-case)
@@ -157,10 +164,12 @@ org/ka-perseus-images/21cd0d70813845d67fbb11496458214f90ad7cb8.png" alt="quickso
                 </td>
                 <td>
                     <b>Pivot partitions array evenly<br/><i>almost never happens</i></b><br/>
-                    <code-block>
-                        T(n) = 2T( ({n} / {2} ) + 𝛩(n)
-                            = ⋅⋅⋅
-                            = 𝛩(n log n)
+                    <code-block lang="tex">
+                    \begin{align}
+                        T(n)&amp; = 2T( ({n} / {2} ) + 𝛩(n) \\
+                            &amp; = \dots \\
+                            &amp; = \Theta(n\ log\ n) \\
+                    \end{align}
                     </code-block><br/>
                 </td>
             </tr>
@@ -179,16 +188,20 @@ png" alt="quicksort recursion tree | average-case"/>
                         <li>Even a 99-to-1 split yields same running time</li>
                         <li>Faster than merge sort in practice (less data movement)</li>
                     </ul><br/>
-                    <code-block>
-                        T(n) = T( {n}/{10} ) + T( {9n}/{10} ) + 𝛩(n)
-                            = ⋅⋅⋅
-                            = 𝛩(n log n)
-                    </code-block><br/>
+                    <code-block lang="tex">
+                    \begin{align}
+                    T(n) &amp;= T( \frac{n}{10} ) + T( \frac{9n}{10} ) + \Theta(n) \\
+                    &amp; = \dots \\
+                    &amp; = \Theta(n\ log\ n) \\ \\
+                    \end{align}
+                    </code-block><br/><br./>
                     Add all <code>cn</code> from side of tree with greatest depth (right subtree)
                     <br/>
-                    <code-block>
-                        T(n) = cn * log_{ {10}/{9} } n
-                             = 𝛩(n log n)
+                    <code-block lang="tex">
+                    \begin{align}
+                    T(n) &amp; = cn * log_{ \frac{10}{9} }\ n \\
+                    &amp; = \Theta(n\ log\ n) \\ \\
+                    \end{align}
                     </code-block><br/>
                 </td>
             </tr>
@@ -200,16 +213,36 @@ png" alt="quicksort recursion tree | average-case"/>
                 <td></td> <td>Best-Case</td> <td>Average-Case</td> <td>Worst-Case</td> <td>Stable</td> <td>In-place</td>
             </tr>
             <tr>
-                <td>Selection Sort</td> <td>n<sup>2</sup></td> <td>n<sup>2</sup></td> <td>n<sup>2</sup></td> <td>no</td> <td>yes</td>
+                <td>Selection Sort</td> 
+                <td><code-block lang="tex"> n^2</code-block></td> 
+                <td><code-block lang="tex"> n^2</code-block></td> 
+                <td><code-block lang="tex">n^2</code-block></td> 
+                <td><code-block lang="tex"> no</code-block></td> 
+                <td><code-block lang="tex"> yes</code-block></td>
             </tr>
             <tr>
-                <td>Insertion Sort</td> <td>n</td> <td>n<sup>2</sup></td> <td>n<sup>2</sup></td> <td>yes</td> <td>yes</td>
+                <td>Insertion Sort</td> 
+                <td><code-block lang="tex"> n</code-block></td> 
+                <td><code-block lang="tex"> n^2</code-block></td> 
+                <td><code-block lang="tex"> n^2</code-block></td> 
+                <td><code-block lang="tex"> yes</code-block></td> 
+                <td><code-block lang="tex"> yes</code-block></td>
             </tr>
             <tr>
-                <td>Merge Sort</td> <td>n log n</td> <td>n log n</td> <td>n log n</td> <td>yes</td> <td>no</td>
+                <td>Merge Sort</td> 
+                <td><code-block lang="tex"> n\ log\ n</code-block></td> 
+                <td><code-block lang="tex"> n\ log\ n</code-block></td> 
+                <td><code-block lang="tex"> n\ log\ n</code-block></td> 
+                <td><code-block lang="tex"> yes</code-block></td> 
+                <td><code-block lang="tex"> no</code-block></td>
             </tr>
             <tr>
-                <td>Quick Sort</td> <td>n log n</td> <td>n log n</td> <td>n<sup>2</sup></td> <td>no</td> <td>yes</td>
+                <td>Quick Sort</td> 
+                <td><code-block lang="tex"> n\ log\ n</code-block></td> 
+                <td><code-block lang="tex"> n\ log\ n</code-block></td> 
+                <td><code-block lang="tex"> n^2</code-block></td> 
+                <td><code-block lang="tex"> no</code-block></td> 
+                <td><code-block lang="tex"> yes</code-block></td>
             </tr>
         </table><br/>
         Quicksort's efficiency and simplicity make it a popular choice for sorting algorithms, and it's often used in practice. It's worth noting that while quicksort is typically very efficient, it may not be suitable for certain specialized scenarios where stability or guaranteed worst-case performance is required.
@@ -231,4 +264,7 @@ Improvements
 : use insertion sort for small arrays
 : - avoid overhead on small instances (~10 elements) median of 3 elements
 : - estimate true median by inspecting 3 random elements [three-way partitioning](https://www.toptal.com/developers/sorting-algorithms/quick-sort-3-way)
-: - create three partitions `≤ pivot`, `== pivot`, `≥ pivot`
+: - create three partitions 
+    ```tex 
+    ≤ pivot, == pivot,  ≥ pivot
+    ```
