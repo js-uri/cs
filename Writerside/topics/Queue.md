@@ -38,24 +38,43 @@ Use cases for a queue include:
 <tr>
 <td>
 
-<code-block lang="plantuml">
-    @startuml
-    class Queue {
-      - data: DataType[]
-      - front: int
-      - rear: int
-      - capacity: int
-    ..
-      + Queue(capacity: int)
-        + isEmpty(): boolean
-        + isFull(): boolean
-        + enqueue(item: DataType): void
-        + dequeue(): DataType
-        + peek(): DataType
-        + size(): int
-    }
-    @enduml
-</code-block>
+[//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
+
+[//]: # (<code-block lang="plantuml">)
+
+[//]: # (    @startuml)
+
+[//]: # (    class Queue {)
+
+[//]: # (      - data: DataType[])
+
+[//]: # (      - front: int)
+
+[//]: # (      - rear: int)
+
+[//]: # (      - capacity: int)
+
+[//]: # (    ..)
+
+[//]: # (      + Queue&#40;capacity: int&#41;)
+
+[//]: # (        + isEmpty&#40;&#41;: boolean)
+
+[//]: # (        + isFull&#40;&#41;: boolean)
+
+[//]: # (        + enqueue&#40;item: DataType&#41;: void)
+
+[//]: # (        + dequeue&#40;&#41;: DataType)
+
+[//]: # (        + peek&#40;&#41;: DataType)
+
+[//]: # (        + size&#40;&#41;: int)
+
+[//]: # (    })
+
+[//]: # (    @enduml)
+
+[//]: # (</code-block>)
 
 </td>
 <td>

@@ -32,23 +32,39 @@ Stacks are used to store data in the order in which they occur. This is useful f
 <tr>
 <td>
 
-```plantuml
-@startuml
-class Stack {
-  - data: DataType[]
-  - top: int
-  - capacity: int
+[//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
+[//]: # (```plantuml)
 
-  + Stack(capacity: int)
-  + isEmpty(): boolean
-  + isFull(): boolean
-  + push(item: DataType): void
-  + pop(): DataType
-  + peek(): DataType
-  + size(): int
-}
-@enduml
-```
+[//]: # (@startuml)
+
+[//]: # (class Stack {)
+
+[//]: # (  - data: DataType[])
+
+[//]: # (  - top: int)
+
+[//]: # (  - capacity: int)
+
+[//]: # ()
+[//]: # (  + Stack&#40;capacity: int&#41;)
+
+[//]: # (  + isEmpty&#40;&#41;: boolean)
+
+[//]: # (  + isFull&#40;&#41;: boolean)
+
+[//]: # (  + push&#40;item: DataType&#41;: void)
+
+[//]: # (  + pop&#40;&#41;: DataType)
+
+[//]: # (  + peek&#40;&#41;: DataType)
+
+[//]: # (  + size&#40;&#41;: int)
+
+[//]: # (})
+
+[//]: # (@enduml)
+
+[//]: # (```)
 </td>
 <td>
 

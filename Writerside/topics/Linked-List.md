@@ -87,38 +87,63 @@ Note that in addition to the computational costs, inserting or deleting from an 
 <tr>
 <td rowspan="2">
 
-```plantuml
+[//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
+[//]: # (```plantuml)
 
-@startuml
+[//]: # ()
+[//]: # (@startuml)
 
-class LinkedList {
-  - Node
-  - head: Node*
-  - size: size_t
-  + LinkedList()
-  + ~LinkedList()
-  + LinkedList(const LinkedList& other)
-  + operator=(const LinkedList& other)
-  + void pushFront(const T& element)
-  + void popFront()
-  + void pushBack(const T& element)
-  + void popBack()
-  + T& operator[](size_t index) const
-  + size_t getSize() const
-}
+[//]: # ()
+[//]: # (class LinkedList {)
 
-class Node {
-  - data: T
-  - next: Node*
-  + Node(const T& data)
-}
+[//]: # (  - Node)
 
-LinkedList *-- Node
+[//]: # (  - head: Node*)
 
-@enduml
+[//]: # (  - size: size_t)
 
+[//]: # (  + LinkedList&#40;&#41;)
 
-```
+[//]: # (  + ~LinkedList&#40;&#41;)
+
+[//]: # (  + LinkedList&#40;const LinkedList& other&#41;)
+
+[//]: # (  + operator=&#40;const LinkedList& other&#41;)
+
+[//]: # (  + void pushFront&#40;const T& element&#41;)
+
+[//]: # (  + void popFront&#40;&#41;)
+
+[//]: # (  + void pushBack&#40;const T& element&#41;)
+
+[//]: # (  + void popBack&#40;&#41;)
+
+[//]: # (  + T& operator[]&#40;size_t index&#41; const)
+
+[//]: # (  + size_t getSize&#40;&#41; const)
+
+[//]: # (})
+
+[//]: # ()
+[//]: # (class Node {)
+
+[//]: # (  - data: T)
+
+[//]: # (  - next: Node*)
+
+[//]: # (  + Node&#40;const T& data&#41;)
+
+[//]: # (})
+
+[//]: # ()
+[//]: # (LinkedList *-- Node)
+
+[//]: # ()
+[//]: # (@enduml)
+
+[//]: # ()
+[//]: # ()
+[//]: # (```)
 
 </td>
 <td>
@@ -424,30 +449,51 @@ public:
 
 <br/>
 
-```plantuml
-@startuml
-@startuml
-class Node {
-  - data: DataType
-  - prev: Node
-  - next: Node
-}
+[//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
+[//]: # (```plantuml)
 
-class DoublyLinkedList {
-  - head: Node
-  + DoublyLinkedList()
-  + isEmpty(): boolean
-  + insertFront(data: DataType): void
-  + insertEnd(data: DataType): void
-  + delete(data: DataType): void
-  + display(): void
-}
-@enduml
+[//]: # (@startuml)
 
-DoublyLinkedList *-- Node
+[//]: # (@startuml)
 
-@enduml
-```
+[//]: # (class Node {)
+
+[//]: # (  - data: DataType)
+
+[//]: # (  - prev: Node)
+
+[//]: # (  - next: Node)
+
+[//]: # (})
+
+[//]: # ()
+[//]: # (class DoublyLinkedList {)
+
+[//]: # (  - head: Node)
+
+[//]: # (  + DoublyLinkedList&#40;&#41;)
+
+[//]: # (  + isEmpty&#40;&#41;: boolean)
+
+[//]: # (  + insertFront&#40;data: DataType&#41;: void)
+
+[//]: # (  + insertEnd&#40;data: DataType&#41;: void)
+
+[//]: # (  + delete&#40;data: DataType&#41;: void)
+
+[//]: # (  + display&#40;&#41;: void)
+
+[//]: # (})
+
+[//]: # (@enduml)
+
+[//]: # ()
+[//]: # (DoublyLinkedList *-- Node)
+
+[//]: # ()
+[//]: # (@enduml)
+
+[//]: # (```)
 
 <br/>
 

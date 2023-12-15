@@ -6,10 +6,10 @@
                  name="Think Big We Do"
                  start-page="Default-topic.md">
 
-    <toc-element topic="Sandbox.md"/>
+<!--    <toc-element topic="Sandbox.md"/>-->
     <toc-element topic="Default-topic.md"/>
-    <toc-element topic="Lecture_test.md"/>
-    <toc-element topic="lecture.md"/>
+<!--    <toc-element topic="Lecture_test.md"/>-->
+<!--    <toc-element topic="lecture.md"/>-->
     <toc-element topic="csc_212_research_project.md"/>
     <toc-element topic="csc_212_lab_presentations.md"/>
 
