@@ -7,16 +7,17 @@
 <table>
 <tr>
 <td width="50%">
-Can measure actual runtime to compare algorithms
-
-- however, runtime is noisy (highly sensitive to hardware/software and implementation details)
+<procedure style="choices">
+<p>Can measure actual runtime to compare algorithms</p>
+<step>however, runtime is noisy (highly sensitive to hardware/software and implementation details)</step>
+</procedure>
 </td>
 <td>
-Can count instructions to compare algorithms
-
-- can define <code-block lang="tex"> T(n)</code-block> which depends on the input size
-- for large inputs, our focus should be on the dominant terms of <code-block lang="tex"> T(n)</code-block>
-
+<procedure style="choices">
+<p>Can count instructions to compare algorithms</p>
+<step>can define <code-block lang="tex"> T(n)</code-block> which depends on the input size</step>
+<step>for large inputs, our focus should be on the dominant terms of <code-block lang="tex"> T(n)</code-block></step>
+</procedure>
 </td>
 </tr>
 </table>
@@ -133,7 +134,7 @@ Can count instructions to compare algorithms
 
 ## Asymptotic Analysis
 
-<note>refers to the study of an algorithm as the input size “gets big” or reaches a limit (in the calculus sense)</note>
+<note>refers to the study of an algorithm as the input size <i>gets big</i> or reaches a limit (in the calculus sense)</note>
 
 ### Growth Rate
 
@@ -144,13 +145,13 @@ Can count instructions to compare algorithms
 <table>
 <tr>
 <td>
-<img src="http://127.0.0.1:3000/courses/_build/html/_images/04_s11.png" alt="" />
+<img src="http://127.0.0.1:3000/courses/_build/html/_images/04_s11.png" alt="image" />
 </td>
 <td>
 <procedure style="choices">
 <code-block lang="tex"> \text{Algorithm } A \text{ is better than Algorithm } B \text{ if \dots}</code-block>
 <step><code-block lang="tex"> \text{for large values of } n, T_A(n) \text{ grows slower than } T_B(n)</code-block></step>
-<step><code-block lang="tex"> \text{Note: Faster growth rate…slower algorithm…}</code-block></step>
+<step><code-block lang="tex"> \text{Note: Faster growth rate} \dots \text{slower algorithm} \dots</code-block></step>
 </procedure>
 </td>
 </tr>
@@ -268,46 +269,23 @@ for (int i = 0; i < n; i++) {
 <p>Asymptotic bounds are a way of describing the behavior of an algorithm as the input size approaches infinity. They are used to analyze the time and space complexity of algorithms, and are expressed in terms of upper and lower bounds.</p>
 <p>The most commonly used asymptotic bounds are Big-O notation, Omega notation, and Theta notation.</p>
 <br/>
-<procedure>
-<b>Big-O notation</b>
-<p>is an upper bound on the growth rate of an algorithm. It describes the worst-case scenario of an algorithm’s time complexity.</p>
-<step>
-
-```tex
-\text{if an algorithm has a time complexity of } O(n^2) \text{ means that the running}
-```
-
-```tex
-\text{time of the algorithm grows no faster than } n^2 
-```
-
-</step>
-</procedure>
+    <procedure>
+    <b>Big-O notation</b>
+    <p>is an upper bound on the growth rate of an algorithm. It describes the worst-case scenario of an algorithm’s time complexity.</p>
+    <step><code-block lang="tex"> \text{if an algorithm has a time complexity of } O(n^2) \text{ means that the running}</code-block></step>
+    <step><code-block lang="tex"> \text{time of the algorithm grows no faster than } n^2 </code-block></step>
+    </procedure>
 <procedure>
 <b>Big-Omega notation</b>
 <p>is a lower bound on the growth rate of an algorithm. It describes the best-case scenario of an algorithm’s time complexity.</p>
-<step>
-
-```tex
-\text{if an algorithm has a time complexity of } \Omega(n^2) \text{ means that the running}
-```
-```tex
-\text{time of the algorithm grows at least as fast as } n^2 
-```
-</step>
+<step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Omega(n^2) \text{ means that the running}</code-block></step>
+<step><code-block lang="tex"> \text{time of the algorithm grows at least as fast as } n^2 </code-block></step>
 </procedure>
 <procedure>
 <b>Theta notation</b>
 <p>provides both an upper and lower bound on the growth rate of an algorithm. It describes the tight bound on the growth rate of an algorithm.</p>
-<step>
-
-```tex
-\text{if an algorithm has a time complexity of } \Theta(n^2) \text{ means that the running}
-```
-```tex
-\text{time of the algorithm grows exactly as fast as } n^2 
-```
-</step>
+<step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Theta(n^2) \text{ means that the running}</code-block></step>
+<step><code-block lang="tex"> \text{time of the algorithm grows exactly as fast as } n^2 </code-block></step>
 </procedure>
 <br/>
 <p>Asymptotic bounds are useful because they allow us to compare the efficiency of different algorithms and to choose the most appropriate one for a given task.</p>
@@ -316,7 +294,7 @@ for (int i = 0; i < n; i++) {
 <tab title="Big-O">
 <note>
 <p>Definition</p>
-<img src="http://127.0.0.1:3000/courses/_build/html/_images/04_s13.png" alt=""/>
+<img src="http://127.0.0.1:3000/courses/_build/html/_images/04_s13.png" alt="image" />
 <br/><br/>
 <procedure>
 <p>Translation</p>
@@ -365,11 +343,11 @@ T(n) \text{ is lower bounded by } f(n) \text{ if and only if } T(n) \text{ is gr
 <code-block lang="tex">
 \begin{align*}
 c.g : f(n) &= 2n + 3 \\
-2n + 3 &amp;\le 1 * n\ \forall n \le 1 \\
-2n + 3 &amp;\le n \Rightarrow \Omega(n) \\
-&amp;\text{alternatively} \\
-2n + 3 &amp;\le 1 * log\ n\ \forall n \le 1 \\
-2n + 3 &amp;\le 1 * log\ n\ \Rightarrow \Omega(log\ n) \\
+2n + 3 &amp; \le 1 * n\ \forall n \le 1 \\
+2n + 3 &amp; \le n \Rightarrow \Omega(n) \\
+&amp; \text{alternatively} \\
+2n + 3 &amp; \le 1 * log\ n\ \forall n \le 1 \\
+2n + 3 &amp; \le 1 * log\ n\ \Rightarrow \Omega(log\ n) \\
 \end{align*}
 </code-block>
 </procedure>
@@ -397,9 +375,9 @@ T(n) \text{ is lower bounded by } f(n) \text{ if and only if } T(n) \text{ is eq
 <p>Examples</p>
 <code-block lang="tex">
 \begin{align*}
-c.g : f(n) &amp;= 2n + 3 \\
-Big-\Omega &amp;\le 2n + 3 &amp;\le Big-O \\
-1 * n\ &amp;\le 2n + 3 &amp;\le 5 * n \Rightarrow \Theta(n) \\
+c.g : f(n) &amp; = 2n + 3 \\
+Big-\Omega &amp; \le 2n + 3 &amp;\le Big-O \\
+1 * n\ &amp; \le 2n + 3 &amp;\le 5 * n \Rightarrow \Theta(n) \\
 \end{align*}
 </code-block>
 </procedure>
@@ -439,10 +417,7 @@ Big-\Omega &amp;\le 2n + 3 &amp;\le Big-O \\
 ### True or False
 
 <tip>
-
-```tex
-\text{time complexity growth rates : } 1 , log\ n , n , n\ log\ n , n^2 , n^3 , 2^n , n! 
-```
+<code-block lang="tex"> \text{time complexity growth rates : } 1 , log\ n , n , n\ log\ n , n^2 , n^3 , 2^n , n!</code-block>
 </tip>
 
 <tabs>
