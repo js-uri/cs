@@ -89,62 +89,86 @@ Note that in addition to the computational costs, inserting or deleting from an 
 
 [//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
 
-```plantuml
+[//]: # (```plantuml)
 
+[//]: # ()
+[//]: # ()
+[//]: # (@startuml)
 
-@startuml
+[//]: # ()
+[//]: # ()
+[//]: # (class LinkedList {)
 
+[//]: # ()
+[//]: # (  - Node)
 
-class LinkedList {
+[//]: # ()
+[//]: # (  - head: Node*)
 
-  - Node
+[//]: # ()
+[//]: # (  - size: size_t)
 
-  - head: Node*
+[//]: # ()
+[//]: # (  + LinkedList&#40;&#41;)
 
-  - size: size_t
+[//]: # ()
+[//]: # (  + ~LinkedList&#40;&#41;)
 
-  + LinkedList()
+[//]: # ()
+[//]: # (  + LinkedList&#40;const LinkedList& other&#41;)
 
-  + ~LinkedList()
+[//]: # ()
+[//]: # (  + operator=&#40;const LinkedList& other&#41;)
 
-  + LinkedList(const LinkedList& other)
+[//]: # ()
+[//]: # (  + void pushFront&#40;const T& element&#41;)
 
-  + operator=(const LinkedList& other)
+[//]: # ()
+[//]: # (  + void popFront&#40;&#41;)
 
-  + void pushFront(const T& element)
+[//]: # ()
+[//]: # (  + void pushBack&#40;const T& element&#41;)
 
-  + void popFront()
+[//]: # ()
+[//]: # (  + void popBack&#40;&#41;)
 
-  + void pushBack(const T& element)
+[//]: # ()
+[//]: # (  + T& operator[]&#40;size_t index&#41; const)
 
-  + void popBack()
+[//]: # ()
+[//]: # (  + size_t getSize&#40;&#41; const)
 
-  + T& operator[](size_t index) const
+[//]: # ()
+[//]: # (})
 
-  + size_t getSize() const
+[//]: # ()
+[//]: # ()
+[//]: # (class Node {)
 
-}
+[//]: # ()
+[//]: # (  - data: T)
 
+[//]: # ()
+[//]: # (  - next: Node*)
 
-class Node {
+[//]: # ()
+[//]: # (  + Node&#40;const T& data&#41;)
 
-  - data: T
+[//]: # ()
+[//]: # (})
 
-  - next: Node*
+[//]: # ()
+[//]: # ()
+[//]: # (LinkedList *-- Node)
 
-  + Node(const T& data)
+[//]: # ()
+[//]: # ()
+[//]: # (@enduml)
 
-}
-
-
-LinkedList *-- Node
-
-
-@enduml
-
-
-
-```
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (```)
 
 </td>
 <td>
@@ -394,26 +418,42 @@ flowchart LR
 
 [//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
 
-```plantuml
-@startuml
-class CircularSinglyLinkedList {
-  - head: Node
-  + CircularSinglyLinkedList()
-  + isEmpty(): boolean
-  + insert(data: DataType): void
-  + delete(data: DataType): void
-  + display(): void
-}
+[//]: # (```plantuml)
 
-class Node {
-- data: DataType
-- next: Node
-  }
+[//]: # (@startuml)
 
-CircularSinglyLinkedList *-- Node
+[//]: # (class CircularSinglyLinkedList {)
 
-@enduml
-```
+[//]: # (  - head: Node)
+
+[//]: # (  + CircularSinglyLinkedList&#40;&#41;)
+
+[//]: # (  + isEmpty&#40;&#41;: boolean)
+
+[//]: # (  + insert&#40;data: DataType&#41;: void)
+
+[//]: # (  + delete&#40;data: DataType&#41;: void)
+
+[//]: # (  + display&#40;&#41;: void)
+
+[//]: # (})
+
+[//]: # ()
+[//]: # (class Node {)
+
+[//]: # (- data: DataType)
+
+[//]: # (- next: Node)
+
+[//]: # (  })
+
+[//]: # ()
+[//]: # (CircularSinglyLinkedList *-- Node)
+
+[//]: # ()
+[//]: # (@enduml)
+
+[//]: # (```)
 
 <br/>
 
@@ -454,46 +494,64 @@ public:
 
 [//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
 
-```plantuml
+[//]: # (```plantuml)
 
-@startuml
+[//]: # ()
+[//]: # ()
+[//]: # (@startuml)
 
-class Node {
+[//]: # ()
+[//]: # (class Node {)
 
-  - data: DataType
+[//]: # ()
+[//]: # (  - data: DataType)
 
-  - prev: Node
+[//]: # ()
+[//]: # (  - prev: Node)
 
-  - next: Node
+[//]: # ()
+[//]: # (  - next: Node)
 
-}
+[//]: # ()
+[//]: # (})
 
+[//]: # ()
+[//]: # (class DoublyLinkedList {)
 
-class DoublyLinkedList {
+[//]: # ()
+[//]: # (  - head: Node)
 
-  - head: Node
+[//]: # ()
+[//]: # (  + DoublyLinkedList&#40;&#41;)
 
-  + DoublyLinkedList()
+[//]: # ()
+[//]: # (  + isEmpty&#40;&#41;: boolean)
 
-  + isEmpty(): boolean
+[//]: # ()
+[//]: # (  + insertFront&#40;data: DataType&#41;: void)
 
-  + insertFront(data: DataType): void
+[//]: # ()
+[//]: # (  + insertEnd&#40;data: DataType&#41;: void)
 
-  + insertEnd(data: DataType): void
+[//]: # ()
+[//]: # (  + delete&#40;data: DataType&#41;: void)
 
-  + delete(data: DataType): void
+[//]: # ()
+[//]: # (  + display&#40;&#41;: void)
 
-  + display(): void
+[//]: # ()
+[//]: # (})
 
-}
+[//]: # ()
+[//]: # ()
+[//]: # (DoublyLinkedList *-- Node)
 
+[//]: # ()
+[//]: # ()
+[//]: # (@enduml)
 
-DoublyLinkedList *-- Node
-
-
-@enduml
-
-```
+[//]: # ()
+[//]: # (```)
 
 <br/>
 
