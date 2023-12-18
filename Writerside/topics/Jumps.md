@@ -4,16 +4,28 @@ switcher-label: Language
 
 # Jumps
 
-<video src="https://youtu.be/21l11_9Osd0?feature=shared" preview-src="jumps1.jpeg" mini-player="true" width="900" switcher-key="Pseudocode" /> 
-<video src="https://youtu.be/a3IZ8WaIFAA?feature=shared" preview-src="jumps1.jpeg" mini-player="true" width="900" switcher-key="C++" /> 
-<video src="https://youtu.be/97NdNoA3XUQ?feature=shared"  preview-src="jumps1.jpeg" mini-player="true" width="900" switcher-key="Python" /> 
-<video src="https://youtu.be/aITdnsUTeek?feature=shared"  preview-src="jumps1.jpeg" mini-player="true" width="900" switcher-key="Java" /> 
-<video src="https://youtu.be/ZWBA3l818y0?feature=shared"  preview-src="jumps1.jpeg" mini-player="true" width="900" switcher-key="Go" />
+<procedure switcher-key="Pseudocode">
+<video src="https://youtu.be/21l11_9Osd0?feature=shared" preview-src="jumps1.jpeg" mini-player="true" width="900" /> 
+</procedure>
+<procedure switcher-key="C++">
+<video src="https://youtu.be/a3IZ8WaIFAA?feature=shared" preview-src="jumps1.jpeg" mini-player="true" width="900" /> 
+</procedure>
+<procedure switcher-key="Python">
+<video src="https://youtu.be/97NdNoA3XUQ?feature=shared" preview-src="jumps1.jpeg" mini-player="true" width="900" /> 
+</procedure>
+<procedure switcher-key="Java">
+<video src="https://youtu.be/aITdnsUTeek?feature=shared" preview-src="jumps1.jpeg" mini-player="true" width="900" /> 
+</procedure>
+<procedure switcher-key="Go">
+<video src="https://youtu.be/ZWBA3l818y0?feature=shared" preview-src="jumps1.jpeg" mini-player="true" width="900" />
+</procedure>
+
+
 
 ## Overview
 
 <note>
-<b>Definition & Use</b>
+<b>Definition &amp; Use</b>
 
 A jump is a statement that transfers control to another part of the program.
 </note>

@@ -10,7 +10,7 @@ switcher-label: Language
 ## Purpose
 
 <note>
-<b>Definition & Use</b>
+<b>Definition &amp; Use</b>
 
 The `main` function is the entry point of a program. It is the first function to be called when a program starts execution. The `main` function is the only function that is required to be present in a program. All other functions can be defined and called from within the `main` function. 
 </note>

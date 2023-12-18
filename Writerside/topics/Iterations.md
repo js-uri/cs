@@ -5,14 +5,14 @@ switcher-label: Language
 # Iterations
 
 <video src="https://youtu.be/jNl5gJ_xSNQ?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="C++" /> 
-<video src="https://youtu.be/94UHCEmprCY?feature=shared"  preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="Python" /> 
-<video src="https://youtu.be/RWuHw02ZcVs?feature=shared"  preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="Java" /> 
-<video src="https://youtu.be/CL13xV2dHCg?feature=shared"  preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="Go" />
+<video src="https://youtu.be/94UHCEmprCY?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="Python" /> 
+<video src="https://youtu.be/RWuHw02ZcVs?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="Java" /> 
+<video src="https://youtu.be/CL13xV2dHCg?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="Go" />
 
 ## Overview
 
 <note>
-<b>Definition & Use</b>
+<b>Definition &amp; Use</b>
 
 An iteration is a single execution of a set of instructions. Iterations are used to repeat a set of instructions a specified number of times or until a condition is met.
 </note>

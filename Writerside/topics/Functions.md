@@ -6,7 +6,7 @@
 ## Overview
 
 <note>
-<b>Definition & Use</b>
+<b>Definition &amp; Use</b>
 
 A function is a block of code that performs a specific task. A function is defined once and can be called (i.e., executed) any number of times. A function can be called from within another function.
 </note>

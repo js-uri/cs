@@ -12,7 +12,7 @@
 <step>Evaluate solution</step>
 </procedure>
 
-### 
+###  How is problem-solving done in programming?
 
 <procedure>
 <p>Types of Problems</p>
