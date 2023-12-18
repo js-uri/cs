@@ -97,7 +97,10 @@ Initialization is the process of locating and using the defined values for varia
 
 An array is a collection of elements of the same type placed in contiguous memory locations that can be individually referenced by using an index to a unique identifier.
 
-### Array Pseudocode {switcher-key="Pseudocode"}
+### Syntax
+
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
 
 ```text
 
@@ -114,9 +117,14 @@ arrayName[index]
 arrayName[index] = value
 
 ```
+</procedure>
 
+<procedure switcher-key="C++">
+<b>C++</b>
 
-### Array C++ {switcher-key="C++"}
+<video src="https://youtu.be/T76E09hnEuo?feature=shared" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="C++">
 
@@ -149,19 +157,26 @@ int main() {
 
 </compare>
 
-#### Array Output C++ {switcher-key="C++"}
+<br/>
 
 ```c++
+// Output
 1
 10
 ```
+{ collapsible="true" }
 
-### Array Python {switcher-key="Python"}
+
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
+
+<video src="https://youtu.be/tw7ror9x32s?feature=shared" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Python">
-
-```Python
-
 
 ```Python
 # Declaration
@@ -186,14 +201,23 @@ print(array[0])
 
 </compare>
 
-#### Array Output Python {switcher-key="Python"}
+<br/>
 
 ```Python
+// Output
 1
 10
 ```
+{ collapsible="true" }
 
-### Array Java {switcher-key="Java"}
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
+
+<video src="https://youtu.be/VkzV642CVdo?feature=shared" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Java">
 
@@ -224,14 +248,23 @@ public class Main {
 
 </compare>
 
-#### Array Output Java {switcher-key="Java"}
+<br/>
 
 ```java
+// Output
 1
 10
 ```
+{ collapsible="true" }
 
-### Array 1 Go {switcher-key="Go"}
+</procedure>
+
+<procedure switcher-key="Go">
+<b>Go</b>
+
+<video src="https://youtu.be/VkzV642CVdo?feature=shared" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Go">
 
@@ -264,20 +297,29 @@ func main() {
 
 </compare>
 
-#### Array Output Go {switcher-key="Go"}
+<br/>
 
 ```go
+// Output
 1
 10
 ```
+{ collapsible="true" }
+
+</procedure>
 
 ## List : Declaration, Initialization, and further functionality
 
 ### What is a list? how do they vary from arrays?
 
-A list is a collection of elements of the same type placed in contiguous memory locations that can be individually referenced by using an index to a unique identifier. Lists are similar to arrays, but they are not the same. Lists are dynamic, meaning that they can grow and shrink in size. Arrays are static, meaning that they cannot grow or shrink in size. Lists are also more flexible than arrays. Lists can be used to implement stacks, queues, and deques. Arrays cannot be used to implement stacks, queues, and deques. 
+A list is a collection of elements of the same type placed in contiguous memory locations that can be individually referenced by using an index to a unique identifier. Lists are similar to arrays, but they are not the same. Lists are dynamic, meaning that they can grow and shrink in size. Arrays are static, meaning that they cannot grow or shrink in size. Lists are also more flexible than arrays. Lists can be used to implement stacks, queues, and deques. Arrays cannot be used to implement stacks, queues, and deques.
 
-### List Pseudocode {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
+
+<video src="https://youtu.be/cmfYFjqVgSg?feature=shared" width="900" mini-player="true" />
+
+<br/>
 
 ```text
 
@@ -313,7 +355,14 @@ listName.clear()
 
 ```
 
-### List C++ {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
+
+<video src="https://youtu.be/HKfj0l7ndbc?feature=shared" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="C++">
 
@@ -373,9 +422,11 @@ int main() {
 
 </compare>
 
-#### List Output C++ {switcher-key="C++"}
+<br/>
 
 ```c++
+// Output
+
 1
 10
 6
@@ -384,8 +435,16 @@ false
 true
 0
 ```
+{ collapsible="true" }
 
-### List Python {switcher-key="Python"}
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
+
+<video src="https://youtu.be/9OeznAkyQz4?feature=shared" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Python">
 
@@ -438,9 +497,11 @@ print(len(list))
 
 </compare>
 
-#### List Output Python {switcher-key="Python"}
+<br/>
 
 ```Python
+// Output
+
 1
 10
 6
@@ -449,8 +510,16 @@ False
 True
 0
 ```
+{ collapsible="true" }
 
-### List Java {switcher-key="Java"}
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Java">
 
@@ -514,9 +583,11 @@ public class Main {
 
 </compare>
 
-#### List Output Java {switcher-key="Java"}
+<br/>
 
 ```java
+// Output
+
 1
 10
 6
@@ -525,8 +596,16 @@ false
 true
 0
 ```
+{ collapsible="true" }
 
-### List Go {switcher-key="Go"}
+</procedure>
+
+<procedure switcher-key="Go">
+<b>Go</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Go">
 
@@ -585,9 +664,11 @@ func main() {
 
 </compare>
 
-#### List Output Go {switcher-key="Go"}
+<br/>
 
 ```go
+// Output
+
 1
 10
 6
@@ -596,6 +677,9 @@ false
 true
 0
 ```
+{ collapsible="true" }
+
+</procedure>
 
 ## Queue : Declaration, Initialization, and further functionality
 
@@ -603,7 +687,12 @@ true
 
 A queue is a linear collection of elements that can be accessed only at one of its ends for storing and retrieving data. The end of the queue where elements are added is known as the back of the queue, and the end of the queue where elements are removed is known as the front of the queue. The order in which elements are added to the back of the queue is the same order in which they are removed from the front of the queue. This ordering is known as first-in, first-out (FIFO).
 
-### Queue 1 Pseudocode {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 ```text
 
@@ -639,7 +728,14 @@ queueName.clear()
 
 ```
 
-### Queue C++ {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="C++">
 
@@ -708,9 +804,11 @@ int main() {
 
 </compare>
 
-#### Queue Output C++ {switcher-key="C++"}
+<br/>
 
 ```c++
+// Output
+
 1
 10
 6
@@ -719,8 +817,16 @@ false
 true
 0
 ```
+{ collapsible="true" }
 
-### Queue 1 Python {switcher-key="Python"}
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
+
+<video src="https://youtu.be/VkzV642CVdo?feature=shared" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Python">
 
@@ -773,9 +879,11 @@ print(len(queue))
 
 </compare>
 
-#### Queue 1 Output Python {switcher-key="Python"}
+<br/>
 
 ```Python
+// Output
+
 1
 10
 6
@@ -784,8 +892,16 @@ False
 True
 0
 ```
+{ collapsible="true" }
 
-### Queue Java {switcher-key="Java"}
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Java">
 
@@ -849,9 +965,11 @@ public class Main {
 
 </compare>
 
-#### Queue Output Java {switcher-key="Java"}
+<br/>
 
 ```java
+// Output
+
 1
 10
 6
@@ -860,8 +978,17 @@ false
 true
 0
 ```
+{ collapsible="true" }
 
-### Queue Go {switcher-key="Go"}
+</procedure>
+
+
+<procedure switcher-key="Go">
+<b>Go</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Go">
 
@@ -920,9 +1047,11 @@ func main() {
 
 </compare>
 
-#### Queue Output Go {switcher-key="Go"}
+<br/>
 
 ```go
+// Output
+
 1
 10
 6
@@ -931,6 +1060,9 @@ false
 true
 0
 ```
+{ collapsible="true" }
+
+</procedure>
 
 ## Set : Declaration, Initialization, and further functionality
 
@@ -938,7 +1070,12 @@ true
 
 A set is a collection of elements that are not ordered sequentially. The order of the elements is determined by the relationship between the elements. The elements in a set can be accessed one at a time, in a specific order. Sets are used to store, retrieve, manipulate, and communicate aggregate data. Typically, they represent data items that form a natural group, such as a poker hand (a collection of cards), a mail folder (a collection of letters), or a telephone directory (a mapping of names to phone numbers).
 
-### Set Pseudocode {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 ```text
 
@@ -974,7 +1111,14 @@ setName.clear()
 
 ```
 
-### Set 1 C++ {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="C++">
 
@@ -1034,9 +1178,11 @@ int main() {
 
 </compare>
 
-#### Set Output C++ {switcher-key="C++"}
+<br/>
 
 ```c++
+// Output
+
 1
 10
 6
@@ -1045,8 +1191,16 @@ false
 true
 0
 ```
+{ collapsible="true" }
 
-### Set Python {switcher-key="Python"}
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Python">
 
@@ -1097,9 +1251,11 @@ print(len(set))
 
 </compare>
 
-#### Set Output Python {switcher-key="Python"}
+<br/>
 
 ```Python
+// Output
+
 True
 True
 5
@@ -1107,8 +1263,16 @@ False
 True
 0
 ```
+{ collapsible="true" }
 
-### Set Java {switcher-key="Java"}
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Java">
 
@@ -1170,9 +1334,11 @@ public class Main {
 
 </compare>
 
-#### Set Output Java {switcher-key="Java"}
+<br/>
 
 ```java
+// Output
+
 true
 true
 5
@@ -1180,8 +1346,16 @@ false
 true
 0
 ```
+{ collapsible="true" }
 
-### Set Go {switcher-key="Go"}
+</procedure>
+
+<procedure switcher-key="Go">
+<b>Go</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Go">
 
@@ -1248,9 +1422,11 @@ func main() {
 
 </compare>
 
-#### Set Output Go {switcher-key="Go"}
+<br/>
 
 ```go
+// Output
+
 true
 true
 5
@@ -1258,6 +1434,9 @@ false
 true
 0
 ```
+{ collapsible="true" }
+
+</procedure>
 
 ## Map : Declaration, Initialization, and further functionality
 
@@ -1265,7 +1444,12 @@ true
 
 A map is a collection of elements that are not ordered sequentially. The order of the elements is determined by the relationship between the elements. The elements in a map can be accessed one at a time, in a specific order. Maps are used to store, retrieve, manipulate, and communicate aggregate data. Typically, they represent data items that form a natural group, such as a poker hand (a collection of cards), a mail folder (a collection of letters), or a telephone directory (a mapping of names to phone numbers).
 
-### Map 1 Pseudocode {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 ```text
 
@@ -1304,7 +1488,14 @@ mapName.clear()
 
 ```
 
-### Map 1 C++ {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="C++">
 
@@ -1368,9 +1559,11 @@ int main() {
 
 </compare>
 
-#### Map Output C++ {switcher-key="C++"}
+<br/>
 
 ```c++
+// Output
+
 1
 10
 6
@@ -1381,8 +1574,16 @@ true
 true
 0
 ```
+{ collapsible="true" }
 
-### Map Python {switcher-key="Python"}
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Python">
 
@@ -1439,9 +1640,11 @@ print(len(map))
 
 </compare>
 
-#### Map Output Python {switcher-key="Python"}
+<br/>
 
 ```Python
+// Output
+
 1
 10
 6
@@ -1452,8 +1655,16 @@ True
 True
 0
 ```
+{ collapsible="true" }
 
-### Map Java {switcher-key="Java"}
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Java">
 
@@ -1521,9 +1732,11 @@ public class Main {
 
 </compare>
 
-#### Map Output Java {switcher-key="Java"}
+<br/>
 
 ```java
+// Output
+
 1
 10
 6
@@ -1534,8 +1747,16 @@ true
 true
 0
 ```
+{ collapsible="true" }
 
-### Map Go {switcher-key="Go"}
+</procedure>
+
+<procedure switcher-key="Go">
+<b>Go</b>
+
+<video src="" width="900" mini-player="true" />
+
+<br/>
 
 <compare first-title="Pseudocode" second-title="Go">
 
@@ -1598,9 +1819,11 @@ func main() {
 
 </compare>
 
-#### Map Output Go {switcher-key="Go"}
+<br/>
 
 ```go
+// Output
+
 1
 10
 6
@@ -1611,6 +1834,9 @@ true
 true
 0
 ```
+{ collapsible="true" }
+
+</procedure>
 
 
 

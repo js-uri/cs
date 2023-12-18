@@ -4,8 +4,6 @@ switcher-label: Language
 
 <show-structure for="chapter,procedure" depth="1"/>
 
-[//]: # (<show-structure for="chapter,procedure" depth="2"/>)
-
 # Conditionals
 
 <img src="https://files.realpython.com/media/t.78f3bacaa261.png" alt="hero image"/>
@@ -89,8 +87,8 @@ Menu Selection
 
 <table>
 <tr>
-<th>✅</th>
-<th>❌</th>
+<th>Pros</th>
+<th>Cons</th>
 </tr>
 <tr>
 <td>
@@ -125,18 +123,22 @@ Menu Selection
 
 ## If-else Statement
 
-### Pseudocode If-else  {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
+
+```text
 
 <video src="https://youtu.be/osuzDDlBmRI?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
-
-Sample code
 
 ```text
 if some condition is met, do something
 if not met, do something else
 ```
 
-### C++ If-else  {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
 
 <video src="https://youtu.be/TOx3tPJircc?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
 
@@ -163,11 +165,25 @@ int main() {
 }
 ```
 
-### Python If-else  {switcher-key="Python"}
+<br/>
+
+```text
+// Output
+
+Enter your exam score: 75
+Congratulations! You passed the exam.
+
+```
+{ collapsible="true" }
+
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
 
 <video src="https://youtu.be/NkVSSMt-h3Y?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
 
-Sample code
+
 
 ``` python
 passing_threshold = 60
@@ -180,11 +196,24 @@ else:
     print("Unfortunately, you did not pass the exam. Please try again.")
 ```
 
-### Java If-else  {switcher-key="Java"}
+<br/>
+
+```text
+# Output
+
+Enter your exam score: 75
+Congratulations! You passed the exam.
+
+```
+{ collapsible="true" }
+
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
 
 <video src="https://youtu.be/P6ivQ3QRq0I?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
 
-Sample code
 
 ``` java
 import java.util.Scanner;
@@ -206,11 +235,24 @@ public class Main {
 }
 ```
 
-### Golang If-else  {switcher-key="Golang"}
+<br/>
+
+```text
+// Output
+
+Enter your exam score: 75
+Congratulations! You passed the exam.
+
+```
+{ collapsible="true" }
+
+</procedure>
+
+
+<procedure switcher-key="Go">
+<b>Go</b>
 
 <video src="https://youtu.be/Hjqjff490B8?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>
-
-Sample code
 
 ``` go
 package main
@@ -234,73 +276,25 @@ func main() {
 }
 ```
 
-[//]: # (### Rust If-else  {switcher-key="Rust"})
-
-[//]: # ()
-[//]: # (<video src="https://youtu.be/MOa7ulhNYc0?feature=shared" preview-src="if-else-statement-syntax.png" width="900"/>)
-
-[//]: # ()
-[//]: # (Sample code)
-
-[//]: # ()
-[//]: # (``` rust)
-
-[//]: # (use std::io;)
-
-[//]: # ()
-[//]: # (fn main&#40;&#41; {)
-
-[//]: # (    let passing_threshold = 60;)
-
-[//]: # ()
-[//]: # (    println!&#40;"Enter your exam score: "&#41;;)
-
-[//]: # (    let mut input = String::new&#40;&#41;;)
-
-[//]: # (    io::stdin&#40;&#41;.read_line&#40;&mut input&#41;.expect&#40;"Failed to read line"&#41;;)
-
-[//]: # (    let exam_score: i32 = input.trim&#40;&#41;.parse&#40;&#41;.expect&#40;"Please enter a valid number"&#41;;)
-
-[//]: # ()
-[//]: # (    if exam_score >= passing_threshold {)
-
-[//]: # (        println!&#40;"Congratulations! You passed the exam."&#41;;)
-
-[//]: # (    } else {)
-
-[//]: # (        println!&#40;"Unfortunately, you did not pass the exam. Please try again."&#41;;)
-
-[//]: # (    })
-
-[//]: # (})
-
-[//]: # (```)
-
-### Output : Sample Output
-
-<deflist collapsible="true" default-state="collapsed">
-<def title="All Languages">
-
-We prompt the user to enter their exam score and compare it with the `passing_threshold` value of `60`. If the `exam_score` is greater than or equal to `60`, the program outputs a success message indicating that the student passed the exam. Otherwise, it prints a message stating that the student did not pass and should try again.
-
-Assume the user enters `75` as input for all the examples.
-
-Since the input `75` is greater than the passing threshold of `60`, the output is:
-
 <br/>
 
-``` bash
-Congratulations! You passed the exam.
-```
+```text
+// Output
 
-</def>
-</deflist>
+Enter your exam score: 75
+Congratulations! You passed the exam.
+
+```
+{ collapsible="true" }
+
+</procedure>
 
 
 
 ## Switch / Match Statement
 
-### Pseudocode Switch / Match {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
 
 <video src="https://youtu.be/osuzDDlBmRI?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -316,7 +310,10 @@ condition to be met
         // do this when no other conditions are met
 ```
 
-### C++ Switch {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
 
 <video src="https://youtu.be/TOx3tPJircc?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -361,7 +358,23 @@ int main() {
 }
 ```
 
-### Python Match {switcher-key="Python"}
+<br/>
+
+```text
+// Output
+
+Enter a day number (1 to 7): 3
+Tuesday
+
+```
+{ collapsible="true" }
+
+</procedure>
+
+
+
+<procedure switcher-key="Python">
+<b>Python</b>
 
 <video src="https://youtu.be/NkVSSMt-h3Y?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -370,7 +383,47 @@ int main() {
 [//]: # ()
 [//]: # (```)
 
-### Java Switch {switcher-key="Java"}
+``` python
+day_number = int(input("Enter a day number (1 to 7): "))
+day_name = ""
+
+if day_number == 1:
+    day_name = "Sunday"
+elif day_number == 2:
+    day_name = "Monday"
+elif day_number == 3:
+    day_name = "Tuesday"
+elif day_number == 4:
+    day_name = "Wednesday"
+elif day_number == 5:
+    day_name = "Thursday"
+elif day_number == 6:
+    day_name = "Friday"
+elif day_number == 7:
+    day_name = "Saturday"
+else:
+    day_name = "Invalid day number. Please enter a number between 1 and 7."
+    
+print(day_name)
+```
+
+<br/>
+
+```text
+# Output
+
+Enter a day number (1 to 7): 3
+Tuesday
+
+```
+{ collapsible="true" }
+
+</procedure>
+
+
+
+<procedure switcher-key="Java">
+<b>Java</b>
 
 <video src="https://youtu.be/P6ivQ3QRq0I?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -415,7 +468,21 @@ public class Main {
 }
 ```
 
-### Golang Switch {switcher-key="Golang"}
+<br/>
+
+```text
+// Output
+
+Enter a day number (1 to 7): 3
+Tuesday
+
+```
+{ collapsible="true" }
+
+</procedure>
+
+<procedure switcher-key="Go">
+<b>Go</b>
 
 <video src="https://youtu.be/Hjqjff490B8?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>
 
@@ -453,65 +520,17 @@ func main() {
 }
 ```
 
-//]: # (### Rust Match {switcher-key="Rust"})
-
-[//]: # ()
-[//]: # (<video src="https://youtu.be/MOa7ulhNYc0?feature=shared" preview-src="switch-statement-syntax.png" width="900"/>)
-
-[//]: # ()
-[//]: # (``` rust)
-
-[//]: # (use std::io;)
-
-[//]: # ()
-[//]: # (fn main&#40;&#41; {)
-
-[//]: # (    let mut day_number = String::new&#40;&#41;;)
-
-[//]: # ()
-[//]: # (    println!&#40;"Enter a day number &#40;1 to 7&#41;: "&#41;;)
-
-[//]: # (    io::stdin&#40;&#41;.read_line&#40;&mut day_number&#41;.expect&#40;"Failed to read line"&#41;;)
-
-[//]: # (    let day_number: i32 = day_number.trim&#40;&#41;.parse&#40;&#41;.expect&#40;"Please enter a valid number"&#41;;)
-
-[//]: # ()
-[//]: # (    match day_number {)
-
-[//]: # (        1 => println!&#40;"Sunday"&#41;,)
-
-[//]: # (        2 => println!&#40;"Monday"&#41;,)
-
-[//]: # (        3 => println!&#40;"Tuesday"&#41;,)
-
-[//]: # (        4 => println!&#40;"Wednesday"&#41;,)
-
-[//]: # (        5 => println!&#40;"Thursday"&#41;,)
-
-[//]: # (        6 => println!&#40;"Friday"&#41;,)
-
-[//]: # (        7 => println!&#40;"Saturday"&#41;,)
-
-[//]: # (        _ => println!&#40;"Invalid day number. Please enter a number between 1 and 7."&#41;,)
-
-[//]: # (    })
-
-[//]: # (})
-
-[//]: # (```)
-
-### Switch / Match : Sample Output
-
-<deflist collapsible="true" default-state="collapsed">
-<def title="All Languages">
-
-We take a user input for the day_number and use a switch statement (or if-elif statements in Python) to display the 
-corresponding day of the week. Assuming the user input is `3`, the output for each program is:
-
 <br/>
 
-``` bash
+```text
+// Output
+
+Enter a day number (1 to 7): 3
 Tuesday
+
 ```
-</def>
-</deflist>
+{ collapsible="true" }
+
+</procedure>
+
+

@@ -464,6 +464,12 @@ ability for implementation. The project will be completed in groups of 3-4 membe
 [//]: # (<step>The weekly quiz will be used as a method of recording attendance for the week.</step>)
 </procedure>
 
+<procedure style="choices">
+<b>Academic Integrity &amp; AI Assistance</b>
+<step>Working with others to understand concepts is highly praised. However, all work submitted for the term must be your own beyond the scaffolding provided to you. Should the integrity of your work come into question, you will be notified of next steps.</step>
+<step>Working with AI this term is encourged. However, it should be used as an assistant in your learning, and not the programming wizard behind the proverbial curtain (that's my job!) Use of AI must be exploratory only. This means you may not copy/paste any portion of a given deliverable to AI nor copy/paste directly from AI into any portion of your submission.</step>
+</procedure>
+
 <procedure>
 <b>Course Modifications</b>
 <step>I reserve the right to alter, update, modify, and/or remove material from this course as I deem necessary to meet the requirements of and continuous flow for the course.

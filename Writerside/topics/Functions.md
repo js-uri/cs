@@ -1,3 +1,9 @@
+---
+switcher-label: Language
+---
+
+<show-structure for="chapter,procedure" depth="1"/>
+
 # Functions
 
 ![Functions](functions.jpeg)
@@ -57,7 +63,8 @@ Poorly designed functions can hinder rather than help.
 
 A function is defined as follows:
 
-##### Definition Pseudocode {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
 
 ```text
 function name
@@ -65,7 +72,10 @@ function name
 end function
 ```
 
-##### Definition C++ {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
 
 ```c++
 return_type name(parameter_list)
@@ -74,7 +84,10 @@ return_type name(parameter_list)
 }
 ```
 
-##### Definition Python {switcher-key="Python"}
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
 
 ```python
 
@@ -82,7 +95,10 @@ def name(parameter_list):
     # Statements
 ```
 
-#### Definition Java {switcher-key="Java"}
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
 
 ```java
 return_type name(parameter_list)
@@ -91,13 +107,18 @@ return_type name(parameter_list)
 }
 ```
 
-#### Definition Go {switcher-key="Go"}
+</procedure>
+
+<procedure switcher-key="Go">
+<b>Go</b>
 
 ```go
 func name(parameter_list) return_type {
     // Statements
 }
 ```
+
+</procedure>
 
 
 ### Definition with Calls
@@ -108,7 +129,8 @@ A function call is a statement that executes a function. A function call is defi
 
 The following example shows a function definition and calls:
 
-#### Function Calls Pseudocode {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
 
 ```text
 function main
@@ -126,7 +148,10 @@ function function2
 end function
 ```
 
-#### Function Calls C++ {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
 
 ```c++
 #include <iostream>
@@ -155,15 +180,21 @@ void function2()
 }
 ```
 
-#### Output 1 C++ {switcher-key="C++"}
+<br/>
 
 ```c++ 
+// Output
+
 main
 function1
 function2
 ```
+{ collapsible="true" }
 
-#### Function Calls Python {switcher-key="Python"}
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
 
 ```python
 def function1():
@@ -180,15 +211,21 @@ def main():
 main()
 ```
 
-#### Output 1 Python {switcher-key="Python"}
+<br/>
 
 ```python
+# Output
+
 main
 function1
 function2
 ```
+{ collapsible="true" }
 
-#### Function Calls Java {switcher-key="Java"}
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
 
 ```java
 public class Main {
@@ -209,15 +246,21 @@ public class Main {
 }
 ```
 
-#### Output 1 Java {switcher-key="Java"}
+<br/>
 
 ```java
+// Output
+
 main
 function1
 function2
 ```
+{ collapsible="true" }
 
-#### Function Calls Go {switcher-key="Go"}
+</procedure>
+
+<procedure switcher-key="Go">
+<b>Go</b>
 
 ```go
 package main
@@ -239,19 +282,25 @@ func main() {
 }
 ```
 
-#### Output 1 Go {switcher-key="Go"}
+<br/>
 
 ```go
+// Output
+
 main
 function1
 function2
 ```
+{ collapsible="true" }
+
+</procedure>
 
 ### Function Parameters
 
 A function can have zero or more parameters. A parameter is a variable that is passed to a function. A parameter is defined in the function definition. A parameter is passed to a function in the function call.
 
-#### Function Parameters 1 Pseudocode {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
 
 ```text
 function name(parameter_list)
@@ -259,7 +308,10 @@ function name(parameter_list)
 end function
 ```
 
-#### Function Parameters 1 C++ {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
 
 ```c++
 return_type name(parameter_list)
@@ -268,7 +320,10 @@ return_type name(parameter_list)
 }
 ```
 
-#### Function Parameters 1 Python {switcher-key="Python"}
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
 
 ```python
 
@@ -276,7 +331,10 @@ def name(parameter_list):
     # Statements
 ```
 
-#### Function Parameters 1 Java {switcher-key="Java"}
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
 
 ```java
 
@@ -286,7 +344,10 @@ return_type name(parameter_list)
 }
 ```
 
-#### Function Parameters 1 Go {switcher-key="Go"}
+</procedure>
+
+<procedure switcher-key="Go">
+<b>Go</b>
 
 ```go
 func name(parameter_list) return_type {
@@ -294,11 +355,14 @@ func name(parameter_list) return_type {
 }
 ```
 
+</procedure>
+
 ### Example
 
 The following example shows a function definition and calls:
 
-#### Function Parameters 2 Pseudocode {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
 
 ```text
 function main
@@ -316,15 +380,19 @@ function function2
 end function
 ```
 
-#### Output 2 Pseudocode {switcher-key="Pseudocode"}
+<br/>
 
 ```text
 main
 function1
 function2
 ```
+{ collapsible="true" }
 
-#### Function Parameters 2 C++ {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
 
 ```c++
 #include <iostream>
@@ -353,16 +421,21 @@ void function2()
 }
 ```
 
-#### Output 2 C++ {switcher-key="C++"}
+<br/>
 
 ```c++
+// Output
+
 main
 function1
 function2
 ```
+{ collapsible="true" }
 
+</procedure>
 
-#### Function Parameters 2 Python {switcher-key="Python"}
+<procedure switcher-key="Python">
+<b>Python</b>
 
 ```python
 
@@ -380,16 +453,21 @@ def main():
 main()
 ```
 
-#### Output 2 Python {switcher-key="Python"}
+<br/>
 
 ```python
+# Output
+
 main
 function1
 function2
 ```
+{ collapsible="true" }
 
+</procedure>
 
-#### Function Parameters 2 Java {switcher-key="Java"}
+<procedure switcher-key="Java">
+<b>Java</b>
 
 ```java
 
@@ -411,16 +489,21 @@ public class Main {
 }
 ```
 
-#### Output 2 Java {switcher-key="Java"}
+<br/>
 
 ```java
+// Output
+
 main
 function1
 function2
 ```
+{ collapsible="true" }
 
+</procedure>
 
-#### Function Parameters 2 Go {switcher-key="Go"}
+<procedure switcher-key="Go">
+<b>Go</b>
 
 ```go
 package main
@@ -442,20 +525,24 @@ func main() {
 }
 ```
 
-#### Output 2 Go {switcher-key="Go"}
+<br/>
 
 ```go
 main
 function1
 function2
 ```
+{ collapsible="true" }
+
+</procedure>
 
 
 ### Function Return Values
 
 A function can return zero or one value. A return value is a value that is returned from a function. A return value is defined in the function definition. A return value is returned from a function in the function call.
 
-#### Function Returns Pseudocode {switcher-key="Pseudocode"}
+<procedure switcher-key="Pseudocode">
+<b>Pseudocode</b>
 
 ```text
 
@@ -465,7 +552,10 @@ function name(parameter_list)
 end function
 ```
 
-#### Function Returns C++ {switcher-key="C++"}
+</procedure>
+
+<procedure switcher-key="C++">
+<b>C++</b>
 
 ```c++
 return_type name(parameter_list)
@@ -475,7 +565,13 @@ return_type name(parameter_list)
 }
 ```
 
-#### Function Returns Python {switcher-key="Python"}
+</procedure>
+
+<procedure switcher-key="Python">
+<b>Python</b>
+
+```python
+
 
 ```python
 
@@ -484,7 +580,10 @@ def name(parameter_list):
     return value
 ```
 
-#### Function Returns Java {switcher-key="Java"}
+</procedure>
+
+<procedure switcher-key="Java">
+<b>Java</b>
 
 ```java
 
@@ -495,7 +594,10 @@ return_type name(parameter_list)
 }
 ```
 
-#### Function Returns Go {switcher-key="Go"}
+</procedure>
+
+<procedure switcher-key="Go">
+<b>Go</b>
 
 ```go
 
@@ -504,3 +606,5 @@ func name(parameter_list) return_type {
     return value
 }
 ```
+
+</procedure>

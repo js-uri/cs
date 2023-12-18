@@ -46,6 +46,13 @@
             <toc-element topic="Iterations.md"/>
             <toc-element topic="Jumps.md"/>
         </toc-element>
+        <toc-element toc-title="Object-Oriented Programming">
+            <toc-element topic="Structs.md"/>
+            <toc-element topic="Classes.md"/>
+        </toc-element>
+        <toc-element toc-title="Useful Additions">
+
+        </toc-element>
     </toc-element>
 
     <toc-element toc-title="Data Structures">
@@ -87,6 +94,7 @@
         <toc-element topic="Recurrence-Relations.md"/>
     </toc-element>
     <toc-element toc-title="Miscellaneous">
+        <toc-element topic="G-Setup.md"/>
         <toc-element topic="Learning-A-New-Language.md"/>
         <toc-element topic="Additional-Resources.md"/>
     </toc-element>
