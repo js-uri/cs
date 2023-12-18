@@ -1,0 +1,27 @@
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+        <primary-color>deep-ocean</primary-color>
+        <header-logo>https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/227.png</header-logo>
+        <product-web-url>https://help.example.com</product-web-url>
+        <custom-favicons>https://resources.jetbrains.com/help/img/writerside/jb-logo-favicon.png</custom-favicons>
+    </variables>
+    <build-profile instance="Writerside/hi" />
+    <footer>
+        <copyright>Jonathan Schrader 2022-2023 | Materials used herein under the "Fair Use for Education Act", all rights reserved by there original holders, respectively.</copyright>
+<!--        <icp>123456789</icp>-->
+<!--        <social type="blog" href="link to a blog"></social>-->
+<!--        <social type="twitter" href="link to a Twitter account"></social>-->
+<!--        <social type="facebook" href="link to a Facebook account"></social>-->
+<!--        <link href="https://slack.example.com">Slack community</link>-->
+<!--        <link href="https://stackoverflow.com">StackOverflow</link>-->
+<!--        <link href="https://example.com/terms-an-conditions.html">Terms and conditions</link>-->
+<!--        <link href="https://example.com/code-of-conduct.html">Code of Conduct</link>-->
+        <link href="https://www.uri.edu">URI</link>
+        <link href="https://web.uri.edu/cs/">CS @ URI</link>
+        <link href="https://web.uri.edu/cs/academics/advising/">CS Advising</link>
+        <link href="https://ecampus.uri.edu/course-schedule">Course Schedule</link>
+        <link href="https://web.uri.edu/catalog/#/courses">Academic Catalog</link>
+        <link href="https://web.uri.edu/enrollment/academic-calendars/">Academic Calendar</link>
+    </footer>
+</buildprofiles>
