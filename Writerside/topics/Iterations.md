@@ -4,10 +4,20 @@ switcher-label: Language
 
 # Iterations
 
-<video src="https://youtu.be/jNl5gJ_xSNQ?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="C++" /> 
-<video src="https://youtu.be/94UHCEmprCY?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="Python" /> 
-<video src="https://youtu.be/RWuHw02ZcVs?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="Java" /> 
-<video src="https://youtu.be/CL13xV2dHCg?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" switcher-key="Go" />
+<procedure switcher-key="C++">
+<video src="https://youtu.be/jNl5gJ_xSNQ?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" /> 
+</procedure>
+<procedure switcher-key="Python">
+<video src="https://youtu.be/94UHCEmprCY?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" /> 
+</procedure>
+<procedure switcher-key="Java">
+<video src="https://youtu.be/RWuHw02ZcVs?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" /> 
+</procedure>
+<procedure switcher-key="Go">
+<video src="https://youtu.be/CL13xV2dHCg?feature=shared" preview-src="iterables1.jpeg" mini-player="true" width="900" />
+</procedure>
+
+
 
 ## Overview
 
