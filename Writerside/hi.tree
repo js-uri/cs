@@ -3,15 +3,14 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Think Big We Do"
-                 start-page="Default-topic.md">
+                 name="CSC Course Modules"
+                 start-page="Lecture_test.md">
 
 <!--    <toc-element topic="Sandbox.md"/>-->
-    <toc-element topic="Default-topic.md"/>
-<!--    <toc-element topic="Lecture_test.md"/>-->
+<!--    <toc-element topic="Default-topic.md"/>-->
+    <toc-element topic="Lecture_test.md"/>
 <!--    <toc-element topic="lecture.md"/>-->
-    <toc-element topic="csc_212_research_project.md"/>
-    <toc-element topic="csc_212_lab_presentations.md"/>
+
 
     <toc-element toc-title="Course Schedules &amp; Syllabi">
         <toc-element topic="csc_200_ee_schedule_syllabi.md"/>
@@ -20,17 +19,33 @@
 <!--        </toc-element>-->
         <toc-element topic="csc_200_me_schedule_syllabi.md"/>
         <!--        <toc-element topic="CSC-212-|-FALL-23.md"/>-->
-        <toc-element topic="csc_212_schedule_syllabi.md"/>
+        <toc-element topic="csc_212_schedule_syllabi.md">
+            <toc-element topic="csc_212_research_project.md"/>
+            <toc-element topic="csc_212_lab_presentations.md"/>
+        </toc-element>
     </toc-element>
 
     <toc-element topic="Introductions.md"/>
 
-    <toc-element toc-title="Problem Solving">
-        <toc-element topic="Basics.md"/>
-    </toc-element>
+<!--    <toc-element toc-title="Problem Solving">-->
+<!--        <toc-element topic="Basics.md"/>-->
+<!--    </toc-element>-->
 
     <toc-element toc-title="Problem Solving &amp; Programming">
-        <toc-element topic="Conditionals.md"/>
+        <toc-element toc-title="Basics">
+            <toc-element topic="Planning.md"/>
+            <toc-element topic="Operators.md"/>
+            <toc-element topic="Expressions.md"/>
+            <toc-element topic="Data-Types.md"/>
+            <toc-element topic="Collections.md"/>
+            <toc-element topic="Main.md"/>
+        </toc-element>
+        <toc-element toc-title="Control Statements">
+            <toc-element topic="Functions.md"/>
+            <toc-element topic="Conditionals.md"/>
+            <toc-element topic="Iterations.md"/>
+            <toc-element topic="Jumps.md"/>
+        </toc-element>
     </toc-element>
 
     <toc-element toc-title="Data Structures">
@@ -44,6 +59,7 @@
             <toc-element topic="Heaps.md"/>
             <toc-element topic="bst.md"/>
             <toc-element topic="Set.md"/>
+            <toc-element topic="2-3-Trees.md"/>
             <toc-element topic="Left-Leaning-Red-Black-Trees.md"/>
             <toc-element topic="Map.md"/>
             <toc-element topic="Hash-Tables.md"/>
