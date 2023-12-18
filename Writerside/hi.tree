@@ -4,15 +4,15 @@
 
 <instance-profile id="hi"
                  name="CSC Course Modules"
-                 start-page="Lecture_test.md">
+                 start-page="courses.md">
 
 <!--    <toc-element topic="Sandbox.md"/>-->
 <!--    <toc-element topic="Default-topic.md"/>-->
-    <toc-element topic="Lecture_test.md"/>
+
 <!--    <toc-element topic="lecture.md"/>-->
 
 
-    <toc-element toc-title="Course Schedules &amp; Syllabi">
+    <toc-element topic="courses.md">
         <toc-element topic="csc_200_ee_schedule_syllabi.md"/>
 <!--            <toc-element topic="lab-02.md"/>-->
 <!--            <toc-element topic="lab-01.md"/>-->
@@ -20,8 +20,8 @@
         <toc-element topic="csc_200_me_schedule_syllabi.md"/>
         <!--        <toc-element topic="CSC-212-|-FALL-23.md"/>-->
         <toc-element topic="csc_212_schedule_syllabi.md">
-            <toc-element topic="csc_212_research_project.md"/>
             <toc-element topic="csc_212_lab_presentations.md"/>
+            <toc-element topic="csc_212_research_project.md"/>
         </toc-element>
     </toc-element>
 
@@ -31,6 +31,21 @@
 <!--        <toc-element topic="Basics.md"/>-->
 <!--    </toc-element>-->
 
+    <toc-element toc-title="Computing Concepts">
+        <toc-element topic="computingIntro.md"/>
+        <toc-element topic="dataRepresentation.md"/>
+        <toc-element topic="imagesGoogleSites.md"/>
+        <toc-element topic="videoCreationEditing.md"/>
+        <toc-element topic="internet.md"/>
+        <toc-element topic="cyberSecurity.md"/>
+        <toc-element topic="webProg.md"/>
+        <toc-element topic="compProg.md"/>
+        <toc-element topic="appProg.md"/>
+        <toc-element topic="dataExploration.md"/>
+        <toc-element topic="dataAnalysis.md"/>
+        <toc-element topic="dataViz.md"/>
+        <toc-element topic="ai.md"/>
+    </toc-element>
     <toc-element toc-title="Problem Solving &amp; Programming">
         <toc-element toc-title="Basics">
             <toc-element topic="Planning.md"/>
@@ -51,6 +66,9 @@
             <toc-element topic="Classes.md"/>
         </toc-element>
         <toc-element toc-title="Useful Additions">
+<!--            <toc-element topic="Strings.md"/>-->
+            <toc-element topic="Files.md"/>
+<!--            <toc-element topic="Exceptions.md"/>-->
 
         </toc-element>
     </toc-element>
@@ -83,11 +101,11 @@
             <toc-element topic="mergesort.md"/>
             <toc-element topic="quicksort.md"/>
         </toc-element>
-        <toc-element topic="Greedy-Algortihms.md">
+        <toc-element topic="Greedy-Algorithms.md">
         </toc-element>
         <toc-element topic="Dynamic-Programming.md"/>
     </toc-element>
-    <toc-element toc-title="Discrete-Maths-Concepts">
+    <toc-element toc-title="Discrete Maths Concepts">
         <toc-element topic="Sequence.md"/>
         <toc-element topic="Series.md"/>
         <toc-element topic="Summations.md"/>
@@ -98,6 +116,7 @@
         <toc-element topic="Learning-A-New-Language.md"/>
         <toc-element topic="Additional-Resources.md"/>
     </toc-element>
+    <toc-element topic="Lecture_test.md"/>
 
 </instance-profile>
 

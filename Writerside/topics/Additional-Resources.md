@@ -5,13 +5,19 @@
 
 ## Books and Lecture Notes (free and online)
 
+<procedure>
+
 - [Open Data Structures and Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/)
 - [Data Structures and Algorithm Analysis (C++ Version)](https://people.cs.vt.edu/shaffer/Book/C++3e20130328.pdf)
 - [Mathematics for Computer Science](http://courses.csail.mit.edu/6.042/spring17/mcs.pdf)
 - [Foundations of Computer Science](http://infolab.stanford.edu/~ullman/focs.html)
 - [Notes on Data Structures and Programming Techniques](http://cs-www.cs.yale.edu/homes/aspnes/classes/223/notes.pdf)
 
+</procedure>
+
 ## MOOCs and Video Lectures
+
+<procedure>
 
 - [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)
 - [Data Structures: An Active Learning Approach](https://www.edx.org/course/data-structures-an-active-learning-approach)
@@ -23,7 +29,11 @@
 - [C Programming: Language Foundations](https://www.edx.org/course/c-programming-language-foundations)
 - [C Programming: Pointers and Memory Management](https://www.edx.org/course/programming-in-c-pointers-and-memory-management)
 
+</procedure>
+
 ## Quick Reference, Tools, and Visualizations
+
+<procedure>
 
 - [Bash Shell Reference](https://courses.cs.washington.edu/courses/cse390a/14au/bash.html)
 - [Data Structure Visualizations](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
@@ -33,10 +43,15 @@
 - [C++ Tutor](http://pythontutor.com/cpp.html#mode=edit)
 - [Compiler Explorer](https://gcc.godbolt.org/)
 
+</procedure>
+
 ## C/C++ Reference
+
+<procedure>
 
 - [C++ Programming](https://www.ntu.edu.sg/home/ehchua/programming/#Cpp)
 - [C Reference](http://en.cppreference.com/w/c)
 - [C++ Reference](http://en.cppreference.com/w/cpp)
 - [A Tutorial on Pointers and Arrays in C](https://pdos.csail.mit.edu/6.828/2014/readings/pointers.pdf)
 
+</procedure>
