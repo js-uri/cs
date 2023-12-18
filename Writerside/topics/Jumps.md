@@ -4,9 +4,6 @@ switcher-label: Language
 
 # Jumps
 
-<procedure switcher-key="Pseudocode">
-<video src="https://youtu.be/21l11_9Osd0?feature=shared" preview-src="jumps1.jpeg" mini-player="true" width="900" /> 
-</procedure>
 <procedure switcher-key="C++">
 <video src="https://youtu.be/a3IZ8WaIFAA?feature=shared" preview-src="jumps1.jpeg" mini-player="true" width="900" /> 
 </procedure>
