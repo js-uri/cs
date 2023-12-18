@@ -3,8 +3,8 @@
     <variables>
         <primary-color>deep-ocean</primary-color>
         <header-logo>https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/227.png</header-logo>
-        <product-web-url>https://help.example.com</product-web-url>
-        <custom-favicons>https://resources.jetbrains.com/help/img/writerside/jb-logo-favicon.png</custom-favicons>
+<!--        <product-web-url>https://help.example.com</product-web-url>-->
+        <custom-favicons>URI_Brandmark_282.png</custom-favicons>
     </variables>
     <build-profile instance="Writerside/hi" />
     <footer>
