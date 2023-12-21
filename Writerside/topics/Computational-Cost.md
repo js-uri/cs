@@ -24,8 +24,8 @@
 <td>
 <procedure>
 <b>Mathematical Model</b>
-<step><format color="Orange">Analyze</format> Operations</step>
-<step><format color="GreenYellow">Develop</format> Model</step>
+<step><format color="Orange" style="bold">Analyze</format> Operations</step>
+<step><format color="GreenYellow"  style="bold">Develop</format> Model</step>
 </procedure>
 </td>
 </tr>
@@ -195,7 +195,7 @@ for (int i = 0; i < n; i++) {
 
 
 
-## Computational Cost
+## Understanding Cost
 
 <procedure style="choices">
 <p>Number of <format color="LightCoral">basic instructions</format> required by the algorithm to process an input of a certain size <code>n</code></p>

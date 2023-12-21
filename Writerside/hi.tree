@@ -46,7 +46,7 @@
         <toc-element topic="dataViz.md"/>
         <toc-element topic="ai.md"/>
     </toc-element>
-    <toc-element toc-title="Problem Solving &amp; Programming">
+    <toc-element toc-title="Problem Solving &amp;amp;amp; Programming">
         <toc-element toc-title="Basics">
             <toc-element topic="Planning.md"/>
             <toc-element topic="Operators.md"/>
@@ -54,6 +54,10 @@
             <toc-element topic="Data-Types.md"/>
             <toc-element topic="Collections.md"/>
             <toc-element topic="Main.md"/>
+            <toc-element toc-title="Standard Template Library">
+                <toc-element toc-title="C++ Standard Template Library PDF"
+                             target-for-accept-web-file-names="https://www.cppreference.com/Cpp_STL_ReferenceManual.pdf"/>
+            </toc-element>
         </toc-element>
         <toc-element toc-title="Control Statements">
             <toc-element topic="Functions.md"/>
@@ -69,16 +73,42 @@
 <!--            <toc-element topic="Strings.md"/>-->
             <toc-element topic="Files.md"/>
 <!--            <toc-element topic="Exceptions.md"/>-->
-
         </toc-element>
     </toc-element>
 
     <toc-element toc-title="Data Structures">
         <toc-element toc-title="Linear">
             <toc-element topic="Dynamic-Arrays.md"/>
-            <toc-element topic="Linked-List.md"/>
-            <toc-element topic="Stack.md"/>
-            <toc-element topic="Queue.md"/>
+            <toc-element topic="Linked-List.md">
+                <toc-element toc-title="VisualGo | Linked List"
+                             target-for-accept-web-file-names="https://visualgo.net/en/list"/>
+                <toc-element toc-title="CPPReference | std::forward_list"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/forward_list"/>
+                <toc-element toc-title="USFCA | Singly Linked List"
+                             target-for-accept-web-file-names="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"/>
+                <toc-element toc-title="CPPReference | std::list"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/list"/>
+                <toc-element toc-title="USFCA | Doubly Linked List"
+                             target-for-accept-web-file-names="https://www.cs.usfca.edu/~galles/visualization/DoublyLinkedList.html"/>
+            </toc-element>
+            <toc-element topic="Stack.md">
+                <toc-element toc-title="CPPReference | std::stack"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/stack"/>
+                <toc-element toc-title="VisualGo | Stack"
+                             target-for-accept-web-file-names="https://visualgo.net/en/list"/>
+                <toc-element toc-title="Python Tutor | Stack Array (in Memory)"
+                             target-for-accept-web-file-names="https://pythontutor.com/iframe-embed.html#code=//%20C%2B%2B%20program%20for%20linked%20list%20implementation%20of%20stack%0A%23include%20%3Cbits/stdc%2B%2B.h%3E%0Ausing%20namespace%20std%3B%0A%0A//%20A%20structure%20to%20represent%20a%20stack%0Aclass%20StackNode%20%7B%0Apublic%3A%0A%20%20%20%20int%20data%3B%0A%20%20%20%20StackNode*%20next%3B%0A%7D%3B%0A%0AStackNode*%20newNode%28int%20data%29%0A%7B%0A%20%20%20%20StackNode*%20stackNode%20%3D%20new%20StackNode%28%29%3B%0A%20%20%20%20stackNode-%3Edata%20%3D%20data%3B%0A%20%20%20%20stackNode-%3Enext%20%3D%20NULL%3B%0A%20%20%20%20return%20stackNode%3B%0A%7D%0A%0Aint%20isEmpty%28StackNode*%20root%29%0A%7B%0A%20%20%20%20return%20!root%3B%0A%7D%0A%0Avoid%20push%28StackNode**%20root,%20int%20data%29%0A%7B%0A%20%20%20%20StackNode*%20stackNode%20%3D%20newNode%28data%29%3B%0A%20%20%20%20stackNode-%3Enext%20%3D%20*root%3B%0A%20%20%20%20*root%20%3D%20stackNode%3B%0A%20%20%20%20cout%20%3C%3C%20data%20%3C%3C%20%22%20pushed%20to%20stack%5Cn%22%3B%0A%7D%0A%0Aint%20pop%28StackNode**%20root%29%0A%7B%0A%20%20%20%20if%20%28isEmpty%28*root%29%29%0A%20%20%20%20%20%20%20%20return%20INT_MIN%3B%0A%20%20%20%20StackNode*%20temp%20%3D%20*root%3B%0A%20%20%20%20*root%20%3D%20%28*root%29-%3Enext%3B%0A%20%20%20%20int%20popped%20%3D%20temp-%3Edata%3B%0A%20%20%20%20delete%20temp%3B%0A%0A%20%20%20%20return%20popped%3B%0A%7D%0A%0A//%20Driver%20code%0Aint%20main%28%29%0A%7B%0A%20%20%20%20StackNode*%20root%20%3D%20NULL%3B%0A%0A%20%20%20%20push%28%26root,%2010%29%3B%0A%20%20%20%20push%28%26root,%2020%29%3B%0A%20%20%20%20push%28%26root,%2030%29%3B%0A%0A%20%20%20%20cout%20%3C%3C%20pop%28%26root%29%20%3C%3C%20%22%20popped%20from%20stack%5Cn%22%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&amp;amp;codeDivHeight=400&amp;amp;codeDivWidth=350&amp;amp;cumulative=false&amp;amp;curInstr=0&amp;amp;heapPrimitives=nevernest&amp;amp;origin=opt-frontend.js&amp;amp;py=cpp_g%2B%2B9.3.0&amp;amp;rawInputLstJSON=%5B%5D&amp;amp;textReferences=false"/>
+                <toc-element toc-title="Python Tutor | Stack Linked List (in Memory)"
+                             target-for-accept-web-file-names="https://pythontutor.com/iframe-embed.html#code=//%20C%2B%2B%20program%20for%20linked%20list%20implementation%20of%20stack%0A%23include%20%3Cbits/stdc%2B%2B.h%3E%0Ausing%20namespace%20std%3B%0A%0A//%20A%20structure%20to%20represent%20a%20stack%0Aclass%20StackNode%20%7B%0Apublic%3A%0A%20%20%20%20int%20data%3B%0A%20%20%20%20StackNode*%20next%3B%0A%7D%3B%0A%0AStackNode*%20newNode%28int%20data%29%0A%7B%0A%20%20%20%20StackNode*%20stackNode%20%3D%20new%20StackNode%28%29%3B%0A%20%20%20%20stackNode-%3Edata%20%3D%20data%3B%0A%20%20%20%20stackNode-%3Enext%20%3D%20NULL%3B%0A%20%20%20%20return%20stackNode%3B%0A%7D%0A%0Aint%20isEmpty%28StackNode*%20root%29%0A%7B%0A%20%20%20%20return%20!root%3B%0A%7D%0A%0Avoid%20push%28StackNode**%20root,%20int%20data%29%0A%7B%0A%20%20%20%20StackNode*%20stackNode%20%3D%20newNode%28data%29%3B%0A%20%20%20%20stackNode-%3Enext%20%3D%20*root%3B%0A%20%20%20%20*root%20%3D%20stackNode%3B%0A%20%20%20%20cout%20%3C%3C%20data%20%3C%3C%20%22%20pushed%20to%20stack%5Cn%22%3B%0A%7D%0A%0Aint%20pop%28StackNode**%20root%29%0A%7B%0A%20%20%20%20if%20%28isEmpty%28*root%29%29%0A%20%20%20%20%20%20%20%20return%20INT_MIN%3B%0A%20%20%20%20StackNode*%20temp%20%3D%20*root%3B%0A%20%20%20%20*root%20%3D%20%28*root%29-%3Enext%3B%0A%20%20%20%20int%20popped%20%3D%20temp-%3Edata%3B%0A%20%20%20%20delete%20temp%3B%0A%0A%20%20%20%20return%20popped%3B%0A%7D%0A%0A//%20Driver%20code%0Aint%20main%28%29%0A%7B%0A%20%20%20%20StackNode*%20root%20%3D%20NULL%3B%0A%0A%20%20%20%20push%28%26root,%2010%29%3B%0A%20%20%20%20push%28%26root,%2020%29%3B%0A%20%20%20%20push%28%26root,%2030%29%3B%0A%0A%20%20%20%20cout%20%3C%3C%20pop%28%26root%29%20%3C%3C%20%22%20popped%20from%20stack%5Cn%22%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&amp;codeDivHeight=400&amp;codeDivWidth=350&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;origin=opt-frontend.js&amp;py=cpp_g%2B%2B9.3.0&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false"/>
+            </toc-element>
+            <toc-element topic="Queue.md">
+                <toc-element toc-title="CPPReference | std::queue"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/queue"/>
+                <toc-element toc-title="VisualGo | Queue"
+                             target-for-accept-web-file-names="https://visualgo.net/en/list"/>
+                <toc-element toc-title="Placeholder"
+                             target-for-accept-web-file-names=""/>
+            </toc-element>
         </toc-element>
         <toc-element toc-title="Non-linear">
             <toc-element topic="Heaps.md"/>
@@ -101,8 +131,7 @@
             <toc-element topic="mergesort.md"/>
             <toc-element topic="quicksort.md"/>
         </toc-element>
-        <toc-element topic="Greedy-Algorithms.md">
-        </toc-element>
+        <toc-element topic="Greedy-Algorithms.md"/>
         <toc-element topic="Dynamic-Programming.md"/>
     </toc-element>
     <toc-element toc-title="Discrete Maths Concepts">

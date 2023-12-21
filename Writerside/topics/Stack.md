@@ -18,19 +18,53 @@ A stack is a data structure that stores items in a first-in, last-out (FILO) ord
 
 Stacks are used to store data in the order in which they occur. This is useful for many reasons, such as:   
 
-- Storing the order of operations in a calculator
-- Storing the order of web pages visited in a web browser
-- Storing the order of function calls in a program
-- Storing the order of undo operations in a program
-- Storing the order of transactions in a bank account
+Storing the order of:
+- operations in a calculator
+- web pages visited in a web browser
+- function calls in a program
+- undo operations in a program
+- transactions in a bank account
 </procedure>
+
+<table>
+<tr>
+<td>Pros</td><td>Cons</td>
+</tr>
+<tr>
+<td>
+
+- easy to implement.
+- easy to use.
+- efficient.
+- fast.
+- simple.
+- flexible.
+- versatile.
+- useful.
+- powerful.
+</td>
+<td>
+
+- not thread-safe.
+- not synchronized.
+- not concurrent.
+- not atomic.
+- not scalable.
+- not distributed.
+- not parallel.
+- not asynchronous.
+- not fault-tolerant.
+- not distributed.
+</td>
+</tr>
+</table>
 
 
 ## Implementation
 
 <table style="none">
 <tr>
-<td>
+<td colspan="2">
 
 [//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
 [//]: # (```plantuml)
@@ -65,8 +99,29 @@ Stacks are used to store data in the order in which they occur. This is useful f
 [//]: # (@enduml)
 
 [//]: # (```)
+
+```mermaid
+classDiagram
+  class Stack {
+    - data: DataType[]
+    - top: int
+    - capacity: int
+
+    + Stack(capacity: int)
+    + isEmpty(): bool
+    + isFull(): bool
+    + push(item: DataType): void
+    + pop(): DataType
+    + peek(): DataType
+    + size(): int
+  }
+
+  Stack --|> DataType
+
+```
+
 </td>
-<td>
+<td colspan="4">
 
 <deflist collapsible="true" default-state="collapsed">
 <def title="Key Elements" default-state="collapsed">
@@ -90,30 +145,38 @@ Stacks are used to store data in the order in which they occur. This is useful f
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td colspan="6">
 
 ![image](stack2.jpeg)
 
+</td>
+</tr>
+<tr>
+<td colspan="2">
 <tip>
 <b>Push</b>
 <p>Pushing an item onto a stack is a simple operation. The item is added to the top of the stack. This is done by adding the item to the top of the stack and then incrementing the top of the stack.</p>
 </tip>
-
+</td>
+<td colspan="2">
 <tip>
 <b>Peek</b>
 <p>Peeking at the top of a stack is a simple operation. The item at the top of the stack is returned. This is done by returning the item at the top of the stack.</p>
 </tip>
-
+</td>
+<td colspan="2">
 <tip>
 <b>Pop</b>
 <p>Popping an item off of a stack is a simple operation. The item is removed from the top of the stack. This is done by decrementing the top of the stack and then removing the item from the top of the stack.</p>
 </tip>
-
 </td>
 </tr>
 </table>
 
+
 ### Sample Code
+
+<procedure>
 
 ```c++
 #include <iostream>
@@ -141,14 +204,126 @@ int main() {
 
 ```
 
-### Output
+<br/>
 
 ```text
+// Output
+
 Stack size: 3
 Stack top: 3
 Stack size: 2
 Stack top: 2
 ```
+{ collapsible="true" }
+
+</procedure>
+
+## Building your own Stack
+
+<procedure>
+<p>Flowchart and method pseudocode...</p>
+<tabs>
+<tab title="Flow">
+
+![](https://i0.wp.com/www.xamnation.com/wp-content/uploads/2020/07/stack-flowchart.png?w=540&ssl=1)
+{ center="true" }
+</tab>
+<tab title="Push">
+
+```text
+1. Check if the stack is full.
+2. If the stack is full, throw an exception.
+3. If the stack is not full, increment the top of the stack.
+4. Add the item to the top of the stack.
+```
+</tab>
+<tab title="Peek">
+
+```text
+1. Check if the stack is empty.
+2. If the stack is empty, throw an exception.
+3. If the stack is not empty, return the item at the top of the stack.
+```
+</tab>
+<tab title="Pop">
+
+```text
+1. Check if the stack is empty.
+2. If the stack is empty, throw an exception.
+3. If the stack is not empty, remove the item from the top of the stack.
+4. Decrement the top of the stack.
+```
+</tab>
+<tab title="Size">
+
+```text
+1. Return the top of the stack.
+```
+</tab>
+<tab title="isEmpty">
+
+```text
+1. Return true if the top of the stack is equal to -1.
+2. Return false otherwise.
+```
+</tab>
+<tab title="isFull">
+
+```text
+1. Return true if the top of the stack is equal to the capacity of the stack minus 1.
+2. Return false otherwise.
+```
+</tab>
+</tabs>
+</procedure>
+
+### Considerations
+
+<procedure>
+
+<img src="stack3.jpeg" width="900" />
+
+<deflist collapsible="true">
+<def title="Overflow">error can be thrown when calling <code>push</code> on a full stack</def>
+<def title="Underflow">error can be thrown when calling <code>pop</code> on an empty stack</def>
+<def title="stackOverflow">
+
+![image](https://thecodinglove.com/content/036/glass_stackoverflow_tw.png)
+{ center="true" }
+
+</def>
+</deflist>
+
+</procedure>
+
+
+### Time &amp; Space Complexity
+
+```tex
+\begin{array}{lclclclclcl}
+\hline
+\textbf{Operation} & \textbf{Worst Case} & \textbf{Avg Case} & \textbf{Best Case} \\
+\hline
+\text{Push} & \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(1) \\
+\hline
+\text{Peek} & \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(1) \\
+\hline
+\text{Pop} & \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(1) \\
+\hline
+\text{Size} & \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(1) \\
+\hline
+\text{isEmpty} & \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(1) \\
+\hline
+\text{isFull} & \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(1) \\
+\hline
+\end{array}
+```
+
+
+
+
+
+
 
 
 

@@ -37,7 +37,7 @@ switcher-label: CSC 200 EE
         </def>
         </deflist>
         </td>
-        <td><format style="bold" color="LightCoral">Admin</format><br/><a href="">Overview, Expectations, Planning &amp;Pseudocode</a></td>
+        <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction</a></td>
         <td><a href="">IDE Setup</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>

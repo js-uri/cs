@@ -13,8 +13,8 @@ Reorder the asymptotic bounds throughout the page
 <td>
 <procedure>
 <b>Empirical Model</b>
-<step><format color="Orange">Run </format> algorithms</step>
-<step><format color="GreenYellow">Measure</format> actual runtime</step>
+<step><format color="Orange" style="bold">Run </format> algorithms</step>
+<step><format color="GreenYellow" style="bold">Measure</format> actual runtime</step>
 </procedure>
 </td>
 <td>
