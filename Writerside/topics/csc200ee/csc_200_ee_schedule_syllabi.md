@@ -10,7 +10,7 @@ switcher-label: CSC 200 EE
 
 <table>
     <tr>
-        <td><a href="">&nbsp;</a></td>
+        <td> </td>
         <td>Reading</td>
         <td><i>Asynchronous</i> Lecture</td>
         <td><i>Synchronous</i> Lab</td>
@@ -18,49 +18,207 @@ switcher-label: CSC 200 EE
     </tr>
     <tr>
         <td>Week 1</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">1. Introduction</a><br/><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">2. Fundamentals</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="Overview">
+            <a href="https://www.geeksforgeeks.org/introduction-to-c-programming-language/">Introduction</a><br/>
+            <a href="https://www.geeksforgeeks.org/features-of-cpp/">Features</a><br/>
+            <a href="https://www.geeksforgeeks.org/history-of-c/">History of a Language</a><br/>
+            <a href="https://www.geeksforgeeks.org/setting-c-development-environment/">Setting up a Development Environment</a>
+        </def>
+        <def title="Basics">
+            <a href="https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/">First Program</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-basic-syntax/">Basic Syntax</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-comments/">Comments</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-tokens/">Tokens</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-identifiers/">Identifiers</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-keywords/">Keywords</a><br/>
+            <a href="https://www.geeksforgeeks.org/difference-between-keyword-and-identifier/">Keywords v. Identifiers</a><br/>
+        </def>
+        </deflist>
+        </td>
         <td><format style="bold" color="LightCoral">Admin</format><br/><a href="">Overview, Expectations, Planning &amp;Pseudocode</a></td>
         <td><a href="">IDE Setup</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 2</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">Data Types</a><br/>Review : <a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">2. Fundamentals</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="Variables and Constants">
+            <a href="https://www.geeksforgeeks.org/cpp-variables/">Variables</a><br/>
+            <a href="https://www.geeksforgeeks.org/constants-in-c-cpp/">Constants</a><br/>
+            <a href="https://www.geeksforgeeks.org/scope-of-variables-in-c/">Scope of Variables</a><br/>
+            <a href="https://www.geeksforgeeks.org/storage-classes-in-c-with-examples/">Storages Classes</a><br/>
+            <a href="https://www.geeksforgeeks.org/static-keyword-cpp/">Static Variables</a><br/>
+        </def>
+        <def title="Data Types and Literals">
+            <a href="https://www.geeksforgeeks.org/cpp-data-types/">Data Types</a><br/>
+            <a href="https://www.geeksforgeeks.org/literals-in-c-cpp-with-examples/">Literals</a><br/>
+            <a href="https://www.geeksforgeeks.org/derived-data-types-in-c/">Derived Data Types</a><br/>
+            <a href="https://www.geeksforgeeks.org/user-defined-data-types-in-c/">User-Defined Data Types</a><br/>
+            <a href="https://www.geeksforgeeks.org/data-type-ranges-and-their-macros-in-c/">Data Type Ranges &amp; Their Macros Modifiers</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-type-modifiers/">Data Modifiers</a><br/>
+            <a href="https://www.geeksforgeeks.org/type-conversion-in-c/">Type Conversion</a><br/>
+            <a href="https://www.geeksforgeeks.org/casting-operators-in-cpp/">Type Casting</a><br/>
+        </def>
+        <def title="Operators">
+            <a href="https://www.geeksforgeeks.org/operators-in-cpp/">Operators</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-arithmetic-operators/">Arithmetic</a><br/>
+            <a href="https://www.geeksforgeeks.org/unary-operators-cc/">Unary</a><br/>
+            <a href="https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/">Bitwise</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-relational-operators/">Relational</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-logical-operators/">Logical</a><br/>
+            <a href="https://www.geeksforgeeks.org/assignment-operators-in-c-c/">Assignment</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-ternary-or-conditional-operator/">Ternary/Conditional</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-sizeof-operator/">Sizeof Operator</a><br/>
+            <a href="https://www.geeksforgeeks.org/scope-resolution-operator-in-c/">Scope Resolution Operator</a><br/>
+        </def>
+        <def title="Input/Output">
+            <a href="https://www.geeksforgeeks.org/basic-input-output-c/">Input/Output</a><br/>
+            <a href="https://www.geeksforgeeks.org/cin-in-c/">Standard Input Stream (<code>cin</code>)</a><br/>
+            <a href="https://www.geeksforgeeks.org/cout-in-c/">Standard Output Stream (<code>cout</code>)</a><br/>
+            <a href="https://www.geeksforgeeks.org/cerr-standard-error-stream-object-in-cpp/">Standard Error Stream (<code>cerr</code>)</a><br/>
+            <a href="https://www.geeksforgeeks.org/manipulators-in-c-with-examples/">Input/Output Manipulators</a><br/>
+        </def>
+        </deflist>
+        </td>
         <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Planning</a> &amp; <a href="">Flowcharts</a></td>
         <td><a href="">Flowcharts, and Pseudocode</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 3</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">6. Arrays</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="Arrays">
+            <a href="https://www.geeksforgeeks.org/cpp-arrays/">Arrays</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-multidimensional-arrray/">Multi-dimensional</a><br/>
+            <a href="https://www.geeksforgeeks.org/variable-length-arrays-in-c-and-c/">Variable Length</a><br/>
+            <a href="https://www.geeksforgeeks.org/how-to-print-size-of-an-array-in-a-function-in-c/">Sizeof</a><br/>
+            <a href="https://www.geeksforgeeks.org/how-arrays-are-passed-to-functions-in-cc/">Passing Arrays to Functions</a><br/>
+        </def>
+        <def title="Strings">
+            <a href="https://www.geeksforgeeks.org/strings-in-cpp/">Strings</a><br/>
+            <a href="https://www.geeksforgeeks.org/stdstring-class-in-c/"><code>std::string</code> Class</a><br/>
+            <a href="https://www.geeksforgeeks.org/array-strings-c-3-different-ways-create/">Array of Strings</a><br/>
+            <a href="https://www.geeksforgeeks.org/string-functions-in-c/">String Functions</a><br/>
+            <a href="https://www.geeksforgeeks.org/string-concatenation-in-cpp/">String Concatenation</a><br/>
+            <a href="https://www.geeksforgeeks.org/tokenizing-a-string-cpp/">Tokenizing a String</a><br/>
+            <a href="https://www.geeksforgeeks.org/substring-in-cpp/">Substrings</a><br/>
+        </def>
+        <def title="Dynamic Memory Management">
+            <a href="https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/">Dynamic Memory Management</a><br/>
+            <a href="https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/"><code>new</code> and <code>delete</code> Operators</a><br/>
+            <a href="https://www.geeksforgeeks.org/new-vs-malloc-and-free-vs-delete-in-c/"></a><code>new</code>v. <code>malloc()</code> and <code>free()</code> v. <code>delete</code><br/>
+            <a href="https://www.geeksforgeeks.org/what-is-memory-leak-how-can-we-avoid/">Memory Leak</a><br/>
+            <a href="https://www.geeksforgeeks.org/difference-between-static-and-dynamic-memory-allocation-in-c/">Difference between Static and Dynamic Memory Allocation</a><br/>
+            <a href="https://www.geeksforgeeks.org/vector-in-cpp-stl/"><code>std::Vector</code></a>
+        </def>
+        </deflist>
+        </td>
         <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Data Types</a>, <a href="">Operators</a>, <a href="">Expressions</a>, <a href="">Collections</a></td>
         <td><a href="">Storing Data</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 4</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">7. Functions</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="Standard Template Library">
+            <a href="https://www.geeksforgeeks.org/the-c-standard-template-library-stl/">Standard Template Library</a><br/>
+            <a href="https://www.geeksforgeeks.org/algorithms-library-c-stl/">Algorithms</a><br/>
+            <a href="https://www.geeksforgeeks.org/containers-cpp-stl/">Containers</a><br/>
+            <a href="https://www.geeksforgeeks.org/vector-in-cpp-stl/">Vector</a><br/>
+            <a href="https://www.geeksforgeeks.org/pair-in-cpp-stl/">Pair</a><br/>
+            <a href="https://www.geeksforgeeks.org/set-in-cpp-stl/">Set</a><br/>
+            <a href="https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/">Map</a><br/>
+            <a href="https://www.geeksforgeeks.org/stack-in-cpp-stl/">Stack</a><br/>
+            <a href="https://www.geeksforgeeks.org/queue-cpp-stl/">Queue</a><br/>
+            <a href="https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/">Priority Queue</a><br/>
+            <a href="https://www.geeksforgeeks.org/deque-cpp-stl/">Deque</a><br/>
+            <br/>
+            <i>Optional Reading</i><br/>            
+            <a href="https://www.geeksforgeeks.org/multiset-in-cpp-stl/">Multiset</a><br/>
+            <a href="https://www.geeksforgeeks.org/list-cpp-stl/">List</a><br/>
+            <a href="https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/">Forward List</a><br/>
+            <a href="https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/">Multimap</a><br/>
+            <a href="https://www.geeksforgeeks.org/bitset-in-c-stl/">Bitset</a><br/>    
+            <a href="https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/">Unordered Map</a><br/>
+            <a href="https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/">Unordered Set</a><br/>
+            <a href="https://www.geeksforgeeks.org/unordered_multiset-in-cpp-stl/">Unordered Multiset</a><br/>
+            <a href="https://www.geeksforgeeks.org/unordered_multimap-in-cpp-stl/">Unordered Multimap</a><br/>
+        </def>
+        </deflist>
+        </td>
         <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Functions</a></td>
         <td><a href="">Taskmasters</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 5</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">4. Decision-Making Control Statements</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="Functions">
+            <a href="https://www.geeksforgeeks.org/functions-in-c/">Functions</a><br/>
+            <a href="https://www.geeksforgeeks.org/return-statement-in-cpp-with-examples/"><code>return</code></a><br/>
+            <a href="https://www.geeksforgeeks.org/parameter-passing-techniques-in-c-cpp/">Parameter Passing</a><br/>
+            <a href="https://www.geeksforgeeks.org/difference-between-call-by-value-and-call-by-reference/">Call by Value v. Call by Reference</a><br/>
+            <a href="https://www.geeksforgeeks.org/default-arguments-c/">Default Arguments</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-recursion/">Recursion</a><br/>
+            <a href="https://www.geeksforgeeks.org/inline-functions-cpp/">Inline Functions</a><br/>
+            <a href="https://www.geeksforgeeks.org/lambda-expression-in-c/">Lambda Expressions</a><br/>
+        </def>
+        </deflist>
+        </td>
         <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Condition Statements</a></td>
         <td><a href="">Decisions, Decisions</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 6</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">5. Iterative Control Statements: Loops</a></td>
-        <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Iteration Statements</a>, <a href="">Jump Statements</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="Control Statements">
+            <a href="https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/">Decision Making</a><br/>
+            <a href="https://www.geeksforgeeks.org/c-c-if-statement-with-examples/"><code>if</code> Statements</a><br/>
+            <a href="https://www.geeksforgeeks.org/c-c-if-else-statement-with-examples/"><code>if-else</code> Statements</a><br/>
+            <a href="https://www.geeksforgeeks.org/c-c-if-else-if-ladder-with-examples/"><code>if-else-if</code> Statements</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-nested-if-else-statement/">Nested <code>if-else</code> Statements</a><br/>
+            <a href="https://www.geeksforgeeks.org/switch-statement-cc/">Switch Statement</a><br/>
+            <a href="https://www.geeksforgeeks.org/jump-statements-in-c/">Jump Statements</a><br/>
+            <a href="https://www.geeksforgeeks.org/loops-in-c-and-cpp/">Loops</a><br/>
+            <a href="https://www.geeksforgeeks.org/c-c-for-loop-with-examples/"><code>for</code> Loop</a><br/>
+            <a href="https://www.geeksforgeeks.org/range-based-loop-c/">Range-Based <code>for</code> Loop</a><br/>
+            <a href="https://www.geeksforgeeks.org/c-c-while-loop-with-examples/"><code>while</code> Loop</a><br/>
+            <a href="https://www.geeksforgeeks.org/c-c-do-while-loop-with-examples/"><code>do...while</code> Loop</a><br/>
+        </def>
+        </deflist>
+        </td>
+        <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/><a href="">Iteration Statements</a>, <a href="">Jump Statements</a></td>
         <td><a href="">Flow Control</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 7</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">11. Classes and Objects</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="Pointers and References">
+            <a href="">Pointers and References</a><br/>
+            <a href="">Pointers</a><br/>
+            <a href="">Arithmetic</a><br/>
+            <a href="">Dangling, Void, Null, and Wild Pointers</a><br/>
+            <a href="">Applications of Pointers</a><br/>
+            <a href=""><code>nullptr</code></a><br/>
+            <a href="">References</a><br/><br/>
+            <i>Optional Reading</i><br/>
+            <a href="">Can references refer to an invalid location?</a><br/>
+            <a href="">Difference Between Pointers and References</a><br/>
+            <a href="">Passing by pointer Vs Passing by Reference</a><br/>
+            <a href="">When do we pass arguments by reference or pointer?</a><br/>
+        </def>
+        </deflist>
+        </td>
         <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Structure</a></td>
         <td><a href="">Object-Oriented Programming</a></td>
         <td><a href="">&nbsp;</a></td>
@@ -74,52 +232,154 @@ switcher-label: CSC 200 EE
     </tr>
     <tr>
         <td>Week 9</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">12. Constructors and Destructors</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="OOP, Classes : Basic Structure">
+            <a href="https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/">Object-Oriented Programming</a><br/>
+            <a href="https://www.geeksforgeeks.org/c-classes-and-objects/">Classes and Objects</a><br/>
+            <a href="https://www.geeksforgeeks.org/access-modifiers-in-c/">Access Modifiers</a><br/>
+            <a href="https://www.geeksforgeeks.org/friend-class-function-cpp/">Friend Class and Function</a><br/>
+            <a href="https://www.geeksforgeeks.org/constructors-c/">Constructors</a><br/>
+            <a href="https://www.geeksforgeeks.org/c-internals-default-constructors-set-1/">Default Constructor</a><br/>
+            <a href="https://www.geeksforgeeks.org/copy-constructor-in-cpp/">Copy Constructor</a><br/>
+            <a href="https://www.geeksforgeeks.org/destructors-c/">Destructor</a><br/>
+            <a href="https://www.geeksforgeeks.org/this-pointer-in-c/">this Pointer</a><br/>
+            <br/>
+            <i>Optional Reading</i>
+            <a href="https://www.geeksforgeeks.org/when-is-a-copy-constructor-called-in-cpp/">When is the Copy Constructor Called?</a><br/>
+            <a href="https://www.geeksforgeeks.org/shallow-copy-and-deep-copy-in-c/">Shallow Copy and Deep Copy in C++</a><br/>
+            <a href="https://www.geeksforgeeks.org/g-fact-22/">When Should We Write Our Own Copy Constructor?</a><br/>
+            <a href="https://www.geeksforgeeks.org/does-c-compiler-create-default-constructor-when-we-write-our-own/">Does the Compiler Create a Default Constructor When We Write Our Own?</a><br/>
+            <a href="https://www.geeksforgeeks.org/scope-resolution-operator-vs-this-pointer-in-cpp/">Scope Resolution Operator vs this pointer</a><br/>
+            <a href="https://www.geeksforgeeks.org/structure-vs-class-in-cpp/">Difference between Structure and Class in C++</a><br/>
+        </def>   
+        </deflist>
+        </td>
         <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Inheritance</a> &amp; <a href="">Polymorphism</a></td>
         <td><a href="">Working with Objects</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 10</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">14. Inheritance</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="OOP, Classes : Encapsulation and Abstraction">
+            <a href="https://www.geeksforgeeks.org/encapsulation-in-c/">Encapsulation</a><br/>
+            <a href="https://www.geeksforgeeks.org/abstraction-in-c/">Abstraction</a><br/>
+            <a href="https://www.geeksforgeeks.org/difference-between-abstraction-and-encapsulation-in-c/">Difference Between Them</a><br/>
+        </def>
+        <def title="OOP, Classes : Polymorphism">
+            <a href="https://www.geeksforgeeks.org/polymorphism-in-c/">Polymorphism</a><br/>
+            <a href="https://www.geeksforgeeks.org/function-overriding-in-cpp/">Function Overriding</a><br/>
+            <a href="https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/">Virtual Functions and Runtime Polymorphism</a><br/>
+            <a href="https://www.geeksforgeeks.org/difference-between-compile-time-and-run-time-polymorphism-in-java/">Difference between Compile-time and Run-time Polymorphism</a><br/>
+            <a href="https://www.geeksforgeeks.org/difference-between-inheritance-and-polymorphism/">Difference between Inheritance and Polymorphism</a><br/>
+        </def>
+        </deflist>
+        </td>
         <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Inheritance</a> &amp; <a href="">Polymorphism</a></td>
         <td><a href="">Working with Objects</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 11</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">17. Exception Handling in C++</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="OOP, Classes : Inheritance">
+            <a href="">Inheritance</a><br/>
+            <a href="">Access</a><br/>
+            <a href="">Multiple</a><br/>
+            <a href="">Hierarchical</a><br/>
+            <a href="">Multilevel</a><br/>
+            <a href="">Constructor in Multiple</a><br/>
+            <a href="">Inheritance and Friendship</a><br/>
+            <br/>
+            <i>Optional Reading</i>
+            <a href="">Does Function Overloading Work with Inheritance</a><br/>
+            <a href="https://www.geeksforgeeks.org/difference-between-inheritance-and-polymorphism/">Difference Between Inheritance and Polymorphism</a><br/>
+        </def>
+        </deflist>
+        </td>
         <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Exception Handling</a></td>
         <td><a href="">Working with Errors</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 12</td>
-        <td><a href="https://assets.cambridge.org/97813165/06806/frontmatter/9781316506806_frontmatter.pdf">15. Input and Output Streams in C++</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="Exception Handling">
+            <a href="https://www.geeksforgeeks.org/exception-handling-c/"></a><br/>
+            <a href="https://www.geeksforgeeks.org/exception-handling-using-classes-in-cpp/"></a><br/>
+            <a href="https://www.geeksforgeeks.org/stack-unwinding-in-c/"></a><br/>
+            <a href="https://www.geeksforgeeks.org/user-defined-custom-exception-with-class-in-c/"></a><br/>
+        </def>
+        <def title="Files and Streams">
+            <a href="https://www.geeksforgeeks.org/file-handling-c-classes/"></a><br/>
+            <a href="https://www.geeksforgeeks.org/io-redirection-c/"></a><br/>
+        </def>
+        </deflist>
+        </td>
         <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">File Handling</a></td>
         <td><a href="">External Data</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 13</td>
-        <td><a href="">&nbsp;</a></td>
-        <td>Wrap-up</td>
-        <td><a href="">No Formal Lab</a></td>
+        <td>
+        <deflist collapsible="true">
+        <def title="Preprocessors">
+            <a href="https://www.geeksforgeeks.org/cc-preprocessors/">Preprocessor</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-preprocessor-directives-set-2/">Preprocessor Directives</a><br/>
+            <a href="https://www.geeksforgeeks.org/c-c-include-directive-with-examples/"><code>#include</code> Directive</a><br/>
+            <a href="https://www.geeksforgeeks.org/cc-preprocessors/"><code>#define</code> Directive</a><br/>
+            <a href="https://www.geeksforgeeks.org/cpp-preprocessor-directives-set-2/">Conditional Preprocessors</a><br/>
+            <br/>
+            <i>Optional Reading</i><br/>
+            <a href="https://www.geeksforgeeks.org/difference-between-preprocessor-directives-and-function-templates-in-c/">Difference between C++ Preprocessor Directives and Function Templates</a><br/>
+        </def>
+        </deflist>
+        <deflist collapsible="true">
+        <def title="Templates">
+            <a href="https://www.geeksforgeeks.org/templates-cpp/">Templates</a><br/>
+            <a href="https://www.geeksforgeeks.org/template-specialization-c/">Template Specialization</a><br/>
+            <a href="https://www.geeksforgeeks.org/using-keyword-in-cpp-stl/"><code>using</code> Keyword</a><br/> 
+        </def>
+        <def title="Namespace">
+            <a href="https://www.geeksforgeeks.org/namespace-in-c/">Namespaces</a><br/>
+            <a href="https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/">Extending C++ Namespace and Unnamed Namespace</a><br/>
+            <a href="https://www.geeksforgeeks.org/namespace-c-set-3-creating-header-nesting-aliasing-accessing/">Accessing, Creating Header, Nesting, and Aliasing Namespace</a><br/>
+            <a href="https://www.geeksforgeeks.org/inline-namespaces-usage-using-directive-inside-namespaces/">Inline Namespaces</a><br/>  
+        </def>
+        <def title="Iterators">
+            <a href="https://www.geeksforgeeks.org/introduction-iterators-c/">Introduction to</a><br/>
+            <a href="https://www.geeksforgeeks.org/input-iterators-in-cpp/">Input</a><br/>
+            <a href="https://www.geeksforgeeks.org/output-iterators-cpp/">Output</a><br/>
+            <a href="https://www.geeksforgeeks.org/forward-iterators-in-cpp/">Forward</a><br/>  
+            <a href="https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/">Bidirectional</a><br/>
+            <a href="https://www.geeksforgeeks.org/random-access-iterators-in-cpp/">Random Access</a><br/>
+            <a href="https://www.geeksforgeeks.org/stdistream_iterator-stdostream_iterator-c-stl/"><code>istream</code> and <code>ostream</code></a><br/>
+            <a href="https://www.geeksforgeeks.org/difference-between-iterators-and-pointers-in-c-c-with-examples/">Difference between C++ Iterators and Pointers</a><br/>  
+        </def>
+        </deflist>
+        </td>
+        <td>File &amp; Programming Attributes</td>
+        <td><a href="">Group work to wrap up the term project...</a></td>
         <td><a href="">&nbsp;</a></td>
     </tr>
     <tr>
         <td>Week 14</td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">Presentations</a></td>
-        <td><a href="">&nbsp;</a></td>
+        <td>Final Exam</td>
+        <td>Final Exam</td>
+        <td>Group Presentations</td>
+        <td>Final Exam</td>
     </tr>
     <tr>
         <td>Week 15</td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">&nbsp;</a></td>
+        <td>Final Exam</td>
+        <td>Final Exam</td>
+        <td>Final Exam</td>
+        <td>Final Exam</td>
     </tr>
 </table>
 

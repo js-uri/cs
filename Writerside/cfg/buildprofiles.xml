@@ -4,7 +4,7 @@
         <primary-color>deep-ocean</primary-color>
         <header-logo>https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/227.png</header-logo>
 <!--        <product-web-url>https://help.example.com</product-web-url>-->
-        <custom-favicons>URI_Brandmark_282.png</custom-favicons>
+        <custom-favicons>URI Brandmark 282.png</custom-favicons>
     </variables>
     <build-profile instance="Writerside/hi" />
     <footer>

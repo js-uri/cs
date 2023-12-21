@@ -1,6 +1,6 @@
 # Course Selection
 
-![image](http://www.gcrd.co.uk/wp-content/uploads/2018/05/GCRD-courses.jpg)
+![image](URI_Brandmark_282.png)
 { centered=true }
 
 <note>
