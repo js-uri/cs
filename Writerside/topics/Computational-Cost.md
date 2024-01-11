@@ -62,6 +62,14 @@
 
 ### Some Rules of Analysis
 
+<table>
+<tr>
+<td>Code Sample &amp; Outcomes</td>
+<td>Useful Formulas</td>
+</tr>
+<tr>
+<td>
+
 <procedure>
 <b>Single loops</b>
 <step>essentially, <code-block lang="tex"> total\ iterations\ \times \bigg( \frac{total\ instructions\ performed\ }{ iteration} \bigg)</code-block></step>
@@ -84,9 +92,75 @@
 <step>consider the branch with the highest count</step>
 </procedure>
 
+</td>
+<td>
+
+
+</td>
+</tr>
+</table>
+
+
+
 ### Examples
 
 <deflist collapsible="true" default-state="collapsed">
+<def title="model">
+
+What to count?
+- only relevant instructions?
+- all instructions?
+
+```c++
+for (int i = 0; i < n; i++) {
+    std::cout << (2 * i);
+}
+```
+
+<note>
+<b>Application</b>
+<code-block lang="tex"> \text{This code has a time complexity of } O(n). \text{ This is because the loop runs}</code-block>
+<code-block lang="tex"> n \text{ times and the body of the loop has a time complexity of } O(1).</code-block>
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int i, n = 8;
+  for (i = 1; i <= n; i++) {
+    cout << "Hello World !!!\n";
+  }
+  return 0;
+}
+```
+
+<b>Output</b>
+
+```text
+Hello World !!!
+Hello World !!!
+Hello World !!!
+Hello World !!!
+Hello World !!!
+Hello World !!!
+Hello World !!!
+Hello World !!!
+```
+
+</note>
+
+<b>Time Complexity</b>
+<code-block lang="tex"> \text{In the above code “Hello World !!!” is printed only } n \text{ times on the screen,}</code-block>
+<code-block lang="tex"> \text{as the value of } n \text{ can change. So, the time complexity is linear: } O(n)</code-block>
+<code-block lang="tex"> \text{ i.e. every time, a linear amount of time is required to execute code.}</code-block>
+
+<b>Auxiliary Space</b>
+<code-block lang="tex"> \text{The space complexity of the above code is constant: } O(1)</code-block>
+
+
+</def>
 <def title="x1">
 
 ```c++

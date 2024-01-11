@@ -1,42 +1,59 @@
 # CSC 200 ME : Lab 1 | Set Up
 
-## Objectives
+## Overview: 
 
-- Ensure students can set up a development environment for Python 3.12 on both Windows and macOS.
-- Familiarize students with two popular Integrated Development Environments (IDEs), PyCharm and Visual Studio Code.
-- Validate that students understand the importance of having a functional development environment for coding in Python.
+### What is GitHub?
 
-## Relevance
+GitHub is a web-based version control system that allows you to collaborate with others on projects. It is widely used in the software development industry and is a valuable tool for managing and tracking changes to code. GitHub is also a great platform for sharing and discovering open-source projects. In this lab, you will learn how to create a GitHub account and set up a repository for your CSC 200 projects. 
 
-Understanding how to set up and work with IDEs is crucial in the real world because:
+### How to use github?
 
-- In science and engineering, Python is widely used for data analysis, simulations, and various computational tasks. A well-configured IDE streamlines the coding process.
-- IDEs like PyCharm and Visual Studio Code are industry-standard tools, and proficiency with them is highly beneficial in software development and data science roles.
-- The ability to independently set up and configure development environments is an essential skill for any computer scientist or engineer.
-
-## Instructions and Guidelines
-
-<!-- TODO : Rewrite all this -->
-Provide students with a clear set of instructions and guidelines:
-Include screenshots, code snippets, or video tutorials to illustrate each step.
-Emphasize the importance of careful reading and following instructions, as this is a fundamental skill in programming.
-
-### Install Python
-
-1) Visit python.org and download Python 3.12
-    1) For WindowsOS, you may want to follow along with the video to select all the necessary options during setup https://youtu.be/nU2Egc3Zx3Q?feature=shared
-2) Test if Python was install correctly. Open a terminal [MacOS] / PowerShell [WindowsOS] and type: `python --version`
-    1) If installed correctly, the following with the version installed should come up: `Python #.#.#`
-
-### Install an IDE
-
-1)
+1. Create a GitHub account
+2. Create a repository for your CSC 200 projects
+3. Clone the repository to your local machine
+4. Add your CSC 200 projects to the repository
+5. Commit and push your changes to GitHub
 
 
-## Requirements
 
-- Complete the installation process of Python and an IDE
+Prerequisites:
+List any prior knowledge or skills necessary for the lab
 
-### Submission
+Materials:
+Specify the hardware, software, and any additional resources required for the lab
 
-- Open PyCharm
+Lab Duration:
+Indicate the estimated time needed to complete the lab
+
+Learning Objectives:
+
+Clearly state the specific learning outcomes for the lab session
+Tasks:
+
+Introduction:
+Briefly explain the purpose of the lab.
+Provide context for the concepts or skills covered.
+Setup:
+Step-by-step instructions for setting up the necessary tools or environment.
+Include screenshots or code snippets if applicable.
+Exercises:
+Present a series of tasks or problems for students to solve.
+Encourage hands-on practice and problem-solving.
+Guidance:
+Offer guidance or hints where needed.
+Clarify common challenges or misconceptions.
+Discussion:
+Include questions or prompts to stimulate discussion.
+Encourage students to share insights or approaches.
+Assessment:
+Specify how the lab will be assessed (e.g., completion of tasks, code quality).
+Provide a rubric or criteria for evaluation.
+Additional Resources:
+List relevant readings, online tutorials, or supplementary materials for further exploration
+
+Conclusion:
+Summarize key takeaways from the lab.
+Highlight connections to broader course concepts.
+
+References:
+Cite any external sources or references used in creating the lab content

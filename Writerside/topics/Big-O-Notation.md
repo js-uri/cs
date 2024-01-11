@@ -1,23 +1,26 @@
 # Big-O Notation
 
-<video src="https://youtu.be/__vX2sjlpXU?feature=shared" width="900" mini-player="true"/>
+<video src="https://youtu.be/__vX2sjlpXU?feature=shared" preview-src="bigohero.jpeg" width="900" mini-player="true"/>
 
 ## The story so far...
 
 <table>
 <tr>
-<td width="50%">
-<procedure style="choices">
-<p>Can measure actual runtime to compare algorithms</p>
-<step>however, runtime is noisy (highly sensitive to hardware/software and implementation details)</step>
-</procedure>
+<td>Can measure actual runtime to compare algorithms</td>
+<td>Can count instructions to compare algorithms</td>
+</tr>
+<tr>
+<td>
+
+- however, runtime is noisy (highly sensitive to hardware/software and implementation details)
+
 </td>
 <td>
-<procedure style="choices">
-<p>Can count instructions to compare algorithms</p>
-<step>can define <code-block lang="tex"> T(n)</code-block> which depends on the input size</step>
-<step>for large inputs, our focus should be on the dominant terms of <code-block lang="tex"> T(n)</code-block></step>
-</procedure>
+
+<list>
+<li>can define <code-block lang="tex"> T(n)</code-block> which depends on the input size</li>
+<li>for large inputs, our focus should be on the dominant terms of <code-block lang="tex"> T(n)</code-block></li>
+</list>
 </td>
 </tr>
 </table>
@@ -26,6 +29,9 @@
 
 ## Inline Math
 
+<table>
+<tr>
+<td colspan="2">
 <procedure style="choices">
 <b>Sequence</b>
 <note>also known as a progression, is a successive arrangement of numbers in an order according to some specific rules</note>
@@ -34,7 +40,7 @@
 <step><code-block lang="tex"> \text{ finite arithmetic sequence : } 3, 5, 7, 9, 11</code-block></step>
 <step><code-block lang="tex"> \text{ infinite arithmetic sequence : } 3, 5, 7, 9, 11, \dots </code-block></step>
 </procedure>
-
+<br/>
 <procedure style="choices">
 <b>Series</b>
 <note>formed by <i>adding</i> the elements of a sequence</note>
@@ -43,6 +49,91 @@
 <step><code-block lang="tex"> \text{ finite arithmetic sequence : } 3 + 5 + 7 + 9 + 11</code-block></step>
 <step><code-block lang="tex"> \text{ infinite arithmetic sequence : } 3 + 5 + 7 + 9 + 11 + \dots </code-block></step>
 </procedure>
+
+<procedure>
+<b>Sigma Notation</b> <i>(example)</i>
+
+![image](https://www.onlinemathlearning.com/image-files/sigma-notation.png)
+{width="100"}
+
+```tex
+\sum_{i=1}^{n} i = 1 + 2 + 3 + \dots + n
+```
+</procedure>
+</td>
+</tr>
+<tr>
+<td>
+<tip>
+<p>Sigma Example 1</p>
+
+[Walkthrough](https://opendsa-server.cs.vt.edu/embed/SummationOneToNCON)
+
+</tip>
+</td>
+<td>
+<tip>
+<p>Sigma Example 2</p>
+
+[Walkthrough](https://opendsa-server.cs.vt.edu/embed/SummationTwoPowerICON)
+
+</tip>
+</td>
+</tr>
+</table>
+
+
+<procedure>
+<tabs>
+<tab title="Arithmetic">
+<p>where each term of the sequence is formed either by adding or subtracting a common term from the preceding number</p>
+
+```tex
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+```
+</tab>
+<tab title="Geometric">
+<p>where each term of the sequence is formed either by multiplying or dividing a common term with the preceding number</p><br/>
+
+```tex
+\sum_{i=1}^{n} r^i = \frac{r^{n+1} - 1}{r - 1}
+```
+</tab>
+<tab title="Harmonic">
+<p>where each term of the sequence is an infinite series of the reciprocals of positive integers</p><br/>
+
+```tex
+\sum_{i=1}^{n} \frac{1}{i} = \ln n + \gamma + \epsilon_n
+```
+</tab>
+<tab title="Logarithmic">
+<p>where each term of the sequence is the logarithm of the element of an arithmetic sequence</p><br/>
+
+```tex
+\sum_{i=1}^{n} \log i = \log n!
+```
+</tab>
+<tab title="Factorial">
+<p>where each term of the sequence is the factorial of the element of an arithmetic sequence</p><br/>
+
+```tex
+\sum_{i=1}^{n} i! = (n+1)! - 1
+```
+</tab>
+<tab title="Exponential">
+<p>where each term of the sequence is the exponential of the element of an arithmetic sequence</p><br/>
+
+```tex
+\sum_{i=1}^{n} r^i = \frac{r^{n+1} - 1}{r - 1}
+```
+</tab>
+</tabs>
+</procedure>
+
+
+
+
+
 
 
 
@@ -69,8 +160,8 @@
 <tr>
 
 [//]: # (TODO : ADD IMAGES)
-<td><img src="https://placehold.co/600x400" alt="" /></td>
-<td><img src="https://placehold.co/600x400" alt="" /></td>
+<td><img src="compareTwoLeft.png" alt="" thumbnail="true" /></td>
+<td><img src="compareTwoRight.png" alt="" thumbnail="true" /></td>
 </tr>
 </table>
 </def>
@@ -86,10 +177,9 @@
 <table>
 <tr>
 
-[//]: # (TODO : ADD IMAGES)
-<td><img src="https://placehold.co/600x400" alt="" /></td>
-<td><img src="https://placehold.co/600x400" alt="" /></td>
-<td><img src="https://placehold.co/600x400" alt="" /></td>
+<td><img src="compareThreeLeft.png" alt="" thumbnail="true" /></td>
+<td><img src="compareThreeMiddle.png" alt="" thumbnail="true" /></td>
+<td><img src="compareThreeRight.png" alt="" thumbnail="true" /></td>
 </tr>
 </table>
 </def>
@@ -105,14 +195,14 @@
 <tr>
 
 [//]: # (TODO : ADD IMAGES)
-<td><img src="https://placehold.co/600x400" alt="" /></td>
-<td><img src="https://placehold.co/600x400" alt="" /></td>
+<td><img src="compareTwoTopLeft.png" alt="" thumbnail="true" /></td>
+<td><img src="compareTwoTopRight.png" alt="" thumbnail="true" /></td>
 </tr>
 <tr>
 
 [//]: # (TODO : ADD IMAGES)
-<td><img src="https://placehold.co/600x400" alt="" /></td>
-<td><img src="https://placehold.co/600x400" alt="" /></td>
+<td><img src="compareTwoBottomLeft.png" alt="" thumbnail="true" /></td>
+<td><img src="compareTwoBottomRight.png" alt="" thumbnail="true" /></td>
 </tr>
 </table>
 </def>
@@ -145,11 +235,11 @@
 <table>
 <tr>
 <td>
-<img src="http://127.0.0.1:3000/courses/_build/html/_images/04_s11.png" alt="image" />
+<img src="timecomplexities.jpeg" alt="image" />
 </td>
 <td>
 <procedure style="choices">
-<code-block lang="tex"> \text{Algorithm } A \text{ is better than Algorithm } B \text{ if \dots}</code-block>
+<code-block lang="tex"> \text{Algorithm } A \text{ is better than Algorithm } B \text{ if } \dots</code-block>
 <step><code-block lang="tex"> \text{for large values of } n, T_A(n) \text{ grows slower than } T_B(n)</code-block></step>
 <step><code-block lang="tex"> \text{Note: Faster growth rate} \dots \text{slower algorithm} \dots</code-block></step>
 </procedure>
@@ -264,29 +354,29 @@ for (int i = 0; i < n; i++) {
 <tabs>
 
 <tab title="Defined">
-<img src="https://placehold.co/600x400" alt="" />
+<img src="defined.jpeg" alt="" />
 <br/><br/>
 <p>Asymptotic bounds are a way of describing the behavior of an algorithm as the input size approaches infinity. They are used to analyze the time and space complexity of algorithms, and are expressed in terms of upper and lower bounds.</p>
 <p>The most commonly used asymptotic bounds are Big-O notation, Omega notation, and Theta notation.</p>
 <br/>
-    <procedure>
-    <b>Big-O notation</b>
-    <p>is an upper bound on the growth rate of an algorithm. It describes the worst-case scenario of an algorithm’s time complexity.</p>
-    <step><code-block lang="tex"> \text{if an algorithm has a time complexity of } O(n^2) \text{ means that the running}</code-block></step>
-    <step><code-block lang="tex"> \text{time of the algorithm grows no faster than } n^2 </code-block></step>
-    </procedure>
-    <procedure>
-    <b>Big-Omega notation</b>
-    <p>is a lower bound on the growth rate of an algorithm. It describes the best-case scenario of an algorithm’s time complexity.</p>
-    <step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Omega(n^2) \text{ means that the running}</code-block></step>
-    <step><code-block lang="tex"> \text{time of the algorithm grows at least as fast as } n^2 </code-block></step>
-    </procedure>
-    <procedure>
-    <b>Theta notation</b>
-    <p>provides both an upper and lower bound on the growth rate of an algorithm. It describes the tight bound on the growth rate of an algorithm.</p>
-    <step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Theta(n^2) \text{ means that the running}</code-block></step>
-    <step><code-block lang="tex"> \text{time of the algorithm grows exactly as fast as } n^2 </code-block></step>
-    </procedure>
+<procedure>
+<b>Big-O notation</b>
+<p>is an upper bound on the growth rate of an algorithm. It describes the worst-case scenario of an algorithm’s time complexity.</p>
+<step><code-block lang="tex"> \text{if an algorithm has a time complexity of } O(n^2) \text{ means that the running}</code-block></step>
+<step><code-block lang="tex"> \text{time of the algorithm grows no faster than } n^2 </code-block></step>
+</procedure>
+<procedure>
+<b>Big-Omega notation</b>
+<p>is a lower bound on the growth rate of an algorithm. It describes the best-case scenario of an algorithm’s time complexity.</p>
+<step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Omega(n^2) \text{ means that the running}</code-block></step>
+<step><code-block lang="tex"> \text{time of the algorithm grows at least as fast as } n^2 </code-block></step>
+</procedure>
+<procedure>
+<b>Theta notation</b>
+<p>provides both an upper and lower bound on the growth rate of an algorithm. It describes the tight bound on the growth rate of an algorithm.</p>
+<step><code-block lang="tex"> \text{if an algorithm has a time complexity of } \Theta(n^2) \text{ means that the running}</code-block></step>
+<step><code-block lang="tex"> \text{time of the algorithm grows exactly as fast as } n^2 </code-block></step>
+</procedure>
 <br/>
 <p>Asymptotic bounds are useful because they allow us to compare the efficiency of different algorithms and to choose the most appropriate one for a given task.</p>
 </tab>
@@ -294,7 +384,7 @@ for (int i = 0; i < n; i++) {
 <tab title="Big-O">
 <note>
 <p>Definition</p>
-<img src="http://127.0.0.1:3000/courses/_build/html/_images/04_s13.png" alt="image" />
+<img src="bigo.jpeg" alt="image" />
 <br/><br/>
 <procedure>
 <p>Translation</p>
@@ -320,7 +410,7 @@ c.g : f(n) &amp; = 2n + 3 \\
 <tab title="Big-Omega">
 <note>
 <p>Definition</p>
-<img src="http://127.0.0.1:3000/courses/_build/html/_images/04_s15.png" alt=""/>
+<img src="bigomega.jpeg" alt=""/>
 <br/><br/>
 <procedure>
 <p>Translation</p>
@@ -352,7 +442,7 @@ c.g : f(n) &amp; = 2n + 3 \\
 <tab title="Theta">
 <note>
 <p>Definition</p>
-<img src="http://127.0.0.1:3000/courses/_build/html/_images/04_s16.png" alt=""/>
+<img src="theta.jpeg" alt=""/>
 <br/><br/>
 <procedure>
 <p>Translation</p>
