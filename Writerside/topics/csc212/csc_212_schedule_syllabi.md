@@ -127,7 +127,7 @@ Visualizer</a></p></td>
 [//]: # (WEEK 11 )
 <tr><td><p>Week 11</p></td>
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">11 Graphs</a><br/></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Graphs</a><br/><a href="">DFS</a> &amp;amp; <a href="">BFS</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Graphs</a><br/><a href="">DFS</a> &amp; <a href="">BFS</a></p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Greedy Algorithms</a></p></td>
 <td>Hash Bucket Day</td>
 <td><p><a href="">Hash Tables</a></p></td>
@@ -140,7 +140,7 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="">Dynamic Programming</a></p></td>
 <td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="">Randomized Algorithms</a></p></td>
 <td>Greedy Algorithms Day</td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2009%20Sets%20%26%20Maps">Sets &amp;amp; Maps</a></p></td>
+<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2009%20Sets%20%26%20Maps">Sets &amp; Maps</a></p></td>
 <td><p>A5 : Analysis II</p></td>
 </tr>
 
@@ -365,18 +365,18 @@ ability for implementation. The project will be completed in groups of 3-4 membe
     </tr>
     <tr>
         <td>Recitations</td>
-        <td>4</td>
-        <td>100</td>
+        <td>3</td>
+        <td>150</td>
     </tr>
     <tr>
         <td>Practicals</td>
         <td>10</td>
-        <td>400</td>
+        <td>350</td>
     </tr>
     <tr>
         <td>Assignments</td>
-        <td>5</td>
-        <td>200</td>
+        <td>4</td>
+        <td>300</td>
     </tr>
     <tr>
         <td>Term Project</td>
@@ -384,23 +384,10 @@ ability for implementation. The project will be completed in groups of 3-4 membe
         <td>200</td>
     </tr>
     <tr>
-        <td>Final Exam</td>
-        <td>1</td>
-        <td>100</td>
-    </tr>
-    <tr>
         <td></td>
         <td></td>
         <td>1000</td>
     </tr>
-
-[//]: # (    <tr>)
-
-[//]: # (        <td>Final Exam</td>)
-
-[//]: # (        <td>20%</td>)
-
-[//]: # (    </tr>)
 </table>
 
 <table>
