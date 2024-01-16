@@ -1,6 +1,6 @@
 <show-structure for="chapter,procedure" depth="2"/>
 
-# Analysis
+# Algorithmic Analysis
 
 <video src="https://youtu.be/RctntWQjazw" width="900"/>
 
@@ -38,7 +38,7 @@
 <td colspan="3">
 
 ![analysis](analysis.jpeg)
-{width="900"}
+{width="900" thumbnail="true"}
 
 </td>
 </tr>
@@ -70,7 +70,7 @@ Selection
 <procedure>
 
 ![image](orgs.jpeg)
-{width="900"}
+{width="900" thumbnail="true"}
 
 </procedure>
 
@@ -190,42 +190,66 @@ Concepts introduced by Euler
 
 <table>
 <tr>
-<td>Euler 1</td>
-<td>Euler 2</td>
+<td>Iterative</td>
+<td>Recursive</td>
 </tr>
 <tr>
 <td>
 
 ```c++
-long double euler1 (int n) {
-    long double sum = 0;
-    long double fact;
-    for (int i = 0; i <= n; i++) {
-        fact = 1;
-        for (int j = 2; j <= i; j++) {
-            fact *= j; 
-        }
-        sum += (1.0/fact);
+#include <iostream>
+
+double calculateEulerIterative(int n) {
+    double result = 1.0;
+    double term = 1.0;
+
+    for (int i = 1; i <= n; ++i) {
+        term /= i;
+        result += term;
     }
-    return sum;
+
+    return result;
 }
+
+int main() {
+    int n = 10; // You can adjust the value of n for desired precision
+    double eulerNumber = calculateEulerIterative(n);
+
+    std::cout << "Euler's number (iterative) with " 
+              << n << " terms: " << eulerNumber 
+              << std::endl;
+
+    return 0;
+}
+
 ```
 
 </td>
 <td>
 
 ```c++
-long double euler2 (int n) {
-    long double sum = 0;
-    long double fact = 1;
-    for (int i = 0; i <= n; i++) {
-        sum += (1.0/fact);
-        fact *= (i + 1); 
+#include <iostream>
+
+double calculateEulerRecursive(int n) {
+    if (n == 0) {
+        return 1.0;
     }
-    return sum;
 
+    return calculateEulerRecursive(n - 1) + 1.0 / factorial(n);
+}
 
+double factorial(int num) {
+    return (num == 0 || num == 1) ? 1 : num * factorial(num - 1);
+}
 
+int main() {
+    int n = 10; // You can adjust the value of n for desired precision
+    double eulerNumber = calculateEulerRecursive(n);
+
+    std::cout << "Euler's number (recursive) with " 
+              << n << " terms: " << eulerNumber << std::endl;
+
+    return 0;
 }
 ```
 

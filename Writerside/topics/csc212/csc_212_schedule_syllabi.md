@@ -28,16 +28,16 @@ switcher-label: CSC 212
 </td>
 <td><p><format style="bold" color="LightCoral">Admin</format><br/><a href="">Introduction</a></p></td>
 <td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Analysis of Algorithms</a></p></td>
-<td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%201%20C++%20Crash%20Course">C++ Crash Course</a></p></td>
-<td><p><a href="https://ijchen.github.io/uri-csc212-mazeviz/">A1 : Binarization</a></p></td>
+<td colspan="2"><p><a href="https://classroom.github.com/a/JO2w1q7a">C++ Crash Course</a></p></td>
+<td><p><a href="">A1 : Binarization</a></p></td>
 </tr>
 
 [//]: # (WEEK 2 )
 <tr><td><p>Week 02</p></td>
 <td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Computational Cost</a></p></td>
 <td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Big-O</a></p></td>
-<td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%202%20Runtime%20Clocking">Runtime Clocking</a></p></td>
-<td><p><a href="https://ijchen.github.io/uri-csc212-mazeviz/">A1 : Binarization</a></p></td>
+<td colspan="2"><p><a href="https://classroom.github.com/a/cqeiebKL">Runtime Clocking</a></p></td>
+<td><p><a href="">A1 : Binarization</a></p></td>
 </tr>
 
 [//]: # (WEEK 3 )
@@ -51,16 +51,16 @@ switcher-label: CSC 212
 <td><p><format style="bold" color="LightSeaGreen">Linear</format><br/><a href="Linked-List.md">Linked Lists</a></p></td>
 
 [//]: # (<td><p><format style="bold" color="LightCoral">Admin</format><br/>Term Project Discussion</p></td>)
-<td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%203%20Dynamic%20Arrays">Dynamic Arrays</a></p></td>
-<td><p><a href="https://ijchen.github.io/uri-csc212-mazeviz/">A1 : Binarization</a></p></td>
+<td colspan="2"><p><a href="">Dynamic Arrays</a></p></td>
+<td><p><a href="">A1 : Binarization</a></p></td>
 </tr>
 
 [//]: # (WEEK 4 )
 <tr><td><p>Week 04</p></td>
 <td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="">Stacks</a> <br/> <a href="">Queues</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Search Algorithms</a><br/><a href="">Basic Sorts</a></p></td>
-<td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%204%20Linked%20Lists">Linked Lists</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Assignments/a2">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
+<td colspan="2"><p><a href="">Linked Lists</a></p></td>
+<td><p><a href="">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
 Visualizer</a></p></td>
 </tr>
 
@@ -70,8 +70,8 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/><a href="">Recursive Algorithms</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Recurrences</a></p></td>
 <td>Sorting Algorithm Day 1</td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2006%20Recursion">Recursion</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Assignments/a2">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
+<td><p><a href="">Recursion</a></p></td>
+<td><p><a href="">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
 Visualizer</a></p></td>
 </tr>
 
@@ -81,8 +81,8 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Binary Search Trees</a> <br/> <a href="">Heaps</a></p></td>
 <td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="">Priority Queues</a> <br/> <a href="">Heaps</a></p></td>
 <td>Sorting Algorithm Day 2</td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2007%20Backtracking">Backtracking</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Assignments/a3/assignment_3.pdf">A3 : Analysis I</a></p></td>
+<td><p><a href="">Backtracking</a></p></td>
+<td><p><a href="">A3 : Analysis I</a></p></td>
 </tr>
 
 [//]: # (WEEK 7 )
@@ -91,8 +91,8 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Quicksort</a> <br/> <a href="">Mergesort</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Heapsort</a> <br/> <a href="">Introsort</a></p></td>
 <td>Mathematically-sounding Tree Day</td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%205%20Priority%20Queues">Priority Queues</a></p></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Assignments/a3/assignment_3.pdf">A3 : Analysis I</a></p></td>
+<td><p><a href="">Priority Queues</a></p></td>
+<td><p><a href="">A3 : Analysis I</a></p></td>
 </tr>
 
 [//]: # (WEEK 8 )
@@ -109,7 +109,7 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">2-3 Trees</a></p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Left-leaning Red Black Trees</a></p></td>
 <td>Alphabet Tree Day</td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2008%20Binary%20Search%20Trees">Binary Search Trees</a></p></td>
+<td><p><a href="">Binary Search Trees</a></p></td>
 <td><p>A4 : Grids &amp; Expressions</p></td>
 </tr>
 
@@ -118,7 +118,7 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Hash Tables</a></p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Sets</a> <br/> <a href="">Maps</a></p></td>
 <td>Advanced Tree Day</td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2011%20Balancing%20Act">Balancing Act</a></p></td>
+<td><p><a href="">Balancing Act</a></p></td>
 <td><p>A4 : Grids &amp; Expressions</p></td>
 </tr>
 
@@ -128,7 +128,7 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Graphs</a><br/><a href="">DFS</a> &amp;amp; <a href="">BFS</a></p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Greedy Algorithms</a></p></td>
 <td>Hash Bucket Day</td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2010%20Hash%20Tables">Hash Tables</a></p></td>
+<td><p><a href="">Hash Tables</a></p></td>
 <td><p>A5 : Conceptual II</p></td>
 </tr>
 
@@ -147,7 +147,7 @@ Visualizer</a></p></td>
 <td></td>
 <td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Term%20Project.md">Research Project</a> Wrap-up</p></td>
 <td><format color="Orange">NEED ANOTHER DAY HERE</format></td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2012%20Graphs">Graphs</a></p></td>
+<td><p><a href="">Graphs</a></p></td>
 <td><p>A5 : Analysis II</p></td>
 </tr>
 
