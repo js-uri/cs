@@ -29,7 +29,8 @@ switcher-label: CSC 212
 <td><p><format style="bold" color="LightCoral">Admin</format><br/><a href="">Introduction</a></p></td>
 <td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Analysis of Algorithms</a></p></td>
 <td colspan="2"><p><a href="https://classroom.github.com/a/JO2w1q7a">C++ Crash Course</a></p></td>
-<td><p><a href="">A1 : Binarization</a></p></td>
+<td><p><a href="">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
+Visualizer</a></p></td>
 </tr>
 
 [//]: # (WEEK 2 )
@@ -37,7 +38,8 @@ switcher-label: CSC 212
 <td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Computational Cost</a></p></td>
 <td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Big-O</a></p></td>
 <td colspan="2"><p><a href="https://classroom.github.com/a/cqeiebKL">Runtime Clocking</a></p></td>
-<td><p><a href="">A1 : Binarization</a></p></td>
+<td><p><a href="">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
+Visualizer</a></p></td>
 </tr>
 
 [//]: # (WEEK 3 )
@@ -52,7 +54,8 @@ switcher-label: CSC 212
 
 [//]: # (<td><p><format style="bold" color="LightCoral">Admin</format><br/>Term Project Discussion</p></td>)
 <td colspan="2"><p><a href="">Dynamic Arrays</a></p></td>
-<td><p><a href="">A1 : Binarization</a></p></td>
+<td><p><a href="">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
+Visualizer</a></p></td>
 </tr>
 
 [//]: # (WEEK 4 )
@@ -60,8 +63,7 @@ switcher-label: CSC 212
 <td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="">Stacks</a> <br/> <a href="">Queues</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Search Algorithms</a><br/><a href="">Basic Sorts</a></p></td>
 <td colspan="2"><p><a href="">Linked Lists</a></p></td>
-<td><p><a href="">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
-Visualizer</a></p></td>
+<td><p><a href="">A3 : Analysis I</a></p></td>
 </tr>
 
 [//]: # (WEEK 5 )
@@ -71,8 +73,7 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Recurrences</a></p></td>
 <td>Sorting Algorithm Day 1</td>
 <td><p><a href="">Recursion</a></p></td>
-<td><p><a href="">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
-Visualizer</a></p></td>
+<td><p><a href="">A3 : Analysis I</a></p></td>
 </tr>
 
 [//]: # (WEEK 6 )
@@ -92,7 +93,8 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Heapsort</a> <br/> <a href="">Introsort</a></p></td>
 <td>Mathematically-sounding Tree Day</td>
 <td><p><a href="">Priority Queues</a></p></td>
-<td><p><a href="">A3 : Analysis I</a></p></td>
+<td><p>A4 : Grids &amp; Expressions</p></td>
+
 </tr>
 
 [//]: # (WEEK 8 )
@@ -117,9 +119,9 @@ Visualizer</a></p></td>
 <tr><td><p>Week 10</p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Hash Tables</a></p></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Sets</a> <br/> <a href="">Maps</a></p></td>
-<td>Advanced Tree Day</td>
+<td>Career Fair (Good Luck!!) <br/> Recitations Canceled</td>
 <td><p><a href="">Balancing Act</a></p></td>
-<td><p>A4 : Grids &amp; Expressions</p></td>
+<td><p>A5 : Analysis II</p></td>
 </tr>
 
 [//]: # (WEEK 11 )
@@ -146,9 +148,8 @@ Visualizer</a></p></td>
 <tr><td><p>Week 13</p></td>
 <td></td>
 <td colspan="2"><p><a href="https://github.com/uricsc/212-Deliverables/blob/main/Term%20Project.md">Research Project</a> Wrap-up</p></td>
-<td><format color="Orange">NEED ANOTHER DAY HERE</format></td>
-<td><p><a href="">Graphs</a></p></td>
-<td><p>A5 : Analysis II</p></td>
+<td colspan="2"><p><a href="">Graphs</a></p></td>
+<td><p></p></td>
 </tr>
 
 [//]: # (WEEK 14 )
