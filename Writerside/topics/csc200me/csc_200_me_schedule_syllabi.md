@@ -164,9 +164,9 @@ or 211.</i>
     <td colspan="5">Office Hours by Appointment Only</td>
 </tr>
 <tr>
-    <td></td>
+    <td>Ethen Puls</td>
     <td>Graduate Teaching Assistant</td>
-    <td>@uri.edu</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -174,9 +174,9 @@ or 211.</i>
     <td></td>
 </tr>
 <tr>
-    <td></td>
+    <td>Richard Buckley</td>
     <td>Undergraduate Teaching Assistant</td>
-    <td>@uri.edu</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
