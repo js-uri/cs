@@ -41,7 +41,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction</a></td>
     <td><a href="">IDE Setup</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 2)
@@ -89,7 +89,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Planning</a> and <a href="">Flowcharts</a></td>
     <td><a href="">Flowcharts and Pseudocode</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
     
 [//]: # (WEEK 3)
@@ -149,7 +149,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Data Types</a>, <a href="">Operators</a>, <a href="">Expressions</a>, <a href="">Collections</a></td>
     <td><a href="">Storing Data</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 4)
@@ -171,7 +171,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Functions</a></td>
     <td><a href="">Taskmasters</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 5)
@@ -191,7 +191,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Condition Statements</a></td>
     <td><a href="">Decisions, Decisions</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 6)
@@ -211,7 +211,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/><a href="">Iteration Statements</a>, <a href="">Jump Statements</a></td>
     <td><a href="">Flow Control</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 7)
@@ -236,7 +236,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/><a href="">Pointers and References</a></td>
     <td><a href="">Object-Oriented Programming</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 8)
@@ -245,7 +245,7 @@ switcher-label: CSC 200 EE
     <td>Happy<br/>Please</td>
     <td>Spring<br/>Be</td>
     <td>Break!<br/>Safe!</td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 9)
@@ -289,7 +289,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Structure and Inheritance</a></td>
     <td><a href="">Working with Objects</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 10)
@@ -313,7 +313,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Encapsulation, Abstraction, and Polymorphism</a></td>
     <td><a href="">Working with Objects</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 11)
@@ -335,7 +335,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Exception Handling and File I/O</a></td>
     <td><a href="">Working with Errors</a></td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 12)
@@ -380,7 +380,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">File Handling</a></td>
     <td>File and Programming Attributes</td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 13)
@@ -391,25 +391,19 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td colspan="2">Group work to wrap up the term project...</td>
-    <td><a href=""></a></td>
+    <td></td>
 </tr>
 
 [//]: # (WEEK 14)
 <tr>
     <td>Week 14</td>
-    <td>Final Exam</td>
-    <td>Final Exam</td>
-    <td>Group Presentations</td>
-    <td>Final Exam</td>
+    <td colspan="5">Group Presentations and Final Exam</td>
 </tr>
 
 [//]: # (WEEK 15)
 <tr>
     <td>Week 15</td>
-    <td>Final Exam</td>
-    <td>Final Exam</td>
-    <td>Final Exam</td>
-    <td>Final Exam</td>
+    <td colspan="5">Final Exam</td>
 </tr>
 </table>
 
