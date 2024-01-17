@@ -4,7 +4,7 @@ switcher-label: CSC 200 EE
 
 <show-structure for="chapter,procedure" depth="0"/>
 
-# CSC 200 EE : Problem-Solving for Science &amp; Engineering
+# CSC 200 EE : Problem-Solving for Science & Engineering
 
 ## Spring 2024 Schedule   {switcher-key="Spring 24"}
 
@@ -41,7 +41,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction</a></td>
     <td><a href="">IDE Setup</a></td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 2)
