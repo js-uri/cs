@@ -88,7 +88,7 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Data Types, Operators, Expressions, Collections</a></td>
-    <td><a href="">Collections</a></td>
+    <td><a href="">Basic Operations</a></td>
     <td></td>
 </tr>
     
@@ -147,7 +147,7 @@ switcher-label: CSC 200 EE
     </def>
     </deflist>
     </td>
-    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Data Types</a>, <a href="">Operators</a>, <a href="">Expressions</a>, <a href="">Collections</a></td>
+    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Standard library,  Collections</a></td>
     <td><a href="">Storing Data</a></td>
     <td></td>
 </tr>
