@@ -49,3 +49,12 @@ switcher-label: CSC 200 EE
 
 
 </table>
+
+
+## Fall 2024 Schedule   {switcher-key="Fall 24"}
+
+<b>Placeholder</b>
+
+## Fall 2024 Syllabus {switcher-key="Fall 24"}
+
+<b>Placeholder</b>
