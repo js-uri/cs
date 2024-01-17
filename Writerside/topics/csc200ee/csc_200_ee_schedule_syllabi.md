@@ -39,8 +39,8 @@ switcher-label: CSC 200 EE
     </def>
     </deflist>
     </td>
-    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction</a></td>
-    <td><a href="">IDE Setup</a></td>
+    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction and Planning</a></td>
+    <td><a href="">Intro, Basics, and Planning</a></td>
     <td></td>
 </tr>
 
@@ -87,8 +87,8 @@ switcher-label: CSC 200 EE
     </def>
     </deflist>
     </td>
-    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Planning</a> and <a href="">Flowcharts</a></td>
-    <td><a href="">Flowcharts and Pseudocode</a></td>
+    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Data Types, Operators, Expressions, Collections</a></td>
+    <td><a href="">Collections</a></td>
     <td></td>
 </tr>
     
@@ -170,7 +170,7 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Functions</a></td>
-    <td><a href="">Taskmasters</a></td>
+    <td><a href="">Functions</a></td>
     <td></td>
 </tr>
 
@@ -190,7 +190,7 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Condition Statements</a></td>
-    <td><a href="">Decisions, Decisions</a></td>
+    <td><a href="">Decisions</a></td>
     <td></td>
 </tr>
 
@@ -235,7 +235,7 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/><a href="">Pointers and References</a></td>
-    <td><a href="">Object-Oriented Programming</a></td>
+    <td><a href="">Pointers and References</a></td>
     <td></td>
 </tr>
 
@@ -288,7 +288,7 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Structure and Inheritance</a></td>
-    <td><a href="">Working with Objects</a></td>
+    <td><a href="">Classes : Part, 1</a></td>
     <td></td>
 </tr>
 
@@ -312,7 +312,7 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Encapsulation, Abstraction, and Polymorphism</a></td>
-    <td><a href="">Working with Objects</a></td>
+    <td><a href="">Classes : Part 2</a></td>
     <td></td>
 </tr>
 
@@ -334,7 +334,7 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Exception Handling and File I/O</a></td>
-    <td><a href="">Working with Errors</a></td>
+    <td><a href="">Exceptions and External Storage</a></td>
     <td></td>
 </tr>
 
