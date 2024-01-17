@@ -2,15 +2,15 @@
 switcher-label: CSC 200 EE
 ---
 
-<show-structure for="chapter,procedure" depth="0"/>
+<show-structure for="chapter, procedure" depth="0"/>
 
 # CSC 200 EE : Problem-Solving for Science &amp; Engineering
 
-## Spring 2024 Schedule {switcher-key="Spring 24"}
+## Spring 2024 Schedule   {switcher-key="Spring 24"}
 
 <table>
 <tr>
-    <td> </td>
+    <td></td>
     <td>Reading</td>
     <td><i>Asynchronous</i> Lecture</td>
     <td><i>Synchronous</i> Lab</td>
@@ -89,7 +89,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Planning</a> &amp; <a href="">Flowcharts</a></td>
     <td><a href="">Flowcharts, and Pseudocode</a></td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
     
 [//]: # (WEEK 3)
@@ -149,7 +149,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Data Types</a>, <a href="">Operators</a>, <a href="">Expressions</a>, <a href="">Collections</a></td>
     <td><a href="">Storing Data</a></td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 4)
@@ -171,7 +171,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Functions</a></td>
     <td><a href="">Taskmasters</a></td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 5)
@@ -191,7 +191,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Condition Statements</a></td>
     <td><a href="">Decisions, Decisions</a></td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 6)
@@ -211,7 +211,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/><a href="">Iteration Statements</a>, <a href="">Jump Statements</a></td>
     <td><a href="">Flow Control</a></td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 7)
@@ -227,7 +227,7 @@ switcher-label: CSC 200 EE
         <a href="https://www.geeksforgeeks.org/understanding-nullptr-c/?ref=lbp"><code>nullptr</code></a><br/>
         <a href="https://www.geeksforgeeks.org/references-in-cpp/?ref=lbp">References</a><br/><br/>
         <i>Optional Reading</i><br/>
-        <a href="https://www.geeksforgeeks.org/can-references-refer-to-invalid-location-in-cpp/?ref=lbp">Can references refer to an invalid location?</a><br/>
+        <a href="https://www.geeksforgeeks.org/can-references-refer-to-invalid-location-in-cpp/?ref=lbp">Can a references refer to an invalid location?</a><br/>
         <a href="https://www.geeksforgeeks.org/pointers-vs-references-cpp/?ref=lbp">Difference Between Pointers and References</a><br/>
         <a href="https://www.geeksforgeeks.org/passing-by-pointer-vs-passing-by-reference-in-cpp/?ref=lbp">Passing by pointer Vs Passing by Reference</a><br/>
         <a href="https://www.geeksforgeeks.org/when-do-we-pass-arguments-by-reference-or-pointer/?ref=lbp">When do we pass arguments by reference or pointer?</a><br/>
@@ -236,7 +236,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/><a href="">Pointers & References</a></td>
     <td><a href="">Object-Oriented Programming</a></td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 8)
@@ -245,7 +245,7 @@ switcher-label: CSC 200 EE
     <td>Happy<br/>Please</td>
     <td>Spring<br/>Be</td>
     <td>Break!<br/>Safe!</td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 9)
@@ -282,14 +282,14 @@ switcher-label: CSC 200 EE
         <a href="https://www.geeksforgeeks.org/inheritance-and-friendship-in-cpp/?ref=lbp">Inheritance and Friendship</a><br/>
         <br/>
         <i>Optional Reading</i>
-        <a href="">Does Function Overloading Work with Inheritance</a><br/>
+        <a href="https://www.geeksforgeeks.org/does-overloading-work-with-inheritance/?ref=lbp">Does Function Overloading Work with Inheritance</a><br/>
         <a href="https://www.geeksforgeeks.org/difference-between-inheritance-and-polymorphism/">Difference Between Inheritance and Polymorphism</a><br/>
     </def>
     </deflist>
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Structure &amp; Inheritance</a></td>
-    <td><a href="https://www.geeksforgeeks.org/does-overloading-work-with-inheritance/?ref=lbp">Working with Objects</a></td>
-    <td><a href="https://www.geeksforgeeks.org/difference-between-inheritance-and-polymorphism/?ref=lbp">&nbsp;</a></td>
+    <td><a href="">Working with Objects</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 10)
@@ -313,7 +313,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Encapsulation, Abstraction, and Polymorphism</a></td>
     <td><a href="">Working with Objects</a></td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 11)
@@ -335,7 +335,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Exception Handling &amp; File I/O</a></td>
     <td><a href="">Working with Errors</a></td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 12)
@@ -380,7 +380,7 @@ switcher-label: CSC 200 EE
     </td>
     <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">File Handling</a></td>
     <td>File &amp; Programming Attributes</td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 13)
@@ -391,7 +391,7 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td colspan="2">Group work to wrap up the term project...</td>
-    <td><a href="">&nbsp;</a></td>
+    <td><a href=""></a></td>
 </tr>
 
 [//]: # (WEEK 14)
@@ -418,7 +418,7 @@ switcher-label: CSC 200 EE
 ### Course Description
 
 <note>
-<p>An integrated symbolic, numerical, and graphical approach to computer problem solving. Structured design; fundamental programming techniques. Computer algebra systems. Scientific, engineering, and mathematical applications.</p>
+<p>An integrated symbolic, numerical, and graphical approach to computer problem-solving. Structured design; fundamental programming techniques. Computer algebra systems. Scientific, engineering, and mathematical applications.</p>
 <i>Prerequisite: Credit, or concurrent enrollment, in MTH 131 or 141. Not for major credit in computer science. May not be taken for credit by students with credit in CSC 201 
 or 211.</i>
 </note>
@@ -484,22 +484,22 @@ information. As well as all staff can be aware of any questions or concerns that
 
 <procedure>
 <p>Personal Communication</p>
-<step>Please forward anything personal in nature to my email address above. This will keep things between you and I. And we can address them as needed.</step>
+<step>Please forward anything personal in nature to my email address above. This will keep things between us. And we can address them as needed.</step>
 </procedure>
 
 ### Course Objectives
 
 <procedure style="choices">
-<step>Understand the core aspects of reading/writing code</step>
-<step>Primitive data types</step>
-<step>Variable assignments &amp; operations</step>
-<step>Program control flow</step>
-<step>Control structures &amp; loops</step>
-<step>Simple data structures</step>
-<step>Functions</step>
-<step>Classes &amp; Objects</step>
-<step>Understand the basic principles of programming in C++</step>
-<step>Implement simple algorithms to solve a variety of problems</step>
+    <step>Understand the core aspects of reading/writing code</step>
+    <step>Primitive data types</step>
+    <step>Variable assignments &amp; operations</step>
+    <step>Program control flow</step>
+    <step>Control structures &amp; loops</step>
+    <step>Simple data structures</step>
+    <step>Functions</step>
+    <step>Classes &amp; Objects</step>
+    <step>Understand the basic principles of programming in C++</step>
+    <step>Implement simple algorithms to solve a variety of problems</step>
 </procedure>
 
 
@@ -522,7 +522,7 @@ Other materials you may find useful:
 
 <procedure>
 <p>Quizzes</p>
-<step>Each week you will have a brief, 10 minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
+<step>Each week you will have a brief, 10-minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
 multiple-response, interactive code.</step>
 </procedure>
 
