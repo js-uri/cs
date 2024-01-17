@@ -62,7 +62,7 @@ switcher-label: CSC 200 EE
         <a href="https://www.geeksforgeeks.org/literals-in-c-cpp-with-examples/">Literals</a><br/>
         <a href="https://www.geeksforgeeks.org/derived-data-types-in-c/">Derived Data Types</a><br/>
         <a href="https://www.geeksforgeeks.org/user-defined-data-types-in-c/">User-Defined Data Types</a><br/>
-        <a href="https://www.geeksforgeeks.org/data-type-ranges-and-their-macros-in-c/">Data Type Ranges & Their Macros Modifiers</a><br/>
+        <a href="https://www.geeksforgeeks.org/data-type-ranges-and-their-macros-in-c/">Data Type Ranges and Their Macros Modifiers</a><br/>
         <a href="https://www.geeksforgeeks.org/cpp-type-modifiers/">Data Modifiers</a><br/>
         <a href="https://www.geeksforgeeks.org/type-conversion-in-c/">Type Conversion</a><br/>
         <a href="https://www.geeksforgeeks.org/casting-operators-in-cpp/">Type Casting</a><br/>
@@ -88,7 +88,7 @@ switcher-label: CSC 200 EE
     </def>
     </deflist>
     </td>
-    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Planning</a> &amp; <a href="">Flowcharts</a></td>
+    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Planning</a> and <a href="">Flowcharts</a></td>
     <td><a href="">Flowcharts, and Pseudocode</a></td>
     <td><a href=""></a></td>
 </tr>
