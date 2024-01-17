@@ -209,7 +209,7 @@ switcher-label: CSC 200 EE
     </def>
     </deflist>
     </td>
-    <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/><a href="">Iteration Statements</a>, <a href="">Jump Statements</a></td>
+    <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Iteration Statements</a>, <a href="">Jump Statements</a></td>
     <td><a href="">Flow Control</a></td>
     <td></td>
 </tr>
