@@ -4,9 +4,9 @@ switcher-label: CSC 200 EE
 
 <show-structure for="chapter,procedure" depth="0"/>
 
-# CSC 200 EE : Problem-Solving for Science & Engineering
+# CSC 200 EE : Problem-Solving for Science &amp; Engineering
 
-## Spring 2024 Schedule   {switcher-key="Spring 24"}
+## Spring 2024 Schedule {switcher-key="Spring 24"}
 
 <table>
 <tr>
@@ -287,7 +287,7 @@ switcher-label: CSC 200 EE
     </def>
     </deflist>
     </td>
-    <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Structure & Inheritance</a></td>
+    <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Structure &amp; Inheritance</a></td>
     <td><a href="https://www.geeksforgeeks.org/does-overloading-work-with-inheritance/?ref=lbp">Working with Objects</a></td>
     <td><a href="https://www.geeksforgeeks.org/difference-between-inheritance-and-polymorphism/?ref=lbp">&nbsp;</a></td>
 </tr>
@@ -333,7 +333,7 @@ switcher-label: CSC 200 EE
     </def>
     </deflist>
     </td>
-    <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Exception Handling & File I/O</a></td>
+    <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Exception Handling &amp; File I/O</a></td>
     <td><a href="">Working with Errors</a></td>
     <td><a href="">&nbsp;</a></td>
 </tr>
@@ -492,9 +492,9 @@ information. As well as all staff can be aware of any questions or concerns that
 <procedure style="choices">
 <step>Understand the core aspects of reading/writing code</step>
 <step>Primitive data types</step>
-<step>Variable assignments &amp;operations</step>
+<step>Variable assignments &amp; operations</step>
 <step>Program control flow</step>
-<step>Control structures &amp;loops</step>
+<step>Control structures &amp; loops</step>
 <step>Simple data structures</step>
 <step>Functions</step>
 <step>Classes &amp; Objects</step>
