@@ -9,123 +9,128 @@ switcher-label: CSC 200 ME
 ## Spring 2024 Schedule   {switcher-key="Spring 24"}
 
 <table>
-    <tr>
-        <td><a href="">&nbsp;</a></td>
-        <td>Reading</td>
-        <td><i>Asynchronous</i> Lecture</td>
-        <td><i>Synchronous</i> Lab</td>
-        <td>Assignment</td>
-    </tr>
-    <tr>
-        <td>Week 1</td>
-        <td><a href="">&nbsp;</a></td>
-        <td><format style="bold" color="LightCoral">Admin</format><br/><a href="">Overview &amp; Expectations</a></td>
-        <td><a href="">IDE Setup</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 2</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter01.02-Python-as-A-Calculator.html">Chapter 1. Python Basics</a></td>   
-        <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Planning</a> &amp; <a href="">Flowcharts</a></td>
-        <td><a href="">Flowcharts, and Pseudocode</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 3</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter02.00-Variables-and-Basic-Data-Structures.html">Chapter 2. Variables and Basic Data Structures</a></td>
-        <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Data Types</a>, <a href="">Operators</a>, <a href="">Expressions</a>, <a href="">Collections</a></td>
-        <td><a href="">Storing Data</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 4</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter03.00-Functions.html">Chapter 3. Functions</a></td>
-        <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Functions</a></td>
-        <td><a href="">Taskmasters</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 5</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter04.00-Branching-Statements.html">Chapter 4. Branching Statements</a></td>
-        <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Condition Statements</a></td>
-        <td><a href="">Decisions, Decisions</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 6</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter05.00-Iteration.html">Chapter 5. Iteration</a></td>
-        <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Iteration Statements</a></td>
-        <td><a href="">Flow Control</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 7</td>
-        <td>Chapter 7. Object-Oriented Programming (OOP): <br/>
-            <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter07.01-Introduction-to-OOP.html#">Introduction</a> <br/>
-            <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter07.02-Class-and-Object.html">Class and Object</a>
-        </td>
-        <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Structure</a></td>
-        <td><a href="">Object-Oriented Programming</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 8</td>
-        <td>Happy<br/>Please</td>
-        <td>Spring<br/>Be</td>
-        <td>Break!<br/>Safe!</td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 9</td>
-        <td>Chapter 7. Object-Oriented Programming (OOP): <br/>
-            <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter07.03-Inheritance-Encapsulation-and-Polymorphism.html">Inheritance, Encapsulation and Polymorphism</a>
-        </td>
-        <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Inheritance</a> &amp; <a href="">Polymorphism</a></td>
-        <td><a href="">Working with Objects</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 10</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter10.00-Errors-Practices-Debugging.html">Chapter 10. Errors, Good Programming Practices, and Debugging</a></td>
-        <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Exception Handling</a></td>
-        <td><a href="">Working with Errors</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 11</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter11.00-Reading-and-Writing-Data.html">Chapter 11. Reading and Writing Data</a></td>
-        <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">File Handling</a></td>
-        <td><a href="">External Data </a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 12</td>
-        <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter12.00-Visualization-and-Plotting.html#">Chapter 12. Visualization and Plotting</a></td>
-        <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Visualize</a></td>
-        <td><a href="">Plotting</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 13</td>
-        <td><a href="">&nbsp;</a></td>
-        <td>Wrap-up</td>
-        <td><a href="">No Formal Lab</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 14</td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">Presentations</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
-    <tr>
-        <td>Week 15</td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">&nbsp;</a></td>
-        <td><a href="">&nbsp;</a></td>
-    </tr>
+<tr>
+    <td></td>
+    <td>Reading</td>
+    <td><i>Asynchronous</i> Lecture</td>
+    <td><i>Synchronous</i> Lab</td>
+    <td>Assignment</td>
+</tr>
+<tr>
+    <td>Week 1</td>
+    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter01.02-Python-as-A-Calculator.html">Chapter 1. Python Basics</a></td>   
+    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction and Planning</a></td>
+    <td><a href="">Planning and Basics</a></td>
+    <td><a href="">&nbsp;</a></td>
+</tr>
+<tr>
+    <td>Week 2</td>
+    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter01.02-Python-as-A-Calculator.html">Chapter 1. Python Basics</a></td>   
+    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction and Planning</a></td>
+    <td><a href="">Planning and Basics</a></td>
+    <td><a href="">&nbsp;</a></td>
+</tr>
+<tr>
+    <td>Week 3</td>
+    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter02.00-Variables-and-Basic-Data-Structures.html">Chapter 2. Variables and Basic Data Structures</a></td>
+    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Collections</a></td>
+    <td><a href="">Storing Data</a></td>
+    <td><a href="">&nbsp;</a></td>
+</tr>
+<tr>
+    <td>Week 4</td>
+    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter03.00-Functions.html">Chapter 3. Functions</a></td>
+    <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Functions</a></td>
+    <td><a href="">Functions</a></td>
+    <td><a href="">&nbsp;</a></td>
+</tr>
+<tr>
+    <td>Week 5</td>
+    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter04.00-Branching-Statements.html">Chapter 4. Branching Statements</a></td>
+    <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Condition Statements</a></td>
+    <td><a href="">Decisions</a></td>
+    <td><a href="">&nbsp;</a></td>
+</tr>
+<tr>
+    <td>Week 6</td>
+    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter05.00-Iteration.html">Chapter 5. Iteration</a></td>
+    <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Iteration Statements</a></td>
+    <td><a href="">Flow Control</a></td>
+    <td></td>
+</tr>
+
+[//]: # (<tr>)
+
+[//]: # (    <td>Week 6</td>)
+
+[//]: # (    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter06.00-Recursion.html">Chapter 6. Recursion</a></td>)
+
+[//]: # (    <td><format style="bold" color="LightGreen">Control Statements</format><br/><a href="">Recursion</a></td>)
+
+[//]: # (    <td><a href="">Recursion</a></td>)
+
+[//]: # (    <td><a href=""></a></td>)
+
+[//]: # (</tr>)
+<tr>
+    <td>Week 7</td>
+    <td>Chapter 7. Object-Oriented Programming (OOP): <br/>
+        <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter07.01-Introduction-to-OOP.html#">Introduction</a> <br/>
+        <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter07.02-Class-and-Object.html">Class and Object</a>
+    </td>
+    <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Structure</a></td>
+    <td><a href="">Object-Oriented Programming</a></td>
+    <td><a href="">&nbsp;</a></td>
+</tr>
+<tr>
+    <td>Week 8</td>
+    <td>Happy<br/>Please</td>
+    <td>Spring<br/>Be</td>
+    <td>Break!<br/>Safe!</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Week 9</td>
+    <td>Chapter 7. Object-Oriented Programming (OOP): <br/>
+        <a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter07.03-Inheritance-Encapsulation-and-Polymorphism.html">Inheritance, Encapsulation and Polymorphism</a>
+    </td>
+    <td><format style="bold" color="LightPink">Object-Oriented Programming</format><br/>Classes: <a href="">Inheritance</a> &amp; <a href="">Polymorphism</a></td>
+    <td><a href="">Working with Objects</a></td>
+    <td><a href="">&nbsp;</a></td>
+</tr>
+<tr>
+    <td>Week 10</td>
+    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter10.00-Errors-Practices-Debugging.html">Chapter 10. Errors, Good Programming Practices, and Debugging</a></td>
+    <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Exception Handling</a></td>
+    <td><a href="">Working with Errors</a></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Week 11</td>
+    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter11.00-Reading-and-Writing-Data.html">Chapter 11. Reading and Writing Data</a></td>
+    <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">File Handling</a></td>
+    <td><a href="">External Data </a></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Week 12</td>
+    <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter12.00-Visualization-and-Plotting.html#">Chapter 12. Visualization and Plotting</a></td>
+    <td><format style="bold" color="LightGoldenRodYellow">Useful Additions</format><br/><a href="">Visualize</a></td>
+    <td><a href="">Plotting</a></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Week 13</td>
+    <td colspan="4">Project Wrap-up, No Classroom Meeting</td>
+</tr>
+<tr>
+    <td>Week 14</td>
+    <td colspan="4"><a href="">Presentations via Zoom</a></td>
+</tr>
+<tr>
+    <td>Week 15</td>
+    <td colspan="4"><a href="">Final Exam</a></td>
+</tr>
 </table>
 
 ## Spring 2024 Syllabus {switcher-key="Spring 24"}
@@ -133,7 +138,7 @@ switcher-label: CSC 200 ME
 ### Course Description
 
 <note>
-<p>An integrated symbolic, numerical, and graphical approach to computer problem solving. Structured design; fundamental programming techniques. Computer algebra systems. Scientific, engineering, and mathematical applications.</p>
+<p>An integrated symbolic, numerical, and graphical approach to computer problem-solving. Structured design; fundamental programming techniques. Computer algebra systems. Scientific, engineering, and mathematical applications.</p>
 <i>Prerequisite: Credit, or concurrent enrollment, in MTH 131 or 141. Not for major credit in computer science. May not be taken for credit by students with credit in CSC 201 
 or 211.</i>
 </note>
