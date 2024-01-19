@@ -22,17 +22,12 @@
         </toc-element>
         <!--        <toc-element topic="CSC-212-|-FALL-23.md"/>-->
         <toc-element topic="csc_212_schedule_syllabi.md">
-            <toc-element topic="Introduction-212.md"/>
             <toc-element topic="csc_212_lab_presentations.md"/>
             <toc-element topic="csc_212_research_project.md"/>
         </toc-element>
     </toc-element>
 
     <toc-element topic="Introductions.md"/>
-
-<!--    <toc-element toc-title="Problem Solving">-->
-<!--        <toc-element topic="Basics.md"/>-->
-<!--    </toc-element>-->
 
     <toc-element toc-title="Computing Concepts">
         <toc-element topic="computingIntro.md"/>
