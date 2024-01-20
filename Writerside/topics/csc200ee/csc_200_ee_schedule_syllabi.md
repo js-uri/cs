@@ -40,7 +40,7 @@ switcher-label: CSC 200 EE
     </deflist>
     </td>
     <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction and Planning</a></td>
-    <td><a href="">Intro, Basics, and Planning</a></td>
+    <td><a href="">Introduction and Planning</a></td>
     <td></td>
 </tr>
 
