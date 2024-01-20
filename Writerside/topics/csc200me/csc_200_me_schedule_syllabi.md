@@ -19,8 +19,8 @@ switcher-label: CSC 200 ME
 <tr>
     <td>Week 1</td>
     <td><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/chapter01.02-Python-as-A-Calculator.html">Chapter 1. Python Basics</a></td>   
-    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction and Planning</a></td>
-    <td><a href="">Planning and Basics</a></td>
+    <td><format style="bold" color="LightBlue">Basics</format><br/><a href="">Introduction</a></td>
+    <td><a href="">Introduction and Expectations</a></td>
     <td><a href="">&nbsp;</a></td>
 </tr>
 <tr>
@@ -380,31 +380,5 @@ select occasional or weekly tutoring sessions through the TracCloud system or vi
 ## Fall 2024 Syllabus {switcher-key="Fall 24"}
 
 <b>Placeholder</b>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
