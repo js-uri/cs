@@ -11,7 +11,7 @@ int x = 10;
 int* ptr = &x; // ptr is a pointer to x.
 ```
 
-The address of a variable can be obtained by preceding the name of a variable with an ampersand sign (&), known as address-of operator.
+The address of a variable can be obtained by preceding the name of a variable with an ampersand sign ( &amp; ), known as address-of operator.
 
 ``` c++
 int x = 10;
@@ -145,8 +145,8 @@ int* ptr = NULL; // ptr is a pointer that is pointing to NULL.
     </tr>
     <tr>
         <td>How is it declared?</td>
-        <td>int& ref = x;</td>
-        <td>int* ptr = &x;</td>
+        <td>int&amp; ref = x;</td>
+        <td>int* ptr = &amp;x;</td>
     </tr>
     <tr>
         <td>What is the syntax for accessing the value pointed to by it?</td>
@@ -166,7 +166,7 @@ int* ptr = NULL; // ptr is a pointer that is pointing to NULL.
     <tr>
         <td>What is the syntax for changing the address it is pointing to?</td>
         <td>Not possible</td>
-        <td>ptr = &y;</td>
+        <td>ptr = &amp;y;</td>
     </tr>
     <tr>
         <td>Can it be NULL?</td>
