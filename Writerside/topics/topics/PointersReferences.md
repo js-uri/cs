@@ -155,7 +155,7 @@ int* ptr = NULL; // ptr is a pointer that is pointing to NULL.
     </tr>
     <tr>
         <td>What is the syntax for accessing the address of it?</td>
-        <td>&ref</td>
+        <td>&amp;ref</td>
         <td>ptr</td>
     </tr>
     <tr>
