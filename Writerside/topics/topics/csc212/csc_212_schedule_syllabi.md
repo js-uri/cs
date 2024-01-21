@@ -79,8 +79,8 @@ Visualizer</a></p></td>
 [//]: # (WEEK 6 )
 <tr><td><p>Week 06</p></td> 
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">5 Binary Trees</a></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="bst.md">Binary Search Trees</a> <br/> <a href="">Heaps</a></p></td>
-<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="">Priority Queues</a> <br/> <a href="Heaps.md">Heaps</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="bst.md">Binary Search Trees</a> <br/> <a href="Heaps.md">Heaps</a></p></td>
+<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="Priority-Queue.md">Priority Queues</a> <br/> <a href="Heaps.md">Heaps</a></p></td>
 <td>Sorting Algorithm Day 2</td>
 <td><p><a href="">Backtracking</a></p></td>
 <td><p><a href="">A3 : Analysis I</a></p></td>
@@ -90,7 +90,7 @@ Visualizer</a></p></td>
 <tr><td><p>Week 07</p></td>
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">7 Internal Sorting [Review 7.4 - 7.5]</a><br/></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="quicksort.md">Quicksort</a> <br/> <a href="mergesort.md">Mergesort</a></p></td>
-<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Heapsort</a> <br/> <a href="">Introsort</a></p></td>
+<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="Heap-Sort.md">Heapsort</a> <br/> <a href="Introsort.md">Introsort</a></p></td>
 <td>Mathematically-sounding Tree Day</td>
 <td><p><a href="">Priority Queues</a></p></td>
 <td><p>A4 : Grids &amp; Expressions</p></td>
@@ -140,7 +140,7 @@ Visualizer</a></p></td>
 <td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="Dynamic-Programming.md">Dynamic Programming</a></p></td>
 <td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="Randomized-Algorithms.md">Randomized Algorithms</a></p></td>
 <td>Greedy Algorithms Day</td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2009%20Sets%20%26%20Maps">Sets &amp; Maps</a></p></td>
+<td><p><a href="">Sets &amp; Maps</a></p></td>
 <td><p>A5 : Analysis II</p></td>
 </tr>
 
