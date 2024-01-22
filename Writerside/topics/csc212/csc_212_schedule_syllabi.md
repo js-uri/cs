@@ -183,15 +183,10 @@ Visualizer</a></p></td>
 [//]: # (WEEK 14 )
 <tr><td><p>Week 14</p></td>
 <td></td>
-<td colspan="4"><p>Research Project Presentations</p><br/><p>Final Exam</p></td>
+<td colspan="4"><p>Research Project Presentations</p></td>
 <td></td>
 </tr>
 
-[//]: # (WEEK 15 )
-<tr><td><p>Week 15</p></td>
-<td></td>
-<td colspan="4"><p>Final Exam</p></td>
-</tr>
 </table>
 
 
@@ -247,9 +242,9 @@ Visualizer</a></p></td>
     <td>Jessica Tingley,<br/>Mechanical Engineering &amp; Computer Science</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
-    <td>10-11a</td>
+    <td>10:00a-11:00a</td>
     <td></td>
-    <td>10-11a</td>
+    <td>10:00a-11:00a</td>
     <td></td>
     <td></td>
     <td></td>
@@ -257,7 +252,7 @@ Visualizer</a></p></td>
 <tr>
     <td>Brandt Ogden,<br/>Computer Science &amp; CyberSecurity</td>
     <td>Undergraduate Teaching Assistant</td>
-    <td>10:30-12:30p</td>
+    <td>10:30a-12:30p</td>
     <td></td>
     <td></td>
     <td></td>
