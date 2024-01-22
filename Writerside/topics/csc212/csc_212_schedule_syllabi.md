@@ -378,10 +378,13 @@ information. As well as all staff can be aware of any questions or concerns that
 ability for implementation. The project will be completed in groups of 3-4 members to be presented to the class in Week 14. </step>
 </procedure>
 
-<procedure>
-<p>Final Exam</p>
-<step>A cumulative exam across all topics covered throughout the term.</step>
-</procedure>
+[//]: # (<procedure>)
+
+[//]: # (<p>Final Exam</p>)
+
+[//]: # (<step>A cumulative exam across all topics covered throughout the term.</step>)
+
+[//]: # (</procedure>)
 
 ### Grading
 
