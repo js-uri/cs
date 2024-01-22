@@ -233,26 +233,29 @@ Other materials you may find useful:
 
 <procedure>
 <p>Quizzes</p>
-<step>Each week you will have a brief, 10 minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
+<step>Each week you will have a brief, 10-minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
 multiple-response, interactive code.</step>
 </procedure>
 
 <procedure>
 <p>Labs</p>
-<step>Each week you will have a brief, 10 minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
-multiple-response, interactive code.</step>
+<step>Labs are a practical application of the material learned each week. Labs are somewhat scaffolded throughout the term in the respect they will grow and incorporate prior weekly materials. Labs are to be completed the lab session and submitted before leaving. Credit will not be granted to submissions outside of this window.</step>
 </procedure>
 
 <procedure>
 <p>Assignment</p>
-<step>Each week you will have a brief, 10 minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
-multiple-response, interactive code.</step>
+<step>A practical attempt at code spanning multiple weeks of the course. This is not meant to be difficult but merely to give some practical experience with prior concepts as the term moves forward.</step>
 </procedure>
 
 <procedure>
 <p>Term Project</p>
-<step>Each week you will have a brief, 10 minute quiz. The quiz will consist of one of each of the following questions types: fill-in-the-blank, multiple-choice, 
-multiple-response, interactive code.</step>
+<step>Term project incorporates the combination of all subject-matter from the course. This is used as the ultimate practical for understanding, comprehension, and overall 
+ability for implementation. The project will be completed in groups of 3-4 members to be presented to the class in Week 14. </step>
+</procedure>
+
+<procedure>
+<p>Final Exam</p>
+<step>A cumulative exam across all topics covered throughout the term.</step>
 </procedure>
 
 ### Grading
@@ -380,5 +383,31 @@ select occasional or weekly tutoring sessions through the TracCloud system or vi
 ## Fall 2024 Syllabus {switcher-key="Fall 24"}
 
 <b>Placeholder</b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
