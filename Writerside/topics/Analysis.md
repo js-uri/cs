@@ -190,66 +190,42 @@ Concepts introduced by Euler
 
 <table>
 <tr>
-<td>Iterative</td>
-<td>Recursive</td>
+<td>Euler1</td>
+<td>Euler2</td>
 </tr>
 <tr>
 <td>
 
 ```c++
-#include <iostream>
-
-double calculateEulerIterative(int n) {
-    double result = 1.0;
-    double term = 1.0;
-
-    for (int i = 1; i <= n; ++i) {
-        term /= i;
-        result += term;
+long double euler1(int n) {
+    long double sum = 0;
+    long double fact;
+    for (int i = 0 ; i <= n ; i ++) {
+        fact = 1;
+        for (int j = 2 ; j <= i ; j++) {
+            fact *= j;
+        }
+        sum += (1.0 / fact);
     }
 
-    return result;
+    return sum;
 }
-
-int main() {
-    int n = 10; // You can adjust the value of n for desired precision
-    double eulerNumber = calculateEulerIterative(n);
-
-    std::cout << "Euler's number (iterative) with " 
-              << n << " terms: " << eulerNumber 
-              << std::endl;
-
-    return 0;
-}
-
 ```
 
 </td>
 <td>
 
 ```c++
-#include <iostream>
+long double euler2(int n) {
+    long double sum = 0;
+    long double fact = 1;
 
-double calculateEulerRecursive(int n) {
-    if (n == 0) {
-        return 1.0;
+    for (int i = 0 ; i <= n ; i++) {
+        sum += (1.0 / fact);
+        fact *= (i+1);
     }
 
-    return calculateEulerRecursive(n - 1) + 1.0 / factorial(n);
-}
-
-double factorial(int num) {
-    return (num == 0 || num == 1) ? 1 : num * factorial(num - 1);
-}
-
-int main() {
-    int n = 10; // You can adjust the value of n for desired precision
-    double eulerNumber = calculateEulerRecursive(n);
-
-    std::cout << "Euler's number (recursive) with " 
-              << n << " terms: " << eulerNumber << std::endl;
-
-    return 0;
+    return sum;
 }
 ```
 
