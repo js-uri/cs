@@ -150,8 +150,8 @@
                 <toc-element toc-title="VisualGo | Selection Sort"
                              target-for-accept-web-file-names="https://visualgo.net/en/sorting"/>
             </toc-element>
-            <toc-element topic="mergesort.md"/>
-            <toc-element topic="quicksort.md"/>
+            <toc-element topic="Mergesort.md"/>
+            <toc-element topic="Quicksort.md"/>
             <toc-element topic="Heap-Sort.md"/>
             <toc-element topic="Introsort.md"/>
         </toc-element>
