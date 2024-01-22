@@ -6,6 +6,26 @@ switcher-label: CSC 200 ME
 
 # CSC 200 ME : Problem-Solving for Science &amp; Engineering
 
+## Spring 2024 Location &amp; Time {switcher-key="Spring 24"}
+
+<table>
+<tr>
+    <td></td>
+    <td>Location</td>
+    <td>Time</td>
+</tr>
+<tr>
+    <td>Lecture</td>
+    <td colspan="2">There is no formal lecture component</td>
+</tr>
+<tr>
+    <td>Lab Practical</td>
+    <td>Avedisian Hall RM 240</td>
+    <td>Friday 10:00am - 11:45am</td>
+</tr>
+</table>
+
+
 ## Spring 2024 Schedule   {switcher-key="Spring 24"}
 
 <table>

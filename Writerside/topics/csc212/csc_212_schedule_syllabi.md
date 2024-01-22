@@ -6,6 +6,34 @@ switcher-label: CSC 212
 
 # CSC 212 : Data Structures &amp; Algorithms
 
+## Spring 2024 Location &amp; Time {switcher-key="Spring 24"}
+
+<table>
+<tr>
+    <td></td>
+    <td>Location</td>
+    <td>Time</td>
+</tr>
+<tr>
+    <td>Lecture</td>
+    <td>Coastal Institute AUD room 100</td>
+    <td>Tu/Th 3:30pm - 4:45pm</td>
+</tr>
+<tr>
+    <td rowspan="3">Lab Practical / Recitation</td>
+    <td>Lab 01 : Library Room 166</td>
+    <td>Wednesday 10:00am - 11:45pm</td>
+</tr>
+<tr>
+    <td>Lab 02 : Library Room 166</td>
+    <td>Wednesday 12:00pm - 1:45pm</td>
+</tr>
+<tr>
+    <td>Lab 03 : Ranger Hall room 302</td>
+    <td>Wednesday 2:00pm - 3:45pm</td>
+</tr>
+</table>
+
 ## Spring 2024 Schedule  {switcher-key="Spring 24"}
 
 <table class="table">
@@ -26,18 +54,18 @@ switcher-label: CSC 212
 <a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">3 Algorithmic Analysis</a><br/>
 <a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">14 Analysis Techniques</a>
 </td>
-<td><p><format style="bold" color="LightCoral">Admin</format><br/><a href="">Introduction</a></p></td>
-<td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Analysis of Algorithms</a></p></td>
-<td colspan="2"><p><a href="https://classroom.github.com/a/JO2w1q7a">C++ Crash Course</a></p></td>
+<td><p><format style="bold" color="LightCoral">Admin</format><br/><a href="Introductions.md">Introduction</a></p></td>
+<td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="Analysis.md">Analysis of Algorithms</a></p></td>
+<td colspan="2"><p><a href="">C++ Crash Course</a></p></td>
 <td><p><a href="">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
 Visualizer</a></p></td>
 </tr>
 
 [//]: # (WEEK 2 )
 <tr><td><p>Week 02</p></td>
-<td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Computational Cost</a></p></td>
-<td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="">Big-O</a></p></td>
-<td colspan="2"><p><a href="https://classroom.github.com/a/cqeiebKL">Runtime Clocking</a></p></td>
+<td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="Computational-Cost.md">Computational Cost</a></p></td>
+<td><p><format style="bold" color="LightBlue">Analysis</format><br/><a href="Big-O-Notation.md">Big-O</a></p></td>
+<td colspan="2"><p><a href="">Runtime Clocking</a></p></td>
 <td><p><a href="">A2 : Maze Escape</a><br/><a href="https://ijchen.github.io/uri-csc212-mazeviz/">Maze 
 Visualizer</a></p></td>
 </tr>
@@ -49,7 +77,7 @@ Visualizer</a></p></td>
 <a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">7 Internal Sorting</a><br/>
 <a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">9 Searching [9.1 -9.3]</a><br/>
 </td>
-<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/><a href="">Dynamic Arrays</a></p></td>
+<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/><a href="Dynamic-Arrays.md">Dynamic Arrays</a></p></td>
 <td><p><format style="bold" color="LightSeaGreen">Linear</format><br/><a href="Linked-List.md">Linked Lists</a></p></td>
 
 [//]: # (<td><p><format style="bold" color="LightCoral">Admin</format><br/>Term Project Discussion</p></td>)
@@ -60,7 +88,7 @@ Visualizer</a></p></td>
 
 [//]: # (WEEK 4 )
 <tr><td><p>Week 04</p></td>
-<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="">Stacks</a> <br/> <a href="">Queues</a></p></td>
+<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="Stack.md">Stacks</a> <br/> <a href="Queue.md">Queues</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Search Algorithms</a><br/><a href="">Basic Sorts</a></p></td>
 <td colspan="2"><p><a href="">Linked Lists</a></p></td>
 <td><p><a href="">A3 : Analysis I</a></p></td>
@@ -69,8 +97,8 @@ Visualizer</a></p></td>
 [//]: # (WEEK 5 )
 <tr><td><p>Week 05</p></td>
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">2 Mathematical Preliminaries [Review 2.5]</a></td>
-<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/><a href="">Recursive Algorithms</a></p></td>
-<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Recurrences</a></p></td>
+<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/><a href="recursive-algorithms.md">Recursive Algorithms</a></p></td>
+<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="recurrences.md">Recurrences</a></p></td>
 <td>Sorting Algorithm Day 1</td>
 <td><p><a href="">Recursion</a></p></td>
 <td><p><a href="">A3 : Analysis I</a></p></td>
@@ -79,8 +107,8 @@ Visualizer</a></p></td>
 [//]: # (WEEK 6 )
 <tr><td><p>Week 06</p></td> 
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">5 Binary Trees</a></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Binary Search Trees</a> <br/> <a href="">Heaps</a></p></td>
-<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="">Priority Queues</a> <br/> <a href="">Heaps</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="bst.md">Binary Search Trees</a> <br/> <a href="Heaps.md">Heaps</a></p></td>
+<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="Priority-Queue.md">Priority Queues</a> <br/> <a href="Heaps.md">Heaps</a></p></td>
 <td>Sorting Algorithm Day 2</td>
 <td><p><a href="">Backtracking</a></p></td>
 <td><p><a href="">A3 : Analysis I</a></p></td>
@@ -89,8 +117,8 @@ Visualizer</a></p></td>
 [//]: # (WEEK 7 )
 <tr><td><p>Week 07</p></td>
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">7 Internal Sorting [Review 7.4 - 7.5]</a><br/></td>
-<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Quicksort</a> <br/> <a href="">Mergesort</a></p></td>
-<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Heapsort</a> <br/> <a href="">Introsort</a></p></td>
+<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="quicksort.md">Quicksort</a> <br/> <a href="mergesort.md">Mergesort</a></p></td>
+<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="Heap-Sort.md">Heapsort</a> <br/> <a href="Introsort.md">Introsort</a></p></td>
 <td>Mathematically-sounding Tree Day</td>
 <td><p><a href="">Priority Queues</a></p></td>
 <td><p>A4 : Grids &amp; Expressions</p></td>
@@ -108,8 +136,8 @@ Visualizer</a></p></td>
 <a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">6 Non-Binary Trees</a><br/>
 <a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">9 Searching [9.4]</a><br/>
 </td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">2-3 Trees</a></p></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Left-leaning Red Black Trees</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="2-3-Trees.md">2-3 Trees</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="Left-Leaning-Red-Black-Trees.md">Left-leaning Red Black Trees</a></p></td>
 <td>Alphabet Tree Day</td>
 <td><p><a href="">Binary Search Trees</a></p></td>
 <td><p>A4 : Grids &amp; Expressions</p></td>
@@ -117,8 +145,8 @@ Visualizer</a></p></td>
 
 [//]: # (WEEK 10 )
 <tr><td><p>Week 10</p></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Hash Tables</a></p></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Sets</a> <br/> <a href="">Maps</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="Hash-Tables.md">Hash Tables</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="Set.md">Sets</a> <br/> <a href="Map.md">Maps</a></p></td>
 <td>Career Fair (Good Luck!!) <br/> Recitations Canceled</td>
 <td><p><a href="">Balancing Act</a></p></td>
 <td><p>A5 : Analysis II</p></td>
@@ -127,8 +155,8 @@ Visualizer</a></p></td>
 [//]: # (WEEK 11 )
 <tr><td><p>Week 11</p></td>
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">11 Graphs</a><br/></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Graphs</a><br/><a href="">DFS</a> &amp; <a href="">BFS</a></p></td>
-<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="">Greedy Algorithms</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="Graphs.md">Graphs</a><br/><a href="Depth-first.md">DFS</a> &amp; <a href="Breadth-first.md">BFS</a></p></td>
+<td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="Greedy-Algorithms.md">Greedy Algorithms</a></p></td>
 <td>Hash Bucket Day</td>
 <td><p><a href="">Hash Tables</a></p></td>
 <td><p>A5 : Conceptual II</p></td>
@@ -137,10 +165,10 @@ Visualizer</a></p></td>
 [//]: # (WEEK 12 )
 <tr><td><p>Week 12</p></td>
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">16 Patterns of Algorithms [16.1 - 16.2]</a><br/></td>
-<td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="">Dynamic Programming</a></p></td>
-<td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="">Randomized Algorithms</a></p></td>
+<td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="Dynamic-Programming.md">Dynamic Programming</a></p></td>
+<td><p><format style="bold" color="Aquamarine">Patterns</format><br/> <a href="Randomized-Algorithms.md">Randomized Algorithms</a></p></td>
 <td>Greedy Algorithms Day</td>
-<td><p><a href="https://github.com/uricsc/212-Deliverables/tree/main/Labs/Lab%2009%20Sets%20%26%20Maps">Sets &amp; Maps</a></p></td>
+<td><p><a href="">Sets &amp; Maps</a></p></td>
 <td><p>A5 : Analysis II</p></td>
 </tr>
 

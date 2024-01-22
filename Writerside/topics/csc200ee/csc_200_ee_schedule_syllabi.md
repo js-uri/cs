@@ -6,6 +6,25 @@ switcher-label: CSC 200 EE
 
 # CSC 200 EE : Problem-Solving for Science and Engineering
 
+## Spring 2024 Location &amp; Time {switcher-key="Spring 24"}
+
+<table>
+<tr>
+    <td></td>
+    <td>Location</td>
+    <td>Time</td>
+</tr>
+<tr>
+    <td>Lecture</td>
+    <td colspan="2">There is no formal lecture component</td>
+</tr>
+<tr>
+    <td>Lab Practical</td>
+    <td>Tyler Hall  106</td>
+    <td>Wednesday 4:45pm - 6:15pm</td>
+</tr>
+</table>
+
 ## Spring 2024 Schedule   {switcher-key="Spring 24"}
 
 <table>
