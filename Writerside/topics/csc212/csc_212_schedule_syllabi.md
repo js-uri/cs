@@ -117,7 +117,7 @@ Visualizer</a></p></td>
 [//]: # (WEEK 7 )
 <tr><td><p>Week 07</p></td>
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">7 Internal Sorting [Review 7.4 - 7.5]</a><br/></td>
-<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="quicksort.md">Quicksort</a> <br/> <a href="mergesort.md">Mergesort</a></p></td>
+<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="Quicksort.md">Quicksort</a> <br/> <a href="Mergesort.md">Mergesort</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="Heap-Sort.md">Heapsort</a> <br/> <a href="Introsort.md">Introsort</a></p></td>
 <td>Mathematically-sounding Tree Day</td>
 <td><p><a href="">Priority Queues</a></p></td>
@@ -269,10 +269,10 @@ Visualizer</a></p></td>
     <td>Meghan Andrews,<br/>Computer Science &amp; CyberSecurity</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
+    <td>1:00p-3:00p</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>9:00a-11:00a</td>
     <td></td>
     <td></td>
 </tr>
