@@ -5,7 +5,6 @@
 [GFG | Quick Sort](https://www.geeksforgeeks.org/quick-sort/)
 
 
-
 ## Definition
 
 Quicksort, also known as partition-exchange sort, is a widely used comparison-based sorting algorithm in computer science. It was developed by Tony Hoare in 1960. Quicksort is 
