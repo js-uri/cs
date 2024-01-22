@@ -1,5 +1,0 @@
-
-
-# Lecture Testing
-
-

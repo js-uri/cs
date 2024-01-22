@@ -1,3 +1,0 @@
-# Graphs
-
-Start typing here...

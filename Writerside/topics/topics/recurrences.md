@@ -1,3 +1,0 @@
-# Recurrences
-
-Start typing here...

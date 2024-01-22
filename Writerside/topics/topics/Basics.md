@@ -1,3 +1,0 @@
-# Basics
-
-Start typing here...

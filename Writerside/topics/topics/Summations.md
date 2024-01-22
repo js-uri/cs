@@ -1,3 +1,0 @@
-# Summations
-
-Start typing here...

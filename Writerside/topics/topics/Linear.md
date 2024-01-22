@@ -1,3 +1,0 @@
-# Linear
-
-Start typing here...
