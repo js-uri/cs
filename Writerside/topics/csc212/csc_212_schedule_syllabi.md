@@ -271,8 +271,8 @@ Visualizer</a></p></td>
     <td></td>
     <td>1:00p-3:00p</td>
     <td></td>
+    <td>1:00p-3:00p</td>
     <td></td>
-    <td>9:00a-11:00a</td>
     <td></td>
     <td></td>
 </tr>
