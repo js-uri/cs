@@ -244,12 +244,12 @@ Visualizer</a></p></td>
     <td></td>
 </tr>
 <tr>
-    <td>Jessica Tingley,<br/>Mechanical Engineering &amp;amp; Computer Science</td>
+    <td>Jessica Tingley,<br/>Mechanical Engineering &amp; Computer Science</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
+    <td>10-11a</td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>10-11a</td>
     <td></td>
     <td></td>
     <td></td>
@@ -257,11 +257,11 @@ Visualizer</a></p></td>
 <tr>
     <td>Brandt Ogden,<br/>Computer Science &amp; CyberSecurity</td>
     <td>Undergraduate Teaching Assistant</td>
+    <td>10:30-12:30p</td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>10:30-12:30p</td>
     <td></td>
     <td></td>
 </tr>
@@ -288,7 +288,7 @@ Visualizer</a></p></td>
     <td></td>
 </tr>
 <tr>
-    <td>Cassidy Cooper,<br/>Computer Science &amp; Mathematics</td>
+    <td>Matt Hogan,<br/>Computer Science</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
@@ -299,7 +299,7 @@ Visualizer</a></p></td>
     <td></td>
 </tr>
 <tr>
-    <td></td>
+    <td>Jackie Edoro,<br/>Computer Science &amp; French</td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
