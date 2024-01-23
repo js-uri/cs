@@ -95,6 +95,8 @@ switcher-label: Course
 
 ## CSC 212 Data Structures and Abstractions { switcher-key="CSC 212" }
 
+### Course Concepts { switcher-key="CSC 212" }
+
 <procedure>
 
 ![image](https://ucarecdn.com/a28281e7-f716-4d81-80c3-fe32d94aef04/ct1.02h.gif)
@@ -225,7 +227,121 @@ switcher-label: Course
 
 </procedure>
 
+### Overview { switcher-key="CSC 212" }
 
+<procedure type="choices">
+<p>CSC 212</p>
+<step>Review of basic principles of analysis of algorithm</step>
+<step>Introduction to fundamental data structures and their algorithms arrays, lists, stacks, queues, trees, hash tables, graphs</step>
+<step>Survey of classic algorithms for sorting and searching</step>
+<step><i>Prerequisites: CSC 211 (at least C-) and MTH 180</i></step>
+</procedure>
+
+### Making Connections { switcher-key="CSC 212" }
+
+<procedure>
+
+![image](course_web.jpeg)
+{ width="900" thumbnail="true"}
+
+</procedure>
+
+### Importance { switcher-key="CSC 212" }
+
+<procedure>
+
+![image](google_search.jpeg)
+{ width="900" thumbnail="true" }
+
+</procedure>
+
+### Recommended Textbook { switcher-key="CSC 212" }
+
+<table>
+<tr>
+<td>
+
+![image](https://people.cs.vt.edu/shaffer/Book/C++.jpg)
+</td>
+<td>
+
+**Data Structures and Algorithm Analysis in C++**
+
+- Clifford A. Shaffer
+- Dover Publications
+- 2012
+- ISBN: 978-0486485829
+- [Amazon](https://www.amazon.com/Structures-Algorithm-Analysis-Clifford-Shaffer/dp/048648582X)
+- [PDF](https://people.cs.vt.edu/shaffer/Book/C++3elatest.pdf)
+
+</td>
+</tr>
+</table>
+
+### Course Deliverables { switcher-key="CSC 212" }
+
+<procedure>
+
+**Lab Practicals**
+
+**Lab Recitations**
+
+**Assignments**
+
+**Research Project**
+
+</procedure>
+
+### Expectations { switcher-key="CSC 212" }
+
+<procedure>
+
+**Attendance and Participation**
+- Lectures are discussion-based and optional
+- Labs are mandatory
+
+**Preparation**
+- Schedule your time accordingly...
+- 'You get out, what you put in...'
+
+**Collaboration**
+- You are encouraged to discuss concepts and general premise of labs and assignments.
+- You must however, write your own code and submit your own work.
+
+**Academic Integrity**
+-  Plagiarism is a serious offense and will not be tolerated. I will not hesitate to report any violations to the Department Chair, Dean's Office, and Provost, should it come to that.
+
+</procedure>
+
+### Need Help? { switcher-key="CSC 212" }
+
+<procedure>
+
+**Office Hours**
+- I will be available for office hours Tu/Th (on-ground) and M/W (via zoom) by appointment only.
+- TA's will have some dedicated office hours (posted in the Courses Schedule) throughout the week and will have limited availability by appointment.
+- Scheduling can be done by private message in the 'Office Hours' forum on edstem. 
+
+**edstem**
+- edstem is the primary communication tool for this course.
+- for general questions, please post in the 'General' forum.
+- for questions specific to labs or assignments, please post in the 'Labs' or 'Assignments' forum, respectively.
+- if you have a question that you would like to ask privately, please send a private message for staff and myself to be able to respond to.
+- finally if you have something of a personal matter that only need my direct attention, send a formal email to me.
+
+</procedure>
+
+### Reasons for Unsuccessful Outcomes { switcher-key="CSC 212" }
+
+<procedure>
+
+**Lack of :**
+- **Effort**
+- **Interest**
+- **Time Management**
+- **Understanding**
+
+</procedure>
 
 
 
