@@ -2,12 +2,12 @@
 switcher-label: Language
 ---
 
-# Main
+# Main &amp; Command Line Arguments
 
 ![main](https://files.realpython.com/media/Python-Main-Function_Watermarked.5b31a1de4516.jpg)
 { centered=true }
 
-## Purpose
+## Main Purpose
 
 <note>
 <b>Definition &amp; Use</b>
@@ -53,7 +53,7 @@ The `main` function can be difficult to test if it calls too many functions.
 </table>
 
 
-## Syntax 
+## Main Syntax 
 
 The `main` function is defined as follows:
 
@@ -68,6 +68,14 @@ end main
 
 ### Main C++ {switcher-key="C++"}
 
+<video src="https://youtu.be/imNlJohlLPk?feature=shared" 
+       preview-src="hero_main.jpeg"
+       width="900"
+       controls 
+       preload 
+       switcher-key="C++">
+</video>
+
 ```c++
 int main() {
     // Statements
@@ -77,12 +85,28 @@ int main() {
 
 ### Main Python {switcher-key="Python"}
 
+<video src="https://youtu.be/lVUOrPunRxQ?feature=shared" 
+       preview-src="hero_main.jpeg"
+       width="900"
+       controls 
+       preload 
+       switcher-key="Python">
+</video>
+
 ```Python
 def main():
     # Statements
 ```
 
 ### Main Java {switcher-key="Java"}
+
+<video src="https://youtu.be/P-_Nzi_mCRo?feature=shared" 
+       preview-src="hero_main.jpeg"
+       width="900"
+       controls 
+       preload 
+       switcher-key="Java">
+</video>
 
 ```java
 public static void main(String[] args) {
@@ -92,14 +116,97 @@ public static void main(String[] args) {
 
 ### Main Go {switcher-key="Go"}
 
+<video src="https://youtu.be/8gqQhihZ3hY?feature=shared" 
+       preview-src="hero_main.jpeg"
+       width="900"
+       controls 
+       preload 
+       switcher-key="Go">
+</video>
+
 ```go
 func main() {
     // Statements
 }
 ```
 
+## Command Line Arguments (CLAs)
 
+### CLAs Defined
 
+<note>
+<b>Definition &amp; Use</b>
+
+Command line arguments are strings of text that are passed to a program when it is started. They are used to provide input to a program.
+</note>
+
+## CLA Syntax
+
+Command line arguments are passed to a program as follows:
+
+### CLA C++ {switcher-key="C++"}
+
+<video src="https://youtu.be/decAHMKIo_A?feature=shared" 
+       preview-src="hero_main.jpeg"
+       width="900"
+       controls 
+       preload 
+       switcher-key="C++">
+
+</video>
+
+    ```c++
+    int main(int argc, char* argv[]) {
+        // Statements
+    }
+    ```
+
+### CLA Python {switcher-key="Python"}
+
+<video src="https://youtu.be/rJCl7t3IIbA?feature=shared" 
+       preview-src="hero_main.jpeg"
+       width="900"
+       controls 
+       preload 
+       switcher-key="Python">
+</video>
+
+```Python
+def main(argv):
+    # Statements
+```
+
+### CLA Java {switcher-key="Java"}
+
+<video src="https://youtu.be/Up17-azeuyE?feature=shared" 
+       preview-src="hero_main.jpeg"
+       width="900"
+       controls 
+       preload 
+       switcher-key="Java">
+</video>
+
+```java
+public static void main(String[] args) {
+    // Statements
+}
+```
+
+### CLA Go {switcher-key="Go"}
+
+<video src="https://youtu.be/pISqGhRB3Jg?feature=shared" 
+       preview-src="hero_main.jpeg"
+       width="900"
+       controls 
+       preload 
+       switcher-key="Go">
+</video>
+
+```go
+func main() {
+    // Statements
+}
+```
 
 
 
