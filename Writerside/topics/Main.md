@@ -71,10 +71,7 @@ end main
 <video src="https://youtu.be/imNlJohlLPk?feature=shared" 
        preview-src="hero_main.jpeg"
        width="900"
-       controls 
-       preload 
-       switcher-key="C++">
-</video>
+       mini-player="true" />
 
 ```c++
 int main() {
@@ -82,16 +79,12 @@ int main() {
 }
 ```
 
-
 ### Main Python {switcher-key="Python"}
 
 <video src="https://youtu.be/lVUOrPunRxQ?feature=shared" 
        preview-src="hero_main.jpeg"
        width="900"
-       controls 
-       preload 
-       switcher-key="Python">
-</video>
+       mini-player="true" />
 
 ```Python
 def main():
@@ -103,10 +96,7 @@ def main():
 <video src="https://youtu.be/P-_Nzi_mCRo?feature=shared" 
        preview-src="hero_main.jpeg"
        width="900"
-       controls 
-       preload 
-       switcher-key="Java">
-</video>
+       mini-player="true" />
 
 ```java
 public static void main(String[] args) {
@@ -119,10 +109,7 @@ public static void main(String[] args) {
 <video src="https://youtu.be/8gqQhihZ3hY?feature=shared" 
        preview-src="hero_main.jpeg"
        width="900"
-       controls 
-       preload 
-       switcher-key="Go">
-</video>
+       mini-player="true" />
 
 ```go
 func main() {
@@ -149,27 +136,20 @@ Command line arguments are passed to a program as follows:
 <video src="https://youtu.be/decAHMKIo_A?feature=shared" 
        preview-src="hero_main.jpeg"
        width="900"
-       controls 
-       preload 
-       switcher-key="C++">
+       mini-player="true" />
 
-</video>
-
-    ```c++
-    int main(int argc, char* argv[]) {
-        // Statements
-    }
-    ```
+```c++
+int main(int argc, char* argv[]) {
+    // Statements
+}
+```
 
 ### CLA Python {switcher-key="Python"}
 
 <video src="https://youtu.be/rJCl7t3IIbA?feature=shared" 
        preview-src="hero_main.jpeg"
        width="900"
-       controls 
-       preload 
-       switcher-key="Python">
-</video>
+       mini-player="true" />
 
 ```Python
 def main(argv):
@@ -181,10 +161,7 @@ def main(argv):
 <video src="https://youtu.be/Up17-azeuyE?feature=shared" 
        preview-src="hero_main.jpeg"
        width="900"
-       controls 
-       preload 
-       switcher-key="Java">
-</video>
+       mini-player="true" />
 
 ```java
 public static void main(String[] args) {
@@ -197,10 +174,7 @@ public static void main(String[] args) {
 <video src="https://youtu.be/pISqGhRB3Jg?feature=shared" 
        preview-src="hero_main.jpeg"
        width="900"
-       controls 
-       preload 
-       switcher-key="Go">
-</video>
+       mini-player="true" />
 
 ```go
 func main() {
