@@ -134,7 +134,7 @@ Command line arguments are passed to a program as follows:
 ### CLA C++ {switcher-key="C++"}
 
 <video src="https://youtu.be/decAHMKIo_A?feature=shared" 
-       preview-src="hero_main.jpeg"
+       preview-src="cla_cpp.jpeg"
        width="900"
        mini-player="true" />
 
@@ -147,7 +147,7 @@ int main(int argc, char* argv[]) {
 ### CLA Python {switcher-key="Python"}
 
 <video src="https://youtu.be/rJCl7t3IIbA?feature=shared" 
-       preview-src="hero_main.jpeg"
+       preview-src="cla_python.jpeg"
        width="900"
        mini-player="true" />
 
@@ -159,7 +159,7 @@ def main(argv):
 ### CLA Java {switcher-key="Java"}
 
 <video src="https://youtu.be/Up17-azeuyE?feature=shared" 
-       preview-src="hero_main.jpeg"
+       preview-src="cla_java.jpeg"
        width="900"
        mini-player="true" />
 
@@ -172,7 +172,7 @@ public static void main(String[] args) {
 ### CLA Go {switcher-key="Go"}
 
 <video src="https://youtu.be/pISqGhRB3Jg?feature=shared" 
-       preview-src="hero_main.jpeg"
+       preview-src="cla_go.jpeg"
        width="900"
        mini-player="true" />
 
