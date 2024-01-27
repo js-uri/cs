@@ -465,7 +465,7 @@ or 211.</i>
     <td>David Perrone, MS Candidate</td>
     <td>Graduate Teaching Assistant</td>
     <td></td>
-    <td></td>
+    <td>1:00p - 2::00p</td>
     <td></td>
     <td></td>
     <td></td>
@@ -476,8 +476,8 @@ or 211.</i>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>2:30p - 3:30p</td>
+    <td>12:30p - 1:30p</td>
     <td></td>
     <td></td>
 </tr>
@@ -642,16 +642,27 @@ ability for implementation. The project will be completed in groups of 3-4 membe
 ### Course Policies
 
 <procedure style="choices">
+<b>Attendance</b>
+<step>There is no formal attendance for this course. You may attend at-will. If you fall ill, please inform staff.</step>
+<step>Incentive to attend : Those who do not attend, should not expect help from staff for the week. Non-attendance for medical or university-sanctioned events will be given consideration.</step>
+<step>Concept quizzes will be given each week to test knowledge of the readings and async lectures.</step>
+</procedure>
+
+<procedure style="choices">
 <b>Submissions</b>
-<step>All submissions will be handled through Gradescope</step>
+<step>All submissions will be handled through EdStem</step>
 <step>Missed deliverables cannot be made up</step>
+<step>Three or more unsubmitted deliverables, and you fail the term.</step>
 <step>Extensions will be handled on an individual basis, but are typically reserved for special cases. Contact me as soon as possible if any extraneous circumstances arise.</step>
 </procedure>
 
 <procedure style="choices">
-<b>Attendance</b>
-<step>While there is no formal, in-person lecture, you should be interacting with the asynchronous lecture material in the schedule</step>
-<step>The weekly quiz will be used as a method of recording attendance for the week.</step>
+<b>Extension Requests</b>
+<p>The following requests will not be honored under any circumstance</p>
+<step>"The laptop/device I use for class has broken..."</step>
+<step>"I missed the deadline..."</step>
+<step>"I have work for other courses..."</step>
+<step>"My work schedule is very busy this week..."</step>
 </procedure>
 
 <procedure style="choices">

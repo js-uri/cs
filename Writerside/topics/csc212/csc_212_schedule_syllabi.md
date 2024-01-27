@@ -230,13 +230,7 @@ Visualizer</a></p></td>
 <tr>
     <td>Christian Esteves,<br/>PhD Candidate</td>
     <td>Graduate Teaching Assistant</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td colspan="7">Office Hours by Appointment Only</td>
 </tr>
 <tr>
     <td>Jessica Tingley,<br/>Mechanical Engineering &amp; Computer Science</td>
@@ -276,7 +270,7 @@ Visualizer</a></p></td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>3:00p-5:00p</td>
     <td></td>
     <td></td>
     <td></td>
@@ -287,16 +281,16 @@ Visualizer</a></p></td>
     <td>Undergraduate Teaching Assistant</td>
     <td></td>
     <td></td>
+    <td>9:00a-10:00a</td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>10:00a-12:00p</td>
     <td></td>
     <td></td>
 </tr>
 <tr>
     <td>Jackie Edoro,<br/>Computer Science &amp; French</td>
     <td>Undergraduate Teaching Assistant</td>
-    <td></td>
+    <td>12:00p-2:00p</td>
     <td></td>
     <td></td>
     <td></td>
@@ -451,8 +445,9 @@ ability for implementation. The project will be completed in groups of 3-4 membe
 
 <procedure style="choices">
 <b>Submissions</b>
-<step>All submissions will be handled through Gradescope</step>
+<step>All submissions will be handled through EdStem</step>
 <step>Missed deliverables cannot be made up</step>
+<step>Three or more unsubmitted deliverables, and you fail the term</step>
 <step>Extensions will be handled on an individual basis, but are typically reserved for special cases. Contact me as soon as possible if any extraneous circumstances arise.</step>
 </procedure>
 
