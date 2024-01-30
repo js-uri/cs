@@ -342,7 +342,7 @@ for (int i = 0; i < n; i++) {
 <tr>
 <td><code-block lang="tex"> 16</code-block></td>
 <td><code-block lang="tex"> 4</code-block></td>
-<td><code-block lang="tex"> 16</code-block></td>
+<td><code-block lang="tex"> 2^4</code-block></td>
 <td><code-block lang="tex"> 64</code-block></td>
 <td><code-block lang="tex"> 256</code-block></td>
 <td><code-block lang="tex"> 65536</code-block></td>
@@ -351,7 +351,7 @@ for (int i = 0; i < n; i++) {
 <tr>
 <td><code-block lang="tex"> 256</code-block></td>
 <td><code-block lang="tex"> 8</code-block></td>
-<td><code-block lang="tex"> 256</code-block></td>
+<td><code-block lang="tex"> 2^8</code-block></td>
 <td><code-block lang="tex"> 2048</code-block></td>
 <td><code-block lang="tex"> 65536</code-block></td>
 <td><code-block lang="tex"> 1.1579209e+77</code-block></td>
@@ -360,7 +360,7 @@ for (int i = 0; i < n; i++) {
 <tr>
 <td><code-block lang="tex"> 1024</code-block></td>
 <td><code-block lang="tex"> 10</code-block></td>
-<td><code-block lang="tex"> 1024</code-block></td>
+<td><code-block lang="tex"> 2^{10}</code-block></td>
 <td><code-block lang="tex"> 10240</code-block></td>
 <td><code-block lang="tex"> 1048576</code-block></td>
 <td><code-block lang="tex"> 1.0715086e+308</code-block></td>
@@ -369,7 +369,7 @@ for (int i = 0; i < n; i++) {
 <tr>
 <td><code-block lang="tex"> 65K</code-block></td>
 <td><code-block lang="tex"> 16</code-block></td>
-<td><code-block lang="tex"> 65K</code-block></td>
+<td><code-block lang="tex"> 2^{16}</code-block></td>
 <td><code-block lang="tex"> 1M</code-block></td>
 <td><code-block lang="tex"> 4.3B</code-block></td>
 <td><code-block lang="tex"> 3.68935e+197</code-block></td>
@@ -378,7 +378,7 @@ for (int i = 0; i < n; i++) {
 <tr>
 <td><code-block lang="tex"> 1M</code-block></td> 
 <td><code-block lang="tex"> 20</code-block></td>
-<td><code-block lang="tex"> 1M</code-block></td>
+<td><code-block lang="tex"> 2^{20}</code-block></td>
 <td><code-block lang="tex"> 20M</code-block></td>
 <td><code-block lang="tex"> 1T</code-block></td>
 <td><code-block lang="tex"> 1.26765e+301</code-block></td>
@@ -387,7 +387,7 @@ for (int i = 0; i < n; i++) {
 <tr>
 <td><code-block lang="tex"> 1G</code-block></td>
 <td><code-block lang="tex"> 30</code-block></td>
-<td><code-block lang="tex"> 1G</code-block></td>
+<td><code-block lang="tex"> 2^{30}</code-block></td>
 <td><code-block lang="tex"> 30G</code-block></td>
 <td><code-block lang="tex"> 1P</code-block></td>
 <td><code-block lang="tex"> 1.07374e+301</code-block></td>
