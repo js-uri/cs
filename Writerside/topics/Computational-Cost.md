@@ -62,13 +62,8 @@
 
 ### Some Rules of Analysis
 
-<table>
-<tr>
-<td>Code Sample &amp; Outcomes</td>
-<td>Useful Formulas</td>
-</tr>
-<tr>
-<td>
+<procedure>
+
 
 <procedure>
 <b>Single loops</b>
@@ -92,19 +87,13 @@
 <step>consider the branch with the highest count</step>
 </procedure>
 
-</td>
-<td>
-
-
-</td>
-</tr>
-</table>
+</procedure>
 
 
 
 ### Examples
 
-<deflist collapsible="true" default-state="collapsed">
+<deflist >
 <def title="model">
 
 What to count?
@@ -161,7 +150,7 @@ Hello World !!!
 
 
 </def>
-<def title="x1">
+<def title="x1" default-state="collapsed">
 
 ```c++
 for (int i = 0; i < n; i++) {
@@ -171,14 +160,15 @@ for (int i = 0; i < n; i++) {
 }
 ```
 
+<procedure title="T(n) = ??" collapsible="true">
 <note>
-
 <code-block lang="tex"> \text{This code has a time complexity of } O(n^2).</code-block>
 <code-block lang="tex"> \text{This is because it has nested loops that are both iterating over}</code-block>
 <code-block lang="tex"> n\ \text{elements, so the total number of operations increases}</code-block>
 <code-block lang="tex"> \text{quadratically with the size of the input.}</code-block>
 
 </note>
+</procedure>
 </def>
 <def title="x2">
 
@@ -190,15 +180,17 @@ for (int i = 0; i < n; i++) {
 }
 ```
 
+<procedure title="T(n) = ??" collapsible="true">
 <note>
-
 <code-block lang="tex"> \text{This code has a time complexity of } O(n^3).</code-block>
 <code-block lang="tex"> \text{This is because there are two nested for loops, }</code-block>
-<code-block lang="tex"> \text{each of which has a time complexity of } O(n^2),</code-block>
+<code-block lang="tex"> \text{the outer loop has a time complexity of } O(n),</code-block>
+<code-block lang="tex"> \text{and the inner loop has a time complexity of } O(n^2),</code-block>
 <code-block lang="tex"> \text{resulting in a time complexity of } O(n^3).</code-block>
 <code-block lang="tex"> \text{The total time complexity is } O(n^3),</code-block>
 <code-block lang="tex"> \text{because the inner loop is iterating } n * n \text{ times.}</code-block>
 </note>
+</procedure>
 
 </def>
 <def title="x3">
@@ -211,15 +203,15 @@ for (int i = 0; i < n; i++) {
 }
 ```
 
+<procedure title="T(n) = ??" collapsible="true">
 <note>
-
 <code-block lang="tex"> \text{This code has a time complexity of } O(n^2). \text{ This is because }</code-block>
 <code-block lang="tex"> \text{there is an outer loop that runs } n\ \text{times and an inner loop}</code-block>
 <code-block lang="tex"> \text{that runs } i\ \text{times where } i\ \text{is the value of the outer loop’s iterator.}</code-block>
 <code-block lang="tex"> \text{Since } i\ \text{starts at 0 and increases each iteration of the loop,}</code-block>
-<code-block lang="tex"> \text{the inner loop will run 0 times on the first }</code-block> 
-
+<code-block lang="tex"> \text{the inner loop will run 0 times on the first }</code-block>
 </note>
+</procedure>
 
 </def>
 <def title="x4">
@@ -234,13 +226,13 @@ for (int i = 0; i < n; i++) {
 }
 ```
 
+<procedure title="T(n) = ??" collapsible="true">
 <note>
-
 <code-block lang="tex"> \text{This code has a time complexity of } O(n^3) \text{ because }</code-block>
 <code-block lang="tex"> \text{there are three nested loops, each of which runs } n\ \text{times.}</code-block>
 <code-block lang="tex"> \text{The total number of operations is } n * n * n = n^3.</code-block>
-
 </note>
+</procedure>
 
 </def>
 <def title="x5">
@@ -255,14 +247,14 @@ for (int i = 0; i < n; i++) {
 }
 ```
 
+<procedure title="T(n) = ??" collapsible="true">
 <note>
-
 <code-block lang="tex"> \text{This code has a time complexity of } O(n^4). \text{ This is because }</code-block>
 <code-block lang="tex"> \text{the first loop runs in } O(n) \text{ time, the second loop runs in } O(n^2)</code-block>
 <code-block lang="tex"> \text{time, and the third loop runs in } O(n^3) \text{ time.}</code-block>
 <code-block lang="tex"> \text{Therefore, the total time complexity is the product of all of these which is } O(n^4).</code-block>
-
 </note>
+</procedure>
 
 </def>
 </deflist>
@@ -283,9 +275,9 @@ for (int i = 0; i < n; i++) {
 <table title="Cost">
 <tr>
 <th></th>
-<th><code-block lang="tex"> 1d\ array : find\ x = k</code-block></th>
-<th><code-block lang="tex"> 2d\ array : find (x,y)s.t. x + y = k</code-block></th>
-<th><code-block lang="tex"> 3d\ array : find (x,y,z)s.t. x + y + z = k</code-block></th>
+<th><code-block lang="tex"> 1d\ array</code-block><br/><code-block lang="tex"> find\ x = k</code-block></th>
+<th><code-block lang="tex"> 2d\ array</code-block><br/><code-block lang="tex"> find (x,y)s.t. x + y = k</code-block></th>
+<th><code-block lang="tex"> 3d\ array</code-block><br/><code-block lang="tex"> find (x,y,z)s.t. x + y + z = k</code-block></th>
 </tr>
 <tr>
 <td><code-block lang="tex"> input\ size</code-block></td>
@@ -334,7 +326,7 @@ for (int i = 0; i < n; i++) {
 <th><code-block lang="tex"> Logarithmic</code-block></th>
 <th><code-block lang="tex"> Linear</code-block></th>
 <th><code-block lang="tex"> Linearithemic</code-block></th>
-<th><code-block lang="tex"> Polynomial (Quadratic)</code-block></th>
+<th><code-block lang="tex"> Polynomial</code-block><br/><code-block lang="tex">(Quadratic)</code-block></th>
 <th><code-block lang="tex"> Exponential</code-block></th>
 <th><code-block lang="tex"> Factorial</code-block></th>
 </tr>
