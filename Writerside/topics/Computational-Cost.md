@@ -1,5 +1,7 @@
 # Computational Cost
 
+<show-structure for="chapter,procedure" depth="2"/>
+
 <tabs>
     <tab title="Computational Complexity">
         <video src="https://youtu.be/YoZPTyGL2IQ?feature=shared" width="900" mini-player="true"/>
