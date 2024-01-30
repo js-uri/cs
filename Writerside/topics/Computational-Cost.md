@@ -102,6 +102,8 @@ What to count?
 - only relevant instructions?
 - all instructions?
 
+<br/>
+
 ```c++
 for (int i = 0; i < n; i++) {
     std::cout << (2 * i);
