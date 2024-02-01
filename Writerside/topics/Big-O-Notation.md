@@ -40,7 +40,7 @@
 <table>
 <tr>
 <td>
-<img src="timecomplexities.jpeg" alt="image" />
+<img src="timecomplexities.jpeg" alt="image" thumbnail="true"/>
 </td>
 <td>
 <procedure style="choices">
@@ -292,7 +292,7 @@ backtracking search</td>
 <tabs>
 
 <tab title="Defined">
-<img src="defined.jpeg" alt="" />
+<img src="defined.jpeg" alt="" thumbnail="true"/>
 <br/><br/>
 <p>Asymptotic bounds are a way of describing the behavior of an algorithm as the input size approaches infinity. They are used to analyze the time and space complexity of algorithms, and are expressed in terms of upper and lower bounds.</p>
 <p>The most commonly used asymptotic bounds are Big-O notation, Omega notation, and Theta notation.</p>
@@ -322,7 +322,7 @@ backtracking search</td>
 <tab title="Big-O">
 <note>
 <p>Definition</p>
-<img src="bigo.jpeg" alt="image" />
+<img src="bigo.jpeg" alt="image" thumbnail="true"/>
 <br/><br/>
 <procedure>
 <p>Translation</p>
@@ -348,7 +348,7 @@ c.g : f(n) &amp; = 2n + 3 \\
 <tab title="Big-Omega">
 <note>
 <p>Definition</p>
-<img src="bigomega.jpeg" alt=""/>
+<img src="bigomega.jpeg" alt="" thumbnail="true"/>
 <br/><br/>
 <procedure>
 <p>Translation</p>
@@ -380,16 +380,16 @@ c.g : f(n) &amp; = 2n + 3 \\
 <tab title="Theta">
 <note>
 <p>Definition</p>
-<img src="theta.jpeg" alt=""/>
+<img src="theta.jpeg" alt="" thumbnail="true"/>
 <br/><br/>
 <procedure>
 <p>Translation</p>
-<code-block lang="tex">
 [//]: # (TODO : FIX THIS EQUATION)
-T(n) \text{ is lower bounded by } f(n) \text{ if and only if } T(n) \text{ is equal to some constant} \\
+<code-block lang="tex">
+T(n) \text{ is lower bounded by } f(n) \text{ if and only if } T(n) \text{ is equal to some } \\
 </code-block>
 <code-block lang="tex"> 
-\text{  } C \times f(n) \text{ the function we chose to bound with} \\</code-block>
+\text{ constant } C \times f(n) \text{ the function we chose to bound with} \\</code-block>
 <code-block lang="tex">
 \text{for all } N \text{ less than the initial } n \text{ or not}
 </code-block>
