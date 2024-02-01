@@ -455,7 +455,7 @@ for (int i = 0; i < n; i++) {
 </table>
 
 
-<procedure title="Formulas & Proofs">
+<procedure title="Formulas &amp; Proofs">
 <tabs>
 <tab title="Arithmetic">
 <p>where each term of the sequence is formed either by adding or subtracting a common term from the preceding number</p><br/>

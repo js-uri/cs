@@ -27,83 +27,6 @@
 
 
 
-## Comparing Algorithms
-
-<deflist collapsible="true" default-state="collapsed">
-<def title="Compare two...">
-
-<procedure style="choices">
-<p>Are these the same?</p>
-<step><format color="GreenYellow"><code-block lang="tex"> T(n) = 2n</code-block></format></step>
-<step><format color="Orange"><code-block lang="tex"> T(n) = 25n</code-block></format></step>
-</procedure>
-
-<table>
-<tr>
-
-[//]: # (TODO : ADD IMAGES)
-<td><img src="compareTwoLeft.png" alt="" thumbnail="true" /></td>
-<td><img src="compareTwoRight.png" alt="" thumbnail="true" /></td>
-</tr>
-</table>
-</def>
-<def title="Compare three...">
-
-<procedure style="choices">
-<p>Are these the same?</p>
-<step><format color="GreenYellow"><code-block lang="tex"> T(n) = 2n</code-block></format></step>
-<step><format color="Orange"><code-block lang="tex"> T(n) = 25n</code-block></format></step>
-<step><format color="DodgerBlue"><code-block lang="tex"> T(n) = n^2</code-block></format></step>
-</procedure>
-
-<table>
-<tr>
-
-<td><img src="compareThreeLeft.png" alt="" thumbnail="true" /></td>
-<td><img src="compareThreeMiddle.png" alt="" thumbnail="true" /></td>
-<td><img src="compareThreeRight.png" alt="" thumbnail="true" /></td>
-</tr>
-</table>
-</def>
-<def title="Compare two more...">
-
-<procedure style="choices">
-<p>Are these the same?</p>
-<step><format color="GreenYellow"><code-block lang="tex"> T(n) = 1000n + 500</code-block></format></step>
-<step><format color="Orange"><code-block lang="tex"> T(n) = n^2</code-block></format></step>
-</procedure>
-
-<table>
-<tr>
-
-[//]: # (TODO : ADD IMAGES)
-<td><img src="compareTwoTopLeft.png" alt="" thumbnail="true" /></td>
-<td><img src="compareTwoTopRight.png" alt="" thumbnail="true" /></td>
-</tr>
-<tr>
-
-[//]: # (TODO : ADD IMAGES)
-<td><img src="compareTwoBottomLeft.png" alt="" thumbnail="true" /></td>
-<td><img src="compareTwoBottomRight.png" alt="" thumbnail="true" /></td>
-</tr>
-</table>
-</def>
-<def title="Bottomline...">
-
-<procedure style="choices">
-<code-block lang="tex"> \text{Trying to compare } T(n) \text{ functions, but...}</code-block>
-<step><code-block lang="tex"> \text{we need to about large values of } n</code-block></step>
-</procedure>
-
-<procedure style="choices">
-<code-block lang="tex"> \text{Can we properly define } &le; \text{ for functions?}</code-block>
-<step><code-block lang="tex"> \text{we can group functions into } sets \text{ and make our lives easier}</code-block></step>
-</procedure>
-</def>
-</deflist>
-
-
-
 ## Asymptotic Analysis
 
 <note><p>refers to the study of an algorithm as the input size <i>gets big</i> or reaches a limit (in the calculus sense)</p></note>
@@ -285,7 +208,85 @@ backtracking search</td>
 </table>
 
 
-### Asymptotic Bounds
+
+
+### Comparing Algorithms
+
+<deflist collapsible="true" default-state="collapsed">
+<def title="Compare two...">
+
+<procedure style="choices">
+<p>Are these the same?</p>
+<step><format color="GreenYellow"><code-block lang="tex"> T(n) = 2n</code-block></format></step>
+<step><format color="Orange"><code-block lang="tex"> T(n) = 25n</code-block></format></step>
+</procedure>
+
+<table>
+<tr>
+
+[//]: # (TODO : ADD IMAGES)
+<td><img src="compareTwoLeft.png" alt="" thumbnail="true" /></td>
+<td><img src="compareTwoRight.png" alt="" thumbnail="true" /></td>
+</tr>
+</table>
+</def>
+<def title="Compare three...">
+
+<procedure style="choices">
+<p>Are these the same?</p>
+<step><format color="GreenYellow"><code-block lang="tex"> T(n) = 2n</code-block></format></step>
+<step><format color="Orange"><code-block lang="tex"> T(n) = 25n</code-block></format></step>
+<step><format color="DodgerBlue"><code-block lang="tex"> T(n) = n^2</code-block></format></step>
+</procedure>
+
+<table>
+<tr>
+
+<td><img src="compareThreeLeft.png" alt="" thumbnail="true" /></td>
+<td><img src="compareThreeMiddle.png" alt="" thumbnail="true" /></td>
+<td><img src="compareThreeRight.png" alt="" thumbnail="true" /></td>
+</tr>
+</table>
+</def>
+<def title="Compare two more...">
+
+<procedure style="choices">
+<p>Are these the same?</p>
+<step><format color="GreenYellow"><code-block lang="tex"> T(n) = 1000n + 500</code-block></format></step>
+<step><format color="Orange"><code-block lang="tex"> T(n) = n^2</code-block></format></step>
+</procedure>
+
+<table>
+<tr>
+
+[//]: # (TODO : ADD IMAGES)
+<td><img src="compareTwoTopLeft.png" alt="" thumbnail="true" /></td>
+<td><img src="compareTwoTopRight.png" alt="" thumbnail="true" /></td>
+</tr>
+<tr>
+
+[//]: # (TODO : ADD IMAGES)
+<td><img src="compareTwoBottomLeft.png" alt="" thumbnail="true" /></td>
+<td><img src="compareTwoBottomRight.png" alt="" thumbnail="true" /></td>
+</tr>
+</table>
+</def>
+<def title="Bottomline...">
+
+<procedure style="choices">
+<code-block lang="tex"> \text{Trying to compare } T(n) \text{ functions, but...}</code-block>
+<step><code-block lang="tex"> \text{we need to about large values of } n</code-block></step>
+</procedure>
+
+<procedure style="choices">
+<code-block lang="tex"> \text{Can we properly define } &le; \text{ for functions?}</code-block>
+<step><code-block lang="tex"> \text{we can group functions into } sets \text{ and make our lives easier}</code-block></step>
+</procedure>
+</def>
+</deflist>
+
+
+## Asymptotic Bounds
 
 <procedure>
 <tabs>
