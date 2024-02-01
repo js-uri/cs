@@ -57,8 +57,7 @@
 <table>
 <tr>
 <td>order of growth</td>
-<td>name</td>
-<td>typical code framework</td>
+<td>name / typical code framework</td>
 <td>description</td>
 <td>example</td>
 </tr>
@@ -69,10 +68,10 @@
 1
 ```
 </td>
-<td>constant</td>
 <td>
 
 ```c++
+// constant
 a = b + c;
 ```
 </td>
@@ -88,10 +87,10 @@ function call</td>
 log\ n
 ```
 </td>
-<td>logarithmic</td>
 <td>
 
 ```c++
+// logarithmic
 while (n > 1) {
   /*do something*/
 }
@@ -104,10 +103,10 @@ search in a red–black tree</td>
 </tr>
 <tr>
 <td><code-block lang="tex"> n</code-block></td>
-<td>linear</td>
 <td>
 
 ```c++
+// linear
 for (int i = 0; i < n; i++) {
   /*do something*/
 }
@@ -125,11 +124,11 @@ median finding</td>
 n\ log\ n
 ```
 </td>
-<td>linearithmic</td>
 <td>
 
-```tex
-\text{// see mergesort }
+```c++
+// linearithmic
+// see mergesort
 ```
 </td>
 <td>divide &amp; conquer</td>
@@ -144,10 +143,10 @@ fast Fourier transform</td>
 n^2
 ```
 </td>
-<td>polynomial<br/>(quadratic)</td>
 <td>
 
 ```c++
+// polynomial (quadratic)
 for (int i = 0; i < n; i++) {
   for (int j = 0; j < n; j++) { 
     /*do something*/
@@ -167,10 +166,10 @@ grade-school multiplication</td>
 n^3
 ```
 </td>
-<td>polynomial</td>
 <td>
 
 ```c++ 
+// polynomial
 for (int i = 0; i < n; i++) {
   for (int j = 0; j < n; j++) {
     for (int k = 0; k < n; k++) { 
@@ -193,12 +192,13 @@ grade-school matrix multiplication</td>
 2^n
 ```
 </td>
-<td>exponential</td>
 <td>
 
-```tex
-\text{// see subset generation}
+```c++
+// exponential
+// see subset generation
 ```
+
 </td>
 <td>exhaustive search</td>
 <td>enumerating all subsets<br/>
