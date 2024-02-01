@@ -1,4 +1,4 @@
-# Mathematical Model
+# Computational / Mathematical
 
 <show-structure for="chapter,procedure" depth="2"/>
 
@@ -471,6 +471,9 @@ for (int i = 0; i < n; i++) {
 \\
 \sum_{i=1}^{n} i & = \frac{n(n+1)}{2} \\
 \\
+\sum_{i=1}^{n} i^2 & = \frac{n(n+1)(2n+1)}{6} \\
+\\
+\sum_{i=1}^{n} i^3 & = \frac{n^2(n+1)^2}{6} \\
 \\
 \text{Problem : } & \\
 \\
