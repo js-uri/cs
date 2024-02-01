@@ -1,6 +1,6 @@
 <show-structure for="chapter,procedure" depth="2"/>
 
-# Algorithmic Analysis
+# Empirical Model
 
 <video src="https://youtu.be/RctntWQjazw" width="900"/>
 

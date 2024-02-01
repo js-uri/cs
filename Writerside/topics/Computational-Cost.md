@@ -1,4 +1,4 @@
-# Computational Cost
+# Mathematical Model
 
 <show-structure for="chapter,procedure" depth="2"/>
 
@@ -399,7 +399,299 @@ for (int i = 0; i < n; i++) {
 </tr>
 </table>
 
+## Inline Math
 
+<table>
+<tr>
+<td colspan="2">
+<procedure style="choices">
+<b>Sequence</b>
+<note>also known as a progression, is a successive arrangement of numbers in an order according to some specific rules</note>
+<p>Depending upon the number of terms in a sequence, it is classified into two types, namely a finite sequence and an infinite sequence.</p>
+<code-block lang="tex"> \text{ Examples}</code-block>
+<step><code-block lang="tex"> \text{ finite arithmetic sequence : } 3, 5, 7, 9, 11</code-block></step>
+<step><code-block lang="tex"> \text{ infinite arithmetic sequence : } 3, 5, 7, 9, 11, \dots </code-block></step>
+</procedure>
+<br/>
+<procedure style="choices">
+<b>Series</b>
+<note>formed by <i>adding</i> the elements of a sequence</note>
+<p>Depending on whether the sequence is finite or infinite, the series can be either finite or infinite.</p>
+<code-block lang="tex"> \text{ Examples}</code-block>
+<step><code-block lang="tex"> \text{ finite arithmetic sequence : } 3 + 5 + 7 + 9 + 11</code-block></step>
+<step><code-block lang="tex"> \text{ infinite arithmetic sequence : } 3 + 5 + 7 + 9 + 11 + \dots </code-block></step>
+</procedure>
+
+<procedure>
+<b>Sigma Notation</b> <i>(example)</i>
+
+![image](https://www.onlinemathlearning.com/image-files/sigma-notation.png)
+{width="100"}
+
+```tex
+\sum_{i=1}^{n} i = 1 + 2 + 3 + \dots + n
+```
+</procedure>
+</td>
+</tr>
+<tr>
+<td>
+<tip>
+<p>Sigma Example 1</p>
+
+[Walkthrough](https://opendsa-server.cs.vt.edu/embed/SummationOneToNCON)
+
+</tip>
+</td>
+<td>
+<tip>
+<p>Sigma Example 2</p>
+
+[Walkthrough](https://opendsa-server.cs.vt.edu/embed/SummationTwoPowerICON)
+
+</tip>
+</td>
+</tr>
+</table>
+
+
+<procedure title="Formulas & Proofs">
+<tabs>
+<tab title="Arithmetic">
+<p>where each term of the sequence is formed either by adding or subtracting a common term from the preceding number</p><br/>
+
+```tex
+\begin{align}
+\text{Series : } & \\
+\\
+& a, a+d, a+2d, a+3d, ... \\
+\\
+\\
+\text{Formula : } & \\
+\\
+\sum_{i=1}^{n} i & = \frac{n(n+1)}{2} \\
+\\
+\\
+\text{Problem : } & \\
+\\
+& \text{Find the sum of the first 100 positive integers} \\
+\\
+\\
+\text{Algorithm : } & \\
+\\
+& \text{int sum = 0;} \\
+& \text{for (int i = 1; i <= 100; i++)} \\
+& \text{\{} \\
+& \text{ sum += i;} \\
+& \text{\}} \\
+\\
+\\
+\text{Proof : } & \\
+\\
+\sum_{i=1}^{100} i & = \frac{100(100+1)}{2} \\
+& = 5050 \\
+\end{align}
+```
+
+</tab>
+<tab title="Geometric">
+<p>where each term of the sequence is formed either by multiplying or dividing a common term with the preceding number</p><br/>
+
+```tex
+\begin{align}
+\text{Series : } & \\
+\\
+& a, ar, ar^2, ar^3, ... \\
+\\
+\\
+\text{Formula : } & \\
+\\
+\sum_{i=1}^{n} r^i & = \frac{r^{n+1} - 1}{r - 1} \\
+\\
+\\
+\text{Problem : } & \\
+\\
+& \text{Find the sum of the first 10 terms of the geometric sequence 2, 4, 8, 16, ...} \\
+\\
+\\
+\text{Algorithm : } & \\
+\\
+& \text{int sum = 0;} \\
+& \text{for (int i = 1; i <= 10; i++)} \\
+& \text{\{} \\
+& \text{ sum += Math.pow(2, i);} \\
+& \text{\}} \\
+\\
+\\
+\text{Proof : } & \\
+\\
+\sum_{i=1}^{10} 2^i & = \frac{2^{10+1} - 1}{2 - 1} \\
+& = 2047 \\
+\end{align}
+```
+
+</tab>
+<tab title="Harmonic">
+<p>where each term of the sequence is an infinite series of the reciprocals of positive integers</p><br/>
+
+```tex
+\begin{align}
+\text{Series : } & \\
+\\
+& 1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, ... \\
+\\
+\\
+\text{Formula : } & \\
+\\  
+\sum_{i=1}^{n} \frac{1}{i} & = \ln n + \gamma + \epsilon_n \\
+\\
+\\
+\text{Problem : } \\
+\\
+& \text{Find the sum of the first 10 terms of the harmonic sequence}  \\
+\\
+\\
+\text{Algorithm : } \\
+\\
+& \text{double sum = 0;} \\
+& \text{for (int i = 1; i <= 10; i++)} \\
+& \text{\{} \\
+& \text{ sum += 1.0 / i;} \\
+& \text{\}} \\
+\\
+\\
+\text{Proof : } \\
+\\
+\sum_{i=1}^{10} \frac{1}{i} & = \ln 10 + \gamma + \epsilon_{10} \\
+& \approx 2.9289682539682538 \\
+\end{align}
+```
+
+</tab>
+<tab title="Logarithmic">
+<p>where each term of the sequence is the logarithm of the element of an arithmetic sequence</p><br/>
+
+```tex
+\begin{align}
+\text{Series : } & \\
+\\
+& \log 1, \log 2, \log 3, \log 4, ... \\
+\\
+\\
+\text{Formula : } & \\
+\\
+\sum_{i=1}^{n} \log i & = \log n! \\
+\\
+\\
+\text{Problem : } \\
+\\
+& \text{Find the sum of the first 10 terms of the logarithmic sequence}  \\
+\\
+\\
+\text{Algorithm : } \\
+\\
+& \text{double sum = 0;} \\
+& \text{for (int i = 1; i <= 10; i++)} \\
+& \text{\{} \\
+& \text{ sum += Math.log(i);} \\
+& \text{\}} \\
+\\
+\\
+\text{Proof : } \\
+\\
+\sum_{i=1}^{10} \log i & = \log 10! \\
+& \approx 15.104412573075518 \\
+\end{align}
+```
+
+</tab>
+<tab title="Factorial">
+<p>where each term of the sequence is the factorial of the element of an arithmetic sequence</p><br/>
+
+```tex
+\begin{align}
+\text{Series : } & \\
+\\
+& 1!, 2!, 3!, 4!, ... \\
+\\
+\\
+\text{Formula : } & \\
+\\
+\sum_{i=1}^{n} i! & = (n+1)! - 1 \\
+\\
+\\
+\text{Problem : } \\
+\\
+& \text{Find the sum of the first 10 terms of the factorial sequence}  \\
+\\
+\\
+\text{Algorithm : } \\
+\\
+& \text{int sum = 0;} \\
+& \text{for (int i = 1; i <= 10; i++)} \\
+& \text{\{} \\
+& \text{ sum += factorial(i);} \\
+& \text{\}} \\
+\\
+\\
+\text{Proof : } \\
+\\
+\sum_{i=1}^{10} i! & = (10+1)! - 1 \\
+& = 362879 \\
+\end{align}
+```
+
+</tab>
+<tab title="Exponential">
+<p>where each term of the sequence is the exponential of the element of an arithmetic sequence</p><br/>
+
+```tex
+\begin{align}
+\text{Series : } & \\
+\\
+& e^1, e^2, e^3, e^4, ... \\
+\\
+\\
+\text{Formula : } & \\
+\\
+\sum_{i=1}^{n} e^i & = \frac{e^{n+1} - 1}{e - 1} \\
+\\
+\\
+\text{Problem : } \\
+\\
+& \text{Find the sum of the first 10 terms of the exponential sequence}  \\
+\\
+\\
+\text{Algorithm : } \\
+\\
+& \text{double sum = 0;} \\
+& \text{for (int i = 1; i <= 10; i++)} \\
+& \text{\{} \\
+& \text{ sum += Math.exp(i);} \\
+& \text{\}} \\
+\\
+\\
+\text{Proof : } \\
+\\
+\sum_{i=1}^{10} e^i & = \frac{e^{10+1} - 1}{e - 1} \\
+& \approx 22025.465794806718 \\
+\end{align}
+```
+
+
+
+</tab>
+</tabs>
+</procedure>
+
+
+<procedure title="Comparative Rules">
+<step><code-block lang="tex"> log\ ab = log\ a + log\ b \\</code-block></step>
+<step><code-block lang="tex"> log\ \frac{a}{b} = log\ a - log\ b \\</code-block></step>
+<step><code-block lang="tex"> log\ a^b = b\ log\ a \\</code-block></step>
+<step><code-block lang="tex"> a^{log^{b}_{c}} = b^{log^{a}_{c}} \\</code-block></step>
+<step><code-block lang="tex"> a^b = n \Rightarrow b = log_a\ n \\</code-block></step>
+</procedure>
 
 
 

@@ -1,4 +1,4 @@
-# Big-O Notation
+# Asymptotic
 
 <video src="https://youtu.be/__vX2sjlpXU?feature=shared" preview-src="bigohero.jpeg" width="900" mini-player="true"/>
 
@@ -27,125 +27,7 @@
 
 
 
-## Inline Math
-
-<table>
-<tr>
-<td colspan="2">
-<procedure style="choices">
-<b>Sequence</b>
-<note>also known as a progression, is a successive arrangement of numbers in an order according to some specific rules</note>
-<p>Depending upon the number of terms in a sequence, it is classified into two types, namely a finite sequence and an infinite sequence.</p>
-<code-block lang="tex"> \text{ Examples}</code-block>
-<step><code-block lang="tex"> \text{ finite arithmetic sequence : } 3, 5, 7, 9, 11</code-block></step>
-<step><code-block lang="tex"> \text{ infinite arithmetic sequence : } 3, 5, 7, 9, 11, \dots </code-block></step>
-</procedure>
-<br/>
-<procedure style="choices">
-<b>Series</b>
-<note>formed by <i>adding</i> the elements of a sequence</note>
-<p>Depending on whether the sequence is finite or infinite, the series can be either finite or infinite.</p>
-<code-block lang="tex"> \text{ Examples}</code-block>
-<step><code-block lang="tex"> \text{ finite arithmetic sequence : } 3 + 5 + 7 + 9 + 11</code-block></step>
-<step><code-block lang="tex"> \text{ infinite arithmetic sequence : } 3 + 5 + 7 + 9 + 11 + \dots </code-block></step>
-</procedure>
-
-<procedure>
-<b>Sigma Notation</b> <i>(example)</i>
-
-![image](https://www.onlinemathlearning.com/image-files/sigma-notation.png)
-{width="100"}
-
-```tex
-\sum_{i=1}^{n} i = 1 + 2 + 3 + \dots + n
-```
-</procedure>
-</td>
-</tr>
-<tr>
-<td>
-<tip>
-<p>Sigma Example 1</p>
-
-[Walkthrough](https://opendsa-server.cs.vt.edu/embed/SummationOneToNCON)
-
-</tip>
-</td>
-<td>
-<tip>
-<p>Sigma Example 2</p>
-
-[Walkthrough](https://opendsa-server.cs.vt.edu/embed/SummationTwoPowerICON)
-
-</tip>
-</td>
-</tr>
-</table>
-
-
-<procedure>
-<tabs>
-<tab title="Arithmetic">
-<p>where each term of the sequence is formed either by adding or subtracting a common term from the preceding number</p>
-
-```tex
-\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-```
-</tab>
-<tab title="Geometric">
-<p>where each term of the sequence is formed either by multiplying or dividing a common term with the preceding number</p><br/>
-
-```tex
-\sum_{i=1}^{n} r^i = \frac{r^{n+1} - 1}{r - 1}
-```
-</tab>
-<tab title="Harmonic">
-<p>where each term of the sequence is an infinite series of the reciprocals of positive integers</p><br/>
-
-```tex
-\sum_{i=1}^{n} \frac{1}{i} = \ln n + \gamma + \epsilon_n
-```
-</tab>
-<tab title="Logarithmic">
-<p>where each term of the sequence is the logarithm of the element of an arithmetic sequence</p><br/>
-
-```tex
-\sum_{i=1}^{n} \log i = \log n!
-```
-</tab>
-<tab title="Factorial">
-<p>where each term of the sequence is the factorial of the element of an arithmetic sequence</p><br/>
-
-```tex
-\sum_{i=1}^{n} i! = (n+1)! - 1
-```
-</tab>
-<tab title="Exponential">
-<p>where each term of the sequence is the exponential of the element of an arithmetic sequence</p><br/>
-
-```tex
-\sum_{i=1}^{n} r^i = \frac{r^{n+1} - 1}{r - 1}
-```
-</tab>
-</tabs>
-</procedure>
-
-
-
-
-
-
-
-
 ## Comparing Algorithms
-
-<procedure title="Comparative Rules">
-<step><code-block lang="tex"> log\ ab = log\ a + log\ b \\</code-block></step>
-<step><code-block lang="tex"> log\ \frac{a}{b} = log\ a - log\ b \\</code-block></step>
-<step><code-block lang="tex"> log\ a^b = b\ log\ a \\</code-block></step>
-<step><code-block lang="tex"> a^{log^{b}_{c}} = b^{log^{a}_{c}} \\</code-block></step>
-<step><code-block lang="tex"> a^b = n \Rightarrow b = log_a\ n \\</code-block></step>
-</procedure>
 
 <deflist collapsible="true" default-state="collapsed">
 <def title="Compare two...">
@@ -258,14 +140,31 @@
 <td>example</td>
 </tr>
 <tr>
-<td><code-block lang="tex"> 1</code-block></td>
+<td>
+
+```tex
+1
+```
+</td>
 <td>constant</td>
-<td><code-block lang="c++">a = b + c;</code-block></td>
+<td>
+
+```c++
+a = b + c;
+```
+</td>
 <td>statement</td>
-<td>add two numbers</td>
+<td>array access<br/>
+arithmetic operation<br/>
+function call</td>
 </tr>
 <tr>
-<td><code-block lang="tex"> log\ n</code-block></td>
+<td>
+
+```tex
+log\ n
+```
+</td>
 <td>logarithmic</td>
 <td>
 
@@ -276,7 +175,9 @@ while (n > 1) {
 ```
 </td>
 <td>divide in half</td>
-<td>binary search</td>
+<td>binary search in a sorted array<br/>
+insert in a binary heap<br/>
+search in a red–black tree</td>
 </tr>
 <tr>
 <td><code-block lang="tex"> n</code-block></td>
@@ -290,19 +191,36 @@ for (int i = 0; i < n; i++) {
 ```
 </td>
 <td>single loop</td>
-<td>find the maximum</td>
+<td>sequential search<br/>
+grade-school addition<br/>
+median finding</td>
 </tr>
 <tr>
-<td><code-block lang="tex"> n\ log\ n</code-block></td>
+<td>
+
+```tex
+n\ log\ n
+```
+</td>
 <td>linearithmic</td>
-<td><code-block lang="tex">
-// \ see\ mergesort
-</code-block></td>
+<td>
+
+```tex
+\text{// see mergesort }
+```
+</td>
 <td>divide &amp; conquer</td>
-<td>mergesort</td>
+<td>mergesort<br/>
+heapsort<br/>
+fast Fourier transform</td>
 </tr>
 <tr>
-<td><code-block lang="tex"> n^2</code-block></td>
+<td>
+
+```tex
+n^2
+```
+</td>
 <td>polynomial<br/>(quadratic)</td>
 <td>
 
@@ -315,10 +233,17 @@ for (int i = 0; i < n; i++) {
 ```
 </td>
 <td>double loop</td>
-<td>check all pairs</td>
+<td>enumerate all pairs<br/>
+insertion sort<br/>
+grade-school multiplication</td>
 </tr>
 <tr>
-<td><code-block lang="tex"> n^3</code-block></td>
+<td>
+
+```tex
+n^3
+```
+</td>
 <td>polynomial</td>
 <td>
 
@@ -334,16 +259,28 @@ for (int i = 0; i < n; i++) {
 
 </td>
 <td>double loop</td>
-<td>check all pairs</td>
+<td>enumerate all triples<br/>
+Floyd–Warshall<br/>
+grade-school matrix multiplication</td>
 </tr>
 <tr>
-<td><code-block lang="tex"> 2^n</code-block></td>
+<td>
+
+```tex
+2^n
+```
+</td>
 <td>exponential</td>
-<td><code-block lang="tex">
-// \ see\ combinatorial\ search
-</code-block></td>
+<td>
+
+```tex
+\text{// see subset generation}
+```
+</td>
 <td>exhaustive search</td>
-<td>check all subsets</td>
+<td>enumerating all subsets<br/>
+enumerating all permutations<br/>
+backtracking search</td>
 </tr>
 </table>
 
