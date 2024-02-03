@@ -51,14 +51,21 @@
             <toc-element topic="Expressions.md"/>
             <toc-element topic="Data-Types.md"/>
             <toc-element topic="Collections.md"/>
-            <toc-element topic="Main.md"/>
             <toc-element toc-title="Standard Template Library">
                 <toc-element toc-title="C++ Standard Template Library PDF"
                              target-for-accept-web-file-names="https://www.cppreference.com/Cpp_STL_ReferenceManual.pdf"/>
             </toc-element>
+            <toc-element topic="Functions.md">
+                <toc-element topic="Main.md"/>
+                <toc-element topic="Print.md">
+                    <toc-element toc-title="CPPReference | printf"
+                                 target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/io/c/fprintf"/>
+                    <toc-element toc-title="The Python Tutorial | input/output printing"
+                                 target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/io/cout"/>
+                </toc-element>
+            </toc-element>
         </toc-element>
         <toc-element toc-title="Control Statements">
-            <toc-element topic="Functions.md"/>
             <toc-element topic="Conditionals.md"/>
             <toc-element topic="Iterations.md"/>
             <toc-element topic="Jumps.md"/>
@@ -70,6 +77,7 @@
         </toc-element>
         <toc-element toc-title="Useful Additions">
 <!--            <toc-element topic="Strings.md"/>-->
+            <toc-element topic="Exceptions.md"/>
             <toc-element topic="Files.md"/>
 <!--            <toc-element topic="Exceptions.md"/>-->
         </toc-element>
