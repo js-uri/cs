@@ -108,7 +108,29 @@ Common Data Types
 <p>Examples</p>
 
 Examples of integers include `0`, `1`, `-1`, `2`, `-2`, `3`, `-3`, and so on.
+
+<code-block lang="C++" switcher-key="C++">
+int a = 5;
+int b = -5;
+</code-block>
+
+<code-block lang="Python" switcher-key="Python">
+a = 5
+b = -5
+</code-block>
+
+<code-block lang="Java" switcher-key="Java">
+int a = 5;
+int b = -5;
+</code-block>
+
+<code-block lang="Go" switcher-key="Go">
+a := 5
+b := -5
+</code-block>
+
 </tip>
+
 </def>
 <def title="Floating-Point Numbers">
 <note>
@@ -126,6 +148,27 @@ Floating-point numbers are numbers that have a fractional part. They are represe
 <p>Examples</p>
 
 Examples of floating-point numbers include `0.0`, `1.0`, `-1.0`, `2.0`, `-2.0`, `3.0`, `-3.0`, and so on.
+
+<code-block lang="C++" switcher-key="C++">
+float a = 5.5;
+float b = -5.5;
+</code-block>
+
+<code-block lang="Python" switcher-key="Python">
+a = 5.5
+b = -5.5
+</code-block>
+
+<code-block lang="Java" switcher-key="Java">
+float a = 5.5;
+float b = -5.5;
+</code-block>
+
+<code-block lang="Go" switcher-key="Go">
+a := 5.5
+b := -5.5
+</code-block>
+
 </tip>
 </def>
 <def title="Characters">
@@ -143,6 +186,28 @@ Examples of floating-point numbers include `0.0`, `1.0`, `-1.0`, `2.0`, `-2.0`, 
 <p>Examples</p>
 
 Examples of characters include `a`, `b`, `c`, `1`, `2`, `3`, `@`, `#`, `$`, and so on.
+
+<code-block lang="C++" switcher-key="C++">
+char a = 'A';
+char b = 'B';
+</code-block>
+
+<code-block lang="Python" switcher-key="Python">
+# Note : Python does not have a separate char data type
+a = 'A'
+b = 'B'
+</code-block>
+
+<code-block lang="Java" switcher-key="Java">
+char a = 'A';
+char b = 'B';
+</code-block>
+
+<code-block lang="Go" switcher-key="Go">
+a := 'A'
+b := 'B'
+</code-block>
+
 </tip>
 </def>
 <def title="Strings">
@@ -161,6 +226,27 @@ Strings are sequences of characters. They are represented by the `string` data t
 <p>Examples</p>
 
 Examples of strings include `Hello`, `World`, `John`, `Doe`, `123`, `abc`, `@#$`, and so on.
+
+<code-block lang="C++" switcher-key="C++">
+string a = "Hello";
+string b = "World";
+</code-block>
+
+<code-block lang="Python" switcher-key="Python">
+a = "Hello"
+b = "World"
+</code-block>
+
+<code-block lang="Java" switcher-key="Java">
+String a = "Hello";
+String b = "World";
+</code-block>
+
+<code-block lang="Go" switcher-key="Go">
+a := "Hello"
+b := "World"
+</code-block>
+
 </tip>
 </def>
 <def title="Booleans">
@@ -180,15 +266,33 @@ Booleans are used to store values that can be either `true` or `false` like the 
 <p>Examples</p>
 
 Examples of booleans include `true` and `false`.
+
+<code-block lang="C++" switcher-key="C++">
+bool a = true;
+bool b = false;
+</code-block>
+
+<code-block lang="Python" switcher-key="Python">
+a = True
+b = False
+</code-block>
+
+<code-block lang="Java" switcher-key="Java">
+boolean a = true;
+boolean b = false;
+</code-block>
+
+<code-block lang="Go" switcher-key="Go">
+a := true
+b := false
+</code-block>
+
 </tip>
 </def>
 </deflist>
 </td>
 </tr>
 </table>
-
-
-
 
 
 
