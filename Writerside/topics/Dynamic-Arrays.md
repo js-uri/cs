@@ -162,54 +162,97 @@ int arr[5] = { 1, 2, 3 };
 <td>
 
 [//]: # (FIXME : ADD UML DIAGRAM BACK IN)
-```plantuml
+[//]: # (```plantuml)
 
+[//]: # ()
+[//]: # ()
+[//]: # (@startuml)
 
-@startuml
+[//]: # ()
+[//]: # ()
+[//]: # (class DynamicArray {)
 
+[//]: # ()
+[//]: # (- data : T*)
 
-class DynamicArray {
+[//]: # ()
+[//]: # (- size : size_t)
 
-- data : T*
+[//]: # ()
+[//]: # (- capacity : size_t)
 
-- size : size_t
+[//]: # ()
+[//]: # (..)
 
-- capacity : size_t
+[//]: # ()
+[//]: # (+ DynmaicArray&#40;&#41;)
 
-..
+[//]: # ()
+[//]: # (+ DynamicArray&#40;size_t initialSize&#41;)
 
-+ DynmaicArray()
+[//]: # ()
+[//]: # (+ DynamicArray&#40;const DynamicArray&amp;other&#41;)
 
-+ DynamicArray(size_t initialSize)
+[//]: # ()
+[//]: # (+ ~DynamicArray&#40;&#41;)
 
-+ DynamicArray(const DynamicArray&amp;other)
+[//]: # ()
+[//]: # (+ operator=&#40;const DynamicArray&amp;other&#41;)
 
-+ ~DynamicArray()
+[//]: # ()
+[//]: # (+ void pushBack&#40;const T&amp;element&#41;)
 
-+ operator=(const DynamicArray&amp;other)
+[//]: # ()
+[//]: # (+ void popBack&#40;&#41;)
 
-+ void pushBack(const T&amp;element)
+[//]: # ()
+[//]: # (+ T&amp;operator[]&#40;size_t index&#41; const)
 
-+ void popBack()
+[//]: # ()
+[//]: # (+ size_t getSize&#40;&#41; const)
 
-+ T&amp;operator[](size_t index) const
+[//]: # ()
+[//]: # (+ size_t getCapacity&#40;&#41; const)
 
-+ size_t getSize() const
+[//]: # ()
+[//]: # (+ void resize&#40;size_t newSize&#41;)
 
-+ size_t getCapacity() const
+[//]: # ()
+[//]: # ()
+[//]: # (..)
 
-+ void resize(size_t newSize)
+[//]: # ()
+[//]: # ()
+[//]: # (})
 
+[//]: # ()
+[//]: # ()
+[//]: # (@enduml)
 
-..
+[//]: # ()
+[//]: # ()
+[//]: # (```)
 
-
-}
-
-
-@enduml
-
-
+```mermaid
+classDiagram
+    class DynamicArray {
+        - data : T*
+        - size : size_t
+        - capacity : size_t
+        ..
+        + DynamicArray()
+        + DynamicArray(size_t initialSize)
+        + DynamicArray(const DynamicArray&amp;other)
+        + ~DynamicArray()
+        + operator=(const DynamicArray&amp;other)
+        + void pushBack(const T&amp;element)
+        + void popBack()
+        + T&amp;operator[](size_t index) const
+        + size_t getSize() const
+        + size_t getCapacity() const
+        + void resize(size_t newSize)
+        ..
+    }
 ```
 
 <a href="https://en.cppreference.com/w/cpp/container/vector">CPPReference : std::vector</a>
