@@ -47,6 +47,7 @@ int main() {
 Printing int: 10
 Printing float: 10.1
 Printing character: ten
+Printing all: 10 10.1 ten
 ```
 { collapsible="true" }
 
