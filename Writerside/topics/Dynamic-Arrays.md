@@ -162,55 +162,55 @@ int arr[5] = { 1, 2, 3 };
 <td>
 
 [//]: # (FIXME : ADD UML DIAGRAM BACK IN)
-[//]: # (```plantuml)
+```plantuml
 
-[//]: # ()
-[//]: # (@startuml)
 
-[//]: # ()
-[//]: # (class DynamicArray {)
+@startuml
 
-[//]: # (- data : T*)
 
-[//]: # (- size : size_t)
+class DynamicArray {
 
-[//]: # (- capacity : size_t)
+- data : T*
 
-[//]: # (..)
+- size : size_t
 
-[//]: # (+ DynmaicArray&#40;&#41;)
+- capacity : size_t
 
-[//]: # (+ DynamicArray&#40;size_t initialSize&#41;)
+..
 
-[//]: # (+ DynamicArray&#40;const DynamicArray&amp;other&#41;)
++ DynmaicArray()
 
-[//]: # (+ ~DynamicArray&#40;&#41;)
++ DynamicArray(size_t initialSize)
 
-[//]: # (+ operator=&#40;const DynamicArray&amp;other&#41;)
++ DynamicArray(const DynamicArray&amp;other)
 
-[//]: # (+ void pushBack&#40;const T&amp;element&#41;)
++ ~DynamicArray()
 
-[//]: # (+ void popBack&#40;&#41;)
++ operator=(const DynamicArray&amp;other)
 
-[//]: # (+ T&amp;operator[]&#40;size_t index&#41; const)
++ void pushBack(const T&amp;element)
 
-[//]: # (+ size_t getSize&#40;&#41; const)
++ void popBack()
 
-[//]: # (+ size_t getCapacity&#40;&#41; const)
++ T&amp;operator[](size_t index) const
 
-[//]: # (+ void resize&#40;size_t newSize&#41;)
++ size_t getSize() const
 
-[//]: # ()
-[//]: # (..)
++ size_t getCapacity() const
 
-[//]: # ()
-[//]: # (})
++ void resize(size_t newSize)
 
-[//]: # ()
-[//]: # (@enduml)
 
-[//]: # ()
-[//]: # (```)
+..
+
+
+}
+
+
+@enduml
+
+
+```
 
 <a href="https://en.cppreference.com/w/cpp/container/vector">CPPReference : std::vector</a>
 
@@ -504,6 +504,9 @@ Think ,<a href="https://youtu.be/2M9LtyHnbnk">geometric sequences</a> and <a hre
 </procedure>
 </tab>
 </tabs>
+
+
+
 
 
 
