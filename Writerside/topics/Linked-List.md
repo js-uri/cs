@@ -42,7 +42,7 @@ CPython is the reference implementation of the Python programming language.
 <procedure>
 <b>Some STL Containers</b>
 <step>Maintain the specified order of inserted elements.</step>
-<img src="https://hackingcpp.com/cpp/std/sequence_containers.png" alt="" />
+<img src="https://hackingcpp.com/cpp/std/sequence_containers.png" alt="" thumbnail="true"/>
 </procedure>
 
 
@@ -335,25 +335,6 @@ flowchart LR
 
 <procedure>
 <tabs>
-<tab title="Insert@Head">
-<procedure>
-
-![image](https://uricsc.github.io/courses/_images/ll_ins_head.png)
-
-```text
-method insertAtHead(data):
-    newNode = Node(data)
-    if head is null:
-        head = newNode
-        tail = newNode
-    else:
-        newNode.next = head
-        head = newNode
-    size = size + 1
-```
-
-</procedure>
-</tab>
 <tab title="Insert@Tail">
 <procedure>
 
@@ -368,6 +349,25 @@ method insertAtTail(data):
     else:
         tail.next = newNode
         tail = newNode
+    size = size + 1
+```
+
+</procedure>
+</tab>
+<tab title="Insert@Head">
+<procedure>
+
+![image](https://uricsc.github.io/courses/_images/ll_ins_head.png)
+
+```text
+method insertAtHead(data):
+    newNode = Node(data)
+    if head is null:
+        head = newNode
+        tail = newNode
+    else:
+        newNode.next = head
+        head = newNode
     size = size + 1
 ```
 
@@ -461,8 +461,6 @@ method deleteAtNth(position):
 <tab title="Search">
 <procedure>
 
-![image](https://uricsc.github.io/courses/_images/ll_search.png)
-
 ```text
 method search(data):
     current = head
@@ -477,8 +475,6 @@ method search(data):
 </tab>
 <tab title="Print">
 <procedure>
-
-![image](https://uricsc.github.io/courses/_images/ll_display.png)
 
 ```text
 method print():
