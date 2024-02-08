@@ -170,6 +170,26 @@ Note that in addition to the computational costs, inserting or deleting from an 
 [//]: # ()
 [//]: # (```)
 
+```mermaid
+classDiagram
+    class SinglyLinkedList {
+        - head: Node
+        + SinglyLinkedList()
+        + isEmpty(): boolean
+        + insert(data: DataType): void
+        + delete(data: DataType): void
+        + display(): void
+    }
+
+    class Node {
+        - data: DataType
+        - next: Node
+    }
+
+    SinglyLinkedList "1" --> "*" Node
+
+```
+
 </td>
 <td>
 <b>LinkedList</b>
@@ -320,11 +340,18 @@ flowchart LR
 
 ![image](https://uricsc.github.io/courses/_images/ll_ins_head.png)
 
-**Delete an element at the beginning in singly linked list**
-- Create a new node
-- Assign its data value
-- Assign newly created node’s next ptr to current head reference. So, it points to the previous start node of the linked list address
-- Change the head reference to the new node’s address.
+```text
+method insertAtHead(data):
+    newNode = Node(data)
+    if head is null:
+        head = newNode
+        tail = newNode
+    else:
+        newNode.next = head
+        head = newNode
+    size = size + 1
+```
+
 </procedure>
 </tab>
 <tab title="Insert@Tail">
@@ -332,16 +359,18 @@ flowchart LR
 
 ![image](https://uricsc.github.io/courses/_images/ll_ins_tail.png)
 
-**Insert an element at the end in singly linked list**
+```text
+method insertAtTail(data):
+    newNode = Node(data)
+    if head is null:
+        head = newNode
+        tail = newNode
+    else:
+        tail.next = newNode
+        tail = newNode
+    size = size + 1
+```
 
-- Create a new node
-- Assign its data value
-- Assign its next node to NULL as this will be the last(tail) node
-- Check if the list is empty
-- Change the head node to the new node
-- If not then traverse till the last node
-- Assign the last node’s next pointer to this new node
-- Now, the new node has become the last node.
 </procedure>
 </tab>
 <tab title="Insert@Nth">
@@ -349,11 +378,21 @@ flowchart LR
 
 ![image](https://uricsc.github.io/courses/_images/ll_ins_nth.png)
 
-**Insertion at nth position node**
+```text
+method insertAtNth(data, position):
+    newNode = Node(data)
+    if position is 0:
+        newNode.next = head
+        head = newNode
+    else:
+        current = head
+        for i in 0 to position-1:
+            current = current.next
+        newNode.next = current.next
+        current.next = newNode
+    size = size + 1
+```
 
-- First we will create a new node named by newnode and put the position where u want to insert the node.
-- Now give the address of the new node in previous node means link the new node with previous node.
-- After this, give the address of current node in new node.Means link your new node also with current node.
 </procedure>
 </tab>
 <tab title="Delete@Tail">
@@ -361,14 +400,22 @@ flowchart LR
 
 ![image](https://uricsc.github.io/courses/_images/ll_del_tail.png)
 
-**Delete an element from end in singly linked list**
+```text
+method deleteAtTail():
+    if head is null:
+        return
+    if head is tail:
+        head = null
+        tail = null
+    else:
+        current = head
+        while current.next is not tail:
+            current = current.next
+        current.next = null
+        tail = current
+    size = size - 1
+```
 
-- Check if the Linked List is empty as we can not delete from an empty Linked List
-- Check if the Linked List has only one Node
-- In this case, just point the head to NULL and free memory for the existing node
-- Otherwise, if the linked list has more than one node, traverse to the end of the Linked List
-- Point next of 2nd Last node to NULL
-- Free the memory for the last node.
 </procedure>
 </tab>
 <tab title="Delete@Head">
@@ -376,10 +423,18 @@ flowchart LR
 
 ![image](https://uricsc.github.io/courses/_images/ll_del_head.png)
 
-**Delete an element from end in singly linked list**
+```text
+method removeFromFront():
+    if head is null:
+        return "List is empty"
+    else if head = tail:
+        head = null
+        tail = null
+    else:
+        head = head.next
+    size = size - 1
+```
 
-- Traverse to element before the element to be deleted
-- Change next pointers to exclude the node from the chain
 </procedure>
 </tab>
 <tab title="Delete@Nth">
@@ -387,16 +442,51 @@ flowchart LR
 
 ![image](https://uricsc.github.io/courses/_images/ll_del_nth.png)
 
-**Delete a Linked List node at a given position**
+```text
+method deleteAtNth(position):
+    if head is null:
+        return "List is empty"
+    else if position is 0:
+        head = head.next
+    else:
+        current = head
+        for i in 0 to position-1:
+            current = current.next
+        current.next = current.next.next
+    size = size - 1
+```
 
-- Insert the initial items in the linked list
-- Calculate the current size of the linked list
-- Ask the user for nth position he wants to delete
-  - `if(n < 1 || n > size)` then say invalid
-- If deleting the first node, just change the head to the next item in Linked List
-- Else traverse to the nth node to delete
-- Change the next of (`n-1`)th node to (n+1)th node
-- Free the memory for th nth node
+</procedure>
+</tab>
+<tab title="Search">
+<procedure>
+
+![image](https://uricsc.github.io/courses/_images/ll_search.png)
+
+```text
+method search(data):
+    current = head
+    while current is not null:
+        if current.data is data:
+            return "Found"
+        current = current.next
+    return "Not Found"
+```
+
+</procedure>
+</tab>
+<tab title="Print">
+<procedure>
+
+![image](https://uricsc.github.io/courses/_images/ll_display.png)
+
+```text
+method print():
+    current = head
+    while current is not null:
+        print current.data
+        current = current.next
+```
 
 </procedure>
 </tab>
@@ -416,49 +506,29 @@ flowchart LR
 
 <br/>
 
-[//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
+```mermaid
+classDiagram
+    class CircularSinglyLinkedList {
+        - head: Node
+        + CircularSinglyLinkedList()
+        + isEmpty(): boolean
+        + insert(data: DataType): void
+        + delete(data: DataType): void
+        + display(): void
+    }
 
-[//]: # (```plantuml)
+    class Node {
+        - data: DataType
+        - next: Node
+    }
 
-[//]: # (@startuml)
+    CircularSinglyLinkedList *-- Node
 
-[//]: # (class CircularSinglyLinkedList {)
-
-[//]: # (  - head: Node)
-
-[//]: # (  + CircularSinglyLinkedList&#40;&#41;)
-
-[//]: # (  + isEmpty&#40;&#41;: boolean)
-
-[//]: # (  + insert&#40;data: DataType&#41;: void)
-
-[//]: # (  + delete&#40;data: DataType&#41;: void)
-
-[//]: # (  + display&#40;&#41;: void)
-
-[//]: # (})
-
-[//]: # ()
-[//]: # (class Node {)
-
-[//]: # (- data: DataType)
-
-[//]: # (- next: Node)
-
-[//]: # (  })
-
-[//]: # ()
-[//]: # (CircularSinglyLinkedList *-- Node)
-
-[//]: # ()
-[//]: # (@enduml)
-
-[//]: # (```)
+```
 
 <br/>
 
 ```c++
-
 // Define a Node class to represent each node in the circular singly-linked list
 class Node {
 public:
@@ -472,11 +542,11 @@ public:
     }
 };
 
-// Define the CircularSinglyLinkedList class to represent the circular singly-linked list
+// Define the CircularSinglyLinkedList class to represent the circular singly-linked list 
 class CircularSinglyLinkedList {
 private:
     Node* tail; // pointer to the last node in the list
-
+    
 public:
     // constructor to initialize an empty list with a null tail pointer
     CircularSinglyLinkedList() {
@@ -491,6 +561,46 @@ public:
 ![image](https://cdn.programiz.com/sites/tutorial2program/files/doubly-linked-list-concept.png)
 
 <br/>
+
+```mermaid
+classDiagram
+    class DoublyLinkedList {
+        - head: Node
+        + DoublyLinkedList()
+        + isEmpty(): boolean
+        + insertFront(data: DataType): void
+        + insertEnd(data: DataType): void
+        + delete(data: DataType): void
+        + display(): void
+    }
+
+    class Node {
+        - data: DataType
+        - prev: Node
+        - next: Node
+    }
+
+    DoublyLinkedList *-- Node
+
+```
+
+<br/>
+
+```c++
+// Node of a doubly linked list
+class Node {
+public:
+    int data;
+
+    // Pointer to next node in DLL
+    Node* next;
+
+    // Pointer to previous node in DLL
+    Node* prev;
+};
+```
+
+
 
 [//]: # (FIXME : ADD UML DIAGRAMS BACK IN)
 
@@ -553,10 +663,38 @@ public:
 [//]: # ()
 [//]: # (```)
 
+</tab>
+<tab title="Circular Doubly Linked List">
+
+![image](https://cdn.programiz.com/sites/tutorial2program/files/circular-doubly-linked-list.png)
+
+<br/>
+
+```mermaid
+classDiagram
+    class CircularDoublyLinkedList {
+        - head: Node
+        + CircularDoublyLinkedList()
+        + isEmpty(): boolean
+        + insertFront(data: DataType): void
+        + insertEnd(data: DataType): void
+        + delete(data: DataType): void
+        + display(): void
+    }
+
+    class Node {
+        - data: DataType
+        - prev: Node
+        - next: Node
+    }
+
+    CircularDoublyLinkedList *-- Node
+
+```
+
 <br/>
 
 ```c++
-
 // Node of a doubly linked list
 class Node {
 public:
