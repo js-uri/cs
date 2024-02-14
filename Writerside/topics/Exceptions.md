@@ -20,7 +20,7 @@
 
 <procedure switcher-key="C++">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="try_catch.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -54,7 +54,7 @@ int main() {
 
 <procedure switcher-key="Python">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="try_catch.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -76,7 +76,7 @@ except Exception as e:
 
 <procedure switcher-key="Java">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="try_catch.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -107,7 +107,7 @@ public class FileIOJava {
 
 <procedure switcher-key="Go">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="try_catch.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -138,7 +138,7 @@ func main() {
 
 <procedure switcher-key="C++">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="custom_ex.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -172,7 +172,7 @@ int main() {
 
 <procedure switcher-key="Python">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="custom_ex.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -194,7 +194,7 @@ except Exception as e:
 
 <procedure switcher-key="Java">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="custom_ex.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -225,7 +225,7 @@ public class FileIOJava {
 
 <procedure switcher-key="Go">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="custom_ex.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -256,7 +256,7 @@ func main() {
 
 <procedure switcher-key="C++">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="built_in_ex.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -290,7 +290,7 @@ int main() {
 
 <procedure switcher-key="Python">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="built_in_ex.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -312,7 +312,7 @@ except Exception as e:
 
 <procedure switcher-key="Java">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="built_in_ex.jpeg" mini-player="true" width="900" />
 
 <br/>
 
@@ -343,7 +343,7 @@ public class FileIOJava {
 
 <procedure switcher-key="Go">
 
-<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="" mini-player="true" width="900" />
+<video src="https://youtu.be/3zv8v3X3v4E?feature=shared" preview-src="built_in_ex.jpeg" mini-player="true" width="900" />
 
 <br/>
 
