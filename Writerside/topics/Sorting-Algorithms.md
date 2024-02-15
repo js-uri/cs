@@ -383,19 +383,19 @@ end procedure
 <td>
 
 ![image](basic_sorts_worst.png)
-{ width="10vw" thumbnail="true"}
+{ width="300" thumbnail="true"}
 
 </td>
 <td>
 
 ![image](basic_sorts_average.png)
-{ width="10vw" thumbnail="true"}
+{ width="300" thumbnail="true"}
 
 </td>
 <td>
 
 ![image](basic_sorts_best.png)
-{ width="10vw" thumbnail="true"}
+{ width="300" thumbnail="true"}
 
 </td>
 </tr>
