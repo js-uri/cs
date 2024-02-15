@@ -110,7 +110,7 @@ The number of comparisons in this program is equal to the number of elements in 
 
 <table>
 <tr>
-<td colspan="2">
+<td>
 
 <deflist collapsible="true">
 <def title="Worst-case ☹️">
@@ -119,14 +119,14 @@ The number of comparisons in this program is equal to the number of elements in 
 </def>
 </deflist>
 </td>
-<td colspan="2">
+<td>
 <deflist collapsible="true">
 <def title="Average-case 🙂">
 <p>Average-case analysis is used to determine the average-case running time of an algorithm. It is also used to determine the average-case running time of an algorithm.</p>
 </def>
 </deflist>
 </td>
-<td colspan="2">
+<td>
 <deflist collapsible="true">
 <def title="Best-case 🦄">
 <p>Best-case analysis is used to determine the best-case running time of an algorithm. It is also used to determine the best-case running time of an algorithm.</p>
@@ -134,8 +134,8 @@ The number of comparisons in this program is equal to the number of elements in 
 </deflist>
 </td>
 </tr>
-<tr>
-<td colspan="3">
+</table>
+
 <tip>
 <procedure>
 
@@ -151,8 +151,7 @@ The number of comparisons in this program is equal to the number of elements in 
 </step>
 </procedure>
 </tip>
-</td>
-<td colspan="3">
+
 <tip>
 <procedure>
 
@@ -168,9 +167,6 @@ The number of comparisons in this program is equal to the number of elements in 
 </step>
 </procedure>
 </tip>
-</td>
-</tr>
-</table>
 
 #### Examples
 
@@ -312,11 +308,41 @@ end procedure
 <table>
 <tr>
 <td>
-<procedure>
 
 **Worst-case?**
 
+</td>
+<td>
+
+**Average-case?**
+
+</td>
+<td>
+
+**Best-case?**
+
+</td>
+</tr>
+<tr>
+<td>
+
 - input is already sorted in descending order
+
+</td>
+<td>
+
+- input is randomly ordered
+
+</td>
+
+<td>
+
+- input is already sorted in ascending order
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```tex
 \begin{align}
@@ -327,14 +353,9 @@ end procedure
 &= O(N^2)  \\
 \end{align}
 ```
-</procedure>
+
 </td>
 <td>
-<procedure>
-
-**Average-case?**
-
-- input is randomly ordered
 
 ```tex
 \begin{align}
@@ -345,16 +366,40 @@ end procedure
 &= O(N^2)  \\
 \end{align}
 ```
-</procedure>
+
 </td>
-<td></td>
+<td>
+
+```tex
+\begin{align}
+\sum^{N-1}_{i-1} 1 &= (N-1)) \\
+&= O(N)  \\
+\end{align}
+```
+
+</td>
+</tr>
+<tr>
+<td>
+
+![image](basic_sorts_worst.png)
+{ width="10vw" thumbnail="true"}
+
+</td>
+<td>
+
+![image](basic_sorts_average.png)
+{ width="10vw" thumbnail="true"}
+
+</td>
+<td>
+
+![image](basic_sorts_best.png)
+{ width="10vw" thumbnail="true"}
+
+</td>
 </tr>
 </table>
-
-
-
-
-
 
 
 ### Selection Sort
