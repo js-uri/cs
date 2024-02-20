@@ -13,6 +13,8 @@
 
 ## Iteration v. Recursion
 
+<procedure>
+
 <compare first-title="Iterative" second-title="Recursive" style="left-right">
 
 ```c++
@@ -50,6 +52,7 @@ int factorialRecursive(int n) {
 ```
 
 </compare>
+</procedure>
 
 ## Recursion
 
@@ -165,6 +168,153 @@ Ultimately, the choice between recursive and iterative algorithms depends on the
 </tab>
 </tabs>
 
+### Recursive Call Tree
+
+<procedure>
+
+<tabs>
+<tab title="Largest">
+
+![image](https://1.bp.blogspot.com/-pa9P_k3ONFA/YNRKgBTXLqI/AAAAAAAAMng/CEzvxVrD07g4g-Cz77RBBpGNs4idy9eKQCNcBGAsYHQ/s1920/Blue%2BTeaching%2BMath%2BEducation%2BPresentation.jpg)
+
+<br/>
+
+To find the largest element in `list[a]…list[b]`...  
+
+<br/>
+
+Find the largest element in list[a + 1]...list[b] and call it max b. Compare the elements list[a] and max
+- `if (list[a] >= max`) the largest element in `list[a]...list[b]` is `list[a]`
+- `else` the largest element in `list[a]...list[b]` is `max`
+
+<br/>
+
+```tex
+T(n) =
+\begin{cases}
+size\ of\ list\ = 1,  & \text{// base case}  \\[2ex]
+size\ of\ list\ is\ \gt 1, & \text{// recursive calls}
+\end{cases}
+```  
+
+<br/><br/>
+
+```c++
+int largest (const int list[], int lowerIndex, int upperIndex) {
+  int max;
+  if (lowerIndex == upperIndex) //size of the sublist is one 
+    return list[lowerIndex];
+  else {
+    max = largest(list, lowerIndex + 1, upperIndex);
+    if (list[lowerIndex] >= max) 
+      return list[lowerIndex];
+    else
+      return max;
+  }
+}
+```
+
+</tab>
+<tab title="Sum Array">
+
+<br/>
+
+```tex
+T(n) =
+\begin{cases}
+A[0],  & \text{if $n\ = 1$},  & \text{// base case}  \\[2ex]
+A[n - 1], & \text{if $n \gt 1$ },  & \text{// recursive calls}
+\end{cases}
+```
+
+<br/><br/>
+
+``` c++
+int sum_array(int *A, int n) {
+  //basecase  
+  if (n == 1)
+    return A[0];
+
+  //solve sub-task
+  int sum = sum_array(A, n - 1);
+
+  //return
+  return A[n - 1] + sum;
+}
+```
+
+</tab>
+<tab title="Serpinski">
+
+<br/>
+
+```c++
+void drawSierpinski(int n, int x, int y) {
+    if (n == 0) {
+        std::cout << "Drawing triangle at (" << x << ", " << y << ")" << std::endl;
+    } else {
+        int sideLength = pow(2, n - 1);         // Length of each side of the triangle
+        int height = sideLength * sqrt(3) / 2;  // Height of the equilateral triangle
+
+        drawSierpinski(n - 1, x, y);
+        drawSierpinski(n - 1, x + sideLength / 2, y);
+        drawSierpinski(n - 1, x + sideLength / 4, y + height / 2);
+    }
+}
+```
+
+<br/>
+
+<deflist collapsible="true" default-state="collapsed">
+<def title="Structure">
+
+![image](structure.jpeg)
+{ thumbnail="true" }
+
+</def>
+<def title="Triangle">
+
+![image](triangle.jpeg)
+{ thumbnail="true" }
+
+</def>
+<def title="Pyramid">
+
+![image](pyramids.jpeg)
+{ thumbnail="true" }
+
+</def>
+</deflist>
+
+</tab>
+<tab title="Binary Search">
+
+<br/>
+
+```c++
+int bsearch(int *A, int lo, int hi, int k) {
+  //base case
+  if (hi < lo)
+    return NOT_FOUND;
+
+  // calculate mid point index
+  int mid = lo + ( (hi - lo) / 2);
+  // key found?
+  if (A[mid] == k)
+    return mid;
+  // key in upper subarray?
+  if (A[mid] < k)
+    return bsearch(A, mid + 1, hi, k);
+  // key is in lower subarray?
+  return bsearch(A, lo, mid - 1, k);
+}
+```
+
+</tab>
+</tabs>
+
+</procedure>
+
 
 ## Unimodal Arrays
 
@@ -184,7 +334,9 @@ Ultimately, the choice between recursive and iterative algorithms depends on the
 <deflist collapsible="true" default-state="collapsed">
 <def title="No skew">
 
-![image](bimodal.jpeg)
+![image](stronglyUnimodal.jpeg)
+{ thumbnail="true" }
+
 </def>
 </deflist>
 
@@ -205,6 +357,8 @@ int mid = (low + hi) / 2;
 <def title="Visualize">
 
 ![image](stronglyViz.jpeg)
+{ thumbnail="true" }
+
 </def>
 </deflist>
 
@@ -221,6 +375,8 @@ int mid = (low + hi) / 2;
 <def title="Left skew">
 
 ![image](leftskew.jpeg)
+{ thumbnail="true" }
+
 </def>
 </deflist>
 </td>
@@ -229,6 +385,8 @@ int mid = (low + hi) / 2;
 <def title="Right skew">
 
 ![image](rightskew.jpeg)
+{ thumbnail="true" }
+
 </def>
 </deflist>
 </td>
