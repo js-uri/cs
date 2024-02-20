@@ -15,7 +15,7 @@
 
 <procedure>
 
-<compare first-title="Iterative" second-title="Recursive" style="left-right">
+<compare first-title="Iterative" second-title="Recursive" style="top-bottom">
 
 ```c++
 
