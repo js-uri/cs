@@ -175,8 +175,6 @@ Ultimately, the choice between recursive and iterative algorithms depends on the
 <tabs>
 <tab title="Largest">
 
-![image](https://1.bp.blogspot.com/-pa9P_k3ONFA/YNRKgBTXLqI/AAAAAAAAMng/CEzvxVrD07g4g-Cz77RBBpGNs4idy9eKQCNcBGAsYHQ/s1920/Blue%2BTeaching%2BMath%2BEducation%2BPresentation.jpg)
-
 <br/>
 
 To find the largest element in `list[a]…list[b]`...  
