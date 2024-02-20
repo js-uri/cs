@@ -22,9 +22,9 @@
 // The iterative function factorialIterative calculates the factorial by
 // using a loop. It initializes result to 1 and then iterates over the
 // numbers from 1 to n, multiplying each number with the current value
-// of result to accumulate the factorial.
+// of result to accumulate the factorial.  
 
-#include &lt;iostream>
+#include <iostream>  
 
 int factorialIterative(int n) {
     int result = 1;
@@ -39,9 +39,9 @@ int factorialIterative(int n) {
 // The recursive function factorialRecursive calculates the factorial by
 // breaking down the problem into smaller sub-problems. The base case is
 // when n equals 0, and for any other value of n, the factorial is
-// computed by multiplying n with the factorial of n-1.
+// computed by multiplying n with the factorial of n-1.  
 
-#include &lt;iostream>
+#include <iostream>  
 
 int factorialRecursive(int n) {
     if (n == 0)
