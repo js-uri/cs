@@ -88,7 +88,10 @@ Visualizer</a></p></td>
 
 [//]: # (WEEK 4 )
 <tr><td><p>Week 04</p></td>
-<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="Stack.md">Stacks</a> <br/> <a href="Queue.md">Queues</a></p></td>
+
+[//]: # (<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="Stack.md">Stacks</a> <br/> <a href="Queue.md">Queues</a></p></td>)
+<td>Snow Day : 
+moved to Week 6</td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="">Search Algorithms</a><br/><a href="">Basic Sorts</a></p></td>
 <td colspan="2"><p><a href="">Linked Lists</a></p></td>
 <td><p><a href="">A3 : Analysis I</a></p></td>
@@ -108,7 +111,9 @@ Visualizer</a></p></td>
 <tr><td><p>Week 06</p></td> 
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">5 Binary Trees</a></td>
 <td><p><format style="bold" color="LightPink">Non-Linear</format><br/> <a href="bst.md">Binary Search Trees</a> <br/> <a href="Heaps.md">Heaps</a></p></td>
-<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="Priority-Queue.md">Priority Queues</a> <br/> <a href="Heaps.md">Heaps</a></p></td>
+<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="Stack.md">Stacks</a> <br/> <a href="Queue.md">Queues</a></p></td>
+
+[//]: # (<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="Priority-Queue.md">Priority Queues</a></p></td>)
 <td>Sorting Algorithm Day 2</td>
 <td><p><a href="">Backtracking</a></p></td>
 <td><p><a href="">A3 : Analysis I</a></p></td>
@@ -117,8 +122,10 @@ Visualizer</a></p></td>
 [//]: # (WEEK 7 )
 <tr><td><p>Week 07</p></td>
 <td><a href="https://people.cs.vt.edu/~shaffer/Book/C++3e20120102.pdf">7 Internal Sorting [Review 7.4 - 7.5]</a><br/></td>
+<td><p><format style="bold" color="LightSeaGreen">Linear</format><br/> <a href="Priority-Queue.md">Priority Queues</a></p></td>
 <td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="Quicksort.md">Quicksort</a> <br/> <a href="Mergesort.md">Mergesort</a></p></td>
-<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="Heap-Sort.md">Heapsort</a> <br/> <a href="Introsort.md">Introsort</a></p></td>
+
+[//]: # (<td><p><format style="bold" color="LightSalmon">Search &amp; Sort</format><br/> <a href="Heap-Sort.md">Heapsort</a> <br/> <a href="Introsort.md">Introsort</a></p></td>)
 <td>Mathematically-sounding Tree Day</td>
 <td><p><a href="">Priority Queues</a></p></td>
 <td><p>A4 : Grids &amp; Expressions</p></td>
@@ -331,7 +338,6 @@ information. As well as all staff can be aware of any questions or concerns that
 <step>Understand the basic principles of programming in C++</step>
 <step>Implement simple algorithms to solve a variety of problems</step>
 </procedure>
-
 
 ### Recommended Reading
 
