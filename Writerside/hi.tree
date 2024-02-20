@@ -9,7 +9,7 @@
 <!--    <toc-element topic="Sandbox.md"/>-->
 <!--    <toc-element topic="Default-topic.md"/>-->
 
-<!--    <toc-element topic="lecture.md"/>-->
+<!--    <toc-element topic="test.md"/>-->
 
 
     <toc-element topic="courses.md">
@@ -76,10 +76,8 @@
             <toc-element topic="Classes.md"/>
         </toc-element>
         <toc-element toc-title="Useful Additions">
-<!--            <toc-element topic="Strings.md"/>-->
             <toc-element topic="Exceptions.md"/>
             <toc-element topic="Files.md"/>
-<!--            <toc-element topic="Exceptions.md"/>-->
         </toc-element>
     </toc-element>
 
@@ -162,10 +160,19 @@
             </toc-element>
             <toc-element topic="Mergesort.md"/>
             <toc-element topic="Quicksort.md"/>
+<!--            <toc-element topic="Heap-Sort.md"/>-->
+<!--            <toc-element topic="Introsort.md"/>-->
         </toc-element>
         <toc-element toc-title="Recursion">
 
-            <toc-element topic="recursive-algorithms.md"/>
+            <toc-element topic="recursive-algorithms.md">
+                <toc-element toc-title="Python Tutor | Sum Array"
+                         target-for-accept-web-file-names="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0A%0A%0Aint%20sum_array%28int%20*A,%20int%20n%29%20%7B%0A%20%20//basecase%20%20%0A%20%20if%20%28n%20%3D%3D%201%29%0A%20%20%20%20return%20A%5B0%5D%3B%0A%0A%20%20//solve%20sub-task%0A%20%20int%20sum%20%3D%20sum_array%28A,%20n%20-%201%29%3B%0A%0A%20%20//return%0A%20%20return%20A%5Bn%20-%201%5D%20%2B%20sum%3B%0A%7D%0A%0Aint%20main%20%28%29%20%7B%0A%20%20%20%20int%20arr%5B%5D%20%3D%20%7B%2010,%2020,%2030,%2040%7D%3B%0A%20%20%20%20std%3A%3Acout%20%3C%3C%20sum_array%28arr,%204%29%3B%0A%20%20%20%20return%200%3B%0A%7D&amp;codeDivHeight=400&amp;codeDivWidth=350&amp;cumulative=false&amp;curInstr=11&amp;heapPrimitives=nevernest&amp;origin=opt-frontend.js&amp;py=cpp_g%2B%2B9.3.0&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false"/>
+                <toc-element toc-title="USCFA | Recursion Search"
+                             target-for-accept-web-file-names="https://www.cs.usfca.edu/~galles/visualization/Search.html"/>
+                <toc-element toc-title="Python Tutor | Binary Search (recursive)"
+                             target-for-accept-web-file-names="https://pythontutor.com/iframe-embed.html#code=//%20C%2B%2B%20program%20to%20implement%20recursive%20Binary%20Search%0A%23include%20%3Cbits/stdc%2B%2B.h%3E%0Ausing%20namespace%20std%3B%0A%0A//%20A%20recursive%20binary%20search%20function.%20It%20returns%0A//%20location%20of%20x%20in%20given%20array%20arr%5Bl..r%5D%20is%20present,%0A//%20otherwise%20-1%0Aint%20binarySearch%28int%20arr%5B%5D,%20int%20l,%20int%20r,%20int%20x%29%0A%7B%0A%20%20%20%20if%20%28r%20%3E%3D%20l%29%20%7B%0A%20%20%20%20%20%20%20%20int%20mid%20%3D%20l%20%2B%20%28r%20-%20l%29%20/%202%3B%0A%0A%20%20%20%20%20%20%20%20//%20If%20the%20element%20is%20present%20at%20the%20middle%0A%20%20%20%20%20%20%20%20//%20itself%0A%20%20%20%20%20%20%20%20if%20%28arr%5Bmid%5D%20%3D%3D%20x%29%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20mid%3B%0A%0A%20%20%20%20%20%20%20%20//%20If%20element%20is%20smaller%20than%20mid,%20then%0A%20%20%20%20%20%20%20%20//%20it%20can%20only%20be%20present%20in%20left%20subarray%0A%20%20%20%20%20%20%20%20if%20%28arr%5Bmid%5D%20%3E%20x%29%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20binarySearch%28arr,%20l,%20mid%20-%201,%20x%29%3B%0A%0A%20%20%20%20%20%20%20%20//%20Else%20the%20element%20can%20only%20be%20present%0A%20%20%20%20%20%20%20%20//%20in%20right%20subarray%0A%20%20%20%20%20%20%20%20return%20binarySearch%28arr,%20mid%20%2B%201,%20r,%20x%29%3B%0A%20%20%20%20%7D%0A%0A%20%20%20%20//%20We%20reach%20here%20when%20element%20is%20not%0A%20%20%20%20//%20present%20in%20array%0A%20%20%20%20return%20-1%3B%0A%7D%0A%0Aint%20main%28void%29%0A%7B%0A%20%20%20%20int%20arr%5B%5D%20%3D%20%7B%202,%203,%204,%2010,%2040%20%7D%3B%0A%20%20%20%20int%20x%20%3D%2010%3B%0A%20%20%20%20int%20n%20%3D%20sizeof%28arr%29%20/%20sizeof%28arr%5B0%5D%29%3B%0A%20%20%20%20int%20result%20%3D%20binarySearch%28arr,%200,%20n%20-%201,%20x%29%3B%0A%20%20%20%20%28result%20%3D%3D%20-1%29%0A%20%20%20%20%20%20%20%20%3F%20cout%20%3C%3C%20%22Element%20is%20not%20present%20in%20array%22%0A%20%20%20%20%20%20%20%20%3A%20cout%20%3C%3C%20%22Element%20is%20present%20at%20index%20%22%20%3C%3C%20result%3B%0A%20%20%20%20return%200%3B%0A%7D&amp;codeDivHeight=400&amp;codeDivWidth=350&amp;cppShowMemAddrs=true&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;origin=opt-frontend.js&amp;py=cpp_g%2B%2B9.3.0&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false"/>
+            </toc-element>
             <toc-element topic="recurrences.md"/>
         </toc-element>
         <toc-element topic="Greedy-Algorithms.md"/>
