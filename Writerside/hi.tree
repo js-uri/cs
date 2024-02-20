@@ -162,8 +162,6 @@
             </toc-element>
             <toc-element topic="Mergesort.md"/>
             <toc-element topic="Quicksort.md"/>
-            <toc-element topic="Heap-Sort.md"/>
-            <toc-element topic="Introsort.md"/>
         </toc-element>
         <toc-element toc-title="Recursion">
 
