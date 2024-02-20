@@ -429,6 +429,8 @@ int max_w_unimodal (int *A, int low, int hi) {
 </def>
 </deflist>
 
+<br/>
+
 ```c++
 int bimodalMax(int array[], int start, int end) {
     if (start == end) {
