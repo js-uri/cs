@@ -398,10 +398,11 @@ T(n) = aT \bigg(\frac{n}{b} \bigg) + f(n)
 ```tex
 \begin{align}
 \text{Where:} \\
-T(n) \text{ represents the time complexity of the algorithm, } a \text{ is the number} \\
-\text{ of recursive subproblems,} \frac{n}{b} \text{ is the size of each subproblem,} \\
-f(n) \text{ is the time complexity of the} \text{remaining work done outside the } \\
-\text{recursive calls.}
+T(n) \text{ represents the time complexity of the algorithm, } \\
+a \text{ is the number of recursive subproblems,} \\
+\frac{n}{b} \text{ is the size of each subproblem,} \\
+f(n) \text{ is the time complexity of the remaining work done} \\
+\text{outside the recursive calls.}
 \end{align}
 ```
 
@@ -417,6 +418,9 @@ f(n) \text{ is the time complexity of the} \text{remaining work done outside the
 
 <tip title="Case 1">
 
+<deflist>
+<def title="Premise">
+
 ```tex 
 \begin{align*}
 \text{If } f(n) = O(n^c) \text{ for some constant } c < log_b(a), \\
@@ -426,55 +430,57 @@ f(n) \text{ is the time complexity of the} \text{remaining work done outside the
 T(n) = \Theta(n^{log_b(a)})
 \end{align*}
 ```
-
-Example
-
-```tex
-\begin{align*}
-T(n) = 4T \bigg(\frac{n}{2} \bigg) + n
-\end{align*}
-```
-
-```tex
-\begin{align*}
-\text{Step 1 : Identify the values of } a, b, and f(n) \\
-\text{In this case,} \\
-\end{align*}
-```
-
-```tex
-\begin{align*}
-a &= 4 \\
-b &= 2 \\
-f(n) &= n \\
-\end{align*}
-```
+</def>
+<def title="Example">
 
 ```tex
 \begin{align}
-\text{Step 2 : Compare f(n) with } n^{log_b(a)} \\
+T(n) = 4T \bigg(\frac{n}{2} \bigg) + n
+\end{align}
+```
+</def>
+<def title="Step 1 : Identify the values of a, b, and f(n)">
+
+```tex
+\begin{align}
+\text{In this case,} \\
+a = 4 \\
+b = 2 \\
+f(n) = n \\
+\end{align}
+```
+</def>
+<def title="Step 2 : Compare f(n) with n^{log_b(a)">
+
+```tex
+\begin{align}
 \text{Here, } f(n) = n \text{ and } n^{log_b(a)} = n^{log_2(4)} = n^2 \\
 \text{Since } f(n) = n = n^1 < n^2 = n^{log_b(a)}, \\
 \text{ we fall into Case 1 of the master theorem.}
 \end{align}
 ```
+</def>
+<def title="Step 3 : Determine the overall time complexity">
 
-```tex
+```tex  
 \begin{align}
-\text{Step 3 : Determine the overall time complexity} \\
 \text{Using Case 1, the overall time complexity is } \\
 T(n) = \Theta(n^{log_b(a)}). \\
 \text{In this case, } T(n) = \Theta(n^{log_2\ (4)}) = \Theta(n^2). \\
 \text{So, the overall time complexity of the algorithm in this example is } \\
-\Theta(n^2), \\
-\text{which means the algorithm's running time grows} \\
+\Theta(n^2), \text{which means the algorithm's running time grows} \\
 \text{quadratically with the input size } n.
 \end{align}
 ```
+</def>
+</deflist>
 
 </tip>
 
 <tip title="Case 2">
+
+<deflist>
+<def title="Premise">
 
 ```tex
 \begin{align}
@@ -484,51 +490,60 @@ c = log_b(a), \text{ then the overall time complexity is given by} \\
 T(n) = \Theta(n^c \ log^{k(n)})
 \end{align}
 ```
-
-Example
+</def>
+<def title="Example">
 
 ```tex
 \begin{align}
 T(n) = 9T \bigg(\frac{n}{3} \bigg) + n^2
 \end{align}
 ```
+</def>
+<def title="Step 1 : Identify the values of a, b, and f(n)">
 
 ```tex
 \begin{align}
-\text{Step 1 : Identify the values of } a, b, and f(n) \\
 \text{In this case:} \\
-a = 9 \ \ \ (number\ of\ sub-problems) \\
-b = 3 \ \ \ (size\ of\ each\ subproblem) \\
-f(n) = n^2 \ \\
+a = 9 \\
+b = 3 \\
+f(n) = n^2 \\
 \end{align}
 ```
+</def>
+<def title="Step 2 : Compare f(n) with n^log_b(a)">
 
 ```tex
 \begin{align}
-\text{Step 2 : Compare f(n) with } n^log_b(a) \\
 \text{Here, } f(n) = n^2 \text{ and } n^{log_b(a)} = n^{log_3(9)} = n^2 \\
 \text{Since } f(n) = n^2 = n^{log_b(a)}, \\
 \text{ we fall into Case 2 of the master theorem.}
 \end{align}
 ```
+</def>
+<def title="Step 3 : Determine the overall time complexity">
 
 ```tex
 \begin{align}
-\text{Step 3 : Determine the overall time complexity} \\
 \text{Using Case 2, the overall time complexity is } \\
 T(n) = Θ(n^2 \ log n)
 \end{align}
 ```
+</def>
+</deflist>
 
 </tip>
 <tip title="Case 3">
 
+<deflist>
+<def title="Premise">
+
 ```tex 
 \begin{align}
-\text{If } f(n) = \Omega(n^c) \text{ for some constant} \\
+\text{If } f(n) = \Omega(n^c) \text{ for some constant}
 c > log_b(a), \text{ and if } f(n) \\
-\text{ satisfies the regularity condition} \\
-(af(\frac{n}{b}) ≤ kf(n) \text{ for some constant } k < 1 \\
+\text{ satisfies the regularity condition} 
+(af(\frac{n}{b}) ≤ kf(n) \\
+\text{ for some constant } k < 1 
 \text{ and sufficiently large } n, \\
 \text{then the non-recursive part dominates the time complexity,} \\
 \text{and the overall time complexity is given by} \\
@@ -537,13 +552,16 @@ T(n) = \Theta(f(n))
 \end{align}
 ```
 
-Example
+</def>
+<def title="Example">
 
 ```tex
 \begin{align}
 T(n) = 2T \bigg(\frac{n}{2} \bigg) + n^3
 \end{align}
 ```
+</def>
+<def title="Step 1 : Identify the values of a, b, and f(n)">
 
 ```tex
 \begin{align}
@@ -554,14 +572,17 @@ b = 2 \\
 f(n) = n^3 \\
 \end{align}
 ```
+</def>
+<def title="Step 2 : Compare f(n) with n^log_b(a)">
 
 ```tex
 \begin{align}
-\text{Step 2 : Compare f(n) with } n^log_b(a) \\
 \text{Here, } f(n) = n^3 \text{ and } n^{log_b(a)} = n^{log_2(2)} = n^1 = n \\
 \text{Since } f(n) = n^3 > n = n^{log_b(a)}, \text{ we fall into Case 3 of the master theorem.}
 \end{align}
 ```
+</def>
+<def title="Step 3: Check if f(n) satisfies the regularity condition">
 
 ```tex
 \begin{align}
@@ -571,6 +592,8 @@ f(n) = n^3 \\
 \text{The regularity condition is satisfied.}
 \end{align}
 ```
+</def>
+<def title="Step 4 : Determine the overall time complexity">
 
 ```tex
 \begin{align}
@@ -579,6 +602,9 @@ f(n) = n^3 \\
 T(n) = Θ(n^3)
 \end{align}
 ```
+
+</def>
+</deflist>
 
 </tip>
 
