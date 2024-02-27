@@ -12,7 +12,7 @@
 <tr>
 <td>
 <note>
-    <p>A Binary Search Tree (BT) is a fundamental data structure in computer science, commonly used for organizing and 
+    <p>A Binary Search Tree (BST) is a fundamental data structure in computer science, commonly used for organizing and 
 searching data efficiently. It is a binary tree where each node has at most two children: a left child and a right 
 child. The key property of a BST is that the values of nodes in the left subtree are less than or equal to the value of the current node, and the values of nodes in the right subtree are greater than the current node. This property makes BSTs especially useful for efficient searching and sorting of data.</p>
     <img src="https://www.chrislaux.com/android-chrome-192x192.png" alt="binary tree search"/>

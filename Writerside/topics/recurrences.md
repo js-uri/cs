@@ -229,11 +229,17 @@ For most recurrences, an asymptotic solution of the form $\Theta()$ is acceptabl
 ```tex
 \begin{align}
 T(n) &= 2T \bigg(\frac{n}{2} \bigg) + n \\
-&= 2 \bigg[2T \bigg(\frac{n}{4} \bigg) + \frac{n}{2} \bigg] + n \\
-&= 4T \bigg(\frac{n}{4} \bigg) + 2n + n \\
-&= 4 \bigg[2T \bigg(\frac{n}{8} \bigg) + \frac{n}{4} \bigg] + 2n + n \\
-&= 8T \bigg(\frac{n}{8} \bigg) + 4n + 2n + n \\
-&= 2^kT \bigg(\frac{n}{2^k} \bigg) + kn \\
+T(n) &= 2T\left(\frac{n}{2}\right) + n \\
+&= 2 \left(2T\left(\frac{n}{2^2}\right) + \frac{n}{2}\right) + n \\
+&= 2^2T\left(\frac{n}{2^2}\right) + 2 \cdot \frac{n}{2} + n \\
+&= 2^2T\left(\frac{n}{2^2}\right) + n + n \\
+&= 2^2T\left(\frac{n}{2^2}\right) + 2n \\
+&= 2^2 \left(2T\left(\frac{n}{2^3}\right) + \frac{n}{2^2}\right) + 2n \\
+&= 2^3T\left(\frac{n}{2^3}\right) + 2^2 \cdot \frac{n}{2^2} + 2n \\
+&= 2^3T\left(\frac{n}{2^3}\right) + n + 2n \\
+&= 2^3T\left(\frac{n}{2^3}\right) + 3n \\
+&\vdots \\
+&= 2^kT\left(\frac{n}{2^k}\right) + kn
 \end{align}
 ```
 
@@ -613,13 +619,18 @@ T(\frac{n}{2}) + 1, & \text{$n \gt 1$}
 ```
 
 ```tex
-\begin{align}
-Step\ 1 : \ T(n) & = T(\frac{n}{2}) + c \\
-Step\ 2 : \ T(n) & =  \bigg[T(\frac{n}{4}) + c \bigg] + c \\
-& = T\bigg(\frac{n}{4}\bigg) + 2c \\
-Step\ 3 : \ T(n) & =  \bigg[T\bigg(\frac{n}{8}\bigg) + c \bigg] + 2c \\
-& = T\bigg(\frac{n}{8}\bigg) + 3c \\
-\end{align}
+\begin{align*}
+T(n) &= 2T\left(\frac{n}{2}\right) + c \\
+&= 2 \left(2T\left(\frac{n}{2^2}\right) + c\right) + c \\
+&= 2^2T\left(\frac{n}{2^2}\right) + 2c + c \\
+&= 2^2T\left(\frac{n}{2^2}\right) + 3c \\
+&= 2^2 \left(2T\left(\frac{n}{2^3}\right) + c\right) + 3c \\
+&= 2^3T\left(\frac{n}{2^3}\right) + 2^2c + 3c \\
+&= 2^3T\left(\frac{n}{2^3}\right) + 7c \\
+&\vdots \\
+&= 2^kT\left(\frac{n}{2^k}\right) + kc
+\end{align*}
+
 ```
 
 ```tex
