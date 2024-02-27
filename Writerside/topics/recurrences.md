@@ -228,7 +228,6 @@ For most recurrences, an asymptotic solution of the form $\Theta()$ is acceptabl
 
 ```tex
 \begin{align}
-T(n) &= 2T \bigg(\frac{n}{2} \bigg) + n \\
 T(n) &= 2T\left(\frac{n}{2}\right) + n \\
 &= 2 \left(2T\left(\frac{n}{2^2}\right) + \frac{n}{2}\right) + n \\
 &= 2^2T\left(\frac{n}{2^2}\right) + 2 \cdot \frac{n}{2} + n \\
@@ -299,29 +298,31 @@ T(n) = 2T(\frac{n}{2}) + n \text{ is } T(n) = O(n\ log\ n). \\
 
 ```tex
 \begin{align}
-\text{We assume that } T(k) ≤ ck\ log\ (k) \text{ for some constant } \\
+\text{We assume that } T(k) ≤ ck\ log\ (k) \text{ for some constant } 
 c, \text{ where } k < n. \\
 \text{Now, we substitute this assumption into the recurrence relation:} \\
 \end{align}
 ```
 
 ```tex
-\begin{align}
+\begin{align*}
 T(n) &= 2T \bigg(\frac{n}{2} \bigg) + n \\
 &≤ 2  \Bigg(\ c \bigg( \frac{n}{2} \bigg)\ log\ \bigg(\frac{n}{2} \bigg) \Bigg) + n \\
 &= cn\ log (n) - cn\ log (2) + n \\
 &= cn\ log (n) - cn + n \\
 &= cn\ log (n) + (n - cn) \\
-\end{align}
+\end{align*}
 ```
 
 ```tex
-\begin{align}
+\begin{align*}
 \text{To ensure that } T(n) ≤ cn\ log\ (n) \text{ holds, we need to find a value of } c \\
-\text{ such that } (n - cn) ≤ 0. \text{ By choosing } c ≥ 1, \text{ we can guarantee that } T(n) ≤ cn\ log\ (n). \\
+\text{ such that } (n - cn) ≤ 0. \text{ By choosing } c ≥ 1, \text{ we can guarantee that } \\
+T(n) ≤ cn\ log\ (n). \\
 \\
-\text{Hence, the solution } T(n) = O(n\ log\ (n)) \text{ satisfies the recurrence relation.}
-\end{align}
+\text{Hence, the solution } T(n) = O(n\ log\ n) 
+\text{ satisfies the recurrence relation.}
+\end{align*}
 ```
 </note>
 
@@ -417,31 +418,36 @@ f(n) \text{ is the time complexity of the} \text{remaining work done outside the
 <tip title="Case 1">
 
 ```tex 
-\begin{align}
-\text{If } f(n) = O(n^c) \text{ for some constant} \\
-c < log_b(a), \text{ then the time complexity is dominated by} \\
+\begin{align*}
+\text{If } f(n) = O(n^c) \text{ for some constant } c < log_b(a), \\
+\text{ then the time complexity is dominated by} \\
 \text{ the subproblem part, and the overall time complexity is given by} \\
 \\
 T(n) = \Theta(n^{log_b(a)})
-\end{align}
+\end{align*}
 ```
 
 Example
 
 ```tex
-\begin{align}
+\begin{align*}
 T(n) = 4T \bigg(\frac{n}{2} \bigg) + n
-\end{align}
+\end{align*}
 ```
 
 ```tex
-\begin{align}
+\begin{align*}
 \text{Step 1 : Identify the values of } a, b, and f(n) \\
 \text{In this case,} \\
-a = 4 \\
-b = 2 \\
-f(n) = n \\
-\end{align}
+\end{align*}
+```
+
+```tex
+\begin{align*}
+a &= 4 \\
+b &= 2 \\
+f(n) &= n \\
+\end{align*}
 ```
 
 ```tex
