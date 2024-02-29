@@ -652,24 +652,11 @@ T(\frac{n}{2}) + 1, & \text{$n \gt 1$}
 
 ```tex
 \begin{align*}
-T(n) &= 2T\left(\frac{n}{2}\right) + c \\
-&= 2 \left(2T\left(\frac{n}{2^2}\right) + c\right) + c \\
-&= 2^2T\left(\frac{n}{2^2}\right) + 2c + c \\
-&= 2^2T\left(\frac{n}{2^2}\right) + 3c \\
-&= 2^2 \left(2T\left(\frac{n}{2^3}\right) + c\right) + 3c \\
-&= 2^3T\left(\frac{n}{2^3}\right) + 2^2c + 3c \\
-&= 2^3T\left(\frac{n}{2^3}\right) + 7c \\
-&\vdots \\
-&= 2^kT\left(\frac{n}{2^k}\right) + kc
+T(n) &= T\left(\frac{n}{2}\right) + 1 \\
+&= T\left(\frac{n}{2^2}\right) + 1 + 1 \\
+&= T\left(\frac{n}{2^3}\right) + 1 + 1 + 1 \\
+&= T\left(\frac{n}{2^k}\right) + k
 \end{align*}
-
-```
-
-```tex
-\begin{align}
-\text{Continuing this process, we can unroll the recurrence relation up to k steps: } \\
-T(n) = T \bigg(\frac{n}{2^k} \bigg) + kc \\
-\end{align}
 ```
 
 ```tex
@@ -682,21 +669,21 @@ T(n) = T \bigg(\frac{n}{2^k} \bigg) + kc \\
 ```tex
 \begin{align}
 \text{Solving for } k, \text{ we find that } \\
-k = log_2\ (n) \\
+k = log_2\ n \\
 \end{align}
 ```
 
 ```tex
 \begin{align}
 \text{Now, let's substitute this value of } k \text{ into the unrolled relation:} \\
-T(n) = T(\frac{n}{2^{log_2\ (n)}}) + log_2\ (n)c \\
+T(n) = T\left(\frac{n}{2^{log_2\ n}}\right) + log_2\ n \\
 \end{align}
 ```
 
 ```tex
 \begin{align}
-\text{Since } \frac{n}{2^{log_2\ (n)}} = 1, \text{ we simplify further:} \\
-T(n) = T(1) + log_2\ (n)c \\
+\text{Since } \frac{n}{2^{log_2\ n}} = 1, \text{ we simplify further:} \\
+T(n) = T(1) + log_2\ n \\
 \end{align}
 ```
 
@@ -704,7 +691,7 @@ T(n) = T(1) + log_2\ (n)c \\
 \begin{align}
 \text{Since } T(1) \text{ is a constant time complexity for the base case } \\
 \text{of a binary search, we can replace it with a constant, say } d: \\
-T(n) = d + log_2\ (n)c \\
+T(n) = d + log_2\ n \\
 \end{align}
 ```
 
@@ -720,15 +707,6 @@ T(n) = O(log\ n) \\
 \text{Therefore, after unrolling the recurrence relation for binary} \\
 \text{search, we obtain the time complexity of } \\
 O(log\ n) \\
-\end{align}
-```
-
-```tex
-\begin{align}
-\text{This analysis shows that the time complexity of a binary search} \\
-\text{algorithm is logarithmic with respect to the size of the array} \\
-\text{being searched, which aligns with the intuitive understanding} \\
-\text{of the algorithm's efficiency.}  \\
 \end{align}
 ```
 
@@ -762,6 +740,7 @@ T(n) &= T \bigg(\frac{n}{2} \bigg) + 1 \\
 &= c\ log\ (n) + (1 - c) \\
 \end{align}
 ```
+
 ```tex
 \begin{align}
 \text{To ensure that } T(n) ≤ c\ log\ (n) \text{ holds, we need to find a value of } c \text{ such} \\
@@ -1386,3 +1365,4 @@ T(n) = aT(\frac{n}{b}) + f(n). \\
 </tab>
 </tabs>
 </procedure>
+
