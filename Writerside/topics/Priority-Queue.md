@@ -66,17 +66,13 @@ A priority queue is a special type of queue in which each element is associated 
 
 **Other Examples**
 
-- Dijkstra's algorithm
-- Prim's algorithm
-- Huffman coding
-- Discrete event simulation
+- Graph Algorithms : Dijkstra, Prim, Huffman coding
 - Operating systems
 - Artificial intelligence
-- Data compression
-- Data encryption
-- Event-driven simulation such as customers waiting in a queue.
-- Finding Kth largest/smallest element.
-- Scheduling tasks based on priority.
+- Data compression & encryption
+- Event-driven simulation such as customers waiting in a queue
+- Finding Kth largest/smallest element
+- Scheduling tasks based on priority
 
 </td>
 </tr>
