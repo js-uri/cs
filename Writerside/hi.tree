@@ -116,7 +116,10 @@
                 <toc-element toc-title="Placeholder"
                              target-for-accept-web-file-names=""/>
             </toc-element>
-            <toc-element topic="Priority-Queue.md"/>
+            <toc-element topic="Priority-Queue.md">
+                <toc-element toc-title="cppReference | std::priority_queue"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/priority_queue"/>
+            </toc-element>
         </toc-element>
         <toc-element toc-title="Non-linear">
             <toc-element topic="Graphs.md">
