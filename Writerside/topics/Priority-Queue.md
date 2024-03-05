@@ -1,6 +1,6 @@
 # Priority Queue
 
-<video src=https://youtu.be/wptevk0bshY" preview-src="pq.jpeg" width="900" controls />
+<video src="https://youtu.be/wptevk0bshY" preview-src="pq.jpeg" mini-player="true" width="900" />
 
 ## Definition
 
