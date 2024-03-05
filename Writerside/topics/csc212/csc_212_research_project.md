@@ -1,19 +1,16 @@
 # Research Project
 
 
-
 ## Overview
 
 You will work in groups to discover topics which have been left uncovered in the course. You will work with your group to create an informative 15-minute presentation, a dynamically programmed real-world microcosm implementation, well-defined documentation, and research paper bringing it all together.
 
 
-
 ## Requirements
-
 
 ### Topic
 
-You may choose any data structure or algorithm which has not been covered in the course. All topics must be approved by your instructor.
+You must research and choose a real-world problem which can be solved through the use and implementation of three or more data structures and/or algorithms. I will allow some overlap (between groups to an extent) of data structures / algorithms, but this will be on a first come, first serve basis as all topics must be approved by instructor. 
 
 
 ### Presentation
@@ -65,74 +62,176 @@ Based on your research, implement a real-world microcosm of your topic. This sho
 
 Will consist of 3-4 members. Each group will complete the project as required and participate in a peer review of the other groups' projects.
 
+
 ## Timeline &amp; Grading
 
 <table>
 <tr>
 <td></td>
 <td>Task(s)</td>
-<td>Points</td>
-<td>Due Week</td>
+<td>Week Due</td>
 </tr>
 <tr>
 <td>Milestone 1</td>
 <td>
 
-- Select a group of 3-4 members
+- Select a group of 3-4 members and create a single workspace for your project
+  - Share access with each member and myself (instructor)
+  - Include the link to your workspace
+- Research topics, compare and contrast, and choose one
+- Begin to hash out your microcosm implementation
+
 </td>
-<td>0</td>
-<td>4</td>
+<td>9<br/>Friday by Noon</td>
 </tr>
 <tr>
 <td>Milestone 2</td>
 <td>
 
-- Research topics, compare and contrast, and choose one
-- Begin to hash out your microcosm implementation
+- Project Check-in
+  - Breakout of each member's responsibilities
+  - Progress toward completion
+
 </td>
-<td>10</td>
-<td>7</td>
+<td>12<br/>Friday by Noon</td>
 </tr>
 <tr>
 <td>Milestone 3</td>
 <td>
 
-- Group check-in
-- Project Check-in
-</td>
-<td>0</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Milestone 4</td>
-<td>
+- Submission of final project
+  - Presentation
+  - Microcosm implementation
+  - Documentation
+  - Research paper
 
-- Submission of all project materials
-</td>
-<td>240</td>
-<td>13</td>
-</tr>
-<tr>
-<td>Milestone 5</td>
-<td>
 
-- Submission of peer review of other groups' projects
 </td>
-<td>50</td>
-<td>14</td>
-</tr>
-<tr>
-<td>Total</td>
-<td></td>
-<td>300</td>
+<td>14<br/>Monday by 11:59 PM</td>
 </tr>
 </table>
+
+[//]: # (<table>)
+
+[//]: # (<tr>)
+
+[//]: # (<td></td>)
+
+[//]: # (<td>Task&#40;s&#41;</td>)
+
+[//]: # (<td>Points</td>)
+
+[//]: # (<td>Due Week</td>)
+
+[//]: # (</tr>)
+
+[//]: # (<tr>)
+
+[//]: # (<td>Milestone 1</td>)
+
+[//]: # (<td>)
+
+[//]: # ()
+[//]: # (- Select a group of 3-4 members)
+
+[//]: # (</td>)
+
+[//]: # (<td>0</td>)
+
+[//]: # (<td>4</td>)
+
+[//]: # (</tr>)
+
+[//]: # (<tr>)
+
+[//]: # (<td>Milestone 2</td>)
+
+[//]: # (<td>)
+
+[//]: # ()
+[//]: # (- Research topics, compare and contrast, and choose one)
+
+[//]: # (- Begin to hash out your microcosm implementation)
+
+[//]: # (</td>)
+
+[//]: # (<td>10</td>)
+
+[//]: # (<td>7</td>)
+
+[//]: # (</tr>)
+
+[//]: # (<tr>)
+
+[//]: # (<td>Milestone 3</td>)
+
+[//]: # (<td>)
+
+[//]: # ()
+[//]: # (- Group check-in)
+
+[//]: # (- Project Check-in)
+
+[//]: # (</td>)
+
+[//]: # (<td>0</td>)
+
+[//]: # (<td>10</td>)
+
+[//]: # (</tr>)
+
+[//]: # (<tr>)
+
+[//]: # (<td>Milestone 4</td>)
+
+[//]: # (<td>)
+
+[//]: # ()
+[//]: # (- Submission of all project materials)
+
+[//]: # (</td>)
+
+[//]: # (<td>240</td>)
+
+[//]: # (<td>13</td>)
+
+[//]: # (</tr>)
+
+[//]: # (<tr>)
+
+[//]: # (<td>Milestone 5</td>)
+
+[//]: # (<td>)
+
+[//]: # ()
+[//]: # (- Submission of peer review of other groups' projects)
+
+[//]: # (</td>)
+
+[//]: # (<td>50</td>)
+
+[//]: # (<td>14</td>)
+
+[//]: # (</tr>)
+
+[//]: # (<tr>)
+
+[//]: # (<td>Total</td>)
+
+[//]: # (<td></td>)
+
+[//]: # (<td>300</td>)
+
+[//]: # (</tr>)
+
+[//]: # (</table>)
 
 ## Submission
 
 All submissions will be completed through Gradescope based on the current Milestone requirements. You will submit your recorded presentation, microcosm implementation, repository link, and research paper. 
 
 You will also submit peer reviews of the other groups' projects in Gradescope. A rubric will be provided for you to complete.
+
 
 ## Project Pitfalls
 
@@ -146,7 +245,7 @@ You will also submit peer reviews of the other groups' projects in Gradescope. A
 <p>Not keeping up with</p>
 <step>peers : keeping all accountable</step>
 <step>timeline : tracking who's doing what, when, where</step>
-<step>individual aspects : documentation, paper, microcosm, presentation, peer group</step>
+<step>individual aspects : documentation, paper, microcosm, presentation</step>
 </procedure>
 
 
