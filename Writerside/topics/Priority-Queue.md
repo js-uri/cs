@@ -1,57 +1,176 @@
 # Priority Queue
 
-## 1. Priority Queue?
+<video src=https://youtu.be/wptevk0bshY" preview-src="pq.jpeg" width="900" controls />
 
+## Definition
+
+<table>
+<tr>
+<td>
+
+![queue2.jpeg](queue2.jpeg)
+{ thumbnail="true"}
+
+</td>
+<td>
+
+![pq.jpeg](pq.jpeg)
+{ thumbnail="true"}
+
+</td>
+</tr>
+</table>
+
+
+<note>
 A priority queue is a special type of queue in which each element is associated with a priority and is served according to its priority. If elements with the same priority occur, they are served according to their order in the queue.
+</note>
 
-## 2. Operations on Priority Queue
+### Applications
 
-- **Enqueue:** Adds an item to the queue based on priority.
-- **Dequeue:** Removes an item from the queue based on priority.
-- **Front:** Get the highest priority item from the queue.
-- **Rear:** Get the lowest priority item from the queue.
-- **isEmpty:** Check if the queue is empty.
-- **isFull:** Check if the queue is full.
-- **Size:** Get the number of items in the queue.
-- **Clear:** Clear the queue.
-- **Display:** Display the items in the queue.
-- **Change Priority:** Change the priority of an item in the queue.
-- **Peek:** Get the priority of an item in the queue.
-- **Contains:** Check if an item is in the queue.
-- **Copy:** Copy the queue to another queue.
-- **Split:** Split a queue into two queues.
-- **Sort:** Sort the items in the queue based on priority.
-- **Shuffle:** Shuffle the items in the queue.
-- **Swap:** Swap two items in the queue.
+<table>
+<tr>
+<td>
 
+**Data compression in Huffman code**
 
+<br/>
 
+![pq1.jpeg](pq1.jpeg)
+{ thumbnail="true"}
 
-## 3. Applications of Priority Queue
+</td>
+<td>
 
-- **CPU Scheduling:** Priority queues are used in CPU scheduling algorithms to determine the next job to be executed.
-- **Graph Algorithms:** Priority queues are used in graph algorithms such as Dijkstra's algorithm and Prim's algorithm.
-- **Huffman Coding:** Priority queues are used in Huffman coding to determine the order in which characters are encoded.
-- **Discrete Event Simulation:** Priority queues are used in discrete event simulation to determine the next event to be simulated.
-- **Operating Systems:** Priority queues are used in operating systems to determine the next process to be executed.
-- **Artificial Intelligence:** Priority queues are used in artificial intelligence to determine the next action to be taken.
-- **Data Compression:** Priority queues are used in data compression algorithms such as LZ77 and LZ78.
-- **Data Encryption:** Priority queues are used in data encryption algorithms such as RSA and AES.
-- **Data Structures:** Priority queues are used in data structures such as heaps and binary search trees.
-- **Network Routing:** Priority queues are used in network routing algorithms to determine the next node to be visited.
-- **Scheduling:** Priority queues are used in scheduling algorithms to determine the next task to be scheduled.
-- **Task Scheduling:** Priority queues are used in task scheduling algorithms to determine the next task to be scheduled.
-- **Job Scheduling:** Priority queues are used in job scheduling algorithms to determine the next job to be scheduled.
+**Network Routing**
 
-## 4. Types of Priority Queue
+<br/>
 
-- **Min Priority Queue:** In a min priority queue, the item with the lowest priority is served first.
-- **Max Priority Queue:** In a max priority queue, the item with the highest priority is served first.
-- **Min-Max Priority Queue:** In a min-max priority queue, the item with the lowest priority is served first, and the item with the highest priority is served last.
+![pq2.jpeg](pq2.jpeg)
+{ thumbnail="true"}
 
-## 5. Implementation of Priority Queue
+</td>
+<td>
 
+**CPU Scheduling**
+
+<br/>
+
+![pq3.jpeg](pq3.jpeg)
+{ thumbnail="true"}
+
+</td>
+</tr>
+<tr>
+<td colspan="3">
+
+**Other Examples**
+
+- Dijkstra's algorithm
+- Prim's algorithm
+- Huffman coding
+- Discrete event simulation
+- Operating systems
+- Artificial intelligence
+- Data compression
+- Data encryption
+- Event-driven simulation such as customers waiting in a queue.
+- Finding Kth largest/smallest element.
+- Scheduling tasks based on priority.
+
+</td>
+</tr>
+</table>
+
+### Properties
+
+<procedure>
+
+<table>
+<tr>
+<td>
+
+**Reflexive**
+
+<br/>
+
+```tex
+k_1 <= k_2
 ```
+
+</td>
+<td>
+
+**Antisymmetric**
+
+<br/>
+
+```tex
+\begin{align*}
+k_1 \le k_2 \land k_2 \le k_1  \\ \\
+\Rightarrow k_1 = k_2
+\end{align*}
+```
+
+</td>
+<td>
+
+**Transitive**
+
+<br/>
+
+```tex
+\begin{align*}
+k_1 \le k_2 \land k_2 \le k_3  \\ \\
+\Rightarrow k_1 \le k_3
+\end{align*}
+```
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
+**Queue**
+
+- basic operations: 
+  - enqueue, dequeue, front, rear, isEmpty, isFull, size, clear, display
+- always remove the item least recently added
+
+</td>
+<td>
+
+**Priority Queue**
+
+- basic operations: 
+  - insert, removeMax, getMax, isEmpty, isFull, size, clear, display
+- MaxPQ
+  - always remove the item with the highest priority
+- MinPQ
+  - always remove the item with the lowest priority
+
+</td>
+</tr>
+</table>
+
+</procedure>
+
+![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Priority-Queue-min-1024x512.png)
+
+### Operations and Implementation
+
+<procedure>
+
+<deflist default-state="collapsed">
+
+<def title="Enqueue" default-state="collapsed">
+
+Adds an item to the queue based on priority.
+
+```text
 procedure enqueue(item, priority)
     if queue is full
         return overflow error
@@ -61,7 +180,12 @@ procedure enqueue(item, priority)
 end procedure
 ```
 
-```
+</def>
+<def title="Dequeue">
+
+Removes an item from the queue based on priority.
+
+```text
 procedure dequeue()
     if queue is empty
         return underflow error
@@ -71,7 +195,12 @@ procedure dequeue()
 end procedure
 ```
 
-```
+</def>
+<def title="Front">
+
+Get the highest priority item from the queue.
+
+```text
 procedure front()
     if queue is empty
         return underflow error
@@ -80,7 +209,12 @@ procedure front()
 end procedure
 ```
 
-```
+</def>
+<def title="Rear">
+
+Get the lowest priority item from the queue.
+
+```text
 procedure rear()
     if queue is empty
         return underflow error
@@ -89,7 +223,12 @@ procedure rear()
 end procedure
 ```
 
-```
+</def>
+<def title="isEmpty">
+
+Check if the queue is empty.
+
+```text
 procedure isEmpty()
     if queue is empty
         return true
@@ -98,7 +237,12 @@ procedure isEmpty()
 end procedure
 ```
 
-```
+</def>
+<def title="isFull">
+
+Check if the queue is full.
+
+```text
 procedure isFull()
     if queue is full
         return true
@@ -107,26 +251,46 @@ procedure isFull()
 end procedure
 ```
 
-```
+</def>
+<def title="Size">
+
+Get the number of items in the queue.
+
+```text
 procedure size()
     return number of items in the queue
 end procedure
 ```
 
-```
+</def>
+<def title="Clear">
+
+Clear the queue.
+
+```text
 procedure clear()
     remove all items from the queue
 end procedure
 ```
 
-```
+</def>
+<def title="Display">
+
+Display the items in the queue.
+
+```text
 procedure display()
     for each item in the queue
         print item
 end procedure
 ```
 
-```
+</def>
+<def title="Change Priority">
+
+Change the priority of an item in the queue.
+
+```text
 procedure changePriority(item, priority)
     if queue is empty
         return underflow error
@@ -141,7 +305,13 @@ procedure changePriority(item, priority)
 end procedure
 ```
 
-```
+</def>
+<def title="Peek">
+
+Get the priority of an item in the queue.
+
+```text
+
 procedure peek(item)
     if queue is empty
         return underflow error
@@ -155,7 +325,12 @@ procedure peek(item)
 end procedure
 ```
 
-```
+</def>
+<def title="Contains">
+
+Check if an item is in the queue.
+
+```text
 procedure contains(item)
     if queue is empty
         return false
@@ -169,7 +344,12 @@ procedure contains(item)
 end procedure
 ```
 
-```
+</def>
+<def title="Copy">
+
+Copy the queue to another queue.
+
+```text
 procedure copy()
     create a new queue
     for each item in the queue
@@ -179,7 +359,12 @@ procedure copy()
 end procedure
 ```
 
-```
+</def>
+<def title="Split">
+
+Split a queue into two queues.
+
+```text 
 procedure split()
     create two new queues
     for each item in the queue
@@ -193,7 +378,12 @@ procedure split()
 end procedure
 ```
 
-```
+</def>
+<def title="Sort">
+
+Sort the items in the queue based on priority.
+
+```text
 procedure sort()
     create a new queue
     while queue is not empty
@@ -204,7 +394,12 @@ procedure sort()
 end procedure
 ```
 
-```
+</def>
+<def title="Shuffle">
+
+Shuffle the items in the queue.
+
+```text
 procedure shuffle()
     create a new queue
     while queue is not empty
@@ -215,7 +410,12 @@ procedure shuffle()
 end procedure
 ```
 
-```
+</def>
+<def title="Swap">
+
+Swap two items in the queue.
+
+```text
 procedure swap(item1, item2)
     if queue is empty
         return underflow error
@@ -230,7 +430,210 @@ procedure swap(item1, item2)
 end procedure
 ```
 
+</def>
+</deflist>
+
+</procedure>
+
+### Performance
+
+<table>
+<tr>
+<th>Operation</th>
+<th>Sorted Array/List</th>
+<th>Unsorted Array/List</th>
+</tr>
+<tr>
+<td>Insert</td>
+<td>
+
+```tex
+O(n)
+```
+</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+</tr>
+<tr>
+<td>Remove</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+<td>
+
+```tex
+O(n)
+```
+</td>
+</tr>
+<tr>
+<td>Find Max/Min</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+<td>
+
+```tex
+O(n)
+```
+</td>
+</tr>
+
+</table>
+
+### Implementations (html table)
+
+<table>
+<tr>
+<th>Collection Type</th>
+<th>Insert</th>
+<th>Remove</th>
+<th>Peek</th>
+</tr>
+<tr>
+<td>Array</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+</tr>
+<tr>
+<td>Linked List</td>
+<td>
+
+```tex
+O(n)
+```
+</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+</tr>
+<tr>
+<td>Binary Heap</td>
+<td>
+
+```tex
+O(log n)
+```
+</td>
+<td>
+
+```tex
+O(log n)
+```
+</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+</tr>
+<tr>
+<td>Binary Search Tree</td>
+<td>
+
+```tex
+O(log n)
+```
+</td>
+<td>
+
+```tex
+O(log n)
+```
+</td>
+<td>
+
+```tex
+O(1)
+```
+</td>
+</tr>
+</table>
+
+*_Note: Assumes all collections are unsorted_*
+
+### Advantages and Disadvantages
+
+<table>
+<tr>
+<td>Advantages</td>
+<td>Disadvantages</td>
+</tr>
+<tr>
+<td>
+<deflist>
+<def title="Faster access">
+    Elements in a priority queue are ordered by priority, one can easily retrieve the highest priority element without having to search through the entire queue.
+</def>
+<def title="Efficient">
+    Are used in many algorithms to improve their efficiency, such as Dijkstra’s algorithm for finding the shortest path in a graph and the A* search algorithm for pathfinding.
+</def>
+<def title="Dynamic Ordering">
+    Elements in a priority queue can have their priority values updated, which allows the queue to dynamically reorder itself as priorities change.
+</def>
+<def title="Real-time systems">
+    Allow you to quickly retrieve the highest priority element, they are often used in real-time systems where time is of the essence.
+</def>
+</deflist>
+</td>
+<td>
+<deflist>
+<def title="Complexity">
+    Are more complex than simple data structures like arrays and linked lists, and may be more difficult to implement and maintain.
+</def>
+<def title="Less efficient">
+    In some cases, other data structures like heaps or binary search trees may be more efficient for certain operations, such as finding the minimum or maximum element in the queue.
+</def>
+<def title="Memory">
+    Storing the priority value for each element in a priority queue can take up additional memory, which may be a concern in systems with limited resources.
+</def>
+<def title="Less predictable">
+    The order of elements in a priority queue is determined by their priority values, the order in which elements are retrieved may be less predictable than with other data structures like stacks or queues, which follow a first-in, first-out (FIFO) or last-in, first-out (LIFO) order.
+</def>
+</deflist>
+</td>
+</tr>
+</table>
 
 
 
- 
+
+
+
+
