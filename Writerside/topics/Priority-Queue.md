@@ -95,7 +95,7 @@ A priority queue is a special type of queue in which each element is associated 
 <br/>
 
 ```tex
-k_1 <= k_2
+k_1 \le k_2
 ```
 
 </td>
@@ -164,9 +164,9 @@ k_1 \le k_2 \land k_2 \le k_3  \\ \\
 
 <procedure>
 
-<deflist default-state="collapsed">
+<deflist collapsible="true" default-state="collapsed">
 
-<def title="Enqueue" default-state="collapsed">
+<def title="Enqueue">
 
 Adds an item to the queue based on priority.
 
@@ -491,7 +491,7 @@ O(n)
 
 </table>
 
-### Implementations (html table)
+### Implementations
 
 <table>
 <tr>
@@ -597,7 +597,7 @@ O(1)
 </tr>
 <tr>
 <td>
-<deflist>
+<deflist collapsible="true" default-state="collapsed">
 <def title="Faster access">
     Elements in a priority queue are ordered by priority, one can easily retrieve the highest priority element without having to search through the entire queue.
 </def>
@@ -613,7 +613,7 @@ O(1)
 </deflist>
 </td>
 <td>
-<deflist>
+<deflist collapsible="true" default-state="collapsed">
 <def title="Complexity">
     Are more complex than simple data structures like arrays and linked lists, and may be more difficult to implement and maintain.
 </def>
