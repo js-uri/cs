@@ -14,16 +14,19 @@
 
     <toc-element topic="courses.md">
         <toc-element topic="csc_200_ee_schedule_syllabi.md">
+            <toc-element topic="simple_syllabus_200ee.md"/>
             <toc-element topic="csc_200_ee_project.md"/>
         </toc-element>
         <!--            <toc-element topic="lab-02.md"/>-->
 <!--            <toc-element topic="lab-01.md"/>-->
 <!--        </toc-element>-->
         <toc-element topic="csc_200_me_schedule_syllabi.md">
+            <toc-element topic="simple_syllabus_200me.md"/>
             <toc-element topic="csc_200_me_project.md"/>
         </toc-element>
         <!--        <toc-element topic="CSC-212-|-FALL-23.md"/>-->
         <toc-element topic="csc_212_schedule_syllabi.md">
+            <toc-element topic="simple_syllabus_212.md"/>
             <toc-element topic="csc_212_lab_presentations.md"/>
             <toc-element topic="csc_212_research_project.md"/>
         </toc-element>
@@ -129,7 +132,16 @@
             <toc-element topic="Heaps.md"/>
             <toc-element topic="bst.md"/>
             <toc-element topic="Set.md"/>
-            <toc-element topic="2-3-Trees.md"/>
+            <toc-element topic="2-3-Trees.md">
+                <toc-element toc-title="Insert : Case 1"
+                             target-for-accept-web-file-names="https://opendsa-server.cs.vt.edu/embed/simpleInsertCON"/>
+                <toc-element toc-title="Insert : Case 2"
+                             target-for-accept-web-file-names="https://opendsa-server.cs.vt.edu/embed/promoteCON"/>
+                <toc-element toc-title="Insert : Case 3"
+                             target-for-accept-web-file-names="https://opendsa-server.cs.vt.edu/embed/splitCON"/>
+                <toc-element toc-title="2-3-4 Tree Animation"
+                             target-for-accept-web-file-names="https://yongdanielliang.github.io/animation/web/24Tree.html"/>
+            </toc-element>
             <toc-element topic="Left-Leaning-Red-Black-Trees.md"/>
             <toc-element topic="Map.md"/>
             <toc-element topic="Hash-Tables.md"/>
