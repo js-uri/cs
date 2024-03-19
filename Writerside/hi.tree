@@ -14,19 +14,16 @@
 
     <toc-element topic="courses.md">
         <toc-element topic="csc_200_ee_schedule_syllabi.md">
-            <toc-element topic="simple_syllabus_200ee.md"/>
             <toc-element topic="csc_200_ee_project.md"/>
         </toc-element>
         <!--            <toc-element topic="lab-02.md"/>-->
 <!--            <toc-element topic="lab-01.md"/>-->
 <!--        </toc-element>-->
         <toc-element topic="csc_200_me_schedule_syllabi.md">
-            <toc-element topic="simple_syllabus_200me.md"/>
             <toc-element topic="csc_200_me_project.md"/>
         </toc-element>
         <!--        <toc-element topic="CSC-212-|-FALL-23.md"/>-->
         <toc-element topic="csc_212_schedule_syllabi.md">
-            <toc-element topic="simple_syllabus_212.md"/>
             <toc-element topic="csc_212_lab_presentations.md"/>
             <toc-element topic="csc_212_research_project.md"/>
         </toc-element>
