@@ -139,7 +139,10 @@
                 <toc-element toc-title="2-3-4 Tree Animation"
                              target-for-accept-web-file-names="https://yongdanielliang.github.io/animation/web/24Tree.html"/>
             </toc-element>
-            <toc-element topic="Left-Leaning-Red-Black-Trees.md"/>
+            <toc-element topic="Left-Leaning-Red-Black-Trees.md">
+                <toc-element toc-title="LLRB Tree Operations"
+                             target-for-accept-web-file-names="https://inst.eecs.berkeley.edu/~cs61b/fa17/materials/demos/ll-red-black-demo.html"/>
+            </toc-element>
             <toc-element topic="Map.md"/>
             <toc-element topic="Hash-Tables.md"/>
         </toc-element>
