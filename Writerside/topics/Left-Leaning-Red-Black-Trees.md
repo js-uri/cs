@@ -210,11 +210,12 @@ structures
 <note>
 <p><b>Structure</b></p>
 <p>A left-leaning red-black tree is a type of self-balancing binary search tree that maintains the following properties</p>
-<step>Every node is colored either red or black</step>
-<step>The root node is always black</step>
-<step>Every leaf (null node) is considered black</step>
-<step>If a node is red, both its children are black</step>
-<step>Every path from a node to its descendant leaves contains the same number of black nodes</step>
+
+- Every node is colored either red or black  
+- The root node is always black  
+- Every leaf (null node) is considered black  
+- If a node is red, both its children are black  
+- Every path from a node to its descendant leaves contains the same number of black nodes  
 </note>
 
 
@@ -246,10 +247,11 @@ structures
 
 <note>
 <p><b>Rules</b></p>
-<step>The color of every new node inserted is Red &amp;&amp; The root node is always Black</step>
-<step>The color of every new node inserted is Red</step>
-<step>Every NULL child of a node is Black</step>
-<step>If a node has a Red child and a left Black child (or NULL child because all NULLS are Black), left rotate the Node and swap the colors of the current Node and its left child to keep rule 2 consistent, i.e. the new Node must be Red.</step>
+
+- The color of every new node inserted is Red &amp;&amp; The root node is always Black  
+- The color of every new node inserted is Red  
+- Every NULL child of a node is Black  
+- If a node has a Red child and a left Black child (or NULL child because all NULLS are Black), left rotate the Node and swap the colors of the current Node and its left child to keep rule 2 consistent, i.e. the new Node must be Red.  
 </note>
 
 <note>
@@ -520,8 +522,6 @@ Search(Node, key)
 ```
 </tab>
 <tab title="Insert 4">
-
-
 
 ![](llrb_insert_4.jpeg)
 {thumbnail="true" width="900"}
