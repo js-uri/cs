@@ -69,7 +69,7 @@ alt="image"/>
 
 
 
-### Advantages & Disadvantages
+### Advantages &amp; Disadvantages
 
 <table>
 <tr>
@@ -246,14 +246,14 @@ structures
 
 <note>
 <p><b>Rules</b></p>
-<step>The color of every new node inserted is Red && The root node is always Black</step>
+<step>The color of every new node inserted is Red &amp;&amp; The root node is always Black</step>
 <step>The color of every new node inserted is Red</step>
 <step>Every NULL child of a node is Black</step>
 <step>If a node has a Red child and a left Black child (or NULL child because all NULLS are Black), left rotate the Node and swap the colors of the current Node and its left child to keep rule 2 consistent, i.e. the new Node must be Red.</step>
 </note>
 
 <note>
-The color of every new node inserted is Red && The root node is always Black
+The color of every new node inserted is Red &amp;&amp; The root node is always Black
 
 ![](llrb_root_node.jpeg)
 
