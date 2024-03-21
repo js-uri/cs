@@ -63,8 +63,8 @@ alt="image"/>
 </procedure>
 </td>
 </tr>
-<tr colspan="3">
-<td>
+<tr>
+<td colspan="3">
 
 Symbol tables:   
 - Left-leaning red-black trees are often used to implement symbol tables in programming languages and compilers. The efficient search and insertion operations of red-black trees make them well-suited for storing and managing symbol tables.  
