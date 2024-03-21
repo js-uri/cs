@@ -73,7 +73,8 @@ File systems:
 - Left-leaning red-black trees can be used to implement file systems, where the tree structure is used to organize and manage the files and directories within the system. The self-balancing property of red-black trees helps maintain a balanced and efficient file system structure.   
     
 Compiler optimization:   
-- Left-leaning red-black trees are used in compiler optimization techniques to efficiently store and manage intermediate representations of code. The balanced nature of red-black trees helps optimize the compilation process and improve overall performance.  
+- Left-leaning red-black trees are used in compiler optimization techniques to efficiently store and manage intermediate representations of code. The balanced nature of red-black trees helps optimize the compilation process and improve overall performance.
+</td>
 </table>
 
 
