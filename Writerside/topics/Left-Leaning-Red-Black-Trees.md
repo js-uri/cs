@@ -63,10 +63,18 @@ alt="image"/>
 </procedure>
 </td>
 </tr>
+<tr colspan="3">
+<td>
+
+Symbol tables:   
+- Left-leaning red-black trees are often used to implement symbol tables in programming languages and compilers. The efficient search and insertion operations of red-black trees make them well-suited for storing and managing symbol tables.  
+  
+File systems:   
+- Left-leaning red-black trees can be used to implement file systems, where the tree structure is used to organize and manage the files and directories within the system. The self-balancing property of red-black trees helps maintain a balanced and efficient file system structure.   
+    
+Compiler optimization:   
+- Left-leaning red-black trees are used in compiler optimization techniques to efficiently store and manage intermediate representations of code. The balanced nature of red-black trees helps optimize the compilation process and improve overall performance.  
 </table>
-
-
-
 
 
 ### Advantages &amp; Disadvantages
@@ -86,24 +94,6 @@ The left-leaning property simplifies the tree structure compared to traditional 
 Maintains a balanced structure, ensuring efficient search, insert, and delete operations
 </def>
 </deflist>
-
-[//]: # (<procedure>)
-
-[//]: # (<img src="https://smbmatters.files.wordpress.com/2012/01/network_routing.jpg?w=630" alt="image">)
-[//]: # (<p><b>Simpler Maintenance</b></p>)
-
-[//]: # (<step>The left-leaning property simplifies the tree structure compared to traditional red-black trees<br/></step>)
-
-[//]: # (</procedure>)
-
-[//]: # (<procedure>)
-
-[//]: # (<img src="https://smbmatters.files.wordpress.com/2012/01/network_routing.jpg?w=630" alt="image">)
-[//]: # (<p><b>Balanced Operations</b></p>)
-
-[//]: # (<step>Maintains a balanced structure, ensuring efficient search, insert, and delete operations<br/><br/></step>)
-
-[//]: # (</procedure>)
 </td>
 <td>
 
@@ -116,31 +106,9 @@ Implementing left-leaning red-black trees can be more complex than simpler data
 structures
 </def>
 </deflist>
-
-
-[//]: # (<procedure>)
-
-[//]: # (<img src="https://smbmatters.files.wordpress.com/2012/01/network_routing.jpg?w=630" alt="image">)
-[//]: # (<p><b>Increased Memory Usage</b></p>)
-
-[//]: # (<step>The additional color bit for each node increases memory overhead<br/><br/></step>)
-
-[//]: # (</procedure>)
-
-[//]: # (<procedure>)
-
-[//]: # (<img src="https://smbmatters.files.wordpress.com/2012/01/network_routing.jpg?w=630" alt="image">)
-[//]: # (<p><b>Complex Implementation</b></p>)
-
-[//]: # (<step>Implementing left-leaning red-black trees can be more complex than simpler data )
-
-[//]: # (structures<br/><br/></step>)
-
-[//]: # (</procedure>)
 </td>
 </tr>
 </table>
-
 
 
 ## Implementation
@@ -635,20 +603,6 @@ Restoring Balance:
 
 ![](llrb_delete_any.jpeg)
 {thumbnail="true" width="900"}
-
-</tab>
-<tab>
-<table>
-<tr>
-<td colspan="4">
-
-![](llrb_color_fix_cases.jpeg)
-{thumbnail="true" width="900"}
-
-</td>
-</tr>
-</table>
-
 
 </tab>
 </tabs>
