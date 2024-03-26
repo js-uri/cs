@@ -23,8 +23,6 @@ alt="image"/>
 </table>
 
 
-
-
 ### Use Cases
 
 <table>
@@ -506,6 +504,36 @@ h(k_{10}) &amp;= 9\ \ \%\ 10 &amp;= 9\ &amp;\Rightarrow\ \ \ \ \ HT[9] \leftarro
 </tr>
 </table>
 
+<deflist collapsible="true">
+<def title="Advantages/Disadvantages">
+<table>
+<tr>
+<td>
+
+**Advantages**
+
+<br/>
+
+- Simple to implement
+- Hash table never fills up, we can always add more elements to the chain.
+- Less sensitive to the hash function or load factors.
+- It is mostly used when it is unknown how many and what data will be stored in the hash table.
+</td>
+<td>
+
+**Disadvantages**
+
+<br/>
+
+- The cache performance of chaining is not good as keys are stored using a linked list. Open addressing provides better cache performance as everything is stored in the same table.
+- Wastage of Space (Some Parts of hash table are never used)
+- If the chain becomes long, then search time can become O(n) in the worst case.
+- Uses extra space for links.
+</td>
+</tr>
+</table>
+</def>
+</deflist>
 
 
 ## Open Addressing
@@ -1337,3 +1365,37 @@ h_5(101) &amp;= \bigg[ h_{a}(101) + i * h_{b}(101) \bigg] \ \% \ 7 \\
 ## Comparison
 
 <img src="complexity.png" alt=""/>
+
+<table>
+<tr>
+<td>
+
+**Linear Probing**
+
+<br/>
+
+- Simple to implement
+- Best cache performance
+- Suffers from clustering
+</td>
+<td>
+
+**Quadratic Probing**
+
+<br/>
+
+- Average cache performance
+- Suffers less from clustering
+</td>
+<td>
+
+**Double Hashing**
+
+<br/>
+
+- Poor cache performance
+- No clustering
+- Requires more computation time
+</td>
+</tr>
+</table>
