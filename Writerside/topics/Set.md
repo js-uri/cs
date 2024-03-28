@@ -1,4 +1,4 @@
-# Set
+# Set & Unordered Set
 
 <video src="https://youtu.be/SvvvGT3qD1Y?feature=shared" preview-src="set_image.png"/>
 
@@ -82,73 +82,414 @@
 
 
 
-## Programming
+## Implementation
 
-<tabs>
-<tab title="Pseudo-implementation">
-<code-block lang="plain text">
-    Set Data Structure:
-    - Initialize an empty data structure to hold unique elements.
-    &nbsp;
-    Function Insert(value):
-    1. Check if the value is already in the set. 
-    2. If not, add the value to the set.
-    &nbsp;
-    Function Contains(value):
-    1. Search the set for the value.
-    2. Return true if found, false otherwise.
-    &nbsp;
-    Function Remove(value):
-    1. Search the set for the value.
-    2. If found, remove the value from the set.
-    &nbsp;
-    Function Display():
-    1. Iterate through the set and display its elements.
-</code-block>
-</tab>
-<tab title="Code-implementation">
+<table>
+<tr>
+<td colspan="4">
 
-<blockquote>We use the <code>std::unordered_set</code> container from the C++ Standard Library, which is a hash 
-table-based implementation of a set.<br/>
-We insert, check for existence, and remove elements using the insert, find, and erase methods.<br/>
-Finally, we display the elements in the set.</blockquote>
+![](https://media.geeksforgeeks.org/wp-content/uploads/20230302151935/s.png)
 
-```c++
-    #include &lt;iostream>
-    #include &lt;unordered_set>
-    int main() {
-        std::unordered_set<int> mySet;
-    &nbsp;
-        // Insert elements
-        mySet.insert(10);
-        mySet.insert(5);
-        mySet.insert(20);
-    &nbsp;
-        // Check if an element exists
-        if (mySet.find(5) != mySet.end()) {
-            std::cout << "Element 5 found in the set.\n";
-        }
-    &nbsp;
-        // Remove an element
-        mySet.erase(10);
-    &nbsp;
-        // Display the elements
-        std::cout << "Set elements: ";
-        for (const int& element : mySet) {
-            std::cout << element << " ";
-        }
-        std::cout << "\n";
-        return 0;
-    }
-```
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Set**
+
+*_balanced binary search tree implementation_*
+
+<deflist collapsible="true">
+<def title="insert">
+
+Adds an element to the set if it doesn't already exist.
 
 ```text
-Element 5 found in the set.
-5 20
+insert(node, data):
+    if node is null:
+        return new Node(data)
+    if data < node.data:
+        node.left = insert(node.left, data)
+    else if data > node.data:
+        node.right = insert(node.right, data)
+    return node
 ```
+</def>
+<def title="remove">
 
-</tab>
-</tabs>
+Deletes an element from the set.
+
+```text
+remove(node, data):
+    if node is null:
+        return node
+    if data < node.data:
+        node.left = remove(node.left, data)
+    else if data > node.data:
+        node.right = remove(node.right, data)
+    else:
+        if node.left is null:
+            return node.right
+        else if node.right is null:
+            return node.left
+        node.data = minValue(node.right)
+        node.right = remove(node.right, node.data)
+    return node
+```
+</def>
+<def title="contains">
+
+Checks if an element is present in the set.
+
+```text
+contains(node, data):
+    if node is null:
+        return false
+    if data < node.data:
+        return contains(node.left, data)
+    else if data > node.data:
+        return contains(node.right, data)
+    return true
+```
+</def>
+<def title="minValue">
+
+Finds the minimum value in a subtree.
+
+```text
+minValue(node):
+    current = node
+    while current.left is not null:
+        current = current.left
+    return current.data
+```
+</def>
+<def title="size">
+
+Returns the number of elements in the set.
+
+```text
+size(node):
+    if node is null:
+        return 0
+    return 1 + size(node.left) + size(node.right)
+```
+</def>
+<def title="minValue">
+
+Finds the minimum value in a subtree.
+
+```text
+minValue(node):
+    current = node
+    while current.left is not null:
+        current = current.left
+    return current.data
+```
+</def>
+<def title="maxValue">
+
+Finds the maximum value in a subtree.
+
+```text
+maxValue(node):
+    current = node
+    while current.right is not null:
+        current = current.right
+    return current.data
+```
+</def>
+</deflist>
+</td>
+</tr>
+<tr>
+<td>
+
+**Unordered set**
+
+*_hash table implementation_*
+
+<deflist collapsible="true">
+<def title="hash">
+
+Maps elements to unique indices in the hash table.
+
+```text
+hash(data):
+    return data % tableSize
+```
+</def>
+<def title="insert">
+
+Adds an element to the set.
+
+```text
+insert(data):
+    index = hash(data)
+    for item in buckets[index]:
+        if item equals data:
+            return // Element already exists
+    add data to buckets[index]
+```
+</def>
+<def title="remove">
+
+Deletes an element from the set.
+
+```text
+remove(data):
+    index = hash(data)
+    for item in buckets[index]:
+        if item equals data:
+            remove item from buckets[index]
+            return
+```
+</def>
+<def title="contains">
+
+Checks if an element is present in the set.
+
+```text
+contains(data):
+    index = hash(data)
+    for item in buckets[index]:
+        if item equals data:
+            return true
+    return false
+```
+</def>
+<def title="size">
+
+Returns the number of elements in the set.
+
+```text
+size():
+    count = 0
+    for bucket in buckets:
+        count += bucket.size()
+    return count
+```
+</def>
+<def title="min">
+
+Finds the minimum value in the set.
+
+```text
+min():
+    minVal = INT_MAX
+    for bucket in buckets:
+        for item in bucket:
+            minVal = min(minVal, item)
+    return minVal
+```
+</def>
+<def title="max">
+
+Finds the maximum value in the set.
+
+```text
+max():
+    maxVal = INT_MIN
+    for bucket in buckets:
+        for item in bucket:
+            maxVal = max(maxVal, item)
+    return maxVal
+```
+</def>
+</deflist>
+</td>
+</tr>
+</table>
+
+
+### Time Complexity
+
+<table>
+    <tr>
+        <th>Data Structure</th>
+        <th>Operation</th>
+        <th>Best Case</th>
+        <th>Average Case</th>
+        <th>Worst Case</th>
+    </tr>
+    <tr>
+        <td rowspan="4">Set (Binary Search Tree)</td>
+        <td>Insert</td>
+        <td><code-block lang="tex"> O(log\ n)</code-block></td>
+        <td><code-block lang="tex"> O(log\ n)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+    </tr>
+    <tr>
+        <td>Delete</td>
+        <td><code-block lang="tex"> O(log\ n)</code-block></td>
+        <td><code-block lang="tex"> O(log\ n)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+    </tr>
+    <tr>
+        <td>Search</td>
+        <td><code-block lang="tex"> O(log\ n)</code-block></td>
+        <td><code-block lang="tex"> O(log\ n)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+    </tr>
+    <tr>
+        <td>Sizeof / Min / Max</td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+    </tr>
+    <tr>
+        <td rowspan="4">Unordered Set (Hash Table)</td>
+        <td>Insert</td>
+        <td><code-block lang="tex"> O(1)</code-block></td>
+        <td><code-block lang="tex"> O(1)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+    </tr>
+    <tr>
+        <td>Delete</td>
+        <td><code-block lang="tex"> O(1)</code-block></td>
+        <td><code-block lang="tex"> O(1)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+    </tr>
+    <tr>
+        <td>Search</td>
+        <td><code-block lang="tex"> O(1)</code-block></td>
+        <td><code-block lang="tex"> O(1)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+    </tr>
+    <tr>
+        <td>Sizeof / Min / Max</td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+        <td><code-block lang="tex"> O(n)</code-block></td>
+    </tr>
+</table>
+
+[//]: # (<tabs>)
+
+[//]: # (<tab title="Pseudo-implementation">)
+
+[//]: # (<code-block lang="plain text">)
+
+[//]: # (    Set Data Structure:)
+
+[//]: # (    - Initialize an empty data BST structure to hold unique elements.)
+
+[//]: # (    &nbsp;)
+
+[//]: # (    Function Insert&#40;value&#41;:)
+
+[//]: # (    1. Check if the value is already in the set. )
+
+[//]: # (    2. If not, add the value to the set.)
+
+[//]: # (    &nbsp;)
+
+[//]: # (    Function Contains&#40;value&#41;:)
+
+[//]: # (    1. Search the set for the value.)
+
+[//]: # (    2. Return true if found, false otherwise.)
+
+[//]: # (    &nbsp;)
+
+[//]: # (    Function Remove&#40;value&#41;:)
+
+[//]: # (    1. Search the set for the value.)
+
+[//]: # (    2. If found, remove the value from the set.)
+
+[//]: # (    &nbsp;)
+
+[//]: # (    Function Display&#40;&#41;:)
+
+[//]: # (    1. Iterate through the set and display its elements.)
+
+[//]: # (</code-block>)
+
+[//]: # (</tab>)
+
+[//]: # (<tab title="Code-implementation">)
+
+[//]: # ()
+[//]: # (<blockquote>We use the <code>std::unordered_set</code> container from the C++ Standard Library, which is a hash )
+
+[//]: # (table-based implementation of a set.<br/>)
+
+[//]: # (We insert, check for existence, and remove elements using the insert, find, and erase methods.<br/>)
+
+[//]: # (Finally, we display the elements in the set.</blockquote>)
+
+[//]: # ()
+[//]: # (```c++)
+
+[//]: # (    #include &lt;iostream>)
+
+[//]: # (    #include &lt;unordered_set>)
+
+[//]: # (    int main&#40;&#41; {)
+
+[//]: # (        std::unordered_set<int> mySet;)
+
+[//]: # (    &nbsp;)
+
+[//]: # (        // Insert elements)
+
+[//]: # (        mySet.insert&#40;10&#41;;)
+
+[//]: # (        mySet.insert&#40;5&#41;;)
+
+[//]: # (        mySet.insert&#40;20&#41;;)
+
+[//]: # (    &nbsp;)
+
+[//]: # (        // Check if an element exists)
+
+[//]: # (        if &#40;mySet.find&#40;5&#41; != mySet.end&#40;&#41;&#41; {)
+
+[//]: # (            std::cout << "Element 5 found in the set.\n";)
+
+[//]: # (        })
+
+[//]: # (    &nbsp;)
+
+[//]: # (        // Remove an element)
+
+[//]: # (        mySet.erase&#40;10&#41;;)
+
+[//]: # (    &nbsp;)
+
+[//]: # (        // Display the elements)
+
+[//]: # (        std::cout << "Set elements: ";)
+
+[//]: # (        for &#40;const int& element : mySet&#41; {)
+
+[//]: # (            std::cout << element << " ";)
+
+[//]: # (        })
+
+[//]: # (        std::cout << "\n";)
+
+[//]: # (        return 0;)
+
+[//]: # (    })
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (```text)
+
+[//]: # (Element 5 found in the set.)
+
+[//]: # (5 20)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (</tab>)
+
+[//]: # (</tabs>)
 
 
 
