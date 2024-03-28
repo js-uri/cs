@@ -85,7 +85,12 @@
 
     <toc-element toc-title="Data Structures">
         <toc-element toc-title="Linear">
-            <toc-element topic="Dynamic-Arrays.md"/>
+            <toc-element topic="Dynamic-Arrays.md">
+                <toc-element toc-title="CPPReference | std::vector"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/vector"/>
+                <toc-element toc-title="CPPReference | std::vector<T,Allocator>::vector"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/vector/vector"/>
+            </toc-element>
             <toc-element topic="Linked-List.md">
                 <toc-element toc-title="VisualGo | Linked List"
                              target-for-accept-web-file-names="https://visualgo.net/en/list"/>
@@ -122,13 +127,13 @@
             </toc-element>
         </toc-element>
         <toc-element toc-title="Non-linear">
-            <toc-element topic="Graphs.md">
-                <toc-element topic="Depth-first.md"/>
-                <toc-element topic="Breadth-first.md"/>
-            </toc-element>
             <toc-element topic="Heaps.md"/>
-            <toc-element topic="bst.md"/>
-            <toc-element topic="Set.md"/>
+            <toc-element topic="bst.md">
+                <toc-element toc-title="CPPReference | std::binary_search"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/algorithm/binary_search"/>
+                <toc-element toc-title="CPPReference | std::lower_bound"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/algorithm/lower_bound"/>
+            </toc-element>
             <toc-element topic="2-3-Trees.md">
                 <toc-element toc-title="Insert : Case 1"
                              target-for-accept-web-file-names="https://opendsa-server.cs.vt.edu/embed/simpleInsertCON"/>
@@ -143,8 +148,26 @@
                 <toc-element toc-title="LLRB Tree Operations"
                              target-for-accept-web-file-names="https://inst.eecs.berkeley.edu/~cs61b/fa17/materials/demos/ll-red-black-demo.html"/>
             </toc-element>
-            <toc-element topic="Map.md"/>
-            <toc-element topic="Hash-Tables.md"/>
+            <toc-element topic="Hash-Tables.md">
+                <toc-element toc-title="CPPReference | std::hash"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/utility/hash"/>
+            </toc-element>
+            <toc-element topic="Set.md">
+                <toc-element toc-title="CPPReference | std::set"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/set"/>
+                <toc-element toc-title="CPPReference | std::unordered_set"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/unordered_set"/>
+            </toc-element>
+            <toc-element topic="Map.md">
+                <toc-element toc-title="CPPReference | std::map"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/map"/>
+                <toc-element toc-title="CPPReference | std::unordered_map"
+                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/unordered_map"/>
+            </toc-element>
+            <toc-element topic="Graphs.md">
+                <toc-element topic="Depth-first.md"/>
+                <toc-element topic="Breadth-first.md"/>
+            </toc-element>
         </toc-element>
     </toc-element>
 
