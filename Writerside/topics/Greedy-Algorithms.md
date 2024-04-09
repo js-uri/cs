@@ -4,29 +4,112 @@ switcher-label: Language
 
 # Greedy Algorithms
 
-![greedy algorithms](https://i.ytimg.com/vi/bC7o8P_Ste4/maxresdefault.jpg)
-
-## Python {switcher-key="Python"}
-
-The content that should appear when the Section Once is selected.
-
-## Cpp {switcher-key="Cpp"}
-
-The content that should appear when the Section Two is selected.
-
-## Python2 {switcher-key="Python"}
-
-The content that should appear when the Section Once is selected.
+<video src="https://youtu.be/bC7o8P_Ste4?feature=shared" preview-src="ga.jpeg" width="900" />
 
 
+## Defined
 
-## Definition
+> Greedy algorithms are algorithms that make the locally optimal choice at each step with the hope of finding a global optimum. Greedy algorithms are used in optimization problems where the goal is to find the best solution from a set of possible solutions. The greedy algorithm makes a series of choices that are locally optimal, but may not be globally optimal.
 
-Greedy algorithms are a class of algorithms that make a series of choices to arrive at an optimal solution. In each step of the algorithm, a decision is made by selecting the best option available at that moment, without considering the global context. This choice is typically based on a locally optimal criterion. The greedy algorithm continues making these choices until a solution is found.
+{ style="note" }
+
+## Greedy Choice Property
+
+<procedure>
+
+A greedy algorithm must have two properties:
+
+<deflist collapsible="true">
+    <def title="Greedy Choice Property">
+        This is the key principle that defines greedy algorithms. It states that at each step of the algorithm, the best possible choice is made without considering the consequences of that choice beyond the current step. This is what makes greedy algorithms "shortsighted" as they focus solely on immediate gain.
+    </def>
+    <def title="Optimal Substructure">
+        Many problems have optimal substructure, which means that an optimal solution to the problem can be constructed from optimal solutions to its subproblems. Greedy algorithms exploit this property to efficiently find the global optimum.
+    </def>
+</deflist>
+
+This means that the greedy algorithm makes the best choice at each step, without considering the larger problem. The greedy algorithm continues to make these choices until a solution is found.
+</procedure>
+
+## Properties
+
+<procedure>
+
+<deflist style="full" collapsible="false">
+    <def title="Efficiency">
+        Greedy algorithms are generally efficient and easy to implement. They are often used to solve optimization problems where the goal is to find the best solution from a set of possible solutions.
+    </def>
+    <def title="Optimality">
+        Greedy algorithms do not always produce the optimal solution, but they often produce solutions that are close to the optimal solution. The greedy algorithm makes the best choice at each step, hoping to find the global optimum.
+    </def>
+    <def title="Applications">
+        Greedy algorithms are used in a wide range of applications, including network design, data compression, and scheduling tasks. They are particularly useful in problems where the optimal solution can be constructed from optimal solutions to subproblems.
+    </def>
+</deflist>
+</procedure>
+
+
+## Applications
+
+<table>
+<tr>
+<td>
+
+**Network Design**
+
+<br/>
+
+![](https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q2/network-infrastructure-mapping/cisco-network-diagram.png)
+{ thumbnail="true" width="900" }
+
+<br/>
+
+In network design, such as in laying out cables or pipes, the Kruskal's or Prim's algorithm can be used to find the minimum spanning tree, minimizing the total cost.
+
+</td>
+<td>
+
+**Data Compression**
+
+<br/>
+
+![](http://www.convexapp.com/wp-content/uploads/2019/12/data-compression-model.png)
+{ thumbnail="true" width="900" }
+
+<br/>
+
+In data compression, Huffman coding is a greedy algorithm used to construct variable-length codes for efficient data compression.
+
+</td>
+<td>
+
+**Scheduling Tasks**
+
+<br/>
+
+![](https://blogs.sw.siemens.com/wp-content/uploads/sites/51/2018/05/priority.png)
+{ thumbnail="true" width="900" }
+
+<br/>
+
+Scheduling tasks to maximize productivity. For example, a project manager can use a greedy algorithm to select activities with the earliest end times.
+</td>
+</tr>
+</table>
+
+
+## Complexity
+
+<procedure>
+
+<p>The time complexity of a greedy algorithm depends on the specific problem being solved. In general, greedy algorithms have a time complexity of <code-block lang="tex"> O(n\ log\ n)</code-block> or <code-block lang="tex">O(n)</code-block>, where n is the size of the input. The space complexity of a greedy algorithm is typically <code-block lang="tex">O(1)</code-block> or <code-block lang="tex">O(n)</code-block>, depending on the problem.</p>
+
+</procedure>
 
 
 
-## Use Cases
+
+## Examples
 
 <deflist style="full" sorted="asc" collapsible="true">
     <def title="Minimum Spanning Tree">
@@ -53,92 +136,99 @@ Greedy algorithms are a class of algorithms that make a series of choices to arr
 </deflist>
 
 
+### Coin Change Problem
 
-## Pseudocode (General)
+The coin change problem is another classic optimization problem that can be solved using a greedy algorithm. The problem is defined as follows:
 
-```
-Greedy Algorithm(Input):
-    Initialize an empty solution
-    While the solution is not complete:
-        Select the best available option
-        Add the selected option to the solution
-    Return the solution
-```
-
-[//]: # (```)
-
-[//]: # (1. Create a priority queue &#40;min-heap&#41; of nodes to store characters and their frequencies.)
-
-[//]: # (2. For each unique character in the input, create a node containing the character and its frequency.)
-
-[//]: # (3. Insert each node into the priority queue.)
-
-[//]: # (4. While there is more than one node in the queue:)
-
-[//]: # (   a. Remove the two nodes with the lowest frequencies from the queue.)
-
-[//]: # (   b. Create a new internal node with a frequency equal to the sum of the two nodes' frequencies.)
-
-[//]: # (   c. Set the two nodes as children of the new internal node.)
-
-[//]: # (   d. Insert the new internal node into the queue.)
-
-[//]: # (5. The remaining node in the queue is the root of the Huffman tree.)
-
-[//]: # (6. Traverse the Huffman tree to assign binary codes to characters.)
-
-[//]: # (7. The binary codes represent the Huffman encoding.)
-
-[//]: # (```)
+> Given a set of coins with different denominations, find the minimum number of coins needed to make a certain amount of change.
 
 
-
-## Advantages & Disadvantages
+#### Example 1
 
 <table>
-    <tr>
-        <td>Advantages</td><td>Disadvantages</td>
-    </tr>
-    <tr>
-        <td>They are relatively easy to understand and implement.<br/>
-Greedy algorithms often provide fast solutions.<br/>
-They are suitable for solving optimization problems with certain conditions.</td><td>They may not always guarantee the optimal solution. Greedy choices made in earlier steps can lead to suboptimal results.<br/>
-Determining whether a problem can be solved optimally using a greedy approach can be challenging.</td>
-    </tr>
+<tr>
+<td>
+
+**Input**
+
+A set of coin denominations, represented as an array or list of integers.
+A target amount of money to make up using these coins.
+</td>
+<td>
+
+**Output**
+
+The minimum number of coins required to make up the target amount.
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+> **Example**  
+Coins: [1, 5, 10, 25]  
+Target amount: 30  
+Solution: 2 (using one 25-cent coin and one 5-cent coin)
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+The greedy algorithm for the coin change problem works as follows:
+
+1. Sort the coins in descending order based on their denominations.
+2. Initialize a variable to keep track of the number of coins used.
+3. Iterate through the sorted denominations:  
+   i. At each step, if the current denomination is less than or equal to the remaining amount, subtract that denomination from the remaining amount and increment the coin count.  
+   ii. Repeat this process until the remaining amount becomes zero.
+</td>
+</tr>
+</table>
+
+
+#### Example 2
+
+<table>
+<tr>
+<td>
+
+**Input**
+
+A set of coin denominations, represented as an array or list of integers.
+A target amount of money to make up using these coins.
+</td>
+<td>
+
+**Output**
+
+The minimum number of coins required to make up the target amount.
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+>
+> Coins: [1, 3, 4, 5]  
+Target amount: 7  
+Solution: ???
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+<deflist collapsible="true">
+<def title="Solution">
+
+Solution (we get)  : 3 (using one 5-cent coin and two 1-cent coins)  
+Solution (we want) : 2 (using one 3-cent coin and one 4-cent coin)
+
+The solution does not adhere to the greedy algorithm. The greedy algorithm would choose the 5-cent coin first, followed by the 1-cent coin, resulting in a total of 3 coins.
+</def>
+</deflist>
+
+</td>
+</tr>
 </table>
 
 
 
-[//]: # (<table>)
-
-[//]: # (    <tr>)
-
-[//]: # (        <td>Minimum Spanning Tree</td><td>Huffman Coding</td>)
-
-[//]: # (    </tr>)
-
-[//]: # (    <tr>)
-
-[//]: # (        <td>In network design, such as in laying out cables or pipes, the Kruskal's or Prim's algorithm can be used to find the minimum spanning tree, minimizing the total cost.</td><td>In data compression, Huffman coding is a greedy algorithm used to construct variable-length codes for efficient data compression.</td>)
-
-[//]: # (    </tr>)
-
-[//]: # (</table>)
-
-[//]: # ()
-[//]: # (<table>)
-
-[//]: # (    <tr>)
-
-[//]: # (        <td>Activity Selection</td><td>Dijkstra's Algorithm</td>)
-
-[//]: # (    </tr>)
-
-[//]: # (    <tr>)
-
-[//]: # (        <td>Scheduling tasks to maximize productivity. For example, a project manager can use a greedy algorithm to select activities with the earliest end times.</td><td>Used for finding the shortest path in a graph, such as in GPS navigation systems.</td>)
-
-[//]: # (    </tr>)
-
-[//]: # (</table>)
 
