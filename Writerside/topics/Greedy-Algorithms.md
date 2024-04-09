@@ -102,11 +102,9 @@ Scheduling tasks to maximize productivity. For example, a project manager can us
 
 <procedure>
 
-<p>The time complexity of a greedy algorithm depends on the specific problem being solved. In general, greedy algorithms have a time complexity of <code-block lang="tex"> O(n\ log\ n)</code-block> or <code-block lang="tex">O(n)</code-block>, where n is the size of the input. The space complexity of a greedy algorithm is typically <code-block lang="tex">O(1)</code-block> or <code-block lang="tex">O(n)</code-block>, depending on the problem.</p>
+The time complexity of a greedy algorithm depends on the specific problem being solved. In general, greedy algorithms have a time complexity of `O(n log n)` or `O(n)`, where n is the size of the input. The space complexity of a greedy algorithm is typically `O(1)` or `O(n)`, depending on the problem.
 
 </procedure>
-
-
 
 
 ## Examples
