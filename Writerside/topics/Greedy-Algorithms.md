@@ -49,6 +49,28 @@ This means that the greedy algorithm makes the best choice at each step, without
 </procedure>
 
 
+## Advantages & Disadvantages
+
+<table>
+<tr>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Easy to implement</td>
+<td>May not always produce the optimal solution</td>
+</tr>
+<tr>
+<td>Efficient for many problems</td>
+<td>Can be difficult to prove correctness</td>
+</tr>
+<tr>
+<td>Useful for problems with optimal substructure</td>
+<td>May require additional work to ensure correctness</td>
+</tr>
+</table>
+
+
 ## Applications
 
 <table>
@@ -226,6 +248,10 @@ The solution does not adhere to the greedy algorithm. The greedy algorithm would
 </td>
 </tr>
 </table>
+
+
+
+
 
 
 
