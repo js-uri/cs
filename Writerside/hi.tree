@@ -80,6 +80,8 @@
         <toc-element toc-title="Useful Additions">
             <toc-element topic="Exceptions.md"/>
             <toc-element topic="Files.md"/>
+            <toc-element topic="Visualize.md"/>
+            <toc-element topic="Miscellaneous.md"/>
         </toc-element>
     </toc-element>
 
@@ -213,8 +215,14 @@
             </toc-element>
             <toc-element topic="recurrences.md"/>
         </toc-element>
-        <toc-element topic="Greedy-Algorithms.md"/>
-        <toc-element topic="Dynamic-Programming.md"/>
+        <toc-element topic="Greedy-Algorithms.md">
+            <toc-element toc-title="GFG | Greedy Algorithms"
+                         target-for-accept-web-file-names="https://www.geeksforgeeks.org/greedy-algorithms/"/>
+        </toc-element>
+        <toc-element topic="Dynamic-Programming.md">
+            <toc-element toc-title="GFG | Dynamic Programming"
+                         target-for-accept-web-file-names="https://www.geeksforgeeks.org/dynamic-programming/"/>
+        </toc-element>
     </toc-element>
     <toc-element toc-title="Discrete Maths Concepts">
         <toc-element toc-title="Discrete Mathematics: An Open Introduction, 3rd Ed" target-for-accept-web-file-names="https://discrete.openmathbooks.org/dmoi3.html"/>
