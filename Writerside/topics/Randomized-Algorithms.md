@@ -313,7 +313,7 @@ int generateRandomNumber() {
 }
 
 // Function to perform Las Vegas sorting
-void lasVegasSort(std::vector<int>& arr) {
+void lasVegasSort(std::vector<int>&amp; arr) {
     bool sorted = false;
 
     while (!sorted) {
