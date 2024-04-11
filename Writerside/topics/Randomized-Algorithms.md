@@ -38,7 +38,7 @@ Randomized analysis is a technique used to analyze the performance of randomized
 </table>
 
 
-### Applications and Approaches
+### Applications & Approaches
 
 <table style="both">
 <tr>
@@ -147,7 +147,7 @@ Las Vegas algorithms are used in the field of cryptography to generate secure en
 </tr>
 </table>
 
-## Advantages and Disadvantages
+## Advantages & Disadvantages
 
 <table>
 <tr>
@@ -313,7 +313,7 @@ int generateRandomNumber() {
 }
 
 // Function to perform Las Vegas sorting
-void lasVegasSort(std::vector<int> arr) {
+void lasVegasSort(std::vector<int>& arr) {
     bool sorted = false;
 
     while (!sorted) {
