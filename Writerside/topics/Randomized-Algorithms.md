@@ -1,6 +1,6 @@
 # Randomized Algorithms
 
-<video src="https://www.youtube.com/watch?v=nFw6x7DoYbs&pp=ygUUcmFuZG9taXplZCBhbGdvcml0aG0%3D" preview-src="random_algo.jpeg" width="900" />
+<video src="https://youtu.be/nFw6x7DoYbs?feature=shared" preview-src="random_algo.jpeg" width="900" />
 
 ## Definition
 
@@ -313,7 +313,7 @@ int generateRandomNumber() {
 }
 
 // Function to perform Las Vegas sorting
-void lasVegasSort(std::vector<int>&amp; arr) {
+void lasVegasSort(std::vector<int> arr) {
     bool sorted = false;
 
     while (!sorted) {
