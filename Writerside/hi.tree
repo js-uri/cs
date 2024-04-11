@@ -174,7 +174,6 @@
     </toc-element>
 
     <toc-element toc-title="Algorithms">
-        <toc-element topic="Randomized-Algorithms.md"/>
         <toc-element toc-title="Analysis">
             <toc-element topic="Analysis.md"/>
 <!--            <toc-element topic="Analysis-Of-Algorithms.md"/>-->
@@ -222,6 +221,10 @@
         <toc-element topic="Dynamic-Programming.md">
             <toc-element toc-title="GFG | Dynamic Programming"
                          target-for-accept-web-file-names="https://www.geeksforgeeks.org/dynamic-programming/"/>
+        </toc-element>
+        <toc-element topic="Randomized-Algorithms.md">
+            <toc-element toc-title="GFG | Randomized Algorithms"
+                         target-for-accept-web-file-names="https://www.geeksforgeeks.org/randomized-algorithms/"/>
         </toc-element>
     </toc-element>
     <toc-element toc-title="Discrete Maths Concepts">
