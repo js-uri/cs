@@ -38,7 +38,7 @@ Randomized analysis is a technique used to analyze the performance of randomized
 </table>
 
 
-### Applications &amp; Approaches
+### Applications and Approaches
 
 <table style="both">
 <tr>
@@ -147,7 +147,7 @@ Las Vegas algorithms are used in the field of cryptography to generate secure en
 </tr>
 </table>
 
-## Advantages &amp; Disadvantages
+## Advantages and Disadvantages
 
 <table>
 <tr>
