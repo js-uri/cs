@@ -273,10 +273,13 @@ multiple-response, interactive code.</step>
 ability for implementation. The project will be completed in groups of 3-4 members to be presented to the class in Week 14. </step>
 </procedure>
 
-<procedure>
-<p>Final Exam</p>
-<step>A cumulative exam across all topics covered throughout the term.</step>
-</procedure>
+[//]: # (<procedure>)
+
+[//]: # (<p>Final Exam</p>)
+
+[//]: # (<step>A cumulative exam across all topics covered throughout the term.</step>)
+
+[//]: # (</procedure>)
 
 ### Grading
 
@@ -298,8 +301,8 @@ ability for implementation. The project will be completed in groups of 3-4 membe
     </tr>
     <tr>
         <td>Assignments</td>
-        <td>2</td>
-        <td>200</td>
+        <td>1</td>
+        <td>300</td>
     </tr>
     <tr>
         <td>Term Project</td>
@@ -307,15 +310,20 @@ ability for implementation. The project will be completed in groups of 3-4 membe
         <td>200</td>
     </tr>
     <tr>
-        <td>Final Exam</td>
-        <td>1</td>
-        <td>100</td>
-    </tr>
-    <tr>
         <td></td>
         <td></td>
         <td>1000</td>
     </tr>
+
+[//]: # (    <tr>)
+
+[//]: # (        <td>Final Exam</td>)
+
+[//]: # (        <td>1</td>)
+
+[//]: # (        <td>100</td>)
+
+[//]: # (    </tr>)
 
 [//]: # (    <tr>)
 
