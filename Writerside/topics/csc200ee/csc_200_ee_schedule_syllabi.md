@@ -416,15 +416,18 @@ switcher-label: CSC 200 EE
 [//]: # (WEEK 14)
 <tr>
     <td>Week 14</td>
-    <td colspan="5">Group Presentations and Final Exam</td>
-</tr>
-
-[//]: # (WEEK 15)
-<tr>
-    <td>Week 15</td>
-    <td colspan="5">Final Exam</td>
+    <td colspan="5">Group Presentations</td>
 </tr>
 </table>
+
+[//]: # (WEEK 15)
+[//]: # (<tr>)
+
+[//]: # (    <td>Week 15</td>)
+
+[//]: # (    <td colspan="5">Final Exam</td>)
+
+[//]: # (</tr>)
 
 ## Spring 2024 Syllabus {switcher-key="Spring 24"}
 
@@ -566,54 +569,36 @@ ability for implementation. The project will be completed in groups of 3-4 membe
 ### Grading
 
 <table>
-    <tr>
-        <td></td>
-        <td># of</td>
-        <td>Course Points</td>
-    </tr>
-    <tr>
-        <td>Quizzes</td>
-        <td>10</td>
-        <td>100</td>
-    </tr>
-    <tr>
-        <td>Labs</td>
-        <td>10</td>
-        <td>400</td>
-    </tr>
-    <tr>
-        <td>Assignments</td>
-        <td>1</td>
-        <td>300</td>
-    </tr>
-    <tr>
-        <td>Term Project</td>
-        <td>1</td>
-        <td>200</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>1000</td>
-    </tr>
-
-[//]: # (    <tr>)
-
-[//]: # (        <td>Final Exam</td>)
-
-[//]: # (        <td>1</td>)
-
-[//]: # (        <td>100</td>)
-
-[//]: # (    </tr>)
-
-[//]: # (    <tr>)
-
-[//]: # (        <td>Final Exam</td>)
-
-[//]: # (        <td>20%</td>)
-
-[//]: # (    </tr>)
+<tr>
+    <td></td>
+    <td># of</td>
+    <td>Course Points</td>
+</tr>
+<tr>
+    <td>Quizzes</td>
+    <td>10</td>
+    <td>100</td>
+</tr>
+<tr>
+    <td>Labs</td>
+    <td>10</td>
+    <td>400</td>
+</tr>
+<tr>
+    <td>Assignments</td>
+    <td>1</td>
+    <td>300</td>
+</tr>
+<tr>
+    <td>Term Project</td>
+    <td>1</td>
+    <td>200</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>1000</td>
+</tr>
 </table>
 
 <table>
