@@ -147,11 +147,15 @@ switcher-label: CSC 200 ME
     <td>Week 14</td>
     <td colspan="4"><a href="">Presentations via Zoom</a></td>
 </tr>
-<tr>
-    <td>Week 15</td>
-    <td colspan="4"><a href="">Final Exam</a></td>
-</tr>
 </table>
+
+[//]: # (<tr>)
+
+[//]: # (    <td>Week 15</td>)
+
+[//]: # (    <td colspan="4"><a href="">Final Exam</a></td>)
+
+[//]: # (</tr>)
 
 ## Spring 2024 Syllabus {switcher-key="Spring 24"}
 
