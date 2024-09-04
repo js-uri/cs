@@ -121,7 +121,6 @@
     </toc-element>
 
     <toc-element toc-title="Algorithms">
-        <toc-element topic="Introduction-212.md"/>
         <toc-element topic="Analysis.md">
             <toc-element topic="Analysis-Of-Algorithms.md"/>
             <toc-element topic="Dynamic-Programming.md"/>
