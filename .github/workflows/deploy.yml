@@ -19,7 +19,7 @@ env:
   # Replace HI with the ID of the instance in capital letters
   ARTIFACT: webHelpHI2-all.zip
   # Writerside docker image version
-  DOCKER_VERSION: 2.1.1479-p3869
+  DOCKER_VERSION: registry.jetbrains.team/p/writerside/builder/writerside-builder:232.10275
 
 jobs:
   build:
