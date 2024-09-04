@@ -9,27 +9,26 @@
 <!--    <toc-element topic="Sandbox.md"/>-->
 <!--    <toc-element topic="Default-topic.md"/>-->
 
-<!--    <toc-element topic="test.md"/>-->
+<!--    <toc-element topic="lecture.md"/>-->
 
 
-    <toc-element topic="courses.md">
-        <toc-element topic="csc_200_ee_schedule_syllabi.md">
-            <toc-element topic="csc_200_ee_project.md"/>
-        </toc-element>
-        <!--            <toc-element topic="lab-02.md"/>-->
-<!--            <toc-element topic="lab-01.md"/>-->
+    <toc-element topic="courses.md"/>
+<!--        <toc-element topic="csc_200_ee_schedule_syllabi.md"/>-->
+<!--        &lt;!&ndash;            <toc-element topic="lab-02.md"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <toc-element topic="lab-01.md"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </toc-element>&ndash;&gt;-->
+<!--        <toc-element topic="csc_200_me_schedule_syllabi.md"/>-->
+<!--        &lt;!&ndash;        <toc-element topic="CSC-212-|-FALL-23.md"/>&ndash;&gt;-->
+<!--        <toc-element topic="csc_212_schedule_syllabi.md">-->
+<!--            <toc-element topic="Introduction-212.md"/>-->
 <!--        </toc-element>-->
-        <toc-element topic="csc_200_me_schedule_syllabi.md">
-            <toc-element topic="csc_200_me_project.md"/>
-        </toc-element>
-        <!--        <toc-element topic="CSC-212-|-FALL-23.md"/>-->
-        <toc-element topic="csc_212_schedule_syllabi.md">
-            <toc-element topic="csc_212_lab_presentations.md"/>
-            <toc-element topic="csc_212_research_project.md"/>
-        </toc-element>
-    </toc-element>
+<!--    </toc-element>-->
 
     <toc-element topic="Introductions.md"/>
+
+<!--    <toc-element toc-title="Problem Solving">-->
+<!--        <toc-element topic="Basics.md"/>-->
+<!--    </toc-element>-->
 
     <toc-element toc-title="Computing Concepts">
         <toc-element topic="computingIntro.md"/>
@@ -53,46 +52,32 @@
             <toc-element topic="Expressions.md"/>
             <toc-element topic="Data-Types.md"/>
             <toc-element topic="Collections.md"/>
+            <toc-element topic="Main.md"/>
             <toc-element toc-title="Standard Template Library">
                 <toc-element toc-title="C++ Standard Template Library PDF"
                              target-for-accept-web-file-names="https://www.cppreference.com/Cpp_STL_ReferenceManual.pdf"/>
             </toc-element>
-            <toc-element topic="Functions.md">
-                <toc-element topic="Main.md"/>
-                <toc-element topic="Print.md">
-                    <toc-element toc-title="CPPReference | printf"
-                                 target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/io/c/fprintf"/>
-                    <toc-element toc-title="The Python Tutorial | input/output printing"
-                                 target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/io/cout"/>
-                </toc-element>
-            </toc-element>
         </toc-element>
         <toc-element toc-title="Control Statements">
+            <toc-element topic="Functions.md"/>
             <toc-element topic="Conditionals.md"/>
             <toc-element topic="Iterations.md"/>
             <toc-element topic="Jumps.md"/>
         </toc-element>
         <toc-element toc-title="Object-Oriented Programming">
-            <toc-element topic="PointersReferences.md"/>
             <toc-element topic="Structs.md"/>
             <toc-element topic="Classes.md"/>
         </toc-element>
         <toc-element toc-title="Useful Additions">
-            <toc-element topic="Exceptions.md"/>
+<!--            <toc-element topic="Strings.md"/>-->
             <toc-element topic="Files.md"/>
-            <toc-element topic="Visualize.md"/>
-            <toc-element topic="Miscellaneous.md"/>
+<!--            <toc-element topic="Exceptions.md"/>-->
         </toc-element>
     </toc-element>
 
     <toc-element toc-title="Data Structures">
         <toc-element toc-title="Linear">
-            <toc-element topic="Dynamic-Arrays.md">
-                <toc-element toc-title="CPPReference | std::vector"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/vector"/>
-                <toc-element toc-title="CPPReference | std::vector<T,Allocator>::vector"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/vector/vector"/>
-            </toc-element>
+            <toc-element topic="Dynamic-Arrays.md"/>
             <toc-element topic="Linked-List.md">
                 <toc-element toc-title="VisualGo | Linked List"
                              target-for-accept-web-file-names="https://visualgo.net/en/list"/>
@@ -123,123 +108,53 @@
                 <toc-element toc-title="Placeholder"
                              target-for-accept-web-file-names=""/>
             </toc-element>
-            <toc-element topic="Priority-Queue.md">
-                <toc-element toc-title="cppReference | std::priority_queue"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/priority_queue"/>
-            </toc-element>
         </toc-element>
         <toc-element toc-title="Non-linear">
             <toc-element topic="Heaps.md"/>
-            <toc-element topic="bst.md">
-                <toc-element toc-title="CPPReference | std::binary_search"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/algorithm/binary_search"/>
-                <toc-element toc-title="CPPReference | std::lower_bound"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/algorithm/lower_bound"/>
-            </toc-element>
-            <toc-element topic="2-3-Trees.md">
-                <toc-element toc-title="Insert : Case 1"
-                             target-for-accept-web-file-names="https://opendsa-server.cs.vt.edu/embed/simpleInsertCON"/>
-                <toc-element toc-title="Insert : Case 2"
-                             target-for-accept-web-file-names="https://opendsa-server.cs.vt.edu/embed/promoteCON"/>
-                <toc-element toc-title="Insert : Case 3"
-                             target-for-accept-web-file-names="https://opendsa-server.cs.vt.edu/embed/splitCON"/>
-                <toc-element toc-title="2-3-4 Tree Animation"
-                             target-for-accept-web-file-names="https://yongdanielliang.github.io/animation/web/24Tree.html"/>
-            </toc-element>
-            <toc-element topic="Left-Leaning-Red-Black-Trees.md">
-                <toc-element toc-title="LLRB Tree Operations"
-                             target-for-accept-web-file-names="https://inst.eecs.berkeley.edu/~cs61b/fa17/materials/demos/ll-red-black-demo.html"/>
-            </toc-element>
-            <toc-element topic="Hash-Tables.md">
-                <toc-element toc-title="CPPReference | std::hash"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/utility/hash"/>
-            </toc-element>
-            <toc-element topic="Set.md">
-                <toc-element toc-title="CPPReference | std::set"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/set"/>
-                <toc-element toc-title="CPPReference | std::unordered_set"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/unordered_set"/>
-            </toc-element>
-            <toc-element topic="Map.md">
-                <toc-element toc-title="CPPReference | std::map"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/map"/>
-                <toc-element toc-title="CPPReference | std::unordered_map"
-                             target-for-accept-web-file-names="https://en.cppreference.com/w/cpp/container/unordered_map"/>
-            </toc-element>
-            <toc-element topic="Graphs.md">
-                <toc-element topic="Depth-first.md"/>
-                <toc-element topic="Breadth-first.md"/>
-            </toc-element>
+            <toc-element topic="bst.md"/>
+            <toc-element topic="Set.md"/>
+            <toc-element topic="2-3-Trees.md"/>
+            <toc-element topic="Left-Leaning-Red-Black-Trees.md"/>
+            <toc-element topic="Map.md"/>
+            <toc-element topic="Hash-Tables.md"/>
         </toc-element>
     </toc-element>
 
     <toc-element toc-title="Algorithms">
-        <toc-element toc-title="Analysis">
-            <toc-element topic="Analysis.md"/>
-<!--            <toc-element topic="Analysis-Of-Algorithms.md"/>-->
-            <toc-element topic="Computational-Cost.md">
-                <toc-element toc-title="Theoretical Computer Science Cheat Sheet" target-for-accept-web-file-names="https://www.tug.org/texshowcase/cheat.pdf"/>
-            </toc-element>
+        <toc-element topic="Introduction-212.md"/>
+        <toc-element topic="Analysis.md">
+            <toc-element topic="Analysis-Of-Algorithms.md"/>
+            <toc-element topic="Dynamic-Programming.md"/>
+            <toc-element topic="Greedy-Algorithms.md"/>
+            <toc-element topic="Computational-Cost.md"/>
             <toc-element topic="Big-O-Notation.md"/>
         </toc-element>
         <toc-element toc-title="Search-Sort">
-            <toc-element topic="Search-Algorithms.md">
-                <toc-element toc-title="GFG : Linear Search v. Binary Search"
-                             target-for-accept-web-file-names="https://www.geeksforgeeks.org/linear-search-vs-binary-search/?ref=rp"/>
-                <toc-element toc-title="Binary Search Explained"
-                             target-for-accept-web-file-names="https://takeuforward.org/data-structure/binary-search-explained/"/>
-                <toc-element toc-title="Python Tutor | Binary Search (iterative)"
-                             target-for-accept-web-file-names="https://pythontutor.com/render.html#code=//%20C%2B%2B%20program%20to%20implement%20iterative%20Binary%20Search%0A%23include%20%3Cbits/stdc%2B%2B.h%3E%0Ausing%20namespace%20std%3B%0A%0A//%20A%20iterative%20binary%20search%20function.%20It%20returns%0A//%20location%20of%20x%20in%20given%20array%20arr%5Bl..r%5D%20if%20present,%0A//%20otherwise%20-1%0Aint%20binarySearch%28int%20arr%5B%5D,%20int%20l,%20int%20r,%20int%20x%29%0A%7B%0A%20%20%20%20while%20%28l%20%3C%3D%20r%29%20%7B%0A%20%20%20%20%20%20%20%20int%20m%20%3D%20l%20%2B%20%28r%20-%20l%29%20/%202%3B%0A%0A%20%20%20%20%20%20%20%20//%20Check%20if%20x%20is%20present%20at%20mid%0A%20%20%20%20%20%20%20%20if%20%28arr%5Bm%5D%20%3D%3D%20x%29%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20m%3B%0A%0A%20%20%20%20%20%20%20%20//%20If%20x%20greater,%20ignore%20left%20half%0A%20%20%20%20%20%20%20%20if%20%28arr%5Bm%5D%20%3C%20x%29%0A%20%20%20%20%20%20%20%20%20%20%20%20l%20%3D%20m%20%2B%201%3B%0A%0A%20%20%20%20%20%20%20%20//%20If%20x%20is%20smaller,%20ignore%20right%20half%0A%20%20%20%20%20%20%20%20else%0A%20%20%20%20%20%20%20%20%20%20%20%20r%20%3D%20m%20-%201%3B%0A%20%20%20%20%7D%0A%0A%20%20%20%20//%20if%20we%20reach%20here,%20then%20element%20was%0A%20%20%20%20//%20not%20present%0A%20%20%20%20return%20-1%3B%0A%7D%0A%0Aint%20main%28void%29%0A%7B%0A%20%20%20%20int%20arr%5B%5D%20%3D%20%7B%202,%203,%204,%2010,%2040%20%7D%3B%0A%20%20%20%20int%20x%20%3D%2010%3B%0A%20%20%20%20int%20n%20%3D%20sizeof%28arr%29%20/%20sizeof%28arr%5B0%5D%29%3B%0A%20%20%20%20int%20result%20%3D%20binarySearch%28arr,%200,%20n%20-%201,%20x%29%3B%0A%20%20%20%20%28result%20%3D%3D%20-1%29%0A%20%20%20%20%20%20%20%20%3F%20cout%20%3C%3C%20%22Element%20is%20not%20present%20in%20array%22%0A%20%20%20%20%20%20%20%20%3A%20cout%20%3C%3C%20%22Element%20is%20present%20at%20index%20%22%20%3C%3C%20result%3B%0A%20%20%20%20return%200%3B%0A%7D&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;mode=display&amp;origin=opt-frontend.js&amp;py=cpp_g%2B%2B9.3.0&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false"/>
-                <toc-element toc-title="Python Tutor | Binary Search (recursive)"
-                             target-for-accept-web-file-names="https://pythontutor.com/visualize.html#code=//%20C%2B%2B%20program%20to%20implement%20recursive%20Binary%20Search%0A%23include%20%3Cbits/stdc%2B%2B.h%3E%0Ausing%20namespace%20std%3B%0A%0A//%20A%20recursive%20binary%20search%20function.%20It%20returns%0A//%20location%20of%20x%20in%20given%20array%20arr%5Bl..r%5D%20is%20present,%0A//%20otherwise%20-1%0Aint%20binarySearch%28int%20arr%5B%5D,%20int%20l,%20int%20r,%20int%20x%29%0A%7B%0A%20%20%20%20if%20%28r%20%3E%3D%20l%29%20%7B%0A%20%20%20%20%20%20%20%20int%20mid%20%3D%20l%20%2B%20%28r%20-%20l%29%20/%202%3B%0A%0A%20%20%20%20%20%20%20%20//%20If%20the%20element%20is%20present%20at%20the%20middle%0A%20%20%20%20%20%20%20%20//%20itself%0A%20%20%20%20%20%20%20%20if%20%28arr%5Bmid%5D%20%3D%3D%20x%29%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20mid%3B%0A%0A%20%20%20%20%20%20%20%20//%20If%20element%20is%20smaller%20than%20mid,%20then%0A%20%20%20%20%20%20%20%20//%20it%20can%20only%20be%20present%20in%20left%20subarray%0A%20%20%20%20%20%20%20%20if%20%28arr%5Bmid%5D%20%3E%20x%29%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20binarySearch%28arr,%20l,%20mid%20-%201,%20x%29%3B%0A%0A%20%20%20%20%20%20%20%20//%20Else%20the%20element%20can%20only%20be%20present%0A%20%20%20%20%20%20%20%20//%20in%20right%20subarray%0A%20%20%20%20%20%20%20%20return%20binarySearch%28arr,%20mid%20%2B%201,%20r,%20x%29%3B%0A%20%20%20%20%7D%0A%0A%20%20%20%20//%20We%20reach%20here%20when%20element%20is%20not%0A%20%20%20%20//%20present%20in%20array%0A%20%20%20%20return%20-1%3B%0A%7D%0A%0Aint%20main%28void%29%0A%7B%0A%20%20%20%20int%20arr%5B%5D%20%3D%20%7B%202,%203,%204,%2010,%2040%20%7D%3B%0A%20%20%20%20int%20x%20%3D%2010%3B%0A%20%20%20%20int%20n%20%3D%20sizeof%28arr%29%20/%20sizeof%28arr%5B0%5D%29%3B%0A%20%20%20%20int%20result%20%3D%20binarySearch%28arr,%200,%20n%20-%201,%20x%29%3B%0A%20%20%20%20%28result%20%3D%3D%20-1%29%0A%20%20%20%20%20%20%20%20%3F%20cout%20%3C%3C%20%22Element%20is%20not%20present%20in%20array%22%0A%20%20%20%20%20%20%20%20%3A%20cout%20%3C%3C%20%22Element%20is%20present%20at%20index%20%22%20%3C%3C%20result%3B%0A%20%20%20%20return%200%3B%0A%7D&amp;cumulative=false&amp;heapPrimitives=nevernest&amp;mode=edit&amp;origin=opt-frontend.js&amp;py=cpp_g%2B%2B9.3.0&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false"/>
-            </toc-element>
+            <toc-element topic="Search-Algorithms.md"/>
             <toc-element topic="Sorting-Algorithms.md">
                 <toc-element toc-title="VisualGo | Insertion Sort"
                              target-for-accept-web-file-names="https://visualgo.net/en/sorting"/>
                 <toc-element toc-title="VisualGo | Selection Sort"
                              target-for-accept-web-file-names="https://visualgo.net/en/sorting"/>
             </toc-element>
-            <toc-element topic="Mergesort.md"/>
-            <toc-element topic="Quicksort.md"/>
-        </toc-element>
-        <toc-element toc-title="Recursion">
-
-            <toc-element topic="recursive-algorithms.md">
-                <toc-element toc-title="Python Tutor | Sum Array"
-                         target-for-accept-web-file-names="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0A%0A%0Aint%20sum_array%28int%20*A,%20int%20n%29%20%7B%0A%20%20//basecase%20%20%0A%20%20if%20%28n%20%3D%3D%201%29%0A%20%20%20%20return%20A%5B0%5D%3B%0A%0A%20%20//solve%20sub-task%0A%20%20int%20sum%20%3D%20sum_array%28A,%20n%20-%201%29%3B%0A%0A%20%20//return%0A%20%20return%20A%5Bn%20-%201%5D%20%2B%20sum%3B%0A%7D%0A%0Aint%20main%20%28%29%20%7B%0A%20%20%20%20int%20arr%5B%5D%20%3D%20%7B%2010,%2020,%2030,%2040%7D%3B%0A%20%20%20%20std%3A%3Acout%20%3C%3C%20sum_array%28arr,%204%29%3B%0A%20%20%20%20return%200%3B%0A%7D&amp;codeDivHeight=400&amp;codeDivWidth=350&amp;cumulative=false&amp;curInstr=11&amp;heapPrimitives=nevernest&amp;origin=opt-frontend.js&amp;py=cpp_g%2B%2B9.3.0&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false"/>
-                <toc-element toc-title="USCFA | Recursion Search"
-                             target-for-accept-web-file-names="https://www.cs.usfca.edu/~galles/visualization/Search.html"/>
-                <toc-element toc-title="Python Tutor | Binary Search (recursive)"
-                             target-for-accept-web-file-names="https://pythontutor.com/iframe-embed.html#code=//%20C%2B%2B%20program%20to%20implement%20recursive%20Binary%20Search%0A%23include%20%3Cbits/stdc%2B%2B.h%3E%0Ausing%20namespace%20std%3B%0A%0A//%20A%20recursive%20binary%20search%20function.%20It%20returns%0A//%20location%20of%20x%20in%20given%20array%20arr%5Bl..r%5D%20is%20present,%0A//%20otherwise%20-1%0Aint%20binarySearch%28int%20arr%5B%5D,%20int%20l,%20int%20r,%20int%20x%29%0A%7B%0A%20%20%20%20if%20%28r%20%3E%3D%20l%29%20%7B%0A%20%20%20%20%20%20%20%20int%20mid%20%3D%20l%20%2B%20%28r%20-%20l%29%20/%202%3B%0A%0A%20%20%20%20%20%20%20%20//%20If%20the%20element%20is%20present%20at%20the%20middle%0A%20%20%20%20%20%20%20%20//%20itself%0A%20%20%20%20%20%20%20%20if%20%28arr%5Bmid%5D%20%3D%3D%20x%29%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20mid%3B%0A%0A%20%20%20%20%20%20%20%20//%20If%20element%20is%20smaller%20than%20mid,%20then%0A%20%20%20%20%20%20%20%20//%20it%20can%20only%20be%20present%20in%20left%20subarray%0A%20%20%20%20%20%20%20%20if%20%28arr%5Bmid%5D%20%3E%20x%29%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20binarySearch%28arr,%20l,%20mid%20-%201,%20x%29%3B%0A%0A%20%20%20%20%20%20%20%20//%20Else%20the%20element%20can%20only%20be%20present%0A%20%20%20%20%20%20%20%20//%20in%20right%20subarray%0A%20%20%20%20%20%20%20%20return%20binarySearch%28arr,%20mid%20%2B%201,%20r,%20x%29%3B%0A%20%20%20%20%7D%0A%0A%20%20%20%20//%20We%20reach%20here%20when%20element%20is%20not%0A%20%20%20%20//%20present%20in%20array%0A%20%20%20%20return%20-1%3B%0A%7D%0A%0Aint%20main%28void%29%0A%7B%0A%20%20%20%20int%20arr%5B%5D%20%3D%20%7B%202,%203,%204,%2010,%2040%20%7D%3B%0A%20%20%20%20int%20x%20%3D%2010%3B%0A%20%20%20%20int%20n%20%3D%20sizeof%28arr%29%20/%20sizeof%28arr%5B0%5D%29%3B%0A%20%20%20%20int%20result%20%3D%20binarySearch%28arr,%200,%20n%20-%201,%20x%29%3B%0A%20%20%20%20%28result%20%3D%3D%20-1%29%0A%20%20%20%20%20%20%20%20%3F%20cout%20%3C%3C%20%22Element%20is%20not%20present%20in%20array%22%0A%20%20%20%20%20%20%20%20%3A%20cout%20%3C%3C%20%22Element%20is%20present%20at%20index%20%22%20%3C%3C%20result%3B%0A%20%20%20%20return%200%3B%0A%7D&amp;codeDivHeight=400&amp;codeDivWidth=350&amp;cppShowMemAddrs=true&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;origin=opt-frontend.js&amp;py=cpp_g%2B%2B9.3.0&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false"/>
-            </toc-element>
-            <toc-element topic="recurrences.md"/>
-        </toc-element>
-        <toc-element topic="Greedy-Algorithms.md">
-            <toc-element toc-title="GFG | Greedy Algorithms"
-                         target-for-accept-web-file-names="https://www.geeksforgeeks.org/greedy-algorithms/"/>
-        </toc-element>
-        <toc-element topic="Dynamic-Programming.md">
-            <toc-element toc-title="GFG | Dynamic Programming"
-                         target-for-accept-web-file-names="https://www.geeksforgeeks.org/dynamic-programming/"/>
-        </toc-element>
-        <toc-element topic="Randomized-Algorithms.md">
-            <toc-element toc-title="GFG | Randomized Algorithms"
-                         target-for-accept-web-file-names="https://www.geeksforgeeks.org/randomized-algorithms/"/>
+            <toc-element topic="mergesort.md"/>
+            <toc-element topic="quicksort.md"/>
         </toc-element>
     </toc-element>
-    <toc-element toc-title="Discrete Maths Concepts">
-        <toc-element toc-title="Discrete Mathematics: An Open Introduction, 3rd Ed" target-for-accept-web-file-names="https://discrete.openmathbooks.org/dmoi3.html"/>
-        <toc-element topic="Sequence.md"/>
-        <toc-element topic="Series.md"/>
-        <toc-element topic="Summations.md"/>
-        <toc-element topic="Recurrence-Relations.md"/>
-    </toc-element>
+<!--    <toc-element toc-title="Discrete Maths Concepts">-->
+<!--        <toc-element toc-title="Discrete Mathematics: An Open Introduction, 3rd Ed" target-for-accept-web-file-names="https://discrete.openmathbooks.org/dmoi3.html"/>-->
+<!--        <toc-element topic="Sequence.md"/>-->
+<!--        <toc-element topic="Series.md"/>-->
+<!--        <toc-element topic="Summations.md"/>-->
+<!--        <toc-element topic="Recurrence-Relations.md"/>-->
+<!--    </toc-element>-->
     <toc-element toc-title="Miscellaneous">
         <toc-element topic="G-Setup.md"/>
         <toc-element topic="Learning-A-New-Language.md"/>
         <toc-element topic="Additional-Resources.md"/>
     </toc-element>
 <!--    <toc-element topic="Lecture_test.md"/>-->
+<!--    <toc-element topic="Planning_Doc.md"/>-->
 
 </instance-profile>
 
