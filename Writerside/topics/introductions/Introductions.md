@@ -284,11 +284,11 @@ switcher-label: Course
 
 **Lab Practicals**
 
-**Lab Recitations**
+**Algorithm Presentations**
 
 **Assignments**
 
-**Research Project**
+**Exams**
 
 </procedure>
 
@@ -298,7 +298,8 @@ switcher-label: Course
 
 **Attendance and Participation**
 - Lectures are discussion-based and optional
-- Labs are mandatory
+- Labs are mandatory.
+  - Lab planning documents will be submitted and validated by TAs in the lab for attendance.
 
 **Preparation**
 - Schedule your time accordingly...
@@ -318,7 +319,7 @@ switcher-label: Course
 <procedure>
 
 **Office Hours**
-- I will be available for office hours Tu/Th (on-ground) and M/W (via zoom) by appointment only.
+- I will be available for office hours by appointment only: Tu/Th (on-ground) and M/W (via zoom).
 - TA's will have some dedicated office hours (posted in the Courses Schedule) throughout the week and will have limited availability by appointment.
 - Scheduling can be done by private message in the 'Office Hours' forum on edstem. 
 
