@@ -44,6 +44,8 @@ switcher-label: Language
 <p>OOP is widely used in various domains, such as software development, game development, simulation, and more. It helps in creating modular, maintainable, and extensible code.</p>
 </tip>
 
+<video src="https://youtu.be/2BP8NhxjrO0?feature=shared" preview-src="oop.jpeg" mini-player="true" width="900" />
+
 ## Example
 
 > A car rental company needs to manage their fleet of cars. Each car has the following attributes: make, model, year, rental price per day, and availability status (whether the car is currently rented or available). The company wants a system where they can:
@@ -283,6 +285,8 @@ int main() {
 
 ### Class Aspects
 
+<video src="https://youtu.be/3z3l3v8_7uI?feature=shared" preview-src="encapsulation.jpeg" mini-player="true" width="900" />
+
 #### Encapsulation
 
 Encapsulation refers to the bundling of data (variables) and methods (functions) that operate on that data into a single unit or class. It also controls the access to that data by restricting direct access to some components and allowing controlled access through public methods. This promotes data hiding and protects the internal state of an object from unintended interference.
@@ -309,6 +313,8 @@ public:
 ```
 
 Encapsulation ensures that the internal details of the car's state (whether it's rented or available, or its rental price) can only be modified through well-defined interfaces (`rentOut()`, `returnCar()`), protecting the integrity of the object.
+
+<video src="https://youtu.be/3z3l3v8_7uI?feature=shared" preview-src="abstraction.jpeg" mini-player="true" width="900" />
 
 #### Abstraction
 
@@ -342,6 +348,8 @@ void Car::returnCar() {
 
 The abstraction here allows the user to rent or return cars by calling simple methods, hiding the underlying implementation details like how the available status is updated.
 
+<video src="https://youtu.be/3z3l3v8_7uI?feature=shared" preview-src="inheritance.jpeg" mini-player="true" width="900" />
+
 #### Inheritance
 
 Inheritance is a mechanism by which one class (child or derived class) inherits the properties and behaviors (methods) of another class (parent or base class). This allows for code reuse and the creation of more specific subclasses from general ones.
@@ -366,6 +374,8 @@ public:
 ```
 
 `LuxuryCar` is inheriting the attributes and behaviors of the `Car` class, and it also adds a new feature, `chauffeurService`. This is an example of how inheritance allows us to build more specific versions of a base class.
+
+<video src="https://youtu.be/3z3l3v8_7uI?feature=shared" preview-src="polymorphism.jpeg" mini-player="true" width="900" />
 
 #### Polymorphism
 
