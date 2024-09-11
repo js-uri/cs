@@ -47,6 +47,7 @@
     </toc-element>
     <toc-element toc-title="Problem Solving &amp; Programming">
         <toc-element toc-title="Basics">
+            <toc-element topic="Python-Nuances.md"/>
             <toc-element topic="Planning.md"/>
             <toc-element topic="Operators.md"/>
             <toc-element topic="Expressions.md"/>
